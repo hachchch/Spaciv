@@ -137,7 +137,7 @@
 		"attackSound": "tankshot",
 		"cost": 60,
 		"requiredResource": "Power",
-		"requiredTech": "Stealth",
+		"requiredTech": "Liquid propellant",
 	},
 	{
 		"name": "Xenowarrior",
