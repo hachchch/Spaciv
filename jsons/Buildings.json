@@ -20,6 +20,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Power]"],
 	},
 	{
 		"name": "Encid Work",
@@ -31,6 +32,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Encid]"],
 	},
 	{
 		"name": "Synchrotron",
@@ -42,5 +44,6 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Super Energy]"],
 	},
 ]
