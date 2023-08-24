@@ -13,7 +13,7 @@
 	{
 		"name": "Generator",
 		"uniqueTo": "United Nations",
-		"cost": 360,
+		"cost": 40,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
@@ -23,7 +23,7 @@
 	{
 		"name": "Encid Work",
 		"uniqueTo": "Xenomorph",
-		"cost": 360,
+		"cost": 40,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
@@ -33,7 +33,7 @@
 	{
 		"name": "Synchrotron",
 		"uniqueTo": "Martian",
-		"cost": 360,
+		"cost": 40,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
 		"specialistSlots": {"Engineer": 2},
