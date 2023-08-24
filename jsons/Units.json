@@ -96,7 +96,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Mechanized Infantry] through ruins-like effects"],
+		"uniques" : ["May upgrade to [Mechanized Infantry] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
 		"attackSound": "shot",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -109,7 +109,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Xenowarrior] through ruins-like effects"],
+		"uniques" : ["May upgrade to [Xenowarrior] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
 		"attackSound": "nonmetalhit",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -122,7 +122,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Laser Infantry] through ruins-like effects"],
+		"uniques" : ["May upgrade to [Laser Infantry] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
 		"attackSound": "bombing",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -138,6 +138,7 @@
 		"cost": 60,
 		"requiredResource": "Power",
 		"requiredTech": "Liquid propellant",
+		"uniques": ["[+50]% Strength <vs [Xeno Entity] units>"],
 	},
 	{
 		"name": "Xenowarrior",
@@ -149,6 +150,7 @@
 		"cost": 60,
 		"requiredResource": "Encid",
 		"requiredTech": "Acid processing",
+		"uniques": ["[+50]% Strength <vs [Laser] units>"],
 	},
 	{
 		"name": "Laser Infantry",
@@ -160,5 +162,6 @@
 		"cost": 60,
 		"requiredResource": "Super Energy",
 		"requiredTech": "Sublight speed",
+		"uniques": ["[+50]% Strength <vs [Gunpowder] units>"],
 	},
 ]
