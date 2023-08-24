@@ -1,0 +1,72 @@
+[
+        {
+                "name": "Space",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Earth",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Stromat",
+		"type": "Land",
+                "food": 1,
+		"production": 1,
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Stromat]","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Regold",
+                "type": "Land",
+                "gold": 2,
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Regold]","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Mars",
+		"type": "Land",
+                "production": 2,
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Mars]","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Lunar",
+                "type": "Land",
+                "production": 1,
+                "gold": 1,
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Lunar]","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Gas",
+                "type": "Water",
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Solar Star",
+                "type": "Water",
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [999] damage","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+        {
+                "name": "Nebula",
+		"type": "Water",
+		"movementCost": 1,
+                "gold": 3,
+                "uniques": ["Occurs in groups around high elevations","Rare feature"],
+		"RGB": [43, 87, 151]
+        },
+]
