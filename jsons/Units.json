@@ -159,6 +159,6 @@
 		"attackSound": "gdrAttack",
 		"cost": 60,
 		"requiredResource": "Super Energy",
-		"requiredTech": "Stealth",
+		"requiredTech": "Sublight speed",
 	},
 ]
