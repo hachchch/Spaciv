@@ -1,1 +1,139 @@
-
+[
+        {
+		"name": "Worker",
+                "uniqueTo": "United Nations",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+        {
+                "name": "Xenotorn",
+                "uniqueTo": "Xenomorph",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+        },
+        {
+                "name": "Greycolor Worker",
+                "uniqueTo": "Martian",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+        },
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+                "uniqueTo": "United Nations",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+        {
+                "name": "Loxartered",
+		"unitType": "Civilian",
+                "uniqueTo": "Xenomorph",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+        },
+        {
+                "name": "Martian Colonist",
+		"unitType": "Civilian",
+                "uniqueTo": "United Nations",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+        },
+        {
+                "name": "Rover",
+                "uniqueTo": "United Nations",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+        },
+        {
+                "name": "Scout",
+                "uniqueTo": "Xenomorph",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+        },
+        {
+                "name": "Probe",
+                "uniqueTo": "Martian",
+		"unitType": "Scout",
+		"movement": 2,
+		"strength": 5,
+		"cost": 25,
+		"obsoleteTech": "Scientific Theory",
+		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"promotions": ["Ignore terrain cost"],
+		"attackSound": "nonmetalhit"
+        },
+        {
+                "name": "Infantry",
+                "uniqueTo": "United Nations",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+        {
+                "name": "Xenomob",
+		"unitType": "Xeno Entity",
+                "uniqueTo": "Xenomorph",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+                "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+        {
+                "name": "Phaser",
+		"unitType": "Laser",
+                "uniqueTo": "Martian",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Swordsman",
+		"uniques" : ["May upgrade to [Spearman] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+                "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+        },
+        {
+        },
+]
