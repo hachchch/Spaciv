@@ -122,10 +122,37 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [] through ruins-like effects"],
-		"attackSound": "nonmetalhit",
+		"uniques" : ["May upgrade to [Laser Infantry] through ruins-like effects"],
+		"attackSound": "bombing",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
 		]
         },
+	{
+		"name": "Mechanized Infantry",
+                "uniqueTo": "United Nations",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 12,
+		"attackSound": "tankshot",
+		"cost": 60,
+	},
+	{
+		"name": "Xenowarrior",
+                "uniqueTo": "Xenomorph",
+		"unitType": "Xeno Entity",
+		"movement": 2,
+		"strength": 12,
+		"attackSound": "metalhit",
+		"cost": 60,
+	},
+	{
+		"name": "Laser Infantry",
+                "uniqueTo": "Martian",
+		"unitType": "Laser",
+		"movement": 2,
+		"strength": 12,
+		"attackSound": "gdrAttack",
+		"cost": 60,
+	},
 ]
