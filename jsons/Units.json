@@ -26,6 +26,16 @@
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Settleman",
+		"unitType": "Civilian",
+		"replaces": "Settler",
                 "uniqueTo": "United Nations",
 		"movement": 2,
 		"cost": 106,
@@ -36,6 +46,7 @@
         {
                 "name": "Loxartered",
 		"unitType": "Civilian",
+		"replaces": "Settler",
                 "uniqueTo": "Xenomorph",
 		"movement": 2,
 		"cost": 106,
@@ -46,6 +57,7 @@
         {
                 "name": "Martian Colonist",
 		"unitType": "Civilian",
+		"replaces": "Settler",
                 "uniqueTo": "United Nations",
 		"movement": 2,
 		"cost": 106,
