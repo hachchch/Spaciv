@@ -136,6 +136,7 @@
 		"strength": 12,
 		"attackSound": "tankshot",
 		"cost": 60,
+		"requiredResource": "Power",
 	},
 	{
 		"name": "Xenowarrior",
@@ -145,6 +146,7 @@
 		"strength": 12,
 		"attackSound": "metalhit",
 		"cost": 60,
+		"requiredResource": "Encid",
 	},
 	{
 		"name": "Laser Infantry",
@@ -154,5 +156,6 @@
 		"strength": 12,
 		"attackSound": "gdrAttack",
 		"cost": 60,
+		"requiredResource": "Super Energy",
 	},
 ]
