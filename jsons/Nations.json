@@ -6,7 +6,7 @@
                 "innerColor": [0,0,0]
 	},
 	{
-		"name": "United Nation",
+		"name": "United Nations",
 		"leaderName": "Nasa",
 		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
@@ -33,12 +33,21 @@
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
         {
-                "name": "United Earth",
-		"leaderName": "Nasa",
+                "name": "Martian",
+		"leaderName": "JHVF IH WF",
 		"adjective": ["Babylonian"],
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Scientific",
                 "startIntroPart1": "",
 		"startIntroPart2": "",
         },
+	{
+		"name": "Xeno",
+		"leaderName": "JHVF IH WF",
+		"adjective": ["Babylonian"],
+		"startBias": ["Avoid [Tundra]"],
+		"preferredVictoryType": "Scientific",
+                "startIntroPart1": "",
+		"startIntroPart2": "",
+	},
 ]
