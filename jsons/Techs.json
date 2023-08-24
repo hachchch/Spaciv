@@ -1,0 +1,40 @@
+[
+        {
+                "columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Information era",
+				"row": 2,
+				"quote": "",
+			}
+                        {
+                                "name": "Unified Theory",
+				"row": 5,
+				"quote": "",
+                        },
+                        {
+                                "name": "Xeno Life",
+				"row": 8,
+				"quote": "",
+                        },
+                ]
+        },
+        {
+                "columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Agriculture",
+				"row": 6,
+				"quote": "",
+			}
+                ]
+        }
+]
