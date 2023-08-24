@@ -1,7 +1,7 @@
 [
         {
                 "columnNumber": 0,
-		"era": "Ancient era",
+		"era": "FlightTest era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -24,17 +24,57 @@
                 ]
         },
         {
-                "columnNumber": 0,
+                "columnNumber": 1,
 		"era": "Ancient era",
 		"techCost": 20,
 		"buildingCost": 40,
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Agriculture",
+				"name": "Liquid propellant",
+				"row": 1,
+				"quote": "",
+			},
+			{
+				"name": "Smart Phone",
+				"row": 2,
+				"quote": "",
+			},
+			{
+				"name": "Artificial intelligence",
+				"row": 3,
+				"quote": "",
+			},
+			{
+				"name": "Sublight speed",
+				"row": 4,
+				"quote": "",
+			},
+			{
+				"name": "Plasma control",
+				"row": 5,
+				"quote": "",
+			},
+			{
+				"name": "Wave Zapper",
 				"row": 6,
 				"quote": "",
-			}
+			},
+			{
+				"name": "Acid processing",
+				"row": 7,
+				"quote": "",
+			},
+			{
+				"name": "The Eon",
+				"row": 8,
+				"quote": "",
+			},
+			{
+				"name": "Blood disassembly",
+				"row": 9,
+				"quote": "",
+			},
                 ]
         }
 ]
