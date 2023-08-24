@@ -148,7 +148,7 @@
 		"attackSound": "metalhit",
 		"cost": 60,
 		"requiredResource": "Encid",
-		"requiredTech": "Stealth",
+		"requiredTech": "Acid processing",
 	},
 	{
 		"name": "Laser Infantry",
