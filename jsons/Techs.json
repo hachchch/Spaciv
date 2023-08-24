@@ -12,7 +12,7 @@
 				"quote": "",
 			}
                         {
-                                "name": "Unified Theory",
+                                "name": "Unified theory",
 				"row": 5,
 				"quote": "",
                         },
@@ -33,46 +33,55 @@
 			{
 				"name": "Liquid propellant",
 				"row": 1,
+				"prerequisites": ["Information era"],
 				"quote": "",
 			},
 			{
 				"name": "Smart Phone",
 				"row": 2,
+				"prerequisites": ["Information era"],
 				"quote": "",
 			},
 			{
 				"name": "Artificial intelligence",
 				"row": 3,
+				"prerequisites": ["Information era"],
 				"quote": "",
 			},
 			{
 				"name": "Sublight speed",
 				"row": 4,
+				"prerequisites": ["Unified theory"],
 				"quote": "",
 			},
 			{
 				"name": "Plasma control",
 				"row": 5,
+				"prerequisites": ["Unified theory"],
 				"quote": "",
 			},
 			{
 				"name": "Wave Zapper",
 				"row": 6,
+				"prerequisites": ["Unified theory"],
 				"quote": "",
 			},
 			{
 				"name": "Acid processing",
 				"row": 7,
+				"prerequisites": ["Xeno Life"],
 				"quote": "",
 			},
 			{
 				"name": "The Eon",
 				"row": 8,
+				"prerequisites": ["Xeno Life"],
 				"quote": "",
 			},
 			{
 				"name": "Blood disassembly",
 				"row": 9,
+				"prerequisites": ["Xeno Life"],
 				"quote": "",
 			},
                 ]
