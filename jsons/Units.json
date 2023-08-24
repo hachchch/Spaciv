@@ -137,6 +137,7 @@
 		"attackSound": "tankshot",
 		"cost": 60,
 		"requiredResource": "Power",
+		"requiredTech": "Stealth",
 	},
 	{
 		"name": "Xenowarrior",
@@ -147,6 +148,7 @@
 		"attackSound": "metalhit",
 		"cost": 60,
 		"requiredResource": "Encid",
+		"requiredTech": "Stealth",
 	},
 	{
 		"name": "Laser Infantry",
@@ -157,5 +159,6 @@
 		"attackSound": "gdrAttack",
 		"cost": 60,
 		"requiredResource": "Super Energy",
+		"requiredTech": "Stealth",
 	},
 ]
