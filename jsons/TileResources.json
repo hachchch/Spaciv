@@ -2,7 +2,7 @@
         {
                 "name": "Power",
 		"resourceType": "Strategic",
-		"revealedBy": "",
+		"revealedBy": "Liquid propellant",
         },
         {
                 "name": "Super Energy",
