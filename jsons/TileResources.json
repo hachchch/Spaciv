@@ -1,0 +1,17 @@
+[
+        {
+                "name": "Power",
+		"resourceType": "Strategic",
+		"revealedBy": "",
+        },
+        {
+                "name": "Super Energy",
+		"resourceType": "Strategic",
+		"revealedBy": "",
+        },
+        {
+                "name": "Encid",
+		"resourceType": "Strategic",
+		"revealedBy": "",
+        },
+]
