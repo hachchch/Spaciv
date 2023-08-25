@@ -134,7 +134,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Laser Infantry] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques" : ["May upgrade to [Laser Blaster] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
 		"attackSound": "bombing",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -165,7 +165,7 @@
 		"uniques": ["[+50]% Strength <vs [Laser] units>"],
 	},
 	{
-		"name": "Laser Infantry",
+		"name": "Laser Blaster",
                 "uniqueTo": "Martian",
 		"unitType": "Laser",
 		"movement": 2,
