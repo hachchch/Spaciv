@@ -24,12 +24,7 @@
 		"style": "Human",
 		"uniqueName": "Information Civilization",
 		"uniques": ["Starts with [Information era]","[+1] Sight <for [Scout] units>", "[-50]% Gold cost of acquiring tiles [in all cities]","[+1 Happiness] per [3] population [in all cities] <during a Golden Age>"],
-		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+		"cities": ["New York","Shanghai","Tokyo","Berlin","Rome","Constantinople","Cape Town"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
         {
@@ -45,6 +40,7 @@
 		"uniqueName": "Unified theory",
 		"style": "Gley",
 		"uniques": ["Starts with [Unified theory]"],
+		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1"],
         },
 	{
 		"name": "Xenomorph",
@@ -58,6 +54,7 @@
                 "innerColor": [255,255,255],
 		"uniqueName": "Interspecies communication",
 		"style": "Xeno",
+		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
 		"uniques": ["Starts with [Xeno Life]"],
 	},
 ]
