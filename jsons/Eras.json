@@ -2,7 +2,9 @@
         {
                 "name": "FlightTest era",
                 "researchAgreementCost": 400,
-                "startingSettlerCount": 1,
+                "startingSettlerCount": 0,
+                "startingMilitaryUnitCount": 1,
+                "startingMilitaryUnit": "Settler",
                 "startingGold": 100,
                 "startingCulture": 0,
                 "settlerPopulation": 1,
