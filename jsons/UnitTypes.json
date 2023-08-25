@@ -4,6 +4,11 @@
         "movementType": "Land"
     },
     {
+        "name": "Civilian",
+        "movementType": "Land",
+        "uniques": ["[+1] Sight"],
+    },
+    {
         "name": "Xeno Entity",
         "movementType": "Land"
     },
