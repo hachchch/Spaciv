@@ -57,4 +57,13 @@
 		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
 		"uniques": ["Starts with [Xeno Life]"],
 	},
+	{
+		"name": "a",
+		"leaderName": "a",
+		"adjective": ["a"],
+		"preferredVictoryType": "Domination",
+		"outerColor": [255,255,255],
+                "innerColor": [255,255,255],
+		"cities": ["a"]
+	},
 ]
