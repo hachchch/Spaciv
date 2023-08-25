@@ -63,10 +63,11 @@
         },
         {
                 "name": "Nebula",
-		"type": "Water",
+		"type": "TerrainFeature",
 		"movementCost": 1,
                 "gold": 3,
-                "uniques": ["Occurs in groups around high elevations","Rare feature"],
+		"occursOn": ["Space"],
+                "uniques": ["Rare feature"],
 		"RGB": [43, 87, 151]
         },
 ]
