@@ -46,4 +46,28 @@
 		"hurryCostModifier": 0,
 		"uniques": ["Provides [1] [Super Energy]"],
 	},
+	{
+		"name": "Spaceship Factory",
+		"uniqueTo": "United Nations",
+		"requiredTech": "Sublight speed",
+		"cost": 60,
+		"production": 2,
+		"uniques": ["Connects trade routes over water","Must be next to [Space]"],
+	},
+	{
+		"name": "UFO Facility",
+		"uniqueTo": "Martian",
+		"requiredTech": "Sublight speed",
+		"cost": 60,
+		"production": 2,
+		"uniques": ["Connects trade routes over water","Must be next to [Space]"],
+	},
+	{
+		"name": "Warp hole Generator",
+		"uniqueTo": "Xenomorph",
+		"requiredTech": "Sublight speed",
+		"cost": 60,
+		"production": 2,
+		"uniques": ["Connects trade routes over water","Must be next to [Space]"],
+	},
 ]
