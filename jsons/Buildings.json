@@ -25,7 +25,7 @@
 	{
 		"name": "Encid Work",
 		"uniqueTo": "Xenomorph",
-		"requiredTech": "Sublight speed",
+		"requiredTech": "Acid processing",
 		"cost": 40,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
@@ -37,7 +37,7 @@
 	{
 		"name": "Synchrotron",
 		"uniqueTo": "Martian",
-		"requiredTech": "Acid Processing",
+		"requiredTech": "Sublight speed",
 		"cost": 40,
 		"production": 4,
 		"percentStatBonus": {"production": 10},
