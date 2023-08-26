@@ -10,28 +10,7 @@ TileSets/FantasyHex/Tiles/Nebula
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mars+Farm
-  rotate: false
-  xy: 484, 1266
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Lunar+Farm
-  rotate: false
-  xy: 484, 1266
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Regold+Farm
-  rotate: false
-  xy: 484, 1266
-  size: 32, 32
-  orig: 32, 32
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Stromat+Farm
+TileSets/FantasyHex/Tiles/Dome
   rotate: false
   xy: 484, 1266
   size: 32, 32
@@ -125,6 +104,13 @@ TileSets/FantasyHex/Units/Stromat+Mechanized Infantry
 TileSets/FantasyHex/Tiles/Lunar
   rotate: false
   xy: 684, 533
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Earth
+  rotate: false
+  xy: 484, 1009
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
