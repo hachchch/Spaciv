@@ -118,7 +118,7 @@
 		"science": -10,
 		"food": -2,
 		"percentStatBonus": {"science": -10, "production": 10, "culture": 10},
-		"specialistSlots": {"Engineer": 2,}
+		"specialistSlots": {"Engineer": 2}
 		"uniques": ["Unbuildable <in cities without a [Palace]>","Unbuildable <in cities with a [Nihility Eon]>","Unbuildable <in cities with a [Fear Eon]>","Unbuildable <in cities with a [Deus Eon]>","Unbuildable <in cities with a [Desire Eon]>","Unbuildable <in cities with a [Rigid Eon]>"
 		,"May buy [All] buildings with [Culture] [in all cities]","May buy [Land] units with [Culture] [in all cities]","Triggers a global alert upon completion","Doubles Gold given to enemy if city is captured"],
 	},
