@@ -167,4 +167,43 @@
 		"requiredTech": "Sublight speed",
 		"uniques": ["[+50]% Strength <vs [Gunpowder] units>"],
 	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Xenotic Fire",
+		"unitType": "Death",
+		"range": 3,
+		"strength": 10,
+		"movement": 2,
+		"uniqueTo": "Xenomorph",
+		"replaces": "Great General",
+		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
+	},
+	{
+		"name": "Star Craft",
+		"unitType": "Death",
+		"range": 3,
+		"strength": 10,
+		"movement": 2,
+		"uniqueTo": "Martian",
+		"replaces": "Great General",
+		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
+	},
+	{
+		"name": "Lunatic Weapon",
+		"unitType": "Death",
+		"range": 3,
+		"strength": 10,
+		"movement": 2,
+		"uniqueTo": "United Nations",
+		"replaces": "Great General",
+		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
+	},
 ]
