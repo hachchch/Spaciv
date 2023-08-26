@@ -10,16 +10,19 @@
 				"name": "Information era",
 				"row": 2,
 				"quote": "",
+				"uniques": ["Only available <before discovering [Xeno Life]>","Only available <before discovering [Unified theory]>"],
 			}
                         {
                                 "name": "Unified theory",
 				"row": 5,
 				"quote": "",
+				"uniques": ["Only available <before discovering [Xeno Life]>","Only available <before discovering [Information era]>"],
                         },
                         {
                                 "name": "Xeno Life",
 				"row": 8,
 				"quote": "",
+				"uniques": ["Only available <before discovering [Unified theory]>","Only available <before discovering [Information era]>"],
                         },
                 ]
         },
