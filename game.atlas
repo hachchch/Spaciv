@@ -54,21 +54,21 @@ TileSets/FantasyHex/Tiles/Stromat
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human
   rotate: false
-  xy: 440, 823
+  xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human
   rotate: false
-  xy: 440, 823
+  xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human
   rotate: false
-  xy: 440, 823
+  xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
