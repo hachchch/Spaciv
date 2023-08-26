@@ -29,7 +29,7 @@
         {
                 "columnNumber": 1,
 		"era": "FlightTest era",
-		"techCost": 230,
+		"techCost": 115,
 		"buildingCost": 230,
 		"wonderCost": 230,
 		"techs": [
@@ -92,7 +92,7 @@
 	{
 		"columnNumber": 2,
 		"era": "Exploration era",
-		"techCost": 400,
+		"techCost": 230,
 		"buildingCost": 400,
 		"wonderCost": 400,
 		"techs": [
