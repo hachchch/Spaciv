@@ -17,7 +17,7 @@ TileSets/FantasyHex/Tiles/Dome
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Dyes
+TileSets/FantasyHex/Tiles/Breeding Facility
   rotate: false
   xy: 444, 896
   size: 32, 28
