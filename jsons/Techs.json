@@ -38,6 +38,7 @@
 				"row": 1,
 				"prerequisites": ["Information era"],
 				"quote": "",
+				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "Smart Phone",
@@ -56,6 +57,7 @@
 				"row": 4,
 				"prerequisites": ["Unified theory"],
 				"quote": "",
+				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "Plasma control",
@@ -74,6 +76,7 @@
 				"row": 7,
 				"prerequisites": ["Xeno Life"],
 				"quote": "",
+				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "The Eon",
