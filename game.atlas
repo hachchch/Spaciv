@@ -52,7 +52,21 @@ TileSets/FantasyHex/Tiles/Stromat
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Human
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human
+  rotate: false
+  xy: 444, 823
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human
+  rotate: false
+  xy: 444, 823
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human
   rotate: false
   xy: 444, 823
   size: 32, 28
@@ -73,7 +87,21 @@ TileSets/FantasyHex/Units/Probe
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Gley
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Gley
+  rotate: false
+  xy: 604, 680
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Gley
+  rotate: false
+  xy: 604, 680
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Gley
   rotate: false
   xy: 604, 680
   size: 32, 28
