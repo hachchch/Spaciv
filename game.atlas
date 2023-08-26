@@ -1,4 +1,4 @@
-game2308.png
+game20247.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -127,5 +127,18 @@ TileSets/FantasyHex/Tiles/Lunar
   xy: 684, 533
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+
+game5.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Lunatic Weapon
+  rotate: false
+  xy: 1308, 187
+  size: 32, 29
+  orig: 32, 29
   offset: 0, 0
   index: -1
