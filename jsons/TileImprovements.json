@@ -11,13 +11,23 @@
 	},
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Land"],
+		"terrainsCanBeBuiltOn": ["Earth"],
 		"food": 1,
 		"turnsToBuild": 7,
 		"uniques": ["Can also be built on tiles adjacent to fresh water",
 			"[+1 Food] from [Fresh water] tiles",
 			"Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
+	},
+	{
+		"name": "Dome",
+		"terrainsCanBeBuiltOn": ["Lunar","Mars","Stromat","Regold"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"uniques": ["Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles",
+			"Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "D"
 	},
 	{
 		"name": "Xenohive",
