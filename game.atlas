@@ -1,1 +1,82 @@
-
+game2308.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Tiles/Nebula
+  rotate: false
+  xy: 404, 589
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mars+Farm
+  rotate: false
+  xy: 484, 1266
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lunar+Farm
+  rotate: false
+  xy: 484, 1266
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Regold+Farm
+  rotate: false
+  xy: 484, 1266
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Stromat+Farm
+  rotate: false
+  xy: 484, 1266
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Dyes
+  rotate: false
+  xy: 444, 896
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mars
+  rotate: false
+  xy: 404, 841
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Xenohive
+  rotate: false
+  xy: 604, 1069
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Regold
+  rotate: false
+  xy: 564, 817
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Stromat
+  rotate: false
+  xy: 564, 591
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Human
+  rotate: false
+  xy: 444, 823
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
