@@ -12,9 +12,9 @@ TileSets/FantasyHex/Tiles/Nebula
   index: -1
 TileSets/FantasyHex/Tiles/Dome
   rotate: false
-  xy: 484, 1266
-  size: 32, 32
-  orig: 32, 32
+  xy: 524, 854
+  size: 32, 31
+  orig: 32, 31
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Breeding Facility
@@ -33,7 +33,7 @@ TileSets/FantasyHex/Tiles/Mars
   index: -1
 TileSets/FantasyHex/Tiles/Xenohive
   rotate: false
-  xy: 604, 1069
+  xy: 564, 781
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
