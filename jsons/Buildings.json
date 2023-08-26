@@ -11,6 +11,11 @@
 		"uniques": ["Indicates the capital city"]
 	},
 	{
+		"name": "Species cleansing",
+		"cost": 100,
+		"uniques": ["Can only be built [in annexed cities]","Destroyed when the city is captured","Remove extra unhappiness from annexed cities"],
+	},
+	{
 		"name": "Generator",
 		"uniqueTo": "United Nations",
 		"requiredTech": "Liquid propellant",
