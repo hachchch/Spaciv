@@ -10,11 +10,11 @@
     },
     {
         "name": "Death",
-        "movementType": "Land"
+        "movementType": "Land",
     },
     {
         "name": "Xeno Entity",
-        "movementType": "Death"
+        "movementType": "Land"
     },
     {
         "name": "Gunpowder",
