@@ -29,9 +29,9 @@
         {
                 "columnNumber": 1,
 		"era": "FlightTest era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 185,
+		"techCost": 230,
+		"buildingCost": 230,
+		"wonderCost": 230,
 		"techs": [
 			{
 				"name": "Liquid propellant",
@@ -92,9 +92,9 @@
 	{
 		"columnNumber": 2,
 		"era": "Exploration era",
-		"techCost": 20,
-		"buildingCost": 40,
-		"wonderCost": 185,
+		"techCost": 400,
+		"buildingCost": 400,
+		"wonderCost": 400,
 		"techs": [
 			{
 				"name": "Space Engineering",
