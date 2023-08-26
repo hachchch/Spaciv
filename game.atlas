@@ -121,7 +121,21 @@ size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
-TileSets/FantasyHex/Tiles/Lunatic Weapon
+TileSets/FantasyHex/Units/Lunatic Weapon
+  rotate: false
+  xy: 1308, 187
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Xenotic Fire
+  rotate: false
+  xy: 1308, 187
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lunatic Craft
   rotate: false
   xy: 1308, 187
   size: 32, 29
