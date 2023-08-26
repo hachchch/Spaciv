@@ -9,7 +9,7 @@
         "uniques": ["[+1] Sight"],
     },
     {
-        "name": "Xeno Entity",
+        "name": "Death",
         "movementType": "Land"
     },
     {
