@@ -80,3 +80,45 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Human
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Phaser
+  rotate: false
+  xy: 564, 853
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Probe
+  rotate: false
+  xy: 524, 853
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Gley
+  rotate: false
+  xy: 524, 893
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Laser Blaster
+  rotate: false
+  xy: 564, 893
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Lunar+Mechanized Infantry
+  rotate: false
+  xy: 604, 600
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Stromat+Mechanized Infantry
+  rotate: false
+  xy: 604, 600
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
