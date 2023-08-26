@@ -4,7 +4,7 @@
                 "uniqueTo": "United Nations",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Farm] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
         {
