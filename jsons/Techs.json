@@ -38,7 +38,6 @@
 				"row": 1,
 				"prerequisites": ["Information era"],
 				"quote": "",
-				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "Smart Phone",
@@ -57,7 +56,6 @@
 				"row": 4,
 				"prerequisites": ["Unified theory"],
 				"quote": "",
-				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "Plasma control",
@@ -76,7 +74,6 @@
 				"row": 7,
 				"prerequisites": ["Xeno Life"],
 				"quote": "",
-				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "The Eon",
@@ -104,18 +101,21 @@
 				"row": 1,
 				"prerequisites": ["Liquid propellant","Smart Phone"],
 				"quote": "",
+				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "Hovering",
 				"row": 4,
 				"prerequisites": ["Sublight speed","Plasma control"],
 				"quote": "",
+				"uniques": ["Enables embarkation for land units"],
 			},
 			{
 				"name": "Warp hole",
 				"row": 7,
 				"prerequisites": ["Acid processing","The Eon"],
 				"quote": "",
+				"uniques": ["Enables embarkation for land units"],
 			},
                 ]
         }
