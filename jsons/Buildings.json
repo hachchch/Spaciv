@@ -161,16 +161,16 @@
 	{
 		"name": "Military Support (United Nations)",
 		"cost": 100,
-		"uniques": ["Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry] units appear","[1] free [Mechanized Infantry] units appear"],
+		"uniques": ["Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry (United Nations)] units appear","[1] free [Mechanized Infantry (United Nations)] units appear"],
 	},
 	{
 		"name": "Military Support (Martian)",
 		"cost": 100,
-		"uniques": ["Unbuildable <for [Martian]>","Consumes [10] [Relation Score (Martian)]","Provides [10] [Relation Score (Martian)]","[3] free [Phaser] units appear","[1] free [Laser Blaster] units appear"],
+		"uniques": ["Unbuildable <for [Martian]>","Consumes [10] [Relation Score (Martian)]","Provides [10] [Relation Score (Martian)]","[3] free [Phaser (Martian)] units appear","[1] free [Laser Blaster (Martian)] units appear"],
 	},
 	{
 		"name": "Military Support (Xenomorph)",
 		"cost": 100,
-		"uniques": ["Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob] units appear","[1] free [Xenowarrior] units appear"],
+		"uniques": ["Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xenomorph)] units appear","[1] free [Xenowarrior (Xenomorph)] units appear"],
 	},
 ]
