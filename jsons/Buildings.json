@@ -166,7 +166,7 @@
 	{
 		"name": "Military Support (Martian)",
 		"cost": 100,
-		"uniques": ["Consumes [10] [Relation Score (Martian)]","[3] free [Phaser] units appear","[1] free [Blaster Laser] units appear"],
+		"uniques": ["Consumes [10] [Relation Score (Martian)]","[3] free [Phaser] units appear","[1] free [Laser Blaster] units appear"],
 	},
 	{
 		"name": "Military Support (Xenomorph)",
