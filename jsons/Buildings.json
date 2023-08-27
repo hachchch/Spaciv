@@ -158,4 +158,19 @@
 		"cost": 100,
 		"uniques": ["Unbuildable <in cities without a [Palace]>","[+50]% Strength <vs [Gunpowder] units>","Unbuildable <in cities with a [Fear Eon]>","Unbuildable <in cities with a [Creator's Eon]>","Unbuildable <in cities with a [Deus Eon]>","Unbuildable <in cities with a [Desire Eon]>","Unbuildable <in cities with a [Rigid Eon]>","Triggers a global alert upon completion"],
 	},
+	{
+		"name": "Military Support (United Nations)",
+		"cost": 100,
+		"uniques": ["Consumes [10] [Relation Score (United Nations)]","[3] free [Infantry] units appear","[1] free [Mechanized Infantry] units appear"],
+	},
+	{
+		"name": "Military Support (Martian)",
+		"cost": 100,
+		"uniques": ["Consumes [10] [Relation Score (Martian)]","[3] free [Phaser] units appear","[1] free [Blaster Laser] units appear"],
+	},
+	{
+		"name": "Military Support (Xenomorph)",
+		"cost": 100,
+		"uniques": ["Consumes [10] [Relation Score (Xenomorph)]","[3] free [Xenomob] units appear","[1] free [Xenowarrior] units appear"],
+	},
 ]
