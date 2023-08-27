@@ -22,7 +22,7 @@
                                 "name": "Xeno Life",
 				"row": 8,
 				"quote": "",
-				"uniques": ["Only available <before discovering [Unified theory]>","Only available <before discovering [Information era]>","Enables conversion of city production to [Food]"],
+				"uniques": ["Only available <before discovering [Unified theory]>","Only available <before discovering [Information era]>","Enables conversion of city production to [Happiness]"],
                         },
                 ]
         },
