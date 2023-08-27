@@ -13,6 +13,20 @@
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Provides a [Food] in your first [4] cities for free"
+                ]
+            },
+        ]
     },
     {
         "name": "Liberty",
@@ -25,6 +39,17 @@
             "Scientific": 20
         },
         "uniques": ["[+1 Culture] [in all cities]"],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": ["Free Great Person"]
+            }
+        ]
     },
     {
         "name": "Honor",
@@ -40,6 +65,19 @@
             "[+17]% Strength <vs [Military] units>",
             "Earn [16]% of killed [Military] unit's [Cost] as [Culture]",
         ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Honor Complete",
+                "uniques": [
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                ]
+            }
+        ]
     },
     {
         "name": "Piety",
@@ -55,6 +93,20 @@
             "[+100]% Strength <for [Military] units> <when below [10] HP>",
             "Only available <before adopting [Rationalism]>"
         ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Piety Complete",
+                "uniques": [
+                    "[Faith] cost of purchasing items in cities [-20]%",
+                    "[+1 Culture] from every [Space]"
+                ]
+            }
+        ]
     },
     {
         "name": "Patronage",
@@ -67,6 +119,20 @@
             "Scientific": 10
         },
         "uniques": ["[-25]% City-State Influence degradation"],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Patronage Complete",
+                "uniques": [
+                    "Influence of all other civilizations with all city-states degrades [33]% faster",
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                ]
+            }
+        ]
     },
     {
         "name": "Commerce",
@@ -79,6 +145,21 @@
             "Scientific": 10
         },
         "uniques": ["[+25]% [Gold] [in capital]"],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Commerce Complete",
+                "uniques": [
+                    "[+3 Gold] from every [City center] tiles [in all cities connected to capital]",
+                    "[+100]% Gold from Great Merchant trade missions",
+                    "May buy [Great General] units for [1000] [Gold] [in all cities]"
+                ]
+            }
+        ]
     },
     {
         "name": "Rationalism",
@@ -94,6 +175,13 @@
             "[+15]% [Science] <while the empire is happy>",
             "Only available <before adopting [Piety]>"
         ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+        ]
     },
     {
         "name": "Freedom",
@@ -110,6 +198,13 @@
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Order]>"
         ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+        ]
     },
     {
         "name": "Autocracy",
@@ -127,6 +222,13 @@
             "Only available <before adopting [Order]>",
             "Only available <before adopting [Freedom]>"
         ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+        ]
     },
     {
         "name": "Order",
@@ -143,5 +245,12 @@
             "Only available <before adopting [Autocracy]>",
             "Only available <before adopting [Freedom]>"
         ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "row": 1,
+                "column": 1
+            },
+        ]
     },
 ]
