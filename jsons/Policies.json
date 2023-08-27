@@ -156,7 +156,7 @@
                 "uniques": [
                     "[+3 Gold] from every [City center] tiles [in all cities connected to capital]",
                     "[+100]% Gold from Great Merchant trade missions",
-                    "May buy [Great General] units for [1000] [Gold] [in all cities]"
+                    "May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([0])"
                 ]
             }
         ]
@@ -181,6 +181,13 @@
                 "row": 1,
                 "column": 1
             },
+            {
+                "name": "Rationalism Complete",
+                "uniques": [
+                    "[2] Free Technologies",
+                    "May buy [Great General] units for [500] [Culture] [in all cities] at an increasing price ([0])"
+                ]
+            }
         ]
     },
     {
@@ -204,6 +211,13 @@
                 "row": 1,
                 "column": 1
             },
+            {
+                "name": "Freedom Complete",
+                "uniques": [
+                    "[+50]% Yield from every [Food]",
+                    "[+50]% Golden Age length",
+                ]
+            }
         ]
     },
     {
@@ -228,6 +242,13 @@
                 "row": 1,
                 "column": 1
             },
+            {
+                "name": "Autocracy Complete",
+                "uniques": [
+                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+                    "May buy [Great General] units for [500] [Gold] [in all cities] at an increasing price ([500])",
+                ]
+            }
         ]
     },
     {
@@ -251,6 +272,12 @@
                 "row": 1,
                 "column": 1
             },
+            {
+                "name": "Order Complete",
+                "uniques": [
+                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+                ]
+            }
         ]
     },
 ]
