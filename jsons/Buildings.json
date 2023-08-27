@@ -171,6 +171,6 @@
 	{
 		"name": "Military Support (Xenomorph)",
 		"cost": 100,
-		"uniques": ["Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","[3] free [Xenomob] units appear","[1] free [Xenowarrior] units appear"],
+		"uniques": ["Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)] <for [1] turns>","[3] free [Xenomob] units appear","[1] free [Xenowarrior] units appear"],
 	},
 ]
