@@ -66,4 +66,22 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Water"],
 	},
+	{
+		"name": "Relation Score (United Nations)",
+		"resourceType": "Strategic",
+		"gold": 1,
+		"uniques": ["Not shown on world screen","Cannot be traded <for [United Nations]>"],
+	},
+	{
+		"name": "Relation Score (Martian)",
+		"resourceType": "Strategic",
+		"science": 1,
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Martian]>"],
+	},
+	{
+		"name": "Relation Score (Xenomorph)",
+		"resourceType": "Strategic",
+		"food": 1,
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Xenomorph]>"],
+	},
 ]
