@@ -110,7 +110,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques" : ["Consumes [2] [Relation Score (United Nations)]","Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
 		"attackSound": "shot",
 	},
         {
@@ -131,7 +131,7 @@
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
+		"uniques" : ["Consumes [2] [Relation Score (Xenomorph)]","Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
 		"attackSound": "nonmetalhit",
 	},
         {
@@ -152,7 +152,7 @@
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques" : ["Consumes [2] [Relation Score (Martian)]","Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
 		"attackSound": "bombing",
 	},
 	{
@@ -173,7 +173,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
-		"uniques": ["Unbuildable","[+50]% Strength <vs [Xeno Entity] units>"],
+		"uniques": ["Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+50]% Strength <vs [Xeno Entity] units>"],
 	},
 	{
 		"name": "Xenowarrior",
@@ -193,7 +193,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
-		"uniques": ["Unbuildable","[+50]% Strength <vs [Laser] units>"],
+		"uniques": ["Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+50]% Strength <vs [Laser] units>"],
 	},
 	{
 		"name": "Laser Blaster",
@@ -213,7 +213,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "gdrAttack",
-		"uniques": ["Unbuildable","[+50]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["Consumes [4] [Relation Score (Martian)]","Unbuildable","[+50]% Strength <vs [Gunpowder] units>"],
 	},
 	{
 		"name": "Great General",
