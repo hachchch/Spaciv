@@ -23,7 +23,7 @@
                 "name": "Tradition Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
-                    "Provides a [Food] in your first [4] cities for free"
+                    "Free Technology"
                 ]
             },
         ]
@@ -202,8 +202,9 @@
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
+            "[+10]% [Happiness]",
             "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>"
+            "Only available <before adopting [Order]>",
         ],
         "policies": [
             {
