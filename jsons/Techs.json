@@ -10,19 +10,19 @@
 				"name": "Information era",
 				"row": 2,
 				"quote": "",
-				"uniques": ["Only available <before discovering [Xeno Life]>","Only available <before discovering [Unified theory]>"],
+				"uniques": ["Only available <before discovering [Xeno Life]>","Only available <before discovering [Unified theory]>","Enables conversion of city production to [Gold]"],
 			}
                         {
                                 "name": "Unified theory",
 				"row": 5,
 				"quote": "",
-				"uniques": ["Only available <before discovering [Xeno Life]>","Only available <before discovering [Information era]>"],
+				"uniques": ["Only available <before discovering [Xeno Life]>","Only available <before discovering [Information era]>","Enables conversion of city production to [Science]"],
                         },
                         {
                                 "name": "Xeno Life",
 				"row": 8,
 				"quote": "",
-				"uniques": ["Only available <before discovering [Unified theory]>","Only available <before discovering [Information era]>"],
+				"uniques": ["Only available <before discovering [Unified theory]>","Only available <before discovering [Information era]>","Enables conversion of city production to [Food]"],
                         },
                 ]
         },
