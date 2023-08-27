@@ -17,7 +17,7 @@ TileSets/FantasyHex/Tiles/Dome
   orig: 32, 41
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Mars+City center-Human
+TileSets/FantasyHex/Tiles/City center-Mars-Human
   rotate: false
   xy: 524, 844
   size: 32, 41
