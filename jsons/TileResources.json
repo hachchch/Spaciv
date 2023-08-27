@@ -64,7 +64,7 @@
 	{
 		"name": "Stardust",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Water"],
+		"terrainsCanBeFoundOn": ["Space","Nebula"],
 	},
 	{
 		"name": "Relation Score (United Nations)",
