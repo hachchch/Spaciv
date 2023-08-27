@@ -105,6 +105,14 @@
 			{"text": "This is your basic, club-swinging fighter."}
 		]
 	},
+	{
+		"name": "Infantry (United Nations)",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 8,
+		"uniques" : ["Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
+		"attackSound": "shot",
+	},
         {
                 "name": "Xenomob",
 		"unitType": "Xeno Entity",
@@ -117,6 +125,14 @@
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
 		]
+	},
+	{
+		"name": "Xenomob (Xenomorph)",
+		"unitType": "Xeno Entity",
+		"movement": 2,
+		"strength": 8,
+		"uniques" : ["Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
+		"attackSound": "nonmetalhit",
 	},
         {
                 "name": "Phaser",
@@ -132,6 +148,14 @@
 		]
         },
 	{
+		"name": "Phaser (Martian)",
+		"unitType": "Laser",
+		"movement": 2,
+		"strength": 8,
+		"uniques" : ["Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
+		"attackSound": "bombing",
+	},
+	{
 		"name": "Mechanized Infantry",
                 "uniqueTo": "United Nations",
 		"unitType": "Gunpowder",
@@ -142,6 +166,14 @@
 		"requiredResource": "Power",
 		"requiredTech": "Liquid propellant",
 		"uniques": ["[+50]% Strength <vs [Xeno Entity] units>"],
+	},
+	{
+		"name": "Mechanized Infantry (United Nations)",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 12,
+		"attackSound": "tankshot",
+		"uniques": ["Unbuildable","[+50]% Strength <vs [Xeno Entity] units>"],
 	},
 	{
 		"name": "Xenowarrior",
@@ -156,6 +188,14 @@
 		"uniques": ["[+50]% Strength <vs [Laser] units>"],
 	},
 	{
+		"name": "Xenowarrior (Xenomorph)",
+		"unitType": "Xeno Entity",
+		"movement": 2,
+		"strength": 12,
+		"attackSound": "metalhit",
+		"uniques": ["Unbuildable","[+50]% Strength <vs [Laser] units>"],
+	},
+	{
 		"name": "Laser Blaster",
                 "uniqueTo": "Martian",
 		"unitType": "Laser",
@@ -166,6 +206,14 @@
 		"requiredResource": "Super Energy",
 		"requiredTech": "Sublight speed",
 		"uniques": ["[+50]% Strength <vs [Gunpowder] units>"],
+	},
+	{
+		"name": "Laser Blaster (Martian)",
+		"unitType": "Laser",
+		"movement": 2,
+		"strength": 12,
+		"attackSound": "gdrAttack",
+		"uniques": ["Unbuildable","[+50]% Strength <vs [Gunpowder] units>"],
 	},
 	{
 		"name": "Great General",
