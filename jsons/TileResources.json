@@ -20,7 +20,7 @@
 	{
 		"name": "Gold Ore",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Land"],
+		"terrainsCanBeFoundOn": ["Earth","Stromat","Regold"],
 		"gold": 1,
 	},
 	{
@@ -38,7 +38,7 @@
 	{
 		"name": "Iron",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Land"],
+		"terrainsCanBeFoundOn": ["Earth","Lunar","Mars","Stromat","Regold"],
 		"production": 1,
 	},
 	{
