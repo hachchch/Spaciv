@@ -229,29 +229,32 @@
 		"unitType": "Death",
 		"range": 3,
 		"strength": 10,
+		"rangedStrength": 1,
 		"movement": 2,
 		"uniqueTo": "Xenomorph",
 		"replaces": "Great General",
-		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
+		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [2]","May travel on Water tiles without embarking","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
 	},
 	{
 		"name": "Star Craft",
 		"unitType": "Death",
 		"range": 3,
 		"strength": 10,
+		"rangedStrength": 1,
 		"movement": 2,
 		"uniqueTo": "Martian",
 		"replaces": "Great General",
-		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
+		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
 	},
 	{
 		"name": "Lunatic Weapon",
 		"unitType": "Death",
 		"range": 3,
 		"strength": 10,
+		"rangedStrength": 1,
 		"movement": 2,
 		"uniqueTo": "United Nations",
 		"replaces": "Great General",
-		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
+		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [2]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
 	},
 ]
