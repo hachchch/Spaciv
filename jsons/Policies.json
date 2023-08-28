@@ -103,7 +103,7 @@
                 "name": "Piety Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
-                    "[+1 Culture] from every [Space]"
+                    "[+1 Culture] from [Space] tiles [in all cities]"
                 ]
             }
         ]
