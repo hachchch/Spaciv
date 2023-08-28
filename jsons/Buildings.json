@@ -93,7 +93,7 @@
 	},
 	{
 		"name": "Telemoss",
-		"uniqueTo": "Martians",
+		"uniqueTo": "Martian",
 		"requiredTech": "Plasma control",
 		"cost": 60,
 		"happiness": 4,
