@@ -190,7 +190,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Liquid propellant",
-		"uniques": ["[+1 Gold, +1 Culture] from [City center] tiles [in all cities connected to capital]"],
+		"uniques": ["[+1 Gold, +1 Culture] from [Space] tiles [in this city]"],
 	},
 	{
 		"name": "Space Harbor",
@@ -201,7 +201,7 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Sublight speed",
-		"uniques": ["[+1 Gold, +1 Culture] from [City center] tiles [in all cities connected to capital]"],
+		"uniques": ["[+1 Gold, +1 Culture] from [Space] tiles [in this city]"],
 	},
 	{
 		"name": "Piesans",
@@ -212,6 +212,6 @@
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Acid processing",
-		"uniques": ["[+1 Gold, +1 Culture] from [City center] tiles [in all cities connected to capital]"],
+		"uniques": ["[+1 Gold, +1 Culture] from [Space] tiles [in this city]"],
 	},
 ]
