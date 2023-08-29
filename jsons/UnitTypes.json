@@ -6,7 +6,7 @@
     {
         "name": "Scout",
         "movementType": "Land",
-        "uniques": ["[+1] Sight"],
+        "uniques": ["[+1] Sight","[+1] Sight <on water maps>"],
     },
     {
         "name": "Death",
