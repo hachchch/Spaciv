@@ -6,7 +6,7 @@
 		"movement": 2,
 		"uniques": ["Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
 			"Automation is a primary action",
-		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles"],
+		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable"],
 		"cost": 70
 	},
         {
@@ -14,7 +14,7 @@
                 "uniqueTo": "Xenomorph",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action"],
+		"uniques": ["Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action","Uncapturable"],
 		"cost": 70
         },
         {
@@ -22,7 +22,7 @@
                 "uniqueTo": "Martian",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action"],
+		"uniques": ["Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action","Uncapturable"],
 		"cost": 70
         },
 	{
@@ -73,7 +73,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 25,
-		"attackSound": "nonmetalhit"
+		"uniques": ["Uncapturable"],
         },
         {
                 "name": "Scout",
@@ -81,7 +81,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 25,
-		"attackSound": "nonmetalhit"
+		"uniques": ["Uncapturable"],
         },
         {
                 "name": "Probe",
@@ -89,7 +89,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 25,
-		"attackSound": "nonmetalhit"
+		"uniques": ["Uncapturable"],
         },
         {
                 "name": "Infantry",
