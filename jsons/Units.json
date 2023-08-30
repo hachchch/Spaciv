@@ -226,7 +226,7 @@
 		"cost": 60,
 		"requiredResource": "Power",
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["[+50]% <vs cities>","[+50]% Strength <vs [Xeno Entity] units>"],
+		"uniques": ["[+50]% <vs cities>","[+25]% Strength <vs [Xeno Entity] units>"],
 	},
 	{
 		"name": "Xenohornet",
@@ -240,7 +240,7 @@
 		"cost": 60,
 		"requiredResource": "Encid",
 		"requiredTech": "Blood disassembly",
-		"uniques": ["[+50]% <vs cities>","[+50]% Strength <vs [Laser] units>"],
+		"uniques": ["[+50]% <vs cities>","[+25]% Strength <vs [Laser] units>"],
 	},
 	{
 		"name": "Tripod",
@@ -254,7 +254,7 @@
 		"cost": 60,
 		"requiredResource": "Super Energy",
 		"requiredTech": "Wave Zapper",
-		"uniques": ["[+50]% <vs cities>","[+50]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["[+50]% <vs cities>","[+25]% Strength <vs [Gunpowder] units>"],
 	},
 	{
 		"name": "Great General",
