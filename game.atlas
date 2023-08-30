@@ -136,7 +136,7 @@ TileSets/FantasyHex/Units/Probe
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Gleycolor Worker
+TileSets/FantasyHex/Units/Greycolor Worker
   rotate: false
   xy: 644, 640
   size: 32, 28
