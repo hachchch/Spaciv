@@ -73,7 +73,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Uncapturable"],
+		"uniques": ["Uncapturable","[+1] Sight"],
         },
         {
                 "name": "Scout",
@@ -81,7 +81,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Uncapturable"],
+		"uniques": ["Uncapturable","[+1] Sight"],
         },
         {
                 "name": "Probe",
@@ -89,7 +89,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Uncapturable"],
+		"uniques": ["Uncapturable","[+1] Sight"],
         },
         {
                 "name": "Infantry",
