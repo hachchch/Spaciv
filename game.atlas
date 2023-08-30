@@ -208,14 +208,14 @@ TileSets/FantasyHex/Units/Laser Blaster
   index: -1
 TileSets/FantasyHex/Units/Xenomob
   rotate: false
-  xy: 684, 674
+  xy: 684, 673
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Xenowarrior
   rotate: false
-  xy: 684, 714
+  xy: 684, 713
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
