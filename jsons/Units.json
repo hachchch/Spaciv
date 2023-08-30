@@ -173,7 +173,7 @@
 		"maintenance": 3,
 		"attackSound": "missile",
 		"cost": 60,
-		"requiredTech": "Artificial intelligence",
+		"requiredTech": "Liquid propellant",
 		"uniques": ["[+25]% Strength <vs [Xeno Entity] units>","Consumes [1] [Power]"],
 	},
 	{
@@ -185,7 +185,7 @@
 		"maintenance": 3,
 		"attackSound": "crossbow",
 		"cost": 60,
-		"requiredTech": "Blood disassembly",
+		"requiredTech": "Acid processing",
 		"uniques": ["[+25]% Strength <vs [Laser] units>","Consumes [1] [Encid]"],
 	},
 	{
@@ -197,7 +197,7 @@
 		"attackSound": "gdrAttack",
 		"cost": 60,
 		"maintenance": 3,
-		"requiredTech": "Wave Zapper",
+		"requiredTech": "Sublight speed",
 		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","Consumes [1] [Super Energy]"],
 	},
 	{
