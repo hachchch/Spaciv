@@ -1,4 +1,4 @@
-game20247.png
+game5233.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -160,6 +160,27 @@ TileSets/FantasyHex/Tiles/Lunar
 TileSets/FantasyHex/Tiles/Earth
   rotate: false
   xy: 484, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Farm
+  rotate: false
+  xy: 524, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Solar Star
+  rotate: false
+  xy: 444, 1009
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Gas
+  rotate: false
+  xy: 444, 1049
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
