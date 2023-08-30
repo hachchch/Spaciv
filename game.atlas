@@ -10,6 +10,13 @@ TileSets/FantasyHex/Tiles/Nebula
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Stardust
+  rotate: false
+  xy: 404, 549
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Dome
   rotate: false
   xy: 524, 844
@@ -31,6 +38,13 @@ TileSets/FantasyHex/Tiles/Breeding Facility
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/compounds mine
+  rotate: false
+  xy: 444, 936
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/City center-Gley
   rotate: false
   xy: 444, 896
@@ -45,16 +59,30 @@ TileSets/FantasyHex/Tiles/Mars
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Xenohive
+TileSets/FantasyHex/Tiles/Water
+  rotate: false
+  xy: 364, 841
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Xenomine
   rotate: false
   xy: 404, 877
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Xenohive
+  rotate: false
+  xy: 404, 917
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/City center-Xeno
   rotate: false
-  xy: 404, 877
+  xy: 404, 917
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -104,6 +132,34 @@ TileSets/FantasyHex/Units/Phaser
 TileSets/FantasyHex/Units/Probe
   rotate: false
   xy: 604, 640
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Gleycolor Worker
+  rotate: false
+  xy: 644, 640
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Xeno
+  rotate: false
+  xy: 644, 560
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Xeno
+  rotate: false
+  xy: 644, 560
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Xeno
+  rotate: false
+  xy: 644, 560
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -167,8 +223,8 @@ TileSets/FantasyHex/Tiles/Earth
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
   xy: 444, 1009
-  size: 32, 28
-  orig: 32, 28
+  size: 32, 41
+  orig: 32, 41
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Solar Star
