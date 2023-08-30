@@ -45,7 +45,7 @@ TileSets/FantasyHex/Tiles/Breeding Facility
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/compounds mine
+TileSets/FantasyHex/Tiles/Compounds
   rotate: false
   xy: 444, 936
   size: 32, 28
