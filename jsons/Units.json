@@ -174,7 +174,7 @@
 		"attackSound": "missile",
 		"cost": 80,
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["[+1]% Strength <vs cities>","[+25]% Strength <vs [Xeno Entity] units>","Consumes [2] [Power]"],
+		"uniques": ["[+25]% Strength <vs [Xeno Entity] units>","Consumes [2] [Power]"],
 	},
 	{
 		"name": "Xenohornet",
@@ -186,7 +186,7 @@
 		"attackSound": "crossbow",
 		"cost": 80,
 		"requiredTech": "Blood disassembly",
-		"uniques": ["[+1]% Strength <vs cities>","[+25]% Strength <vs [Laser] units>","Consumes [2] [Encid]"],
+		"uniques": ["[+25]% Strength <vs [Laser] units>","Consumes [2] [Encid]"],
 	},
 	{
 		"name": "Tripod",
@@ -198,7 +198,7 @@
 		"cost": 80,
 		"maintenance": 3,
 		"requiredTech": "Wave Zapper",
-		"uniques": ["[+1]% Strength <vs cities>","[+25]% Strength <vs [Gunpowder] units>","Consumes [2] [Super Energy]"],
+		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","Consumes [2] [Super Energy]"],
 	},
 	{
 		"name": "Mechanized Infantry",
