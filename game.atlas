@@ -143,6 +143,20 @@ TileSets/FantasyHex/Units/Probe
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Mechanized Artillery
+  rotate: false
+  xy: 604, 600
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tripod
+  rotate: false
+  xy: 644, 600
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Greycolor Worker
   rotate: false
   xy: 564, 640
