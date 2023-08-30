@@ -257,7 +257,7 @@ TileSets/FantasyHex/Tiles/Earth
   index: -1
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
-  xy: 444, 1006
+  xy: 444, 1005
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
