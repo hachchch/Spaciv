@@ -26,9 +26,16 @@ TileSets/FantasyHex/Tiles/Dome
   index: -1
 TileSets/FantasyHex/Tiles/City center-Human
   rotate: false
-  xy: 524, 844
-  size: 32, 41
-  orig: 32, 41
+  xy: 145, 4
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Industry
+  rotate: false
+  xy: 1485, 912
+  size: 32, 33
+  orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Breeding Facility
@@ -138,7 +145,14 @@ TileSets/FantasyHex/Units/Probe
   index: -1
 TileSets/FantasyHex/Units/Greycolor Worker
   rotate: false
-  xy: 644, 640
+  xy: 564, 640
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Martian Colonist
+  rotate: false
+  xy: 564, 680
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -192,6 +206,27 @@ TileSets/FantasyHex/Units/Laser Blaster
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Xenomob
+  rotate: false
+  xy: 684, 680
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Xenowarrior
+  rotate: false
+  xy: 684, 720
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Xenohornet
+  rotate: false
+  xy: 724, 680
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Lunar+Mechanized Infantry
   rotate: false
   xy: 604, 600
@@ -223,8 +258,8 @@ TileSets/FantasyHex/Tiles/Earth
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
   xy: 444, 1009
-  size: 32, 41
-  orig: 32, 41
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Solar Star
