@@ -166,21 +166,21 @@ TileSets/FantasyHex/Tiles/Earth
   index: -1
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
-  xy: 524, 1009
+  xy: 444, 1009
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Solar Star
   rotate: false
-  xy: 444, 1009
+  xy: 524, 1009
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Gas
   rotate: false
-  xy: 444, 1049
+  xy: 524, 1049
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
