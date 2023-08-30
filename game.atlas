@@ -145,21 +145,21 @@ TileSets/FantasyHex/Units/Gleycolor Worker
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military-Xeno
   rotate: false
-  xy: 644, 720
+  xy: 604, 560
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Xeno
   rotate: false
-  xy: 644, 720
+  xy: 604, 560
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Xeno
   rotate: false
-  xy: 644, 720
+  xy: 604, 560
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
