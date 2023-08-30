@@ -208,21 +208,21 @@ TileSets/FantasyHex/Units/Laser Blaster
   index: -1
 TileSets/FantasyHex/Units/Xenomob
   rotate: false
-  xy: 684, 684
+  xy: 684, 676
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Xenowarrior
   rotate: false
-  xy: 684, 724
+  xy: 684, 716
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Xenohornet
   rotate: false
-  xy: 724, 684
+  xy: 724, 676
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -257,7 +257,7 @@ TileSets/FantasyHex/Tiles/Earth
   index: -1
 TileSets/FantasyHex/Tiles/Farm
   rotate: false
-  xy: 444, 1012
+  xy: 444, 1006
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
