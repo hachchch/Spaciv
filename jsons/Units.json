@@ -70,7 +70,6 @@
                 "uniqueTo": "United Nations",
 		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 5,
 		"cost": 25,
 		"attackSound": "nonmetalhit"
         },
@@ -79,7 +78,6 @@
                 "uniqueTo": "Xenomorph",
 		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 5,
 		"cost": 25,
 		"attackSound": "nonmetalhit"
         },
@@ -88,7 +86,6 @@
                 "uniqueTo": "Martian",
 		"unitType": "Civilian",
 		"movement": 2,
-		"strength": 5,
 		"cost": 25,
 		"attackSound": "nonmetalhit"
         },
