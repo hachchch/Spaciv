@@ -68,7 +68,7 @@
         {
                 "name": "Rover",
                 "uniqueTo": "United Nations",
-		"unitType": "Scout",
+		"unitType": "Civilian",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -77,7 +77,7 @@
         {
                 "name": "Scout",
                 "uniqueTo": "Xenomorph",
-		"unitType": "Scout",
+		"unitType": "Civilian",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
@@ -86,7 +86,7 @@
         {
                 "name": "Probe",
                 "uniqueTo": "Martian",
-		"unitType": "Scout",
+		"unitType": "Civilian",
 		"movement": 2,
 		"strength": 5,
 		"cost": 25,
