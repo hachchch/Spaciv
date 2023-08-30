@@ -1,6 +1,14 @@
 [
-        {
+	{
 		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+        {
+		"name": "Human Worker",
+		"replaces": "Worker",
                 "uniqueTo": "United Nations",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -11,6 +19,7 @@
 	},
         {
                 "name": "Xenotorn",
+		"replaces": "Worker",
                 "uniqueTo": "Xenomorph",
 		"unitType": "Civilian",
 		"movement": 2,
@@ -19,6 +28,7 @@
         },
         {
                 "name": "Greycolor Worker",
+		"replaces": "Worker",
                 "uniqueTo": "Martian",
 		"unitType": "Civilian",
 		"movement": 2,
