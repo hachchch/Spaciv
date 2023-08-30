@@ -14,7 +14,7 @@
 		"terrainsCanBeBuiltOn": ["Earth"],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["Pillaging this improvement yields approximately [+70 Gold]"],
 		"shortcutKey": "F"
 	},
 	{
@@ -41,5 +41,37 @@
 		"turnsToBuild": 14,
 		"uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "B"
+	},
+	{
+		"name": "Industry",
+		"terrainsCanBeBuiltOn": ["Earth"],
+		"production": 1,
+		"turnsToBuild": 14,
+		"uniques": ["Pillaging this improvement yields approximately [+70 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Mine",
+		"terrainsCanBeBuiltOn": ["Lunar","Mars","Stromat","Regold"],
+		"production": 1,
+		"turnsToBuild": 14,
+		"uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "M"
+	},
+	{
+		"name": "Xenomine",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"turnsToBuild": 14,
+		"uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "X"
+	},
+	{
+		"name": "Compounds",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 1,
+		"turnsToBuild": 14,
+		"uniques": ["Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "C"
 	},
 ]
