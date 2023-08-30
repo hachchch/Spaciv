@@ -138,7 +138,7 @@
 		"cost": 120,
 		"uniques": ["Unbuildable <in cities without a [Palace]>","Unbuildable <in cities with a [Nihility Eon]>","Unbuildable <in cities with a [Fear Eon]>","Unbuildable <in cities with a [Creator's Eon]>","Unbuildable <in cities with a [Deus Eon]>","Unbuildable <in cities with a [Rigid Eon]>"
 		,"Triggers a global alert upon completion","[+2 Gold] from [Space] tiles [in all cities]","[+1 Gold] from [Land] tiles [in annexed cities]","[+1 Gold] from [Land] tiles [in puppeted cities]","[+1 Gold] per [2] population [in all cities]","[-1 Happiness] per [2] population [in all cities]","[+100]% growth [in capital]",
-                "[-2 Food] [in all cities]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]","Automatically built in all cities where it is buildable"],
+                "[-2 Food] [in all cities]","Earn [100]% of killed [Military] unit's [Strength] as [Gold]"],
 	},
 	{
 		"name": "Rigid Eon",
