@@ -4,7 +4,9 @@
                 "uniqueTo": "United Nations",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
+			"Automation is a primary action",
+		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles"],
 		"cost": 70
 	},
         {
@@ -12,7 +14,7 @@
                 "uniqueTo": "Xenomorph",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Xenohive] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action"],
 		"cost": 70
         },
         {
@@ -20,7 +22,7 @@
                 "uniqueTo": "Martian",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Breeding Facility] improvements on tiles", "Automation is a primary action"],
+		"uniques": ["Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action"],
 		"cost": 70
         },
 	{
