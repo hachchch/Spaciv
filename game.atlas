@@ -152,7 +152,7 @@ TileSets/FantasyHex/Units/Mechanized Artillery
   index: -1
 TileSets/FantasyHex/Units/Tripod
   rotate: false
-  xy: 644, 600
+  xy: 644, 595
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
