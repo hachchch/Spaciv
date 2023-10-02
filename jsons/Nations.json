@@ -5,8 +5,8 @@
 		"outerColor": [255,255,255],
 //      	"innerColor": [0,0,0]
 	},
-	//nations
 	{
+	//nations
 		"name": "United Nations",
 		"leaderName": "Nasa",
 		"adjective": ["Homo Sapiens"],
@@ -58,6 +58,14 @@
 		"style": "Xeno",
 		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
 		"uniques": ["Starts with [Xeno Life]"],
+	},
+	{
+		"name": "Please choose Custom Map!!",
+		"leaderName": "a",
+		"adjective": ["a"],
+		"preferredVictoryType": "Domination",
+		"outerColor": [0,0,0],
+		"innerColor": [0,0,0],
 	},
 	//Barbarian
 	{
