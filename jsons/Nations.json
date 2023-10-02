@@ -59,4 +59,12 @@
 		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
 		"uniques": ["Starts with [Xeno Life]"],
 	},
+	//Barbarian
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+		"innerColor": [185,12,12],
+		"uniques": ["Can only heal by pillaging"]
+	}
+
 ]
