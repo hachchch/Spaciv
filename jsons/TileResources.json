@@ -96,4 +96,10 @@
 		"food": 1,
 		"uniques": ["Not shown on world screen","Cannot be traded <for [Xenomorph]>"],
 	},
+	{
+		"name": "Superunit limit",
+		"resourceType": "Strategic",
+		"faith": 1,
+		"uniques": ["Not shown on world screen","Cannot be traded"],
+	},
 ]
