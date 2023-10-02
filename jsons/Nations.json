@@ -66,6 +66,7 @@
 		"preferredVictoryType": "Domination",
 		"outerColor": [0,0,0],
 		"innerColor": [0,0,0],
+		"cities": ["a"]
 	},
 	//Barbarian
 	{
