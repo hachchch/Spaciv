@@ -1,5 +1,20 @@
 [
         {
+                "name": "Ancient era",
+                "researchAgreementCost": 400,
+                "startingSettlerCount": 0,
+                "startingMilitaryUnitCount": 1,
+                "startingMilitaryUnit": "Settler",
+                "startingGold": 100,
+                "startingCulture": 0,
+                "settlerPopulation": 1,
+                "baseUnitBuyCost": 100,
+                "embarkDefense": 8,
+                "startPercent": 100,
+                "citySound": "",
+                "iconRGB": [76, 176, 81],
+        },
+        {
                 "name": "FlightTest era",
                 "researchAgreementCost": 400,
                 "startingSettlerCount": 0,
