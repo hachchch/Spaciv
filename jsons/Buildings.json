@@ -8,7 +8,7 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","Provides [20] [Relation Score (United Nations)] <for [United Nations]>","Provides [20] [Relation Score (Martian)] <for [Martian]>","Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>"]
+		"uniques": ["Indicates the capital city","Provides [1] [Superunit limit]","Provides [20] [Relation Score (United Nations)] <for [United Nations]>","Provides [20] [Relation Score (Martian)] <for [Martian]>","Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>"]
 	},
 	{
 		"name": "Species cleansing",
