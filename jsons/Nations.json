@@ -5,7 +5,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0]
 	},
-	/nations
+	//nations
 	{
 		"name": "United Nations",
 		"leaderName": "Nasa",
