@@ -58,7 +58,7 @@
                 "name": "Solar Star",
                 "type": "Water",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [999] damage","Rare feature"],
+                "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [99] damage","Rare feature"],
 		"RGB": [43, 87, 151]
         },
         {
