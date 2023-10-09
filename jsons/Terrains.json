@@ -11,7 +11,7 @@
 		"food": 2,
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [0, 163, 0],
         },
         {
                 "name": "Stromat",
@@ -20,7 +20,7 @@
 		"production": 1,
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Stromat]","Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [136, 125, 112]
         },
         {
                 "name": "Regold",
@@ -28,7 +28,7 @@
                 "gold": 2,
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Regold]","Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [238, 239, 175]
         },
         {
                 "name": "Mars",
@@ -36,7 +36,7 @@
                 "production": 2,
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Mars]","Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [171, 79, 76]
         },
         {
                 "name": "Lunar",
@@ -45,21 +45,21 @@
                 "gold": 1,
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Lunar]","Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [180, 200, 200]
         },
         {
                 "name": "Gas",
                 "type": "Water",
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [128, 125, 71]
         },
         {
                 "name": "Solar Star",
                 "type": "Water",
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [99] damage","Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [255, 255, 70]
         },
         {
                 "name": "Nebula",
@@ -68,6 +68,6 @@
                 "gold": 3,
 		"occursOn": ["Space"],
                 "uniques": ["Rare feature"],
-		"RGB": [43, 87, 151]
+		"RGB": [60, 87, 151]
         },
 ]
