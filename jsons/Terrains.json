@@ -16,10 +16,9 @@
 	{
 		"name": "Snow",
 		"type": "Land",
-		"food": 2,
 		"movementCost": 1,
                 "uniques": ["Neighboring tiles will convert to [Snow]","Rare feature"],
-		"RGB": [0, 163, 0],
+		"RGB": [255, 255, 255],
 	},
         {
                 "name": "Stromat",
