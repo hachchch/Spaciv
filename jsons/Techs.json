@@ -101,21 +101,21 @@
 				"row": 1,
 				"prerequisites": ["Liquid Propellant","Smart Phone"],
 				"quote": "",
-				"uniques": ["Enables embarkation for land units"],
+				"uniques": ["Discover [Beyond]"],
 			},
 			{
 				"name": "Hovering",
 				"row": 4,
 				"prerequisites": ["Sublight speed","Plasma control"],
 				"quote": "",
-				"uniques": ["Enables embarkation for land units"],
+				"uniques": ["Discover [Beyond]"],
 			},
 			{
 				"name": "Warp hole",
-				"row": 7,
+				"row": 8,
 				"prerequisites": ["Acid processing","The Eon"],
 				"quote": "",
-				"uniques": ["Enables embarkation for land units"],
+				"uniques": ["Discover [Beyond]"],
 			},
                 ]
         },
@@ -129,30 +129,33 @@
             {
                 "name": "Beyond",
                 "row": 6,
-				"quote": "",
-				"uniques": [""],
+		"quote": "",
+		"uniques": ["Only available <after discovering [Beyond]>","Enables embarkation for land units"],
                 }
             ]
         },
     {
         "columnNumber": 4,
 		"era": "Research era",
-		"techCost": 230,
-		"buildingCost": 400,
-		"wonderCost": 400,
+		"techCost": 260,
+		"buildingCost": 250,
+		"wonderCost": 450,
 		"techs": [
             {
                 "name": "Space Meteorology",
                 "row": 6,
-				"quote": "",
+		    "prerequisites": ["Beyond"],
+		"quote": "",
                 },
             {
                 "name": "Event Horizon",
+		    "prerequisites": ["Beyond"],
                 "row": 3,
                 "quote": "",
                 },
             {
                 "name": "Heliophysics",
+		    "prerequisites": ["Beyond"],
                 "row": 9,
                 },
             ]
@@ -160,36 +163,44 @@
     {
         "columnNumber": 5,
 		"era": "Research era",
-		"techCost": 230,
-		"buildingCost": 400,
-		"wonderCost": 400,
+		"techCost": 300,
+		"buildingCost": 300,
+		"wonderCost": 600,
 		"techs": [
             {
                 "name": "Solar Industry",
+		    "prerequisites": ["Heliophysics"],
                 "row": 8,
                 },
             {
                 "name": "Solar Shield",
+		    "prerequisites": ["Heliophysics"],
                 "row": 9,
+		"uniques": ["Units don't take damage from Solar tile"]
                 },
             {
                 "name": "Terraforming",
+		    "prerequisites": ["Space Meteorology"],
                 "row": 7,
                 },
             {
                 "name": "Urban Satellite",
+		    "prerequisites": ["Space Meteorology"],
                 "row": 5,
                 },
             {
                 "name": "White Hole",
+		    "prerequisites": ["Event Horizon"],
                 "row": 1,
                 },
             {
                 "name": "Gravitational Optics",
+		    "prerequisites": ["Event Horizon"],
                 "row": 2,
                 },
             {
                 "name": "Quasar",
+		    "prerequisites": ["Event Horizon"],
                 "row": 3,
             }
             ]
@@ -197,20 +208,23 @@
     {
         "columnNumber": 6,
 		"era": "Techno era",
-		"techCost": 230,
-		"buildingCost": 400,
-		"wonderCost": 400,
+		"techCost": 340,
+		"buildingCost": 350,
+		"wonderCost": 700,
 		"techs": [
             {
                 "name": "Gamma-Ray Burst Weapon",
+		    "prerequisites": ["Quasar","Urban Satellite"],
                 "row": 4,
                 },
             {
                 "name": "Superfluidity",
+		    "prerequisites": ["Solor Industry","Solor Shield"],
                 "row": 8,
                 },
             {
                 "name": "Automatic Terraforming System",
+		    "prerequisites": ["Terraforming","Urban Satellite"],
                 "row": 6,
                 },
             ]
