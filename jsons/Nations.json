@@ -111,8 +111,8 @@
                 "innerColor": [255,167,165],
 		"uniqueName": "53Kelvin Survival",
 		"style": "Gley",
-		"uniques": ["","Starts with [Unified theory]","[+25]% Strength <for [All] units> <when defending> <in [Snow] tiles>"],
-		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1"],
+		"uniques": ["Alien","Starts with [Unified theory]","[+25]% Strength <for [All] units> <when defending> <in [Snow] tiles>"],
+		"cities": ["Triton","GDS-89","Kuiper"],
         },
     	// Trans Neptunian
    	{
