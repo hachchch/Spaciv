@@ -325,7 +325,7 @@
 		"requiredTech": "Space Engineering",
 		"uniques": ["[+50]% Strength <vs [Battleship] units>",
 			"[+25]% Strength <vs [Space Craft] units>",
-			"Only available <in cities with a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
 	},
 	{
 		"name": "Destroyer",
@@ -338,7 +338,7 @@
 		"cost": 80,
 		"requiredTech": "Space Engineering",
 		"uniques": ["[+25]% Strength <vs [Corvette] units> <when attacking>",
-			"Only available <in cities with a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
 	},
 	{
 		"name": "Cruiser",
@@ -351,7 +351,7 @@
 		"cost": 160,
 		"requiredTech": "Space Engineering",
 		"uniques": ["[+25]% Strength <vs [Destroyer] units> <when attacking>",
-			"Only available <in cities with a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
 	},
 	{
 		"name": "Battleship",
@@ -365,7 +365,7 @@
 		"requiredTech": "Space Engineering",
 		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>",
 			"[-25]% Strength <vs [Bomber] units> <when defending>",
-			"Only available <in cities with a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
 	},
 	{
 		"name": "Carrier",
@@ -377,7 +377,7 @@
 		"requiredTech": "Space Engineering",
 		"uniques": ["[+50]% Strength <vs [Interceptor] units> <when defending>",
 			"Can carry [2] [Space Craft] units",
-			"Only available <in cities with a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
 	},
 	{
 		"name": "Interceptor",
@@ -393,7 +393,7 @@
 		"uniques": [
 			"[100]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Bomber] units>",
-			"Only available <if [Space Station] is constructed>"],
+			"Unbuildable <in cities without a [Space Station]>"],
 	},
 	{
 		"name": "Bomber",
