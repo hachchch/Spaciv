@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Civilian",
+        "movementType": "Land"
+    },
+    {
+        "name": "Scout",
+        "movementType": "Land",
+        "uniques": ["[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","[+1] Sight"],
+    },
+    {
+        "name": "Death",
+        "movementType": "Land",
+    },
+    {
+        "name": "Xeno Entity",
+        "movementType": "Land"
+    },
+    {
+        "name": "Gunpowder",
+        "movementType": "Land"
+    },
+    {
+        "name": "Laser",
+        "movementType": "Land"
+    },
+    {
+        "name": "Spaceship",
+        "movementType": "Water",
+	"uniques": ["Unable to capture cities",
+			"Only available <if [Spaceship Factory] is constructed>"]
+    },
+    {
+        "name": "Carrier",
+        "movementType": "Water",
+	"uniques": ["Cannot attack",
+			"Unable to capture cities"]
+    },
+    {
+        "name": "Space Craft",
+        "movementType": "Air",
+	"uniques": ["[-25]% Strength <when fighting in [Land] tiles>"]
+    },
+    {
+        "name": "Atmo Craft",
+        "movementType": "Air",
+	"uniques": ["[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
+    },
+
+
+]
