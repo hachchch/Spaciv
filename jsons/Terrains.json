@@ -13,6 +13,14 @@
                 "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature"],
 		"RGB": [0, 163, 0],
         },
+	{
+		"name": "Snow",
+		"type": "Land",
+		"food": 2,
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Snow]","Rare feature"],
+		"RGB": [0, 163, 0],
+	},
         {
                 "name": "Stromat",
 		"type": "Land",
