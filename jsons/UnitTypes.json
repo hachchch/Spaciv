@@ -27,12 +27,12 @@
     {
         "name": "Spaceship",
         // "movementType": "Land",
-	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking"]
+	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
     },
     {
         "name": "Carrier",
         // "movementType": "Land",
-	"uniques": ["Cannot attack","May travel on Water tiles without embarking"]
+	"uniques": ["Cannot attack","May travel on Water tiles without embarking","All tiles cost 1 movement"]
     },
     {
         "name": "Space Craft",
