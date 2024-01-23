@@ -26,15 +26,13 @@
     },
     {
         "name": "Spaceship",
-        "movementType": "Water",
-	"uniques": ["Unable to capture cities",
-			"Only available <if [Spaceship Factory] is constructed>"]
+        "movementType": "Land",
+	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking"]
     },
     {
         "name": "Carrier",
-        "movementType": "Water",
-	"uniques": ["Cannot attack",
-			"Unable to capture cities"]
+        "movementType": "Land",
+	"uniques": ["Cannot attack","May travel on Water tiles without embarking"]
     },
     {
         "name": "Space Craft",
@@ -46,6 +44,4 @@
         "movementType": "Air",
 	"uniques": ["[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
     },
-
-
 ]
