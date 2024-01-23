@@ -394,4 +394,13 @@
 			"[75]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Bomber] units>"],
 	},
+	// uniques
+	{
+		"name": "Voyager I",
+		"unitType": "Spaceship",
+		"cost": 1,
+		"movement": 2,
+		"strength": 10,
+		"uniques": ["Unbuildable","[-1] Sight","[-100]% Strength <vs [Land] units>"]
+	},
 ]
