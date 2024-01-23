@@ -26,7 +26,9 @@
                 "innerColor": [255,255,255],
 		"style": "Human",
 		"uniqueName": "Information World",
-		"uniques": ["Starts with [Information era]","[+1] Sight <for [Scout] units>", "[-50]% Gold cost of acquiring tiles [in all cities]","[+1 Happiness] per [3] population [in all cities] <during a Golden Age>"],
+		"uniques": ["Human","Starts with [Information era]","[+1] Sight <for [Scout] units>",
+			"[+1 Happiness] per [3] population [in all cities] <during a Golden Age>",
+			"City-State territory always counts as friendly territory"],
 		"cities": ["New York","London","Tokyo","Berlin","Rome","Constantinople","Cape Town"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
@@ -49,7 +51,7 @@
                 "innerColor": [255,255,255],
 		"style": "Human",
 		"uniqueName": "Chang'e Program",
-		"uniques": ["Starts with [Information era]","[+15]% [Science] <before discovering [Beyond]>"],
+		"uniques": ["Human","Starts with [Information era]",""],
 		"cities": ["Moscow","Vostochny","Baikonur"],
         },
     {
@@ -70,8 +72,9 @@
                 "outerColor": [ 28,51,119],
                 "innerColor": [255,255,255],
 		"style": "Human",
-		"uniqueName": "NIIP-5",
-		"uniques": ["Starts with [Information era]","[+15]% [Science] <before discovering [Beyond]>"],
+		"uniqueName": "Soviet's Bequest",
+		"uniques": ["Starts with [Information era]",
+			"[+15]% [Science] <before discovering [Beyond]>"],
 		"cities": ["Moscow","Vostochny","Baikonur"],
         },
     // Aliens
