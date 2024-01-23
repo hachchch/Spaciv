@@ -29,7 +29,7 @@
 		"uniques": ["Human","Starts with [Information era]","[+1] Sight <for [Scout] units>",
 			"[+1 Happiness] per [3] population [in all cities] <during a Golden Age>",
 			"City-State territory always counts as friendly territory"],
-		"cities": ["New York","London","Tokyo","Berlin","Rome","Constantinople","Cape Town"],
+		"cities": ["New York","Berlin","London","Tokyo","Rome","Constantinople","Cape Town"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
     {
@@ -51,8 +51,10 @@
                 "innerColor": [255,255,255],
 		"style": "Human",
 		"uniqueName": "Chang'e Program",
-		"uniques": ["Human","Starts with [Information era]",""],
-		"cities": ["Moscow","Vostochny","Baikonur"],
+		"uniques": ["Human","Starts with [Information era]",
+			"[+1 Food] from [Dome] tiles [in all cities]",
+			"[+20]% Production when constructing [Missile] units [in all cities]"],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong"],
         },
     {
         "name": "Roscosmos",
@@ -73,7 +75,9 @@
                 "innerColor": [255,255,255],
 		"style": "Human",
 		"uniqueName": "Soviet's Bequest",
-		"uniques": ["Starts with [Information era]",
+		"uniques": ["Human","Starts with [Information era]",
+			"Voyager 1 will be sent at the start of the game, allowing space exploration in the early stages.",
+			"Gain a free [Free Voyager] [in capital] <when not at war> <hidden from users>",
 			"[+15]% [Science] <before discovering [Beyond]>"],
 		"cities": ["Moscow","Vostochny","Baikonur"],
         },
@@ -88,16 +92,18 @@
 		"startIntroPart2": "",
 		"outerColor": [138,50,70],
                 "innerColor": [255,167,165],
-		"uniqueName": "Unified theory",
+		"uniqueName": "Martian Engineers",
 		"style": "Gley",
-		"uniques": ["Starts with [Unified theory]"],
+		"uniques": ["Alien","Starts with [Unified theory]",
+			"Provides [1] [Superunit limit]",
+		"Double quantity of [Super Energy] produced"],
 		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1"],
         },
-    {
-        "name": "Neptunian",
+    	{
+        	"name": "Neptunian",
 		"leaderName": "King Halimede",
 		"adjective": ["Gley Alien"],
-		"startBias": ["Ice plains"],
+		"startBias": ["Snow"],
 		"preferredVictoryType": "Scientific",
                 "startIntroPart1": "",
 		"startIntroPart2": "",
@@ -105,13 +111,13 @@
                 "innerColor": [255,167,165],
 		"uniqueName": "53Kelvin Survival",
 		"style": "Gley",
-		"uniques": ["Starts with [Unified theory]","[+25]% Strength <for [All] units> <when defending> <in [Cold] tiles>"],
+		"uniques": ["","Starts with [Unified theory]","[+25]% Strength <for [All] units> <when defending> <in [Snow] tiles>"],
 		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1"],
         },
-    // Trans Neptunian
-    {
-        "name": "Empire",
-        "leaderName": "Emperor Bracton",
+    	// Trans Neptunian
+   	{
+        	"name": "Empire",
+       		"leaderName": "Emperor Bracton",
 		"adjective": ["Alien"],
 		"startBias": ["Avoid [Earth]"],
 		"preferredVictoryType": "Domination",
@@ -121,7 +127,7 @@
                 "innerColor": [255,167,165],
 		"uniqueName": "Naval Race",
 		"style": "Human", // I imagine it Human like Nation. but not on earth so... Star wars Like Nation?
-		"uniques": ["Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>"],
+		"uniques": ["Human","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [cityFilter]"],
 		"cities": ["Nibiru","Breslow Point","Terrus","Lagrange"],
         },
 	{
@@ -129,15 +135,15 @@
 		"leaderName": "qPQue",
 		"adjective": ["Xenon"],
 		"startBias": ["Avoid [Earth]","Avoid [Mars]"],
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Cultural",
                 "startIntroPart1": "",
 		"startIntroPart2": "",
 		"outerColor": [26,62,78],
                 "innerColor": [172,152,223],
-		"uniqueName": "Interspecies communication",
+		"uniqueName": "Interspecies Communication",
 		"style": "Xeno",
 		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
-		"uniques": ["Starts with [Xeno Life]"],
+		"uniques": ["Xeno","Starts with [Xeno Life]","[+1 Culture] per [3] population [in all cities]","[+1 Culture] from every specialist [in all cities]"],
 	},
 /*
 	//Barbarian
