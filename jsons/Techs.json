@@ -98,14 +98,14 @@
 		"techs": [
 			{
 				"name": "Space Engineering",
-				"row": 1,
+				"row": 2,
 				"prerequisites": ["Liquid Propellant","Smart Phone"],
 				"quote": "",
 				"uniques": ["Discover [Beyond]"],
 			},
 			{
 				"name": "Hovering",
-				"row": 4,
+				"row": 5,
 				"prerequisites": ["Sublight speed","Plasma control"],
 				"quote": "",
 				"uniques": ["Discover [Beyond]"],
@@ -128,7 +128,7 @@
 		"techs": [
             {
                 "name": "Beyond",
-                "row": 6,
+                "row": 5,
 		"quote": "",
 		"uniques": ["Only available <after discovering [Beyond]>","Enables embarkation for land units"],
                 }
@@ -219,7 +219,7 @@
                 },
             {
                 "name": "Superfluidity",
-		    "prerequisites": ["Solor Industry","Solor Shield"],
+		    "prerequisites": ["Solar Industry","Solar Shield"],
                 "row": 8,
                 },
             {
