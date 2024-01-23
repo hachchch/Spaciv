@@ -209,4 +209,9 @@
 		"requiredTech": "Acid processing",
 		"uniques": ["[+1 Gold, +1 Culture] from [Space] tiles [in this city]"],
 	},
+	{
+		"name": "Free Voyager",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable","Free [Voyager I] appears"]
+	},
 ]
