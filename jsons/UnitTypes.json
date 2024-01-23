@@ -26,12 +26,12 @@
     },
     {
         "name": "Spaceship",
-        "movementType": "Land",
+        // "movementType": "Land",
 	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking"]
     },
     {
         "name": "Carrier",
-        "movementType": "Land",
+        // "movementType": "Land",
 	"uniques": ["Cannot attack","May travel on Water tiles without embarking"]
     },
     {
