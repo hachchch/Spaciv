@@ -245,5 +245,38 @@
                 "row": 6,
                 },
             ]
-        }
+        },
+	{
+		"columnNumber": 7,
+		"era": "Techno era",
+		"techCost": 400,
+		"buildingCost": 400,
+		"wonderCost": 800,
+		"techs": [
+			{
+				"name": "Metaphysics",
+				"row": 4,
+				"prerequisites": ["Magnetogravitical Engineering","Gamma-Ray Burst Weapon"],
+			},
+			{
+				"name": "Superstrings",
+				"row": 6,
+				"prerequisites": ["Superfluidity","Automatic Terraforming System"]
+			}
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Techno era",
+		"techCost": 600,
+		"buildingCost": 600,
+		"wonderCost": 1200,
+		"techs": [
+			{
+				"name": "Meaning of Universe",
+				"row": 5,
+				"prerequisites": ["Superstrings","Metaphysics"]
+			}
+		]
+	}
 ]
