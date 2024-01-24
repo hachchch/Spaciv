@@ -17,7 +17,25 @@
 			"Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>",
 			"Provides [20] [Relation Score (Empire)] <for [Empire]>",
 			"Provides [20] [Relation Score (Neptunian)] <for [Neptunian]>",
+			"Gain a free [Government] [in all cities] <for [Human]>"
 		]
+	},
+	{
+		"name": "Government",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable",
+			"Gain a free [Earth] [in this city] <in [Earth] tiles>",
+		"Gain a free [Ocean] [in this city] <in [River] tiles>"]
+	},
+	{
+		"name": "Earth",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable"]
+	},
+	{
+		"name": "Ocean",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable"]
 	},
 	{
 		"name": "Species cleansing",
