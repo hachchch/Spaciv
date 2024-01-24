@@ -806,7 +806,7 @@
 		"rangedStrength": 8,
 		"cost": 42,
 		"requiredTech": "Information era",
-		"uniques": ["Submarine","Only available <in cities with a [Ocean]>","[+100]% Strength <vs [Human] units>","[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit","Can only attack [River] tiles","Double movement in [River]","Double movement in [Fresh water]"],
+		"uniques": ["Ignores terrain cost","Submarine","Only available <in cities with a [Ocean]>","[+100]% Strength <vs [Human] units>","[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit","Can only attack [River] tiles","Double movement in [River]","Double movement in [Fresh water]"],
 		"attackSound": "torpedo"
 	},
 	{
@@ -819,7 +819,7 @@
 		"interceptRange": 1,
 		"cost": 42,
 		"requiredTech": "Information era",
-		"uniques": ["Only available <in cities with a [Ocean]>","Can only attack [River] tiles","Double movement in [River]","Double movement in [Fresh water]","[+100]% Strength <vs [Human] units>","[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+		"uniques": ["Ignores terrain cost","Only available <in cities with a [Ocean]>","Can only attack [River] tiles","Double movement in [River]","Double movement in [Fresh water]","[+100]% Strength <vs [Human] units>","[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
 		// "promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
