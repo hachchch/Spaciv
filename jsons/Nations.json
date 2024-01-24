@@ -108,8 +108,8 @@
 		"preferredVictoryType": "Scientific",
                 "startIntroPart1": "",
 		"startIntroPart2": "",
-		"outerColor": [138,50,70],
-                "innerColor": [255,167,165],
+		"innerColor": [0,28,38],
+                "outerColor": [122,142,155],
 		"uniqueName": "53Kelvin Survival",
 		"style": "Gley",
 		"uniques": ["Alien","Starts with [Unified theory]","[+25]% Strength <for [All] units> <when defending> <in [Snow] tiles>"],
@@ -124,8 +124,8 @@
 		"preferredVictoryType": "Domination",
                 "startIntroPart1": "",
 		"startIntroPart2": "",
-		"outerColor": [138,50,70],
-                "innerColor": [255,167,165],
+		"outerColor": [15,0,0],
+                "innerColor": [125,10,15],
 		"uniqueName": "Naval Race",
 		"style": "Human", // I imagine it Human like Nation. but not on earth so... Star wars Like Nation?
 		"uniques": ["Human","Starts with [Information era]","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [in all cities]"],
@@ -165,7 +165,7 @@
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
-		"innerColor": [203, 253, 232],
+		"innerColor": [150, 150, 150],
 		"cities": ["SpaceX"]
 	},
 	{
