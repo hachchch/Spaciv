@@ -29,7 +29,7 @@
 		"uniques": ["Human","Starts with [Information era]","[+1] Sight <for [Scout] units>",
 			"[+1 Happiness] per [3] population [in all cities] <during a Golden Age>",
 			"City-State territory always counts as friendly territory"],
-		"cities": ["New York","Berlin","London","Tokyo","Rome","Constantinople","Cape Town"],
+		"cities": ["New York","London","Rome","Constantinople","Cape Town"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
     {
@@ -153,9 +153,55 @@
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging"]
-	}
+	},
 */
 	// City states
 	{
+		"name": "SpaceX",
+		"adjective": ["SpaceX"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [203, 253, 232],
+		"cities": ["SpaceX"]
+	},
+	{
+		"name": "Canada",
+		"adjective": ["Canadian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [203, 253, 232],
+		"cities": ["Ottawa"]
+	},
+	{
+		"name": "Japan",
+		"adjective": ["Japanese"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [255, 255, 255],
+		"cities": ["Tokyo"]
+	},
+	{
+		"name": "Germany",
+		"adjective": ["German"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100, 100, 100],
+		"cities": ["Berlin"]
 	},
 ]
