@@ -57,6 +57,7 @@
 		"hurryCostModifier": 0,
 		"uniques": ["Only available <for [Alien]>","Provides [1] [Super Energy]"],
 	},
+	// about Space ship
 	{
 		"name": "Spaceship Factory",
 		"requiredTech": "Space Engineering",
@@ -78,6 +79,16 @@
 		"production": 2,
 		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Space]"],
 	},
+	{
+		"name": "Vacuum Shipyard",
+		"requiredTech": "Commercial Space Flight",
+		"requiredBuilding": "Shipbuilding Capability",
+		"cost": 100,
+		"production": 2,
+		"uniques": ["Must be next to [Space]","Destroyed when the city is captured",
+			"[+15]% Production when constructing [Spaceship] units [in this city]",],
+	},
+	// Other
 	{
 		"name": "Mind Control Pulse",
 		"requiredTech": "The Eon",
