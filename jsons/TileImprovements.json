@@ -86,7 +86,7 @@
 	{
 		"name": "Hadron Collider",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 1,
+		// "production": 1,
 		"turnsToBuild": 10,
 		"uniques": ["Provides [1] [Super Energy] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "C"
@@ -94,7 +94,7 @@
 	{
 		"name": "Acid Furnace",
 		"terrainsCanBeBuiltOn": ["Land"],
-		"production": 1,
+		// "production": 1,
 		"turnsToBuild": 10,
 		"uniques": ["Provides [1] [Encid] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "C"
