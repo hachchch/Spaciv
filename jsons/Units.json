@@ -275,14 +275,22 @@
 		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [1]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
 	},
 	//Spacecraft&Stuff
-	
+	{
+		"name": "Nanocraft",
+		"unitType": "Space Object",
+		"movement": 5,
+		"strength": 8,
+		"attackSound": "torpedo",
+		"cost": 40,
+		"requiredTech": "Light Sail",
+	},
 	{
 		"name": "Corvette",
 		"unitType": "Spaceship",
 		"movement": 5,
 		"strength": 10,
 		"attackSound": "torpedo",
-		"cost": 40,
+		"cost": 60,
 		"requiredTech": "Beyond",
 		"uniques": ["[+50]% Strength <vs [Battleship] units>",
 			"[+25]% Strength <vs [Space Craft] units>",
@@ -296,7 +304,7 @@
 		"rangedStrength": 15,
 		"strength": 20,
 		"attackSound": "machinegun",
-		"cost": 80,
+		"cost": 120,
 		"requiredTech": "Beyond",
 		"uniques": ["[+25]% Strength <vs [Corvette] units> <when attacking>",
 			"Unbuildable <in cities without a [Spaceship Factory]>"],
@@ -310,7 +318,7 @@
 		"strength": 25,
 		"attackSound": "tankshot",
 		"cost": 160,
-		"requiredTech": "Beyond",
+		"requiredTech": "Magnetogravitical Engineering",
 		"uniques": ["[+25]% Strength <vs [Destroyer] units> <when attacking>",
 			"Unbuildable <in cities without a [Spaceship Factory]>"],
 	},
@@ -323,7 +331,7 @@
 		"strength": 30,
 		"attackSound": "shipguns",
 		"cost": 320,
-		"requiredTech": "Beyond",
+		"requiredTech": "Magnetogravitical Engineering",
 		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>",
 			"[-25]% Strength <vs [Bomber] units> <when defending>",
 			"Unbuildable <in cities without a [Spaceship Factory]>"],
@@ -387,8 +395,8 @@
 	},
 	// uniques
 	{
-		"name": "Voyager I",
-		"unitType": "Voyager",
+		"name": "Sputnik I",
+		"unitType": "Space Object",
 		"cost": 1,
 		"movement": 2,
 		"strength": 10,
