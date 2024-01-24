@@ -388,10 +388,10 @@
 	// uniques
 	{
 		"name": "Voyager I",
-		"unitType": "Spaceship",
+		"unitType": "Voyager",
 		"cost": 1,
 		"movement": 2,
 		"strength": 10,
-		"uniques": ["Unbuildable","[-1] Sight","[-100]% Strength <vs [Land] units>"]
+		"uniques": ["Unbuildable","[-1] Sight"]
 	},
 ]
