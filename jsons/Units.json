@@ -697,8 +697,8 @@
 		"rangedStrength": 24,
 		"range": 12,
 		"cost": 220,
-		"requiredTech": "Liquid Propellant",
-		"uniques": ["[+100]% Strength <when attacking>","[-100]% maintenance costs"],
+		"requiredTech": "Space Meteorology",
+		"uniques": ["Only available <for [Human]>","[+100]% Strength <when attacking>","[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
 	// War on Earth
@@ -707,6 +707,16 @@
 	// but It will be useful for earth domination or unification.
 	{
 		"name": "Nuclear Missile",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 30,
+		"rangedStrength": 30,
+		"range": 4,
+		"cost": 100,
+		"requiredTech": "Information era",
+		"uniques": ["[+100]% Strength <when attacking> <vs [Human] units>","Nuclear weapon of Strength [1] <when at war>", "Only available <for [Human]>",
+			"Blast radius [1] <when at war>"],
+		"attackSound": "nuke"
 	},
 	{
 		"name": "Jet Fighter",
