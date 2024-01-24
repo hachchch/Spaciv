@@ -1,0 +1,14 @@
+[
+        {
+                "name": "Xeno Technology", // These will connects to a dedicated promotion tree.
+                "uniques": ["[+25]% Strength <vs [Alien Technology] units>"],
+        },
+        {
+                "name": "Human Technology",
+                "uniques": ["[+25]% Strength <vs [Xeno Technology] units>"],
+        },
+        {
+                "name": "Alien Technology",
+                "uniques": ["[+25]% Strength <vs [Human Technology] units>"],
+        }
+]
