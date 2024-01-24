@@ -27,7 +27,7 @@
 	{
 		"name": "Voyager",
         // "movementType": "Land",
-	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack"]
 	},
     {
         "name": "Spaceship",
