@@ -1,5 +1,9 @@
 [
         {
+                "name": "Space Force",
+                "uniques": ["Can Embark <after discovering [Space Engineering]>"]
+        },
+        {
                 "name": "Xeno Technology", // These will connects to a dedicated promotion tree.
                 "uniques": ["[+25]% Strength <vs [Alien Technology] units>"],
         },
