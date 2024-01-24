@@ -66,7 +66,7 @@
 		"requiredTech": "Space Engineering",
 		"cost": 60,
 		"production": 2,
-		"uniques": ["Connects trade routes over water","Must be next to [Space]"],
+		"uniques": ["Launch site","Connects trade routes over water","Must be next to [Space]"],
 	},
 	{
 		"name": "UFO Facility",
@@ -74,7 +74,7 @@
 		"requiredTech": "Hovering",
 		"cost": 60,
 		"production": 2,
-		"uniques": ["Connects trade routes over water","Must be next to [Space]"],
+		"uniques": ["Launch site","Connects trade routes over water","Must be next to [Space]"],
 	},
 	{
 		"name": "Warp hole Generator",
@@ -82,7 +82,7 @@
 		"requiredTech": "Warp hole",
 		"cost": 60,
 		"production": 2,
-		"uniques": ["Connects trade routes over water","Must be next to [Space]"],
+		"uniques": ["Launch site","Connects trade routes over water","Must be next to [Space]"],
 	},
 	{
 		"name": "Mind Control Pulse",
