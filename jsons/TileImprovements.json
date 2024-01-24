@@ -14,7 +14,7 @@
 		"terrainsCanBeBuiltOn": ["Earth"],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]"],
+		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Food Source"],
 		"shortcutKey": "F"
 	},
 	{
@@ -22,7 +22,7 @@
 		"terrainsCanBeBuiltOn": ["Lunar","Mars","Stromat","Regold"],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
 		"shortcutKey": "D"
 	},
 	{
@@ -30,7 +30,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Food] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["[+1 Food] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
 		"shortcutKey": "H"
 	},
 	{
@@ -39,7 +39,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Food] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["[+1 Food] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
 		"shortcutKey": "B"
 	},
 	{
@@ -47,7 +47,7 @@
 		"terrainsCanBeBuiltOn": ["Earth"],
 		"production": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]"],
+		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility"],
 		"shortcutKey": "F"
 	},
 	{
@@ -55,7 +55,7 @@
 		"terrainsCanBeBuiltOn": ["Lunar","Mars","Stromat","Regold"],
 		"production": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Production Facility"],
 		"shortcutKey": "M"
 	},
 	{
@@ -63,7 +63,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Production] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["[+1 Production] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Production Facility"],
 		"shortcutKey": "X"
 	},
 	{
@@ -71,7 +71,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Production] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]"],
+		"uniques": ["[+1 Production] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Production Facility"],
 		"shortcutKey": "C"
 	},
 	{

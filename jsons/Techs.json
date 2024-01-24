@@ -198,22 +198,20 @@
 		    		"prerequisites": ["Light Sail"],
                 		"row": 1,
 			},
-			/*
             {
                 "name": "White Hole",
-		    "prerequisites": ["Event Horizon"],
-                "row": 1,
-                },
-			*/
-            {
-                "name": "Gravitational Optics",
 		    "prerequisites": ["Event Horizon"],
                 "row": 2,
                 },
             {
-                "name": "Quasar",
+                "name": "Gravitational Optics",
 		    "prerequisites": ["Event Horizon"],
                 "row": 3,
+                },
+            {
+                "name": "Quasar",
+		    "prerequisites": ["Event Horizon"],
+                "row": 4,
             }
             ]
             },

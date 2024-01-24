@@ -215,7 +215,8 @@
             {
                 "name": "Freedom Complete",
                 "uniques": [
-                    "[+50]% Yield from every [Food]",
+                    "[+20]% Yield from every [Food Source]",
+                    "[+1 Happiness, +1 Culture] from [Food Source] tiles [in all cities]",
                     "[+50]% Golden Age length",
                 ]
             }

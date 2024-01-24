@@ -275,6 +275,7 @@
 		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [1]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
 	},
 	//Spacecraft&Stuff
+	
 	{
 		"name": "Nanocraft",
 		"unitType": "Space Object",
@@ -331,7 +332,7 @@
 		"strength": 30,
 		"attackSound": "shipguns",
 		"cost": 320,
-		"requiredTech": "Magnetogravitical Engineering",
+		"requiredTech": "Beyond",
 		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>",
 			"[-25]% Strength <vs [Bomber] units> <when defending>",
 			"Unbuildable <in cities without a [Spaceship Factory]>"],
@@ -352,8 +353,8 @@
 		"name": "Interceptor",
 		"unitType": "Space Craft",
 		"movement": 1,
-		"strength": 10,
-		"rangedStrength": 10,
+		"strength": 15,
+		"rangedStrength": 15,
 		"range": 3,
 		"interceptRange": 3,
 		"attackSound": "jetgun",
@@ -382,10 +383,10 @@
 		"name": "Fighter",
 		"unitType": "Atmo Craft",
 		"movement": 1,
-		"strength": 10,
-		"rangedStrength": 10,
-		"range": 2,
-		"interceptRange": 2,
+		"strength": 15,
+		"rangedStrength": 15,
+		"range": 3,
+		"interceptRange": 3,
 		"attackSound": "machinegun",
 		"cost": 50,
 		"requiredTech": "Liquid Propellant",
