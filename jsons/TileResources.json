@@ -104,7 +104,7 @@
 		"terrainsCanBeFoundOn": ["Stromat"],
 		"food": 1,
 		"improvedBy": ["Farm", "Breeding Facility","Xenohive"],
-		"improvementStats": {"food": 3},
+		"improvementStats": {"food": 1},
 	},
 	{
 		"name": "Gems",
