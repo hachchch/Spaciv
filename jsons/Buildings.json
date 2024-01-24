@@ -227,7 +227,7 @@
 		"name": "Apollo 11",
 		"isWonder": true,
 		"requiredTech": "Liquid Propellant",
-		"uniques": ["Reveal up to ['all'] [Lunar] within a [11] tile radius"]
+		"uniques": ["Reveal up to [110] [Lunar] within a [11] tile radius"]
 	},
 	{
 		"name": "Apollo 13",
@@ -239,6 +239,6 @@
 		"name": "Voyager",
 		"isWonder": true,
 		"requiredTech": "Liquid Propellant",
-		"uniques": ["Reveal up to ['all'] [Water] within a [30] tile radius"]
+		"uniques": ["Reveal up to [200] [Water] within a [30] tile radius"]
 	},
 ]
