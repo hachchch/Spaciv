@@ -1,7 +1,8 @@
 [
         {
-                "name": "Space",
+                "name": "Ocean",
 		"type": "Water",
+		"uniques": ["Space"],
 		"movementCost": 1,
 		"RGB": [43, 87, 151]
         },
