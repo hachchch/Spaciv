@@ -235,6 +235,64 @@
 		"requiredTech": "Acid processing",
 		"uniques": ["Only available <for [Xeno]>","[+1 Faith] from [Space] tiles [in this city]"], // +1 Faith is unique point for xenos
 	},
+	// after Beyond
+	{
+		"name": "Sugar Mill",
+		"happiness": 3,
+		"gold": 1,
+		"requiredTech": "Beyond",
+		"uniques": ["Consumes [1] [Amino Metal]"]
+	},
+	// About Terraform
+	{
+		"name": "Cyanobacteria Plantation",
+		"happiness": 3,
+		"requiredTech": "Terraforming",
+	},
+	{
+		"name": "Cyanobacteria Plantation",
+		"happiness": 3,
+		"requiredTech": "Terraforming",
+	},
+	{
+		"name": "Cyanobacteria Plantation",
+		"happiness": 3,
+		"requiredTech": "Terraforming",
+	},
+	{
+		"name": "AI Terraforming Program",
+		"isNationalWonder": true,
+		"happiness": 3,
+		"requiredTech": "Automatic Terraforming System",
+		"uniques": ["Consume [1] [Prismaxium]","Consume [1] [Neptunium]"]
+	},
+	// Resource Making
+	{
+		"name": "Neptunium Reactor",
+		"production": 2,
+		"requiredTech": "Beyond",
+		"uniques": ["Provides [2] [Neptunium]","Provides [2] [Neptunium] <after discovering [Solar Industry]>"]
+	},
+	// About Heliophysics
+	{
+		"name": "Dyson Sphere",
+		"production": 3,
+		"gold": 4,
+		"requiredTech": "Solar Industry",
+		"uniques": ["Must have an owned [Solar Star] within [3] tiles","Provides [5] [Power] <for [Human]>","Provides [5] [Super Energy] <for [Alien]>","[+5 Faith] <for [Xeno]>"]
+	},
+	{
+		"name": "Mega Solar Farm",
+		"uniques": [""]
+	},
+	{
+		"name": "Solar Fusion Plant",
+		"uniques": [""]
+	},
+	{
+		"name": "Solar Wind Accelerator",
+		"uniques": [""]
+	},
 	// Special
 	{
 		"name": "Free Sputnik",
