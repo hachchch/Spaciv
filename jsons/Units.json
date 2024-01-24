@@ -17,6 +17,7 @@
 		"movement": 2,
 		// "requiredTech": "Information era",
 		"uniques": ["Can build [Farm] improvements on tiles",
+			"[-50]% construction time for [Production Facility] improvements",
 			"Can build [Breeding Facility] improvements on tiles",
 			"Automation is a primary action",
 		"Can build [Industry] improvements on tiles <in [Strategic resource] tiles>","Can build [Compounds] improvements on tiles","Uncapturable"],
