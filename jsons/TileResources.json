@@ -3,6 +3,7 @@
                 "name": "Power",
 		"resourceType": "Strategic",
 		"revealedBy": "Liquid Propellant",
+		"uniques": ["Stockpiled"]
 		"gold": 1,
         },
         {
@@ -10,13 +11,43 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Sublight speed",
 		"science": 1,
+		"uniques": ["Stockpiled"]
         },
         {
                 "name": "Encid",
 		"resourceType": "Strategic",
 		"revealedBy": "Acid processing",
 		"food": 1,
+		"uniques": ["Stockpiled"]
         },
+	// uniresource
+	{
+		"name": "Neptunium",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+	},
+	{
+		"name": "Dominium",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+	},
+	{
+		"name": "Prismaxium",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+	},
+	{
+		"name": "Amino Metal",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+	},
+	{
+		"name": "Neodymium", // Resource for Gauss cannon
+		"revealedBy": "Beyond",
+		"resourceType": "Strategic",
+		"uniques": ["City-level resource"]
+	},
+	// Luxury
 	{
 		"name": "Gold Ore",
 		"resourceType": "Luxury",
