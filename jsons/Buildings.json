@@ -247,29 +247,29 @@
 	{
 		"name": "Cyanobacteria Plantation",
 		"happiness": 2,
-		"food": 2,
-		"uniques": ["Only available <for [Human]>","Must be on [non-[Earth]]"]
+		// "food": 2,
+		"uniques": ["[+1 Food] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]"]
 		"requiredTech": "Terraforming",
 	},
 	{
 		"name": "Groundwater Dam",
 		"happiness": 2,
-		"food": 2,
-		"uniques": ["Only available <for [Human]>","Must be on [non-[Earth]]"]
+		// "food": 2,
+		"uniques": ["[+1 Production] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]"]
 		"requiredTech": "Terraforming",
 	},
 	{
 		"name": "Virus Extermination",
 		"happiness": 2,
-		"food": 2,
-		"uniques": ["Only available <for [non-[Human]]>","Must be on [Earth]"]
+		// "food": 2,
+		"uniques": ["[+1 Food] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]"]
 		"requiredTech": "Terraforming",
 	},
 	{
 		"name": "Cooling Facility",
 		"happiness": 2,
-		"food": 2,
-		"uniques": ["Only available <for [non-[Human]]>","Must be on [Earth]"]
+		// "food": 2,
+		"uniques": ["[+1 Production] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]"]
 		"requiredTech": "Terraforming",
 	},
 	{
