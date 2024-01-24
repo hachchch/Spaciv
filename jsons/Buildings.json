@@ -8,8 +8,16 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city","Provides [1] [Superunit limit]","Provides [20] [Relation Score (United Nations)] <for [United Nations]>","Provides [20] [Relation Score (Martian)] <for [Martian]>","Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>",
-		"[+2] Movement <for [Comment [Test Filter]] units> <for [99] turns>"]
+		"uniques": ["Indicates the capital city",
+			"Provides [1] [Superunit limit]",
+			"Provides [20] [Relation Score (United Nations)] <for [United Nations]>",
+			"Provides [20] [Relation Score (Roscosmos)] <for [Roscosmos]>",
+			"Provides [20] [Relation Score (CNSA)] <for [CNSA]>",
+			"Provides [20] [Relation Score (Martian)] <for [Martian]>",
+			"Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>",
+			"Provides [20] [Relation Score (Empire)] <for [Empire]>",
+			"Provides [20] [Relation Score (Neptunian)] <for [Neptunian]>",
+		]
 	},
 	{
 		"name": "Species cleansing",
