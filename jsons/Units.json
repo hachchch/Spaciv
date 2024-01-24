@@ -602,6 +602,45 @@
 			"[75]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Bomber] units>"],
 	},
+	// Late Game units
+	{
+		"name": "Solar Armored",
+		"strength": 30,
+		"movement": 4,
+		"attackSound": "tankshot",
+		"cost": 160,
+		"unitType": "Gunpowder",
+		"requiredTech": "Solar Shield",
+		"uniques": ["Can move after attacking","[+20]% Strength <when defending> <vs [Air] units>",
+			"[-2] Movement <when [Embarked]>","Only available <for [Human]>",
+			"[+25]% Strength <vs [Xeno Entity] units>"]
+	},
+	{
+		"name": "Felsian Xenohornet",
+		"strength": 25,
+		"movement": 3,
+		"attackSound": "machinegun",
+		"cost": 160,
+		"unitType": "Xeno Entity",
+		"requiredTech": "Solar Shield",
+		"uniques": ["May travel on Water tiles without embarking",
+			"[+25]% Strength <vs [Corvette] units>",
+			"May withdraw before melee ([50]%)","Only available <for [Xeno]>",
+			"[+25]% Strength <vs [Laser] units>"]
+	},
+	{
+		"name": "Solar Ray Blaster",
+		"strength": 25,
+		"range": 2,
+		"rangedStrength": 35,
+		"movement": 2,
+		"attackSound": "tankshot",
+		"cost": 160,
+		"unitType": "Laser",
+		"requiredTech": "Solar Shield",
+		"uniques": ["Only available <for [Alien]>",
+			"[+25]% Strength <vs [Gunpowder] units>"]
+	},
 	// uniques
 	{
 		"name": "Sputnik I",
