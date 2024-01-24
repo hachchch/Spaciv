@@ -96,7 +96,7 @@
 		]
 	},
 	{
-		"name": "Infantry (United Nations)",
+		"name": "Infantry (Human)",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
