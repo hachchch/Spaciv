@@ -54,4 +54,19 @@
         "movementType": "Air",
 	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
     },
+	{
+		"name": "Air Craft",
+        "movementType": "Air",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Can only attack [Land] tiles"]
+	},
+	{
+		"name": "Missile",
+       		 "movementType": "Air",
+        	"uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
+	},
+	{
+		"name": "Earth Soldiers",
+		"movementType": "Land",
+		"uniques": ["Cannot enter ocean tiles","Can only attack [Land] tiles"]
+	},
 ]
