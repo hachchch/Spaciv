@@ -30,16 +30,34 @@
 		"name": "Dominium",
 		"resourceType": "Strategic",
 		"revealedBy": "Beyond",
+		"terrainsCanBeFoundOn": ["Earth"],
+		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"production": 1,
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Prismaxium",
+		"terrainsCanBeFoundOn": ["Mars"],
+		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"production": 1,
+		"improvementStats": {"production": 1},
 		"resourceType": "Strategic",
 		"revealedBy": "Beyond",
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Amino Metal",
+		"terrainsCanBeFoundOn": ["Stromat"],
+		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"production": 1,
+		"improvementStats": {"production": 1},
 		"resourceType": "Strategic",
 		"revealedBy": "Beyond",
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Neodymium", // Resource for Gauss cannon
