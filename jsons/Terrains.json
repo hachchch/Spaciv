@@ -74,7 +74,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
                 "gold": 1,
-		"occursOn": ["Space"],
+		"occursOn": ["Ocean"],
                 "uniques": ["Rare feature"],
 		"RGB": [60, 87, 151]
         },
@@ -84,7 +84,7 @@
 		"movementCost": 2,
                 "gold": 1,
 		"production": 2,
-		"occursOn": ["Space"],
+		"occursOn": ["Ocean"],
                 "uniques": ["Rare feature"],
 		"RGB": [60, 87, 151]
 	}
