@@ -99,6 +99,7 @@
         },
         {
                 "name": "Infantry",
+		"promotions": ["Space Force"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
@@ -111,6 +112,7 @@
 	},
 	{
 		"name": "Infantry (Human)",
+		"promotions": ["Space Force"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
@@ -159,6 +161,7 @@
 	},
 	{
 		"name": "Mechanized Artillery",
+		"promotions": ["Space Force"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 18,
@@ -199,6 +202,7 @@
 	},
 	{
 		"name": "Mechanized Infantry",
+		"promotions": ["Space Force"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 12,
@@ -210,6 +214,7 @@
 	},
 	{
 		"name": "Mechanized Infantry (Human)",
+		"promotions": ["Space Force"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 12,
