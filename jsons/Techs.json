@@ -141,6 +141,11 @@
 		"buildingCost": 250,
 		"wonderCost": 450,
 		"techs": [
+			{
+				"name": "Light Sail",
+				"row": 1,
+				"uniques": ["[+1] Movement <for [Embarked] units>"]
+			},
             {
                 "name": "Space Meteorology",
                 "row": 6,
@@ -188,11 +193,18 @@
 		    "prerequisites": ["Space Meteorology"],
                 "row": 5,
                 },
+			{
+				"name": "Commercial Space Flight",
+		    		"prerequisites": ["Light Sail"],
+                		"row": 1,
+			},
+			/*
             {
                 "name": "White Hole",
 		    "prerequisites": ["Event Horizon"],
                 "row": 1,
                 },
+			*/
             {
                 "name": "Gravitational Optics",
 		    "prerequisites": ["Event Horizon"],
@@ -212,6 +224,11 @@
 		"buildingCost": 350,
 		"wonderCost": 700,
 		"techs": [
+			{
+				"name": "Magnetogravitical Engineering",
+		    		"prerequisites": ["Commercial Space Flight","Gravitational Optics"],
+                		"row": 1,
+			},
             {
                 "name": "Gamma-Ray Burst Weapon",
 		    "prerequisites": ["Quasar","Urban Satellite"],
