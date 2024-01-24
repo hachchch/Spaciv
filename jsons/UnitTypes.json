@@ -27,26 +27,26 @@
 	{
 		"name": "Space Object",
         // "movementType": "Land",
-	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack"]
+	"uniques": ["Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack"]
 	},
     {
         "name": "Spaceship",
         // "movementType": "Land",
-	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+	"uniques": ["Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
     },
     {
         "name": "Carrier",
         // "movementType": "Land",
-	"uniques": ["Cannot attack","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+	"uniques": ["Space","Cannot attack","May travel on Water tiles without embarking","All tiles cost 1 movement"]
     },
     {
         "name": "Space Craft",
         "movementType": "Air",
-	"uniques": ["[-25]% Strength <when fighting in [Land] tiles>"]
+	"uniques": ["Space","[-25]% Strength <when fighting in [Land] tiles>"]
     },
     {
         "name": "Atmo Craft",
         "movementType": "Air",
-	"uniques": ["[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
+	"uniques": ["Space","[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
     },
 ]
