@@ -72,7 +72,7 @@
                 "name": "Nebula",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-                "gold": 3,
+                "gold": 1,
 		"occursOn": ["Space"],
                 "uniques": ["Rare feature"],
 		"RGB": [60, 87, 151]
@@ -81,7 +81,8 @@
 		"name": "Asteroid Belt",
 		"type": "TerrainFeature",
 		"movementCost": 2,
-                "gold": 3,
+                "gold": 1,
+		"production": 2,
 		"occursOn": ["Space"],
                 "uniques": ["Rare feature"],
 		"RGB": [60, 87, 151]
