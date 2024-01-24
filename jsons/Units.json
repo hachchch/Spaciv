@@ -334,7 +334,7 @@
 		"interceptRange": 4,
 		"attackSound": "cannon",
 		"cost": 68,
-		"requiredTech": "Plasma Control",
+		"requiredTech": "Plasma control",
 		"uniques": [
 			"Only available <for [Alien]>",
 			"[50]% chance to intercept air attacks",
@@ -349,7 +349,7 @@
 		"range": 3,
 		"attackSound": "bombing",
 		"cost": 75,
-		"requiredTech": "Liquid Propellant",
+		"requiredTech": "Sublight speed",
 		"uniques": ["Bomber","Costs [8] [Super Energy]","[+50]% Strength <vs [Spaceship] units> <when attacking>",
 			"[+50]% Strength <vs [City] units> <when attacking>",
 			"Only available <in cities with a [UFO Facility]> <when above [7] [Super Energy]>"],
@@ -364,7 +364,7 @@
 		"interceptRange": 3,
 		"attackSound": "machinegun",
 		"cost": 50,
-		"requiredTech": "Plasma Control",
+		"requiredTech": "Plasma control",
 		"uniques": [
 			"Only available <for [Alien]>",
 			"[75]% chance to intercept air attacks",
