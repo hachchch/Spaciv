@@ -130,7 +130,7 @@
                 "name": "Beyond",
                 "row": 5,
 		"quote": "",
-		"uniques": ["Only available <after discovering [Beyond]>","Enables embarkation for land units"],
+		"uniques": ["Only available <after discovering [Beyond]>","Enables embarkation for land units <for [non-[Earth Soldiers]] units>"],
                 }
             ]
         },
