@@ -218,8 +218,8 @@
 		"uniques": ["[+1 Gold, +1 Culture] from [Space] tiles [in this city]"],
 	},
 	{
-		"name": "Free Voyager",
+		"name": "Free Sputnik",
 		"cost": 1,
-		"uniques": ["Unbuildable","Unsellable","Free [Voyager I] appears"]
+		"uniques": ["Unbuildable","Unsellable","Free [Sputnik I] appears"]
 	},
 ]
