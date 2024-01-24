@@ -56,7 +56,7 @@
 		"improvedBy": ["Mine", "Compounds","Xenomine"],
 		"production": 1,
 		"improvementStats": {"production": 1},
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": https://github.com/hachchch/Spaciv},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
