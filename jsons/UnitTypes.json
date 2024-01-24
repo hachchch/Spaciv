@@ -1,52 +1,57 @@
 [
     {
         "name": "Civilian",
-        "movementType": "Land"
+        "movementType": "Land",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>"]
     },
     {
         "name": "Scout",
         "movementType": "Land",
-        "uniques": ["[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","[+1] Sight"],
+        "uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","[+1] Sight"],
     },
     {
         "name": "Death",
         "movementType": "Land",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>"]
     },
     {
         "name": "Xeno Entity",
-        "movementType": "Land"
+        "movementType": "Land",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>"]
     },
     {
         "name": "Gunpowder",
-        "movementType": "Land"
+        "movementType": "Land",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>"]
     },
     {
         "name": "Laser",
-        "movementType": "Land"
+        "movementType": "Land",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>"]
     },
 	{
 		"name": "Space Object",
         // "movementType": "Land",
-	"uniques": ["Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack"]
 	},
     {
         "name": "Spaceship",
         // "movementType": "Land",
-	"uniques": ["Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
     },
     {
         "name": "Carrier",
         // "movementType": "Land",
-	"uniques": ["Space","Cannot attack","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Cannot attack","May travel on Water tiles without embarking","All tiles cost 1 movement"]
     },
     {
         "name": "Space Craft",
         "movementType": "Air",
-	"uniques": ["Space","[-25]% Strength <when fighting in [Land] tiles>"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","[-25]% Strength <when fighting in [Land] tiles>"]
     },
     {
         "name": "Atmo Craft",
         "movementType": "Air",
-	"uniques": ["Space","[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
     },
 ]
