@@ -283,15 +283,24 @@
 	},
 	{
 		"name": "Mega Solar Farm",
-		"uniques": [""]
+		"production": 1,
+		"gold": 1,
+		"requiredTech": "Solar Industry",
+		"uniques": ["Provides [6] [Power]","Only available <for [Human]>"]
 	},
 	{
 		"name": "Solar Fusion Plant",
-		"uniques": [""]
+		"production": 3,
+		"gold": 3,
+		"requiredTech": "Solar Industry",
+		"uniques": ["Provides [2] [Super Energy]","Only available <for [Alien]>"]
 	},
 	{
-		"name": "Solar Wind Accelerator",
-		"uniques": [""]
+		"name": "Solar Acid Accelerator",
+		"production": 2,
+		"gold": 2,
+		"requiredTech": "Solar Industry",
+		"uniques": ["Provides [4] [Encid]","Only available <for [Xeno]>"]
 	},
 	// Special
 	{
