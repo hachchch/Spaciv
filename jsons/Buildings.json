@@ -222,4 +222,17 @@
 		"cost": 1,
 		"uniques": ["Unbuildable","Unsellable","Free [Sputnik I] appears"]
 	},
+	// Wonder
+	{
+		"name": "Apollo 13",
+		"isWonder": true,
+		"requiredTech": "Space Engineering",
+		"uniques": ["Reveal up to ['all'] [Lunar] within a [13] tile radius"]
+	},
+	{
+		"name": "Voyager",
+		"isWonder": true,
+		"requiredTech": "Space Engineering",
+		"uniques": ["Reveal up to ['all'] [Water] within a [30] tile radius"]
+	},
 ]
