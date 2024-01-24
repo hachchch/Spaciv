@@ -349,7 +349,7 @@
 		"range": 3,
 		"interceptRange": 3,
 		"attackSound": "jetgun",
-		"cost": 50,
+		"cost": 68,
 		"requiredTech": "Liquid Propellant",
 		"uniques": [
 			"[100]% chance to intercept air attacks",
@@ -368,7 +368,7 @@
 		"requiredTech": "Liquid Propellant",
 		"uniques": ["[+50]% Strength <vs [Spaceship] units> <when attacking>",
 			"[+50]% Strength <vs [City] units> <when attacking>",
-			"Only available <if [Space Station] is constructed>"],
+			"Only available <in cities with a [Space Station]>"],
 	},
 	{
 		"name": "Fighter",
@@ -379,7 +379,7 @@
 		"range": 2,
 		"interceptRange": 2,
 		"attackSound": "machinegun",
-		"cost": 25,
+		"cost": 50,
 		"requiredTech": "Liquid Propellant",
 		"uniques": [
 			"[75]% chance to intercept air attacks",
