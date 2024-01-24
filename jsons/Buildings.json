@@ -170,17 +170,37 @@
 	{
 		"name": "Military Support (United Nations)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry (United Nations)] units appear","[1] free [Mechanized Infantry (United Nations)] units appear"],
+		"uniques": ["Cannot be purchased","Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (Human)]","[3] free [Infantry (United Nations)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Martian)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Martian]>","Consumes [10] [Relation Score (Martian)]","Provides [10] [Relation Score (Martian)]","[3] free [Phaser (Martian)] units appear","[1] free [Laser Blaster (Martian)] units appear"],
+		"uniques": ["Cannot be purchased","Unbuildable <for [Martian]>","Consumes [10] [Relation Score (Martian)]","Provides [10] [Relation Score (Martian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
 	},
 	{
 		"name": "Military Support (Xenomorph)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xenomorph)] units appear","[1] free [Xenowarrior (Xenomorph)] units appear"],
+		"uniques": ["Cannot be purchased","Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xeno)] units appear","[1] free [Xenowarrior (Xeno)] units appear"],
+	},
+	{
+		"name": "Military Support (CNSA)",
+		"cost": 100,
+		"uniques": ["Cannot be purchased","Unbuildable <for [CNSA]>","Consumes [10] [Relation Score (CNSA)]","Provides [10] [Relation Score (CNSA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+	},
+	{
+		"name": "Military Support (Roscosmos)",
+		"cost": 100,
+		"uniques": ["Cannot be purchased","Unbuildable <for [Roscosmos]>","Consumes [10] [Relation Score (Roscosmos)]","Provides [10] [Relation Score (Roscosmos)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+	},
+	{
+		"name": "Military Support (Empire)",
+		"cost": 100,
+		"uniques": ["Cannot be purchased","Unbuildable <for [Empire]>","Consumes [10] [Relation Score (Empire)]","Provides [10] [Relation Score (Empire)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+	},
+	{
+		"name": "Military Support (Neptunian)",
+		"cost": 100,
+		"uniques": ["Cannot be purchased","Unbuildable <for [Neptunian]>","Consumes [10] [Relation Score (Neptunian)]","Provides [10] [Relation Score (Neptunian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
 	},
 	{
 		"name": "International Space Station",
