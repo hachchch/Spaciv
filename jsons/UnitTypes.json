@@ -67,6 +67,6 @@
 	{
 		"name": "Earth Soldiers",
 		"movementType": "Land",
-		"uniques": ["[10] Movement point cost to embark","Can only attack [Land] tiles"]
+		"uniques": ["[-10] Movement point cost to embark","Can only attack [Land] tiles"]
 	},
 ]
