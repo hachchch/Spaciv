@@ -154,7 +154,7 @@
 		"attackSound": "missile",
 		"cost": 60,
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["Only available <for [Human]> <when above [7] [Power]>","[+25]% Strength <vs [Xeno Entity] units>","Consumes [1] [Superunit limit]","Costs [8] [Power]"],
+		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","[+25]% Strength <vs [Xeno Entity] units>","Consumes [1] [Superunit limit]","Costs [20] [Power]"],
 	},
 	{
 		"name": "Xenohornet",
@@ -167,7 +167,7 @@
 		"attackSound": "crossbow",
 		"cost": 60,
 		"requiredTech": "Blood disassembly",
-		"uniques": ["Only available <for [Xeno]> <when above [7] [Encid]>","[+25]% Strength <vs [Laser] units>","Consumes [1] [Superunit limit]","Costs [8] [Encid]"],
+		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","[+25]% Strength <vs [Laser] units>","Consumes [1] [Superunit limit]","Costs [20] [Encid]"],
 	},
 	{
 		"name": "Tripod",
@@ -180,7 +180,7 @@
 		"cost": 60,
 		"maintenance": 3,
 		"requiredTech": "Wave Zapper",
-		"uniques": ["Only available <for [Alien]> <when above [7] [Super Energy]>","[+25]% Strength <vs [Gunpowder] units>","Consumes [1] [Superunit limit]","Costs [8] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","[+25]% Strength <vs [Gunpowder] units>","Consumes [1] [Superunit limit]","Costs [20] [Super Energy]"],
 	//TERRA INVICTA
 	},
 	{
@@ -192,7 +192,7 @@
 		"cost": 60,
 		// "requiredResource": "Power",
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["Only available <for [Human]> <when above [9] [Power]>","[+50]% Strength <vs [Xeno Entity] units>","Costs [10] [Power]"],
+		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","[+50]% Strength <vs [Xeno Entity] units>","Costs [20] [Power]"],
 	},
 	{
 		"name": "Mechanized Infantry (Human)",
@@ -212,7 +212,7 @@
 		"cost": 60,
 		// "requiredResource": "Encid",
 		"requiredTech": "Blood disassembly",
-		"uniques": ["Only available <for [Xeno]> <when above [9] [Encid]>","[+50]% Strength <vs [Laser] units>","Costs [10] [Encid]"],
+		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","[+50]% Strength <vs [Laser] units>","Costs [20] [Encid]"],
 	},
 	{
 		"name": "Xenowarrior (Xeno)",
@@ -232,7 +232,7 @@
 		"cost": 60,
 		// "requiredResource": "Super Energy",
 		"requiredTech": "Wave Zapper",
-		"uniques": ["Only available <for [Alien]> <when above [9] [Super Energy]>","[+50]% Strength <vs [Gunpowder] units>","Costs [10] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","[+50]% Strength <vs [Gunpowder] units>","Costs [20] [Super Energy]"],
 	},
 	{
 		"name": "Laser Blaster (Alien)",
@@ -362,9 +362,9 @@
 		"attackSound": "bombing",
 		"cost": 75,
 		"requiredTech": "Sublight speed",
-		"uniques": ["Bomber","Costs [8] [Super Energy]","[+50]% Strength <vs [Spaceship] units> <when attacking>",
+		"uniques": ["Bomber","Costs [24] [Super Energy]","[+50]% Strength <vs [Spaceship] units> <when attacking>",
 			"[+50]% Strength <vs [City] units> <when attacking>",
-			"Only available <in cities with a [UFO Facility]> <when above [7] [Super Energy]>"],
+			"Only available <in cities with a [UFO Facility]> <when above [23] [Super Energy]>"],
 	},
 	{
 		"name": "Qeg-Beam Shooter",
@@ -417,9 +417,9 @@
 		"attackSound": "machinegun",
 		"cost": 100,
 		"requiredTech": "Light Sail",
-		"uniques": ["Destroyer","[+60]% Strength <vs [Corvette] units> <when attacking>",
+		"uniques": ["Costs [24] [Encid]","Destroyer","[+60]% Strength <vs [Corvette] units> <when attacking>",
 			"[-20]% Strength <vs [non-[Corvette]] units> <when attacking>",
-			"Unbuildable <in cities without a [Warp hole Generator]>"],
+			"Only available <in cities with a [Warp hole Generator]> <when above [23] [Encid]>"],
 	},
 	{
 		"name": "Aminoship",
