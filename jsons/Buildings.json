@@ -246,17 +246,30 @@
 	// About Terraform
 	{
 		"name": "Cyanobacteria Plantation",
-		"happiness": 3,
+		"happiness": 2,
+		"food": 2,
+		"uniques": ["Only available <for [Human]>","Must be on [non-[Earth]]"]
 		"requiredTech": "Terraforming",
 	},
 	{
-		"name": "Cyanobacteria Plantation",
-		"happiness": 3,
+		"name": "Groundwater Dam",
+		"happiness": 2,
+		"food": 2,
+		"uniques": ["Only available <for [Human]>","Must be on [non-[Earth]]"]
 		"requiredTech": "Terraforming",
 	},
 	{
-		"name": "Cyanobacteria Plantation",
-		"happiness": 3,
+		"name": "Virus Extermination",
+		"happiness": 2,
+		"food": 2,
+		"uniques": ["Only available <for [non-[Human]]>","Must be on [Earth]"]
+		"requiredTech": "Terraforming",
+	},
+	{
+		"name": "Cooling facility",
+		"happiness": 2,
+		"food": 2,
+		"uniques": ["Only available <for [non-[Human]]>","Must be on [Earth]"]
 		"requiredTech": "Terraforming",
 	},
 	{
@@ -264,7 +277,7 @@
 		"isNationalWonder": true,
 		"happiness": 3,
 		"requiredTech": "Automatic Terraforming System",
-		"uniques": ["Consume [1] [Prismaxium]","Consume [1] [Neptunium]"]
+		"uniques": ["Consume [5] [Prismaxium]","Consume [5] [Dominium]","Consume [5] [Neptunium]","Consume [5] [Amino Metal]"]
 	},
 	// Resource Making
 	{
