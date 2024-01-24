@@ -1,0 +1,12 @@
+[
+    {
+		"name":"Engineer",
+		"production":2,
+		"color": [139,69,19]
+	}
+	{
+		"name": "Merchant",
+		"gold": 2,
+		"color": [255,215,0]
+	},
+]

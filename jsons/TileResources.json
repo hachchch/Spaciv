@@ -1,0 +1,185 @@
+[
+        {
+                "name": "Power",
+		"resourceType": "Strategic",
+		"revealedBy": "Liquid Propellant",
+		"uniques": ["Stockpiled"]
+		"gold": 1,
+        },
+        {
+                "name": "Super Energy",
+		"resourceType": "Strategic",
+		"revealedBy": "Sublight speed",
+		"science": 1,
+		"uniques": ["Stockpiled"]
+        },
+        {
+                "name": "Encid",
+		"resourceType": "Strategic",
+		"revealedBy": "Acid processing",
+		"food": 1,
+		"uniques": ["Stockpiled"]
+        },
+	// uniresource
+	{
+		"name": "Neptunium",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+	},
+	{
+		"name": "Dominium",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+		"terrainsCanBeFoundOn": ["Earth","Mars","Lunar"],
+		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"production": 1,
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Prismaxium",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+		"terrainsCanBeFoundOn": ["Mars","Stromat"],
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
+		"production": 1,
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Amino Metal",
+		"resourceType": "Strategic",
+		"revealedBy": "Beyond",
+		"terrainsCanBeFoundOn": ["Stromat","Lunar"],
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
+		"production": 1,
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
+	},
+	{
+		"name": "Neodymium", // Resource for Gauss cannon
+		"revealedBy": "Beyond",
+		"resourceType": "Strategic",
+		"uniques": ["City-level resource","Not shown on world screen"]
+	},
+	// Luxury
+	{
+		"name": "Gold Ore",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Earth","Stromat","Regold"],
+		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"gold": 1,
+		"improvementStats": {"gold": 1},
+	},
+	{
+		"name": "Regolith",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Lunar"],
+		"production": 1,
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
+		"improvementStats": {"production":1 ,"gold": 1},
+	},
+	{
+		"name": "Ice",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Mars"],
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
+		"food": 1,
+		"improvementStats": {"food": 1 ,"gold": 1},
+	},
+	{
+		"name": "Iron",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Earth","Lunar","Mars","Stromat","Regold"],
+		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"production": 1,
+		"improvementStats": {"production": 1},
+	},
+	{
+		"name": "Water",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Stromat"],
+		"food": 1,
+		"improvedBy": ["Farm", "Breeding Facility","Xenohive"],
+		"improvementStats": {"food": 3},
+	},
+	{
+		"name": "Gems",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Stromat","Regold"],
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
+		"gold": 1,
+		"improvementStats": {"gold": 1},
+	},
+	{
+		"name": "Ungold",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Regold"],
+		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"gold": 18,
+		"improvementStats": {"happiness": 3 ,"gold": 3},
+	},
+	{
+		"name": "Stardust",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Space","Nebula"],
+	},
+	{
+		"name": "Relation Score (United Nations)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [United Nations]>"],
+	},
+	{
+		"name": "Relation Score (Martian)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Martian]>"],
+	},
+	{
+		"name": "Relation Score (Xenomorph)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Xenomorph]>"],
+	},
+	{
+		"name": "Relation Score (Roscosmos)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Roscosmos]>"],
+	},
+	{
+		"name": "Relation Score (CNSA)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [CNSA]>"],
+	},
+	{
+		"name": "Relation Score (Empire)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Empire]>"],
+	},
+	{
+		"name": "Relation Score (Neptunian)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Neptunian]>"],
+	},
+	{
+		"name": "Superunit limit",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded"],
+	},
+	{
+		"name": "Human Civ",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded"],
+	},
+	{
+		"name": "Ayy Civ",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded"],
+	},
+	{
+		"name": "Xeno Civ",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded"],
+	},
+]

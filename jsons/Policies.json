@@ -1,0 +1,285 @@
+[
+    {
+        "name": "Tradition",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 0,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "1",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+                    "Free Technology"
+                ]
+            },
+        ]
+    },
+    {
+        "name": "Liberty",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 10,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 20,
+            "Scientific": 20
+        },
+        "uniques": ["[+1 Culture] [in all cities]"],
+        "policies": [
+            {
+                "name": "2",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Liberty Complete",
+                "uniques": ["Free Great Person"]
+            }
+        ]
+    },
+    {
+        "name": "Honor",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+17]% Strength <vs [Military] units>",
+            "Earn [16]% of killed [Military] unit's [Cost] as [Culture]",
+        ],
+        "policies": [
+            {
+                "name": "3",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Honor Complete",
+                "uniques": [
+                    "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Piety",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 0
+        },
+        "uniques": [
+            "[+100]% Strength <for [Military] units> <when below [10] HP>",
+            "Only available <before adopting [Rationalism]>"
+        ],
+        "policies": [
+            {
+                "name": "4",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Piety Complete",
+                "uniques": [
+                    "[Faith] cost of purchasing items in cities [-20]%",
+                    "[+1 Culture] from [Space] tiles [in all cities]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Patronage",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 20,
+            "Domination": 0,
+            "Scientific": 10
+        },
+        "uniques": ["[-25]% City-State Influence degradation"],
+        "policies": [
+            {
+                "name": "5",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Patronage Complete",
+                "uniques": [
+                    "Influence of all other civilizations with all city-states degrades [33]% faster",
+                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Commerce",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": ["[+25]% [Gold] [in capital]"],
+        "policies": [
+            {
+                "name": "6",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Commerce Complete",
+                "uniques": [
+                    "[+3 Gold] from every [City center]",
+                    "[+100]% Gold from Great Merchant trade missions",
+                    "May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([0])"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rationalism",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 10,
+            "Diplomatic": 10,
+            "Domination": 10,
+            "Scientific": 60
+        },
+        "uniques": [
+            "[+15]% [Science] <while the empire is happy>",
+            "Only available <before adopting [Piety]>"
+        ],
+        "policies": [
+            {
+                "name": "7",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Rationalism Complete",
+                "uniques": [
+                    "[2] Free Technologies",
+                    "May buy [Great General] units for [500] [Culture] [in all cities] at an increasing price ([0])"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Freedom",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 50,
+            "Cultural": 50,
+            "Diplomatic": 50,
+            "Domination": 40,
+            "Scientific": 50
+        },
+        "uniques": [
+            "[+25]% Great Person generation [in all cities]",
+            "[+10]% [Happiness]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Order]>",
+        ],
+        "policies": [
+            {
+                "name": "8",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Freedom Complete",
+                "uniques": [
+                    "[+20]% Yield from every [Food Source]",
+                    "[+1 Happiness, +1 Culture] from [Food Source] tiles [in all cities]",
+                    "[+50]% Golden Age length",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Autocracy",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 50,
+            "Cultural": 40,
+            "Diplomatic": 40,
+            "Domination": 50,
+            "Scientific": 40
+        },
+        "uniques": [
+            "[-33]% maintenance costs <for [All] units>",
+            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Freedom]>"
+        ],
+        "policies": [
+            {
+                "name": "9",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Autocracy Complete",
+                "uniques": [
+                    "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
+                    "May buy [Great General] units for [500] [Gold] [in all cities] at an increasing price ([500])",
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Order",
+        "era": "FlightTest era",
+        "priorities": {
+            "Neutral": 50,
+            "Cultural": 40,
+            "Diplomatic": 50,
+            "Domination": 40,
+            "Scientific": 50
+        },
+        "uniques": [
+            "[+1 Happiness] [in all cities]",
+            "Only available <before adopting [Autocracy]>",
+            "Only available <before adopting [Freedom]>"
+        ],
+        "policies": [
+            {
+                "name": "0",
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Order Complete",
+                "uniques": [
+                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+                ]
+            }
+        ]
+    },
+]
