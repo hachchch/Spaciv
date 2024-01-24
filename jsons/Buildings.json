@@ -227,7 +227,7 @@
 		"name": "Apollo 11",
 		"isWonder": true,
 		"requiredTech": "Liquid Propellant",
-		"uniques": ["Reveal up to [11] [Lunar] within a [11] tile radius"]
+		"uniques": ["[+1] Movement <for [Settler] units> <when [Embarked]>","Reveal up to [11] [Lunar] within a [11] tile radius"]
 	},
 	{
 		"name": "Apollo 13",
