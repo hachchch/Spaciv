@@ -24,6 +24,11 @@
         "name": "Laser",
         "movementType": "Land"
     },
+	{
+		"name": "Voyager",
+        // "movementType": "Land",
+	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+	},
     {
         "name": "Spaceship",
         // "movementType": "Land",
