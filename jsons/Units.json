@@ -9,6 +9,19 @@
 		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable"],
 		"cost": 70
 	},
+	{
+		"name": "Imperial Worker",
+		"uniqueTo": "Empire",
+		"replaces": "Human Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		// "requiredTech": "Information era",
+		"uniques": ["Can build [Farm] improvements on tiles",
+			"Can build [Breeding Facility] improvements on tiles",
+			"Automation is a primary action",
+		"Can build [Industry] improvements on tiles <in [Strategic resource] tiles>","Can build [Compounds] improvements on tiles","Uncapturable"],
+		"cost": 70
+	},
         {
                 "name": "Xenotorn",
 		"unitType": "Civilian",
