@@ -30,7 +30,7 @@
 		"name": "Dominium",
 		"resourceType": "Strategic",
 		"revealedBy": "Beyond",
-		"terrainsCanBeFoundOn": ["Earth"],
+		"terrainsCanBeFoundOn": ["Earth","Mars","Lunar"],
 		"improvedBy": ["Industry", "Compounds","Xenomine"],
 		"production": 1,
 		"improvementStats": {"production": 1},
@@ -39,8 +39,8 @@
 	},
 	{
 		"name": "Prismaxium",
-		"terrainsCanBeFoundOn": ["Mars"],
-		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"terrainsCanBeFoundOn": ["Mars","Stromat"],
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
 		"production": 1,
 		"improvementStats": {"production": 1},
 		"resourceType": "Strategic",
@@ -50,7 +50,7 @@
 	},
 	{
 		"name": "Amino Metal",
-		"terrainsCanBeFoundOn": ["Stromat"],
+		"terrainsCanBeFoundOn": ["Stromat","Lunar"],
 		"improvedBy": ["Industry", "Compounds","Xenomine"],
 		"production": 1,
 		"improvementStats": {"production": 1},
