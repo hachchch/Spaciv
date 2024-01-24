@@ -82,10 +82,10 @@
 	{
 		"name": "Vacuum Shipyard",
 		"requiredTech": "Commercial Space Flight",
-		"requiredBuilding": "Shipbuilding Capability",
+		// "requiredBuilding": "Shipbuilding Capability",
 		"cost": 100,
 		"production": 2,
-		"uniques": ["Must be next to [Space]","Destroyed when the city is captured",
+		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured",
 			"[+15]% Production when constructing [Spaceship] units [in this city]",],
 	},
 	// Other
