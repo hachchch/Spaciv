@@ -127,24 +127,43 @@
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": ["Space","Nebula"],
 	},
+	// Relation System
 	{
 		"name": "Relation Score (United Nations)",
 		"resourceType": "Strategic",
-		"gold": 1,
 		"uniques": ["Not shown on world screen","Cannot be traded <for [United Nations]>"],
 	},
 	{
 		"name": "Relation Score (Martian)",
 		"resourceType": "Strategic",
-		"science": 1,
 		"uniques": ["Not shown on world screen","Cannot be traded <for [Martian]>"],
 	},
 	{
 		"name": "Relation Score (Xenomorph)",
 		"resourceType": "Strategic",
-		"food": 1,
 		"uniques": ["Not shown on world screen","Cannot be traded <for [Xenomorph]>"],
 	},
+	{
+		"name": "Relation Score (Roscosmos)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Roscosmos]>"],
+	},
+	{
+		"name": "Relation Score (CNSA)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [CNSA]>"],
+	},
+	{
+		"name": "Relation Score (Empire)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Empire]>"],
+	},
+	{
+		"name": "Relation Score (Neptunian)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Cannot be traded <for [Neptunian]>"],
+	},
+	// Special
 	{
 		"name": "Superunit limit",
 		"resourceType": "Strategic",
