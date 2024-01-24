@@ -233,7 +233,7 @@
 		"name": "Apollo 13",
 		"isWonder": true,
 		"requiredTech": "Liquid Propellant",
-		"uniques": ["[+1] Sight <for [Embarked] units>"]
+		"uniques": ["[+50]% Strength <when defending> <for [Embarked] units>"]
 	},
 	{
 		"name": "Voyager",
