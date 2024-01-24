@@ -116,7 +116,7 @@
 		// ]
 	},
 	{
-		"name": "Xenomob (Xenomorph)",
+		"name": "Xenomob (Xeno)",
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 8,
@@ -136,7 +136,7 @@
 		]
         },
 	{
-		"name": "Phaser (Martian)",
+		"name": "Phaser (Alien)",
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 8,
@@ -195,7 +195,7 @@
 		"uniques": ["Only available <for [Human]> <when above [9] [Power]>","[+50]% Strength <vs [Xeno Entity] units>","Costs [10] [Power]"],
 	},
 	{
-		"name": "Mechanized Infantry (United Nations)",
+		"name": "Mechanized Infantry (Human)",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 12,
@@ -215,7 +215,7 @@
 		"uniques": ["Only available <for [Xeno]> <when above [9] [Encid]>","[+50]% Strength <vs [Laser] units>","Costs [10] [Encid]"],
 	},
 	{
-		"name": "Xenowarrior (Xenomorph)",
+		"name": "Xenowarrior (Xeno)",
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 12,
@@ -235,7 +235,7 @@
 		"uniques": ["Only available <for [Alien]> <when above [9] [Super Energy]>","[+50]% Strength <vs [Gunpowder] units>","Costs [10] [Super Energy]"],
 	},
 	{
-		"name": "Laser Blaster (Martian)",
+		"name": "Laser Blaster (Alien)",
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 12,
