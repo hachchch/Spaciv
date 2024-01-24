@@ -141,7 +141,7 @@
 		"maintenance": 3,
 		"attackSound": "missile",
 		"cost": 60,
-		"requiredTech": "Liquid Propellant",
+		"requiredTech": "Artificial intelligence",
 		"uniques": ["Only available <for [Human]>","[+25]% Strength <vs [Xeno Entity] units>","Consumes [1] [Superunit limit]","Consumes [1] [Power]"],
 	},
 	{
@@ -154,7 +154,7 @@
 		"maintenance": 3,
 		"attackSound": "crossbow",
 		"cost": 60,
-		"requiredTech": "Acid processing",
+		"requiredTech": "Blood disassembly",
 		"uniques": ["Only available <for [Xeno]>","[+25]% Strength <vs [Laser] units>","Consumes [1] [Superunit limit]","Consumes [1] [Encid]"],
 	},
 	{
@@ -167,7 +167,7 @@
 		"attackSound": "gdrAttack",
 		"cost": 60,
 		"maintenance": 3,
-		"requiredTech": "Sublight speed",
+		"requiredTech": "Wave Zapper",
 		"uniques": ["Only available <for [Alien]>","[+25]% Strength <vs [Gunpowder] units>","Consumes [1] [Superunit limit]","Consumes [1] [Super Energy]"],
 	//TERRA INVICTA
 	},
@@ -179,7 +179,7 @@
 		"attackSound": "tankshot",
 		"cost": 60,
 		"requiredResource": "Power",
-		"requiredTech": "Liquid Propellant",
+		"requiredTech": "Artificial intelligence",
 		"uniques": ["Only available <for [Human]>","[+50]% Strength <vs [Xeno Entity] units>"],
 	},
 	{
@@ -199,7 +199,7 @@
 		"attackSound": "metalhit",
 		"cost": 60,
 		"requiredResource": "Encid",
-		"requiredTech": "Acid processing",
+		"requiredTech": "Blood disassembly",
 		"uniques": ["Only available <for [Xeno]>","[+50]% Strength <vs [Laser] units>"],
 	},
 	{
@@ -210,7 +210,7 @@
 		"attackSound": "metalhit",
 		"uniques": ["Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+50]% Strength <vs [Laser] units>"],
 	},
-	//ayy lMars
+	// Mars
 	{
 		"name": "Laser Blaster",
 		"unitType": "Laser",
@@ -219,7 +219,7 @@
 		"attackSound": "gdrAttack",
 		"cost": 60,
 		"requiredResource": "Super Energy",
-		"requiredTech": "Sublight speed",
+		"requiredTech": "Wave Zapper",
 		"uniques": ["Only available <for [Alien]>","[+50]% Strength <vs [Gunpowder] units>"],
 	},
 	{
