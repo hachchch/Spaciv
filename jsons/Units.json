@@ -3,7 +3,7 @@
 		"name": "Human Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"requiredTech": "Information era",
+		// "requiredTech": "Information era",
 		"uniques": ["Only available <for [Human]>","Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
 			"Automation is a primary action",
 		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable"],
