@@ -143,6 +143,7 @@
 		"techs": [
 			{
 				"name": "Light Sail",
+				"prerequisites": ["Beyond"],
 				"row": 1,
 				"uniques": ["[+1] Movement <for [Embarked] units>"]
 			},
