@@ -380,7 +380,7 @@
 		"cost": 120,
 		"uniques": ["Founds a new city <by consuming this unit> <in [resource] tiles>",
 			// "Founds a new city <by consuming this unit> <in [Lunar] tiles>",
-			"Unbuildable <by consuming this unit> <for [non-[Xeno]]>"]
+			"Unbuildable <for [non-[Xeno]]>"]
 		"requiredTech": "Light Sail",
 	},
 	{
