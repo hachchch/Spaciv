@@ -28,12 +28,23 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			"Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Pioneer",
+		"replaces": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
 		"uniques": ["Only available <for [Human]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
         {
                 "name": "Loxartered",
+		"replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
@@ -43,6 +54,7 @@
         },
         {
                 "name": "Colonist",
+		"replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
