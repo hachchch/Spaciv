@@ -33,7 +33,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["Only available <for [Human]>","Provides [1] [Power]"],
+		"uniques": ["Only available <for [Human]>","Provides [3] [Power]"],
 	},
 	{
 		"name": "Encid Work",
@@ -44,7 +44,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["Only available <for [Xeno]>","Provides [1] [Encid]"],
+		"uniques": ["Only available <for [Xeno]>","Provides [3] [Encid]"],
 	},
 	{
 		"name": "Synchrotron",
@@ -55,7 +55,7 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["Only available <for [Alien]>","Provides [1] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]>","Provides [3] [Super Energy]"],
 	},
 	// about Space ship
 	{
