@@ -65,7 +65,7 @@
                 "name": "Solar Star",
                 "type": "Water",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [99] damage","Rare feature"],
+                "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [100] damage <before discovering [Solar Shield]>","Rare feature"],
 		"RGB": [255, 255, 70]
         },
         {
@@ -77,4 +77,13 @@
                 "uniques": ["Rare feature"],
 		"RGB": [60, 87, 151]
         },
+	{
+		"name": "Asteroid Belt",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+                "gold": 3,
+		"occursOn": ["Space"],
+                "uniques": ["Rare feature"],
+		"RGB": [60, 87, 151]
+	}
 ]
