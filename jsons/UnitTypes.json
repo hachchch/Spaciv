@@ -57,7 +57,7 @@
 	{
 		"name": "Air Craft",
         "movementType": "Air",
-	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Can only attack [Land] tiles"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Can only attack [Earth] tiles"]
 	},
 	{
 		"name": "Missile",
@@ -67,6 +67,6 @@
 	{
 		"name": "Earth Soldiers",
 		"movementType": "Land",
-		"uniques": ["Can only attack [Land] tiles"]
+		"uniques": ["Cannot enter ocean tiles","Can only attack [Earth] tiles"]
 	},
 ]
