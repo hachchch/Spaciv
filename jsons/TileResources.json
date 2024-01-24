@@ -45,7 +45,7 @@
 		"name": "Neodymium", // Resource for Gauss cannon
 		"revealedBy": "Beyond",
 		"resourceType": "Strategic",
-		"uniques": ["City-level resource"]
+		"uniques": ["City-level resource","Not shown on world screen"]
 	},
 	// Luxury
 	{
