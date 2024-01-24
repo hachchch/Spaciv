@@ -56,7 +56,7 @@
 		"improvedBy": ["Mine", "Compounds","Xenomine"],
 		"production": 1,
 		"improvementStats": {"production": 1},
-		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": https://github.com/hachchch/Spaciv},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
@@ -125,7 +125,7 @@
 	{
 		"name": "Stardust",
 		"resourceType": "Bonus",
-		"terrainsCanBeFoundOn": ["Space","Nebula"],
+		"terrainsCanBeFoundOn": ["Ocean","Nebula"],
 	},
 	{
 		"name": "Relation Score (United Nations)",
