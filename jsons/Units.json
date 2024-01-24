@@ -38,7 +38,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Only available <for [Human]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Only available <for [Human]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction","Uncapturable",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
@@ -48,7 +48,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Only available <for [Xeno]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Only available <for [Xeno]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction","Uncapturable",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
@@ -58,7 +58,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Only available <for [Alien]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Only available <for [Alien]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction","Uncapturable",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
