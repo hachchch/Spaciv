@@ -664,4 +664,27 @@
 		"strength": 10,
 		"uniques": ["Unbuildable","[-1] Sight"]
 	},
+	// Missiles
+	{
+		"name": "ICBM",
+	},
+	{
+		"name": "Guided Missile",
+	},
+	{
+		"name": "Nuclear Missile",
+	},
+	// War on Earth
+	{
+		"name": "Drone Recon",
+	},
+	{
+		"name": "Modern Armored",
+	},
+	{
+		"name": "Nuclear Submarine",
+	},
+	{
+		"name": "Missile Cruiser",
+	},
 ]
