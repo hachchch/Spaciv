@@ -128,7 +128,7 @@
                 "innerColor": [125,10,15],
 		"uniqueName": "Naval Race",
 		"style": "Human", // I imagine it Human like Nation. but not on earth so... Star wars Like Nation?
-		"uniques": ["Human","Starts with [Information era]","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [in all cities]"],
+		"uniques": ["Human","Starts with [Unified theory]","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [in all cities]"],
 		"cities": ["Nibiru","Breslow Point","Terrus","Lagrange"],
         },
 	{
