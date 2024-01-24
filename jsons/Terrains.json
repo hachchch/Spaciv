@@ -8,9 +8,9 @@
         {
                 "name": "Earth",
 		"type": "Land",
-		"food": 2,
+		// "food": 2,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature"],
+                "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature","[+2 Food] <for [Human]>","[+1 Production] <for [non-[Human]]>"],
 		"RGB": [0, 163, 0],
         },
 	{
@@ -23,10 +23,10 @@
         {
                 "name": "Stromat",
 		"type": "Land",
-                "food": 1,
-		"production": 1,
+                // "food": 1,
+		// "production": 1,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Stromat]","Rare feature"],
+                "uniques": ["Neighboring tiles will convert to [Stromat]","Rare feature","[+1 Production] <for [Human]>","[+1 Production, +1 Food] <for [non-[Human]]>"],
 		"RGB": [136, 125, 112]
         },
         {
@@ -40,9 +40,9 @@
         {
                 "name": "Mars",
 		"type": "Land",
-                "production": 2,
+                // "production": 2,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Mars]","Rare feature"],
+                "uniques": ["Neighboring tiles will convert to [Mars]","Rare feature","[+1 Production] <for [Human]>","[+2 Production] <for [non-[Human]]>"],
 		"RGB": [171, 79, 76]
         },
         {
