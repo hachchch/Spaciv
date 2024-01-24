@@ -154,7 +154,7 @@
             {
                 "name": "Commerce Complete",
                 "uniques": [
-                    "[+3 Gold] from every [City center] tiles [in all cities connected to capital]",
+                    "[+3 Gold] from every [City center]",
                     "[+100]% Gold from Great Merchant trade missions",
                     "May buy [Great General] units for [1000] [Gold] [in all cities] at an increasing price ([0])"
                 ]

@@ -6,7 +6,7 @@
     {
         "name": "Scout",
         "movementType": "Land",
-        "uniques": ["[+1] Sight","[+1] Sight <on water maps>"],
+        "uniques": ["[+1] Sight <when [Embarked]>","[1] Movement point cost to disembark","[1] Movement point cost to embark","[+1] Sight"],
     },
     {
         "name": "Death",
@@ -23,5 +23,30 @@
     {
         "name": "Laser",
         "movementType": "Land"
+    },
+	{
+		"name": "Space Object",
+        // "movementType": "Land",
+	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack"]
+	},
+    {
+        "name": "Spaceship",
+        // "movementType": "Land",
+	"uniques": ["Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+    },
+    {
+        "name": "Carrier",
+        // "movementType": "Land",
+	"uniques": ["Cannot attack","May travel on Water tiles without embarking","All tiles cost 1 movement"]
+    },
+    {
+        "name": "Space Craft",
+        "movementType": "Air",
+	"uniques": ["[-25]% Strength <when fighting in [Land] tiles>"]
+    },
+    {
+        "name": "Atmo Craft",
+        "movementType": "Air",
+	"uniques": ["[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles"]
     },
 ]

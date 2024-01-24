@@ -13,6 +13,13 @@
                 "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature"],
 		"RGB": [0, 163, 0],
         },
+	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Neighboring tiles will convert to [Snow]","Rare feature"],
+		"RGB": [255, 255, 255],
+	},
         {
                 "name": "Stromat",
 		"type": "Land",
@@ -58,16 +65,26 @@
                 "name": "Solar Star",
                 "type": "Water",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [99] damage","Rare feature"],
+                "uniques": ["Neighboring tiles will convert to [Solar Star]","Units ending their turn on this terrain take [100] damage <before discovering [Solar Shield]>","Rare feature"],
 		"RGB": [255, 255, 70]
         },
         {
                 "name": "Nebula",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-                "gold": 3,
+                "gold": 1,
 		"occursOn": ["Space"],
                 "uniques": ["Rare feature"],
 		"RGB": [60, 87, 151]
         },
+	{
+		"name": "Asteroid Belt",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+                "gold": 1,
+		"production": 2,
+		"occursOn": ["Space"],
+                "uniques": ["Rare feature"],
+		"RGB": [60, 87, 151]
+	}
 ]

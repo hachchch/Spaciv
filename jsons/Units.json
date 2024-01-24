@@ -1,38 +1,26 @@
 [
-	{
-		"name": "Worker",
-		"unitType": "Civilian",
-		"movement": 2,
-		"uniques": ["Comment [Test Filter]","Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 70
-	},
         {
 		"name": "Human Worker",
-		"replaces": "Worker",
-                "uniqueTo": "United Nations",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
+		"requiredTech": "Information era",
+		"uniques": ["Only available <for [Human]>","Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
 			"Automation is a primary action",
 		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable"],
 		"cost": 70
 	},
         {
                 "name": "Xenotorn",
-		"replaces": "Worker",
-                "uniqueTo": "Xenomorph",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action","Uncapturable"],
+		"uniques": ["Only available <for [Xeno]>","Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action","Uncapturable"],
 		"cost": 70
         },
         {
                 "name": "Greycolor Worker",
-		"replaces": "Worker",
-                "uniqueTo": "Martian",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action","Uncapturable"],
+		"uniques": ["Only available <for [Alien]>","Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action","Uncapturable"],
 		"cost": 70
         },
 	{
@@ -40,75 +28,56 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [2] population"],
-		"hurryCostModifier": 20
-	},
-	{
-		"name": "Settleman",
-		"unitType": "Civilian",
-		"replaces": "Settler",
-                "uniqueTo": "United Nations",
-		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Only available <for [Human]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
         {
                 "name": "Loxartered",
 		"unitType": "Civilian",
-		"replaces": "Settler",
-                "uniqueTo": "Xenomorph",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Only available <for [Xeno]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
         {
-                "name": "Martian Colonist",
+                "name": "Colonist",
 		"unitType": "Civilian",
-		"replaces": "Settler",
-                "uniqueTo": "Martian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Only available <for [Alien]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
         {
                 "name": "Rover",
-                "uniqueTo": "United Nations",
-		"unitType": "Civilian",
+		"unitType": "Scout",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Uncapturable","[+1] Sight"],
+		"uniques": ["Only available <for [Human]>","Uncapturable"],
         },
         {
                 "name": "Scout",
-                "uniqueTo": "Xenomorph",
-		"unitType": "Civilian",
+		"unitType": "Scout",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Uncapturable","[+1] Sight"],
+		"uniques": ["Only available <for [Xeno]>","Uncapturable"],
         },
         {
                 "name": "Probe",
-                "uniqueTo": "Martian",
-		"unitType": "Civilian",
+		"unitType": "Scout",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Uncapturable","[+1] Sight"],
+		"uniques": ["Only available <for [Alien]>","Uncapturable"],
         },
         {
                 "name": "Infantry",
-                "uniqueTo": "United Nations",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Mechanized Infantry] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques" : ["Only available <for [Human]>","May upgrade to [Mechanized Infantry] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
 		"attackSound": "shot",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -125,15 +94,14 @@
         {
                 "name": "Xenomob",
 		"unitType": "Xeno Entity",
-                "uniqueTo": "Xenomorph",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Xenowarrior] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
+		"uniques" : ["Only available <for [Xeno]>","May upgrade to [Xenowarrior] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
 		"attackSound": "nonmetalhit",
-                "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
+                // "civilopediaText": [
+		//	{"text": "This is your basic, club-swinging fighter."}
+		// ]
 	},
 	{
 		"name": "Xenomob (Xenomorph)",
@@ -146,11 +114,10 @@
         {
                 "name": "Phaser",
 		"unitType": "Laser",
-                "uniqueTo": "Martian",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["May upgrade to [Laser Blaster] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques" : ["Only available <for [Alien]>","May upgrade to [Laser Blaster] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
 		"attackSound": "bombing",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -166,7 +133,6 @@
 	},
 	{
 		"name": "Mechanized Artillery",
-                "uniqueTo": "United Nations",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 18,
@@ -175,12 +141,11 @@
 		"maintenance": 3,
 		"attackSound": "missile",
 		"cost": 60,
-		"requiredTech": "Liquid propellant",
-		"uniques": ["[+25]% Strength <vs [Xeno Entity] units>","Consumes [1] [Superunit limit]","Consumes [1] [Power]"],
+		"requiredTech": "Liquid Propellant",
+		"uniques": ["Only available <for [Human]>","[+25]% Strength <vs [Xeno Entity] units>","Consumes [1] [Superunit limit]","Consumes [1] [Power]"],
 	},
 	{
 		"name": "Xenohornet",
-                "uniqueTo": "Xenomorph",
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"rangedStrength": 20,
@@ -190,11 +155,10 @@
 		"attackSound": "crossbow",
 		"cost": 60,
 		"requiredTech": "Acid processing",
-		"uniques": ["[+25]% Strength <vs [Laser] units>","Consumes [1] [Superunit limit]","Consumes [1] [Encid]"],
+		"uniques": ["Only available <for [Xeno]>","[+25]% Strength <vs [Laser] units>","Consumes [1] [Superunit limit]","Consumes [1] [Encid]"],
 	},
 	{
 		"name": "Tripod",
-                "uniqueTo": "Martian",
 		"unitType": "Laser",
 		"movement": 2,
 		"rangedStrength": 20,
@@ -204,19 +168,19 @@
 		"cost": 60,
 		"maintenance": 3,
 		"requiredTech": "Sublight speed",
-		"uniques": ["[+25]% Strength <vs [Gunpowder] units>","Consumes [1] [Superunit limit]","Consumes [1] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]>","[+25]% Strength <vs [Gunpowder] units>","Consumes [1] [Superunit limit]","Consumes [1] [Super Energy]"],
+	//TERRA INVICTA
 	},
 	{
 		"name": "Mechanized Infantry",
-                "uniqueTo": "United Nations",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
 		"cost": 60,
 		"requiredResource": "Power",
-		"requiredTech": "Liquid propellant",
-		"uniques": ["[+50]% Strength <vs [Xeno Entity] units>"],
+		"requiredTech": "Liquid Propellant",
+		"uniques": ["Only available <for [Human]>","[+50]% Strength <vs [Xeno Entity] units>"],
 	},
 	{
 		"name": "Mechanized Infantry (United Nations)",
@@ -226,9 +190,9 @@
 		"attackSound": "tankshot",
 		"uniques": ["Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+50]% Strength <vs [Xeno Entity] units>"],
 	},
+	//Xeno scum
 	{
 		"name": "Xenowarrior",
-                "uniqueTo": "Xenomorph",
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 12,
@@ -236,7 +200,7 @@
 		"cost": 60,
 		"requiredResource": "Encid",
 		"requiredTech": "Acid processing",
-		"uniques": ["[+50]% Strength <vs [Laser] units>"],
+		"uniques": ["Only available <for [Xeno]>","[+50]% Strength <vs [Laser] units>"],
 	},
 	{
 		"name": "Xenowarrior (Xenomorph)",
@@ -246,9 +210,9 @@
 		"attackSound": "metalhit",
 		"uniques": ["Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+50]% Strength <vs [Laser] units>"],
 	},
+	//ayy lMars
 	{
 		"name": "Laser Blaster",
-                "uniqueTo": "Martian",
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 12,
@@ -256,7 +220,7 @@
 		"cost": 60,
 		"requiredResource": "Super Energy",
 		"requiredTech": "Sublight speed",
-		"uniques": ["[+50]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["Only available <for [Alien]>","[+50]% Strength <vs [Gunpowder] units>"],
 	},
 	{
 		"name": "Laser Blaster (Martian)",
@@ -266,6 +230,7 @@
 		"attackSound": "gdrAttack",
 		"uniques": ["Consumes [4] [Relation Score (Martian)]","Unbuildable","[+50]% Strength <vs [Gunpowder] units>"],
 	},
+	//Great Units
 	{
 		"name": "Great General",
 		"unitType": "Civilian",
@@ -275,6 +240,7 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
+	//nuke units
 	{
 		"name": "Xenotic Fire",
 		"unitType": "Death",
@@ -307,5 +273,133 @@
 		"uniqueTo": "United Nations",
 		"replaces": "Great General",
 		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [1]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
+	},
+	//Spacecraft&Stuff
+	{
+		"name": "Nanocraft",
+		"unitType": "Space Object",
+		"movement": 5,
+		"strength": 8,
+		"attackSound": "torpedo",
+		"cost": 40,
+		"requiredTech": "Light Sail",
+	},
+	{
+		"name": "Corvette",
+		"unitType": "Spaceship",
+		"movement": 5,
+		"strength": 10,
+		"attackSound": "torpedo",
+		"cost": 60,
+		"requiredTech": "Beyond",
+		"uniques": ["[+50]% Strength <vs [Battleship] units>",
+			"[+25]% Strength <vs [Space Craft] units>",
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Spaceship",
+		"movement": 4,
+		"range": 1,
+		"rangedStrength": 15,
+		"strength": 20,
+		"attackSound": "machinegun",
+		"cost": 120,
+		"requiredTech": "Beyond",
+		"uniques": ["[+25]% Strength <vs [Corvette] units> <when attacking>",
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
+	},
+	{
+		"name": "Cruiser",
+		"unitType": "Spaceship",
+		"movement": 3,
+		"range": 2,
+		"rangedStrength": 25,
+		"strength": 25,
+		"attackSound": "tankshot",
+		"cost": 160,
+		"requiredTech": "Magnetogravitical Engineering",
+		"uniques": ["[+25]% Strength <vs [Destroyer] units> <when attacking>",
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
+	},
+	{
+		"name": "Battleship",
+		"unitType": "Spaceship",
+		"movement": 2,
+		"range": 3,
+		"rangedStrength": 35,
+		"strength": 30,
+		"attackSound": "shipguns",
+		"cost": 320,
+		"requiredTech": "Magnetogravitical Engineering",
+		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>",
+			"[-25]% Strength <vs [Bomber] units> <when defending>",
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
+	},
+	{
+		"name": "Carrier",
+		"unitType": "Carrier",
+		"movement": 2,
+		"strength": 20,
+		"attackSound": "shipguns",
+		"cost": 250,
+		"requiredTech": "Beyond",
+		"uniques": ["[+50]% Strength <vs [Interceptor] units> <when defending>",
+			"Can carry [2] [Space Craft] units",
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
+	},
+	{
+		"name": "Interceptor",
+		"unitType": "Space Craft",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 3,
+		"interceptRange": 3,
+		"attackSound": "jetgun",
+		"cost": 68,
+		"requiredTech": "Liquid Propellant",
+		"uniques": [
+			"[100]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Bomber] units>",
+			"Unbuildable <in cities without a [Space Station]>"],
+	},
+	{
+		"name": "Bomber",
+		"unitType": "Space Craft",
+		"movement": 1,
+		"strength": 15,
+		"rangedStrength": 20,
+		"range": 3,
+		"attackSound": "bombing",
+		"cost": 75,
+		"requiredTech": "Liquid Propellant",
+		"uniques": ["[+50]% Strength <vs [Spaceship] units> <when attacking>",
+			"[+50]% Strength <vs [City] units> <when attacking>",
+			"Only available <in cities with a [Space Station]>"],
+	},
+	{
+		"name": "Fighter",
+		"unitType": "Atmo Craft",
+		"movement": 1,
+		"strength": 10,
+		"rangedStrength": 10,
+		"range": 2,
+		"interceptRange": 2,
+		"attackSound": "machinegun",
+		"cost": 50,
+		"requiredTech": "Liquid Propellant",
+		"uniques": [
+			"[75]% chance to intercept air attacks",
+			"[+50]% Strength <vs [Bomber] units>"],
+	},
+	// uniques
+	{
+		"name": "Sputnik I",
+		"unitType": "Space Object",
+		"cost": 1,
+		"movement": 2,
+		"strength": 10,
+		"uniques": ["Unbuildable","[-1] Sight"]
 	},
 ]

@@ -464,7 +464,7 @@ TileSets/FantasyHex/Units/Greycolor Worker
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Martian Colonist
+TileSets/FantasyHex/Units/Colonist
   rotate: false
   xy: 564, 680
   size: 32, 28

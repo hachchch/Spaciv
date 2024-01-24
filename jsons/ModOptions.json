@@ -1,4 +1,1 @@
-{
-    "isBaseRuleset": true,
-    "uniques": ["Can trade civilization introductions for [160] Gold"],
-}
+{"isBaseRuleset":true,"lastUpdated":"2023-12-20T13:27:43Z","modUrl":"https://github.com/hachchch/Spaciv","defaultBranch":"main","author":"hachchch","modSize":349,"topics":["unciv-mod","unciv-mod-rulesets"],"uniques":["Can trade civilization introductions for [160] Gold"],"constants":{"unitUpgradeCost":{}}}
