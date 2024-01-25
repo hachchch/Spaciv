@@ -318,7 +318,7 @@
 		"strength": 1,
 		"attackSound": "torpedo",
 		"cost": 100,
-		"uniques": ["Unbuildable <for [non-[Alien]]>"]
+		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement","Unbuildable <for [non-[Alien]]>"]
 		"requiredTech": "Light Sail",
 	},
 	{
@@ -414,7 +414,8 @@
 		"strength": 8,
 		"attackSound": "torpedo",
 		"cost": 120,
-		"uniques": ["Founds a new city <by consuming this unit> <in [resource] tiles>",
+		"uniques": ["Limited to [4] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
+			"Founds a new city <by consuming this unit> <in [resource] tiles>",
 			// "Founds a new city <by consuming this unit> <in [Lunar] tiles>",
 			"Unbuildable <for [non-[Xeno]]>"]
 		"requiredTech": "Light Sail",
@@ -511,9 +512,10 @@
 		"unitType": "Space Object",
 		"movement": 5,
 		"strength": 8,
-		"attackSound": "torpedo",
+		"attackSound": "nonmetalhit",
 		"cost": 40,
-		"uniques": ["Unbuildable <for [non-[Human]]>"]
+		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
+			"Invisible to non-adjacent units","Unbuildable <for [non-[Human]]>"]
 		"requiredTech": "Light Sail",
 	},
 	{
