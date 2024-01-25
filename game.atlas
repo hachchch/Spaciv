@@ -471,7 +471,7 @@ TileSets/FantasyHex/Units/Colonist
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Settler-Grey
+TileSets/FantasyHex/Units/Settler-Gley
   rotate: false
   xy: 564, 680
   size: 32, 28
