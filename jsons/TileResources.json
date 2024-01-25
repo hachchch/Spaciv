@@ -85,7 +85,7 @@
 	{
 		"name": "Ice",
 		"resourceType": "Luxury",
-		"terrainsCanBeFoundOn": ["Mars"],
+		"terrainsCanBeFoundOn": ["Mars","Snow"],
 		"improvedBy": ["Mine", "Compounds","Xenomine"],
 		"food": 1,
 		"improvementStats": {"food": 1 ,"gold": 1},
