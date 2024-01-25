@@ -179,7 +179,7 @@
 		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
 		"uniques": ["Xeno","Starts with [Xeno Life]","[+1 Culture] per [3] population [in all cities]","[+1 Culture] from every specialist [in all cities]",
 		"Special Victory Condition: Build the 'Galaxic Mind Control Center' and empire has 20 Happiness.",
-		"Triggers victory <if [Mind Control Center] is constructed> <when above [19] [Happiness]> <hidden from users>"],
+		"Triggers victory <if [Galaxic Mind Control Center] is constructed> <when above [19] [Happiness]> <hidden from users>"],
 	},
 /*
 	//Barbarian
