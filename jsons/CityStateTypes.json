@@ -35,7 +35,7 @@
     {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
-        "allyBonusUniques": ["Provides military units every ≈[17] turns","Provides [1] [Allied City States] <hidden from users>"],
+        "allyBonusUniques": ["Provides military units every ≈[17] turns","Provides [1] [Allied City State] <hidden from users>"],
         "color": [255, 0, 0]
     },
     {
