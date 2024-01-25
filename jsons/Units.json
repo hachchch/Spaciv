@@ -668,14 +668,12 @@
 	{
 		"name": "Solar Ray Blaster",
 		"strength": 25,
-		"range": 2,
-		"rangedStrength": 35,
 		"movement": 2,
 		"attackSound": "tankshot",
 		"cost": 160,
 		"unitType": "Laser",
 		"requiredTech": "Solar Shield",
-		"uniques": ["Only available <for [Alien]>"]
+		"uniques": ["[+50]% Strength <when attacking>","Only available <for [Alien]>"]
 	},
 	{
 		"name": "Superstrings Cannon",
