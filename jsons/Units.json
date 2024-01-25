@@ -203,7 +203,7 @@
 		"maintenance": 3,
 		"requiredTech": "Wave Zapper",
 		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","Consumes [1] [Superunit limit]","Costs [20] [Super Energy]"],
-	//TERRA INVICTA
+	//TERRA
 	},
 	{
 		"name": "Mechanized Infantry",
@@ -627,6 +627,16 @@
 			"[+50]% Strength <vs [Bomber] units>"],
 	},
 	// Late Game units
+	/*
+	{
+		"name": "Space Worker",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Commercial Space Flight",
+		"uniques": ["May create improvements on water resources", "Uncapturable", "Automation is a primary action"]
+	},
+	*/
 	{
 		"name": "Solar Armored",
 		"strength": 30,
