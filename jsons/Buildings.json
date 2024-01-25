@@ -17,7 +17,10 @@
 			"Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>",
 			"Provides [20] [Relation Score (Empire)] <for [Empire]>",
 			"Provides [20] [Relation Score (Neptunian)] <for [Neptunian]>",
-			"Gain a free [Government] [in all cities] <for [Human]>"
+			"Gain a free [Government] [in all cities] <for [Human]>",
+			"Gain a free [America Government] [in capital] <for [United States]> <when not at war>",
+			"Gain a free [Russia Government] [in capital] <for [Roscosmos]> <when not at war>",
+			"Gain a free [China Government] [in capital] <for [CNSA]> <when not at war>"
 		]
 	},
 	{
@@ -26,6 +29,21 @@
 		"uniques": ["Unbuildable","Unsellable",
 			"Gain a free [Earth] [in this city] <in [Earth] tiles>",
 		"Gain a free [Ocean] [in this city] <in [{River} {Earth}] tiles>"]
+	},
+	{
+		"name": "America Government",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
+	},
+	{
+		"name": "China Government",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
+	},
+	{
+		"name": "Russia Government",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
 	},
 	{
 		"name": "Earth",
