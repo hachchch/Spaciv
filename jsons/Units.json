@@ -104,7 +104,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["Only available <for [Human]>","May upgrade to [Mechanized Infantry] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques" : ["Only available <for [Human]>","May upgrade to [Mechanized Infantry] through ruins-like effects"],
 		"attackSound": "shot",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -116,7 +116,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Consumes [2] [Relation Score (United Nations)]","Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques" : ["Consumes [2] [Relation Score (United Nations)]","Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects"],
 		"attackSound": "shot",
 	},
         {
@@ -125,7 +125,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["Only available <for [Xeno]>","May upgrade to [Xenowarrior] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
+		"uniques" : ["Only available <for [Xeno]>","May upgrade to [Xenowarrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
                 // "civilopediaText": [
 		//	{"text": "This is your basic, club-swinging fighter."}
@@ -136,7 +136,7 @@
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Consumes [2] [Relation Score (Xenomorph)]","Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects","[+25]% Strength <vs [Laser] units>"],
+		"uniques" : ["Consumes [2] [Relation Score (Xenomorph)]","Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
 	},
         {
@@ -145,7 +145,7 @@
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
-		"uniques" : ["Only available <for [Alien]>","May upgrade to [Laser Blaster] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques" : ["Only available <for [Alien]>","May upgrade to [Laser Blaster] through ruins-like effects"],
 		"attackSound": "bombing",
                 "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -156,7 +156,7 @@
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Consumes [2] [Relation Score (Martian)]","Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques" : ["Consumes [2] [Relation Score (Martian)]","Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects"],
 		"attackSound": "bombing",
 	},
 	{
@@ -171,7 +171,7 @@
 		"attackSound": "missile",
 		"cost": 60,
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","[+25]% Strength <vs [Xeno Entity] units>","Consumes [1] [Superunit limit]","Costs [20] [Power]"],
+		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","Consumes [1] [Superunit limit]","Costs [20] [Power]"],
 	},
 	{
 		"name": "Xenohornet",
@@ -184,7 +184,7 @@
 		"attackSound": "crossbow",
 		"cost": 60,
 		"requiredTech": "Blood disassembly",
-		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","[+25]% Strength <vs [Laser] units>","Consumes [1] [Superunit limit]","Costs [20] [Encid]"],
+		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","Consumes [1] [Superunit limit]","Costs [20] [Encid]"],
 	},
 	{
 		"name": "Tripod",
@@ -197,7 +197,7 @@
 		"cost": 60,
 		"maintenance": 3,
 		"requiredTech": "Wave Zapper",
-		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","[+25]% Strength <vs [Gunpowder] units>","Consumes [1] [Superunit limit]","Costs [20] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","Consumes [1] [Superunit limit]","Costs [20] [Super Energy]"],
 	//TERRA INVICTA
 	},
 	{
@@ -210,7 +210,7 @@
 		"cost": 60,
 		// "requiredResource": "Power",
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","[+50]% Strength <vs [Xeno Entity] units>","Costs [20] [Power]"],
+		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","[+25]% Strength <vs [Xeno Entity] units>","Costs [20] [Power]"],
 	},
 	{
 		"name": "Mechanized Infantry (Human)",
@@ -219,7 +219,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
-		"uniques": ["Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+50]% Strength <vs [Xeno Entity] units>"],
+		"uniques": ["Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
 	},
 	//Xeno scum
 	{
@@ -231,7 +231,7 @@
 		"cost": 60,
 		// "requiredResource": "Encid",
 		"requiredTech": "Blood disassembly",
-		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","[+50]% Strength <vs [Laser] units>","Costs [20] [Encid]"],
+		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","[+25]% Strength <vs [Laser] units>","Costs [20] [Encid]"],
 	},
 	{
 		"name": "Xenowarrior (Xeno)",
@@ -239,7 +239,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
-		"uniques": ["Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+50]% Strength <vs [Laser] units>"],
+		"uniques": ["Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+25]% Strength <vs [Laser] units>"],
 	},
 	// Mars
 	{
@@ -251,7 +251,7 @@
 		"cost": 60,
 		// "requiredResource": "Super Energy",
 		"requiredTech": "Wave Zapper",
-		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","[+50]% Strength <vs [Gunpowder] units>","Costs [20] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","[+25]% Strength <vs [Gunpowder] units>","Costs [20] [Super Energy]"],
 	},
 	{
 		"name": "Laser Blaster (Alien)",
@@ -259,7 +259,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "gdrAttack",
-		"uniques": ["Consumes [4] [Relation Score (Martian)]","Unbuildable","[+50]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["Consumes [4] [Relation Score (Martian)]","Unbuildable","[+25]% Strength <vs [Gunpowder] units>"],
 	},
 	//Great Units
 	{
@@ -631,8 +631,7 @@
 		"unitType": "Gunpowder",
 		"requiredTech": "Solar Shield",
 		"uniques": ["Can move after attacking","[+20]% Strength <when defending> <vs [Air] units>",
-			"[-2] Movement <when [Embarked]>","Only available <for [Human]>",
-			"[+25]% Strength <vs [Xeno Entity] units>"]
+			"[-2] Movement <when [Embarked]>","Only available <for [Human]>"]
 	},
 	{
 		"name": "Felsian Xenohornet",
@@ -644,8 +643,7 @@
 		"requiredTech": "Solar Shield",
 		"uniques": ["May travel on Water tiles without embarking",
 			"[+25]% Strength <vs [Corvette] units>",
-			"May withdraw before melee ([50]%)","Only available <for [Xeno]>",
-			"[+25]% Strength <vs [Laser] units>"]
+			"May withdraw before melee ([50]%)","Only available <for [Xeno]>"]
 	},
 	{
 		"name": "Solar Ray Blaster",
@@ -657,8 +655,7 @@
 		"cost": 160,
 		"unitType": "Laser",
 		"requiredTech": "Solar Shield",
-		"uniques": ["Only available <for [Alien]>",
-			"[+25]% Strength <vs [Gunpowder] units>"]
+		"uniques": ["Only available <for [Alien]>"]
 	},
 	// uniques
 	{
