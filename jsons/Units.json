@@ -733,8 +733,8 @@
 		"range": 4,
 		"cost": 100,
 		"requiredTech": "Information era",
-		"uniques": ["[+100]% Strength <when attacking> <vs [Human] units>","Nuclear weapon of Strength [1] <when at war>", "Only available <for [Human]>",
-			"Blast radius [1] <when at war>"],
+		"uniques": ["[+100]% Strength <when attacking> <vs [Human] units>","[+100]% Strength <vs cities> <when fighting in [Earth] tiles>","Limited to [1] per Civilization","Nuclear weapon of Strength [1]", "Only available <for [Human]>",
+			"Blast radius [1]"],
 		"attackSound": "nuke"
 	},
 	{
