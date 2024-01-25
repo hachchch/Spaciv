@@ -141,7 +141,7 @@
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
 		"uniques": ["Only available <for [Alien]>"],
-		"requiredTech": "Smart Phone"
+		"requiredTech": "Plasma control"
 	},
 	{
 		"name": "Hive Mint",
