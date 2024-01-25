@@ -317,7 +317,7 @@
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 3,
 		"uniques": ["Only available <for [Alien]>"],
-		"requiredTech": "Unified teory"
+		"requiredTech": "Unified theory"
 	},
 	{
 		"name": "Mind Control Pulse",
