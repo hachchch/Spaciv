@@ -29,7 +29,7 @@
         {
                 "columnNumber": 1,
 		"era": "FlightTest era",
-		"techCost": 115,
+		"techCost": 230,
 		"buildingCost": 230,
 		"wonderCost": 230,
 		"techs": [
@@ -92,7 +92,7 @@
 	{
 		"columnNumber": 2,
 		"era": "Exploration era",
-		"techCost": 230,
+		"techCost": 460,
 		"buildingCost": 400,
 		"wonderCost": 400,
 		"techs": [
@@ -169,7 +169,7 @@
     {
         "columnNumber": 5,
 		"era": "Research era",
-		"techCost": 300,
+		"techCost": 500,
 		"buildingCost": 300,
 		"wonderCost": 600,
 		"techs": [
@@ -219,7 +219,7 @@
     {
         "columnNumber": 6,
 		"era": "Techno era",
-		"techCost": 340,
+		"techCost": 545,
 		"buildingCost": 350,
 		"wonderCost": 700,
 		"techs": [
@@ -248,7 +248,7 @@
 	{
 		"columnNumber": 7,
 		"era": "Techno era",
-		"techCost": 400,
+		"techCost": 600,
 		"buildingCost": 400,
 		"wonderCost": 800,
 		"techs": [
@@ -267,7 +267,7 @@
 	{
 		"columnNumber": 8,
 		"era": "Techno era",
-		"techCost": 600,
+		"techCost": 700,
 		"buildingCost": 600,
 		"wonderCost": 1200,
 		"techs": [
