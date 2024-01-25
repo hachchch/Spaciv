@@ -77,6 +77,7 @@
 	// Resource Provider
 	{
 		"name": "Power Farm",
+		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		// "production": 1,
 		"turnsToBuild": 10,
@@ -85,6 +86,7 @@
 	},
 	{
 		"name": "Hadron Collider",
+		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		// "production": 1,
 		"turnsToBuild": 10,
@@ -93,6 +95,7 @@
 	},
 	{
 		"name": "Acid Furnace",
+		"gold": 1,
 		"terrainsCanBeBuiltOn": ["Land"],
 		// "production": 1,
 		"turnsToBuild": 10,
