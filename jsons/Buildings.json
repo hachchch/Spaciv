@@ -18,7 +18,7 @@
 			"Provides [20] [Relation Score (Empire)] <for [Empire]>",
 			"Provides [20] [Relation Score (Neptunian)] <for [Neptunian]>",
 			"Gain a free [Government] [in all cities] <for [Human]>",
-			"Gain a free [America Government] [in capital] <for [United States]> <when not at war>",
+			"Gain a free [America Government] [in capital] <for [United Nations]> <when not at war>",
 			"Gain a free [Russia Government] [in capital] <for [Roscosmos]> <when not at war>",
 			"Gain a free [China Government] [in capital] <for [CNSA]> <when not at war>"
 		]
