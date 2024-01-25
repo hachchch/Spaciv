@@ -114,13 +114,13 @@
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"requiredTech": "Information era",
-		"uniques": ["Only available <in cities without a [Bomb Shelter]>","Destroyed when the city is captured"]
+		"uniques": ["Only available <in cities without a [Bomb Shelter]> <for [Human]>","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Bomb Shelter",
 		"maintenance": 1,
 		"requiredTech": "Information era",
-		"uniques": ["Only available <in cities without a [Military Base]>","Population loss from nuclear attacks [-75]% [in this city]","Damage to garrison from nuclear attacks [-75]% [in this city]"]
+		"uniques": ["Only available <in cities without a [Military Base]> <for [Human]>","Population loss from nuclear attacks [-75]% [in this city]","Damage to garrison from nuclear attacks [-75]% [in this city]"]
 	},
 	{
 		"name": "Hive Shelter",
@@ -128,7 +128,7 @@
 		"cityHealth": 18,
 		"maintenance": 1,
 		"requiredTech": "Xeno Life",
-		"uniques": ["Population loss from nuclear attacks [-30]% [in this city]","Damage to garrison from nuclear attacks [-30]% [in this city]"]
+		"uniques": ["Only available <for [Xeno]>","Population loss from nuclear attacks [-30]% [in this city]","Damage to garrison from nuclear attacks [-30]% [in this city]"]
 	},
 	{
 		"name": "Electric Fence Network",
@@ -137,7 +137,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Smart Phone",
-		"uniques": ["Only available <when above [49] [Power]>","Costs [50] [Power]","Destroyed when the city is captured"]
+		"uniques": ["Only available <when above [49] [Power]> <for [Human]>","Costs [50] [Power]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Eonic Field",
@@ -146,7 +146,7 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "The Eon",
-		"uniques": ["Only available <when above [49] [Encid]>","Costs [50] [Encid]","Destroyed when the city is captured"]
+		"uniques": ["Only available <when above [49] [Encid]> <for [Xeno]>","Costs [50] [Encid]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Plasma Net",
@@ -155,13 +155,14 @@
 		"maintenance": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Plasma control",
-		"uniques": ["Only available <when above [49] [Super Energy]>","Costs [50] [Super Energy]","Destroyed when the city is captured"]
+		"uniques": ["Only available <when above [49] [Super Energy]> <for [Alien]>","Costs [50] [Super Energy]","Destroyed when the city is captured"]
 	},
 	{
 		"name": "Research Lab",
 		"science": 4,
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 3,
+		"uniques": ["Only available <for [Human]>"],
 		"requiredTech": "Information era"
 	},
 	{
@@ -169,6 +170,7 @@
 		"science": 4,
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 3,
+		"uniques": ["Only available <for [Xeno]>"],
 		"requiredTech": "Xeno Life"
 	},
 	{
@@ -176,6 +178,7 @@
 		"science": 4,
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 3,
+		"uniques": ["Only available <for [Alien]>"],
 		"requiredTech": "Unified teory"
 	},
 	{
@@ -437,4 +440,18 @@
 		"requiredTech": "Liquid Propellant",
 		"uniques": ["Only available <for [Human]>","Reveal up to [200] [Water] within a [30] tile radius"]
 	},
+	{
+		"name": "Statue of Lord",
+		"isWonder": true,
+		"requiredTech": "Xeno Life",
+		"uniques": ["Free Social Policy","[-20]% Gold cost of upgrading <for [Military] units>","Only available <for [Xeno]>"],
+	},
+	{
+		"name": "X4-B Pasma Broadcast Center",
+		"isWonder": true,
+		"culture": 3,
+		"gold": 1,
+		"requiredTech": "Plasma control",
+		"uniques": ["Only available <for [Alien]>","Gain a free [Telemoss] [in this city]"]
+	}
 ]
