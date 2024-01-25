@@ -6,7 +6,8 @@
 		// "requiredTech": "Information era",
 		"uniques": ["Only available <for [Human]>","Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
 			"Automation is a primary action",
-		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable"],
+		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable",
+		"Can build [Power Farm] improvements on tiles"],
 		"cost": 70
 	},
 	{
@@ -20,21 +21,25 @@
 			"[-50]% construction time for [Production Facility] improvements",
 			"Can build [Breeding Facility] improvements on tiles",
 			"Automation is a primary action",
-		"Can build [Industry] improvements on tiles <in [Strategic resource] tiles>","Can build [Compounds] improvements on tiles","Uncapturable"],
+		"Can build [Industry] improvements on tiles <in [Strategic resource] tiles>","Can build [Compounds] improvements on tiles","Uncapturable",
+		"Can build [Power Farm] improvements on tiles",
+		"Can build [Hadron Collider] improvements on tiles"],
 		"cost": 70
 	},
         {
                 "name": "Xenotorn",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Only available <for [Xeno]>","Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action","Uncapturable"],
+		"uniques": ["Only available <for [Xeno]>","Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action","Uncapturable",
+		"Can build [Acid Furnace] improvements on tiles"],
 		"cost": 70
         },
         {
                 "name": "Greycolor Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		"uniques": ["Only available <for [Alien]>","Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action","Uncapturable"],
+		"uniques": ["Only available <for [Alien]>","Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action","Uncapturable",
+		"Can build [Hadron Collider] improvements on tiles"],
 		"cost": 70
         },
 	{
