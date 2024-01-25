@@ -591,5 +591,11 @@
 		"gold": 1,
 		"requiredTech": "Plasma control",
 		"uniques": ["Only available <for [Alien]>","Gain a free [Telemoss] [in this city]","[+25]% [Culture] [in all cities]"]
-	}
+	},
+	// Special Victory
+	{
+		"name": "Global Earth Treaty",
+		"cost": 500,
+		"uniques": ["Treaty","Unbuildable","Can only be built [in capital]","Only available <for [United Nations]>","Requires at least [10] population"],
+	},
 ]
