@@ -352,13 +352,13 @@ TileSets/FantasyHex/Tiles/Compounds
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Gley
-  rotate: false
-  xy: 444, 896
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
+# TileSets/FantasyHex/Tiles/City center-Gley
+#  rotate: false
+#  xy: 444, 896
+#  size: 32, 28
+#  orig: 32, 28
+#  offset: 0, 0
+#  index: -1
 TileSets/FantasyHex/Tiles/Mars
   rotate: false
   xy: 404, 841
@@ -465,6 +465,13 @@ TileSets/FantasyHex/Units/Greycolor Worker
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Colonist
+  rotate: false
+  xy: 564, 680
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Settler-Grey
   rotate: false
   xy: 564, 680
   size: 32, 28
