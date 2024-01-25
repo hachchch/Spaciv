@@ -201,6 +201,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [150, 150, 150],
+		"style": "Human",
 		"uniques": ["Human"],
 		"cities": ["SpaceX"]
 	},
@@ -214,6 +215,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [203, 253, 232],
+		"style": "Human",
 		"uniques": ["Human"],
 		"cities": ["Ottawa"]
 	},
@@ -227,6 +229,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
+		"style": "Human",
 		"uniques": ["Human"],
 		"cities": ["Tokyo"]
 	},
@@ -240,6 +243,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
+		"style": "Human",
 		"uniques": ["Human"],
 		"cities": ["Berlin"]
 	},
