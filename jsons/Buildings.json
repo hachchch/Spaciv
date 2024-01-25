@@ -616,4 +616,32 @@
 		"cost": 500,
 		"uniques": ["Treaty","Unbuildable","Can only be built [in capital]","Only available <for [United Nations]>","Requires at least [10] population"],
 	},
+	{
+		"name": "Artificial Planet",
+		"cost": 1000,
+		"isNationalWonder": true,
+		"uniques": ["Only available <for [Alien]>"],
+		"requiredTech": "Superfluidity",
+	},
+	{
+		"name": "Parliament of Milky Way",
+		"cost": 2000,
+		"isNationalWonder": true,
+		"uniques": ["Only available <for [Empire]>"],
+		"requiredTech": "Beyond",
+	},
+	{
+		"name": "University of Universe",
+		"cost": 800,
+		"isNationalWonder": true,
+		"uniques": ["Only available <for [Aether Republic]>"],
+		"requiredTech": "Metaphysics",
+	},
+	{
+		"name": "Galaxic Mind Control Center",
+		"cost": 800,
+		"isNationalWonder": true,
+		"uniques": ["Only available <for [Aether Republic]>"],
+		"requiredTech": "Superstrings",
+	},
 ]
