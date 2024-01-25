@@ -19,7 +19,7 @@
 	},
 	{
 		"name": "Dome",
-		"terrainsCanBeBuiltOn": ["Lunar","Mars","Stromat","Regold"],
+		"terrainsCanBeBuiltOn": ["Snow","Lunar","Mars","Stromat","Regold"],
 		"food": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
