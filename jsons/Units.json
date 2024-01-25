@@ -7,7 +7,7 @@
 		"uniques": ["Only available <for [Human]>","Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
 			"Automation is a primary action",
 		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable",
-		"Can build [Power Farm] improvements on tiles"],
+		"Can build [Power Farm] improvements on tiles","Can build [Necessary] improvements on tiles"],
 		"cost": 70
 	},
 	{
@@ -23,7 +23,7 @@
 			"Automation is a primary action",
 		"Can build [Industry] improvements on tiles <in [Strategic resource] tiles>","Can build [Compounds] improvements on tiles","Uncapturable",
 		"Can build [Power Farm] improvements on tiles",
-		"Can build [Hadron Collider] improvements on tiles"],
+		"Can build [Hadron Collider] improvements on tiles","Can build [Necessary] improvements on tiles"],
 		"cost": 70
 	},
         {
@@ -31,7 +31,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Only available <for [Xeno]>","Can build [Xenohive] improvements on tiles","Can build [Xenomine] improvements on tiles","Automation is a primary action","Uncapturable",
-		"Can build [Acid Furnace] improvements on tiles"],
+		"Can build [Acid Furnace] improvements on tiles","Can build [Necessary] improvements on tiles"],
 		"cost": 70
         },
         {
@@ -39,7 +39,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"uniques": ["Only available <for [Alien]>","Can build [Breeding Facility] improvements on tiles","Can build [Compounds] improvements on tiles","Automation is a primary action","Uncapturable",
-		"Can build [Hadron Collider] improvements on tiles"],
+		"Can build [Hadron Collider] improvements on tiles","Can build [Necessary] improvements on tiles"],
 		"cost": 70
         },
 	{
