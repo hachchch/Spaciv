@@ -108,6 +108,144 @@
 	},
 	// Other
 	{
+		"name": "Stock Exchange",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredTech": "Smart Phone"
+	},
+	{
+		"name": "Bismuth Catalyst Alchemy",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredTech": "Smart Phone"
+	},
+	{
+		"name": "Hive Mint",
+		"requiredBuilding": "Hive Worker District",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredTech": "Xeno Life"
+	},
+	{
+		"name": "Hive Worker District", // tier I
+		"production": 1,
+		"specialistSlots": {"Engineer": 1},
+		"maintenance": 3,
+		"uniques": ["Only available <for [Xeno]>"]
+		"requiredTech": "Xeno Life",
+	},
+	{
+		"name": "Even Bigger Hive Worker District", // tier II
+		"requiredBuilding": "Hive Worker District",
+		"production": 1,
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 6,
+		"uniques": ["Only available <for [Xeno]>"]
+		"requiredTech": "Beyond",
+	},
+	{
+		"name": "Space Hive Worker District", // tier III
+		"requiredBuilding": "Hive Worker District",
+		"production": 1,
+		"specialistSlots": {"Engineer": 3},
+		"maintenance": 12,
+		"uniques": ["Only available <for [Xeno]>"]
+		"requiredTech": "Urban Satellite",
+	},
+	// tier III
+	{
+		"name": "Hive Port",
+		"requiredTech": "Event Horizon",
+		"requiredBuilding": "Space Hive Worker District",
+		"uniques": ["Consumes [1] [Dominium]","[+20]% Production when constructing [Space] units [in this city]"]
+	},
+	{
+		"name": "Hive Trade Center",
+		"requiredBuilding": "Space Hive Worker District",
+		"gold": 3,
+		"maintenance": 2,
+		"specialistSlots": {"Merchant": 3},
+		"percentStatBonus": {"gold": 15},
+		"hurryCostModifier": 15,
+		"uniques": ["Consumes [1] [Dominium]"],
+		"requiredTech": "Commercial Space Flight",
+		"requiredBuilding": "Space Hive Worker District",
+	},
+	{
+		"name": "Prismaxium Defence System",
+		"cityStrength": 12,
+		"cityHealth": 50,
+		"maintenance": 2,
+		"requiredTech": "Urban Satellite",
+		"uniques": ["Consumes [1] [Prismaxium]"]
+		"requiredBuilding": "Space Hive Worker District",
+	},
+	{
+		"name": "Causality Loop",
+		"requiredBuilding": "Space Hive Worker District",
+		"science": 8,
+		"requiredTech": "Metaphysics",
+		"uniques": ["Consumes [2] [Neptunium]","[+50]% Production when constructing [Felsian Xenohornet] units [in this city]"]
+	},
+	{
+		"name": "Hive Mass Infrastructure",
+		"culture": 3,
+		"happiness": 4,
+		"gold": 3,
+		"requiredTech": "Solar Industry",
+		"uniques": ["[+5]% [Production] [in this city]","Consumes [2] [Amino Metal]","Consumes [2] [Encid]"]
+		"requiredBuilding": "Space Hive Worker District",
+	},
+	// tier II
+	{
+		"name": "Encid Smelter",
+		"requiredBuilding": "Even Bigger Hive Worker District",
+		"production": 2,
+		"maintenance": 2,
+		"specialistSlots": {"Engineer": 1},
+		"percentStatBonus": {"production": 15},
+		"hurryCostModifier": 15,
+		"uniques": ["Provides [1] [Amino Metal]","Only available <when above [29] [Encid]>","Costs [30] [Encid]"],
+		"requiredTech": "Beyond"
+	},
+	{
+		"name": "Xenocatalyst Cycler",
+		"requiredBuilding": "Even Bigger Hive Worker District",
+		"gold": 6,
+		"maintenance": 2,
+		"specialistSlots": {"Merchant": 1},
+		"percentStatBonus": {"gold": 15},
+		"hurryCostModifier": 15,
+		"uniques": ["Consumes [1] [Encid]"],
+		"requiredTech": "Beyond"
+	},
+	// tier I
+	{
+		"name": "Photosynthesis Generator",
+		"requiredBuilding": "Hive Worker District",
+		"production": 4,
+		"maintenance": 2,
+		// "percentStatBonus": {"production": 10},
+		"hurryCostModifier": 15,
+		"requiredTech": "Blood disassembly"
+	},
+	{
+		"name": "Blooded Mushroom Plantation",
+		"requiredBuilding": "Hive Worker District",
+		"food": 2,
+		"maintenance": 2,
+		"percentStatBonus": {"food": 10},
+		"hurryCostModifier": 15,
+		"requiredTech": "Blood disassembly"
+	},
+	// Other
+	{
 		"name": "Military Base",
 		"cityStrength": 8,
 		"cityHealth": 25,
