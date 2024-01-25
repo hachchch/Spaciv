@@ -122,7 +122,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Plains","Grassland"],
+		"occursOn": ["Earth"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"[25]% Chance to be destroyed by nukes"]
