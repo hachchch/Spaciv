@@ -27,8 +27,8 @@
 		"name": "Government",
 		"cost": 1,
 		"uniques": ["Unbuildable","Unsellable",
-			"Gain a free [Earth] [in this city] <in [Earth] tiles> <when not at war>",
-		"Gain a free [Ocean] [in this city] <in [{River} {Earth}] tiles> <when not at war>"]
+			"Gain a free [Earth] [in this city] <in [Earth] tiles>",
+		"Gain a free [Ocean] [in this city] <in [{River} {Earth}] tiles>"]
 	},
 	{
 		"name": "America Government",
