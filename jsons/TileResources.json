@@ -168,18 +168,9 @@
 		"uniques": ["Not shown on world screen","Cannot be traded"],
 	},
 	{
-		"name": "Human Civ",
+		
+		"name": "Allied City State",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen","Cannot be traded"],
-	},
-	{
-		"name": "Ayy Civ",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen","Cannot be traded"],
-	},
-	{
-		"name": "Xeno Civ",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen","Cannot be traded"],
-	},
+	}
 ]
