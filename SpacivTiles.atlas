@@ -5,14 +5,14 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 TileSets/FantasyHex/Units/Oberon-Class UFO
   rotate: false
-  xy: 0, 0
+  xy: 0, 6
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Sputnik I
   rotate: false
-  xy: 0, 28
+  xy: 0, 32
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
