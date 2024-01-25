@@ -657,6 +657,18 @@
 		"requiredTech": "Solar Shield",
 		"uniques": ["Only available <for [Alien]>"]
 	},
+	{
+		"name": "Superstrings Cannon",
+		"strength": 120,
+		"range": 2,
+		"rangedStrength": 160,
+		"movement": 2,
+		"attackSound": "tankshot",
+		"cost": 160,
+		"unitType": "Laser",
+		"requiredTech": "Superstrings",
+		"uniques": ["Only available <for [Alien]>","Consumes [32] [Super Energy]","Consumes [16] [Prismaxium]","[+300]% Strength <when attacking>"]
+	},
 	// uniques
 	{
 		"name": "Sputnik I",
