@@ -1,1 +1,47 @@
-
+SpacivTiles.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+TileSets/FantasyHex/Units/Oberon-Class UFO
+  rotate: false
+  xy: 0, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Sputnik I
+  rotate: false
+  xy: 0, 28
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Solar Armored
+  rotate: false
+  xy: 0, 56
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Corvette
+  rotate: false
+  xy: 0, 84
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Corvette-Human
+  rotate: false
+  xy: 0, 84
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Grey
+  rotate: false
+  xy: 0, 112
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
