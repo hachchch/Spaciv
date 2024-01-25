@@ -41,7 +41,7 @@ TileSets/FantasyHex/Units/Corvette-Human
 TileSets/FantasyHex/Tiles/City center-Grey
   rotate: false
   xy: 0, 112
-  size: 32, 28
-  orig: 32, 28
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
