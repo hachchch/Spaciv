@@ -813,7 +813,7 @@
 		"strength": 6,
 		"cost": 42,
 		"requiredTech": "Information era",
-		"uniques": ["[+100]% Strength <vs [Human] units>","Only available <in cities with a [Earth]>","[100]% chance to intercept air attacks", "[+150]% Strength <vs [{Air} {Human}] units>",
+		"uniques": ["Anti-Air","[+100]% Strength <vs [Human] units>","Only available <in cities with a [Earth]>","[100]% chance to intercept air attacks", "[+150]% Strength <vs [{Air} {Human}] units>",
 			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "missile"
 	},
@@ -825,7 +825,7 @@
 		"cost": 42,
 		"requiredTech": "Information era",
 		// "requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Human] units>","Only available <in cities with a [Earth]>","[+100]% Strength <vs [Modern Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+		"uniques": ["[+100]% Strength <vs [Human] units>","Only available <in cities with a [Earth]>","[+100]% Strength <vs [Modern Armor] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
