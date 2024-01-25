@@ -131,6 +131,7 @@
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
+		"uniques": ["Only available <for [Human]>"],
 		"requiredTech": "Smart Phone"
 	},
 	{
@@ -139,6 +140,7 @@
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
+		"uniques": ["Only available <for [Alien]>"],
 		"requiredTech": "Smart Phone"
 	},
 	{
@@ -148,6 +150,7 @@
 		"percentStatBonus": {"gold": 25},
 		"specialistSlots": {"Merchant": 2},
 		"hurryCostModifier": 15,
+		"uniques": ["Only available <for [Xeno]>"],
 		"requiredTech": "Xeno Life"
 	},
 	{
@@ -181,7 +184,7 @@
 		"name": "Hive Port",
 		"requiredTech": "Event Horizon",
 		"requiredBuilding": "Space Hive Worker District",
-		"uniques": ["Consumes [1] [Dominium]","[+20]% Production when constructing [Space] units [in this city]"]
+		"uniques": ["Only available <for [Xeno]>","Consumes [1] [Dominium]","[+20]% Production when constructing [Space] units [in this city]"]
 	},
 	{
 		"name": "Hive Trade Center",
@@ -191,7 +194,7 @@
 		"specialistSlots": {"Merchant": 3},
 		"percentStatBonus": {"gold": 15},
 		"hurryCostModifier": 15,
-		"uniques": ["Consumes [1] [Dominium]"],
+		"uniques": ["Only available <for [Xeno]>","Consumes [1] [Dominium]"],
 		"requiredTech": "Commercial Space Flight",
 		"requiredBuilding": "Space Hive Worker District",
 	},
@@ -201,7 +204,7 @@
 		"cityHealth": 50,
 		"maintenance": 2,
 		"requiredTech": "Urban Satellite",
-		"uniques": ["Consumes [1] [Prismaxium]"]
+		"uniques": ["Only available <for [Xeno]>","Consumes [1] [Prismaxium]"]
 		"requiredBuilding": "Space Hive Worker District",
 	},
 	{
@@ -209,7 +212,7 @@
 		"requiredBuilding": "Space Hive Worker District",
 		"science": 8,
 		"requiredTech": "Metaphysics",
-		"uniques": ["Consumes [2] [Neptunium]","[+50]% Production when constructing [Felsian Xenohornet] units [in this city]"]
+		"uniques": ["Only available <for [Xeno]>","Consumes [2] [Neptunium]","[+50]% Production when constructing [Felsian Xenohornet] units [in this city]"]
 	},
 	{
 		"name": "Hive Mass Infrastructure",
@@ -217,7 +220,7 @@
 		"happiness": 4,
 		"gold": 3,
 		"requiredTech": "Solar Industry",
-		"uniques": ["[+5]% [Production] [in this city]","Consumes [2] [Amino Metal]","Consumes [2] [Encid]"]
+		"uniques": ["Only available <for [Xeno]>","[+5]% [Production] [in this city]","Consumes [2] [Amino Metal]","Consumes [2] [Encid]"]
 		"requiredBuilding": "Space Hive Worker District",
 	},
 	// tier II
@@ -229,7 +232,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 15},
 		"hurryCostModifier": 15,
-		"uniques": ["Provides [1] [Amino Metal]","Only available <when above [29] [Encid]>","Costs [30] [Encid]"],
+		"uniques": ["Provides [1] [Amino Metal]","Only available <for [Xeno]> <when above [29] [Encid]>","Costs [30] [Encid]"],
 		"requiredTech": "Beyond"
 	},
 	{
@@ -240,7 +243,7 @@
 		"specialistSlots": {"Merchant": 1},
 		"percentStatBonus": {"gold": 15},
 		"hurryCostModifier": 15,
-		"uniques": ["Consumes [1] [Encid]"],
+		"uniques": ["Only available <for [Xeno]>","Consumes [1] [Encid]"],
 		"requiredTech": "Beyond"
 	},
 	// tier I
@@ -251,6 +254,7 @@
 		"maintenance": 2,
 		// "percentStatBonus": {"production": 10},
 		"hurryCostModifier": 15,
+		"uniques": ["Only available <for [Xeno]>"],
 		"requiredTech": "Blood disassembly"
 	},
 	{
@@ -260,6 +264,7 @@
 		"maintenance": 2,
 		"percentStatBonus": {"food": 10},
 		"hurryCostModifier": 15,
+		"uniques": ["Only available <for [Xeno]>"],
 		"requiredTech": "Blood disassembly"
 	},
 	// Other
