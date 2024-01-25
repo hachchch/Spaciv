@@ -108,6 +108,77 @@
 	},
 	// Other
 	{
+		"name": "Military Base",
+		"cityStrength": 8,
+		"cityHealth": 25,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Information era",
+		"uniques": ["Only available <in cities without a [Bomb Shelter]>","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Bomb Shelter",
+		"maintenance": 1,
+		"requiredTech": "Information era",
+		"uniques": ["Only available <in cities without a [Military Base]>","Population loss from nuclear attacks [-75]% [in this city]","Damage to garrison from nuclear attacks [-75]% [in this city]"]
+	},
+	{
+		"name": "Hive Shelter",
+		"cityStrength": 3,
+		"cityHealth": 18,
+		"maintenance": 1,
+		"requiredTech": "Xeno Life",
+		"uniques": ["Population loss from nuclear attacks [-30]% [in this city]","Damage to garrison from nuclear attacks [-30]% [in this city]"]
+	},
+	{
+		"name": "Electric Fence Network",
+		"cityStrength": 10,
+		"cityHealth": 30,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Smart Phone",
+		"uniques": ["Only available <when above [49] [Power]>","Costs [50] [Power]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Eonic Field",
+		"cityStrength": 10,
+		"cityHealth": 30,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "The Eon",
+		"uniques": ["Only available <when above [49] [Encid]>","Costs [50] [Encid]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Plasma Net",
+		"cityStrength": 10,
+		"cityHealth": 30,
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Plasma control",
+		"uniques": ["Only available <when above [49] [Super Energy]>","Costs [50] [Super Energy]","Destroyed when the city is captured"]
+	},
+	{
+		"name": "Research Lab",
+		"science": 4,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 3,
+		"requiredTech": "Information era"
+	},
+	{
+		"name": "Brain Center",
+		"science": 4,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 3,
+		"requiredTech": "Xeno Life"
+	},
+	{
+		"name": "Cosmic Simulation Room",
+		"science": 4,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 3,
+		"requiredTech": "Unified teory"
+	},
+	{
 		"name": "Mind Control Pulse",
 		"requiredTech": "The Eon",
 		"cost": 60,
