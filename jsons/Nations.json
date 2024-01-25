@@ -30,7 +30,9 @@
 			"[+1] Sight <for [Rover] units>","[+1] Sight <for [Embarked] units>",
 			"[+1 Happiness] per [3] population [in all cities] <during a Golden Age>",
 			"City-State territory always counts as friendly territory",
-		"Special Victory Condition: 'Stop the climate changes' and 'beat all earth nation' or 'correct 20 relation score of all earth nation and protect 1 city state from enemy'."],
+		"Special Victory Condition: 'Stop the climate changes' and 'beat all earth nation' or 'correct 20 relation score from all earth nation and ally with 1 city state'.",
+		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>",
+		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <when above [19] [Relation Score(Roscosmos)]> <when above [19] [Relation Score(CNSA)]> <when above [0] [Allied City State]>"],
 		"cities": ["New York","London","Rome","Constantinople","Cape Town"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
@@ -57,7 +59,8 @@
 		"uniques": ["Human","Starts with [Information era]",
 			"[+1 Food] from [Dome] tiles [in all cities]",
 			"[+20]% Production when constructing [Missile] units [in all cities]",
-		"Special Victory Condition: Correct 10000 Gold and beat all earth nation."],
+		"Special Victory Condition: Correct 10000 Gold and beat all earth nation.",
+		"Triggers victory <hidden from users> <when above [9999] [Gold]> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>"],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong"],
         },
     {
@@ -83,7 +86,8 @@
 			"Sputnik I will be sent at the start of the game, allowing space exploration in the early stages.",
 			"Gain a free [Free Sputnik] [in capital] <when not at war> <hidden from users>",
 			"[+15]% [Science] <before discovering [Beyond]>",
-		"Special Victory Condition: Research all Techs and beat all earth nation."],
+		"Special Victory Condition: Research all Techs and beat all earth nation.",
+		"Triggers victory <hidden from users> <after discovering [Meaning of Universe]> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>"],
 		"cities": ["Moscow","Vostochny","Baikonur"],
         },
     // Aliens
@@ -102,7 +106,8 @@
 		"uniques": ["Alien","Starts with [Unified theory]",
 			"Provides [1] [Superunit limit]",
 		"Double quantity of [Super Energy] produced",
-		"Special Victory Condition: Build the 'Artificial Planet'."],
+		"Special Victory Condition: Build the 'Artificial Planet'.",
+		"Triggers victory <hidden from users> <if [Artificial Planet] is constructed>"],
 		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1"],
         },
     	{
@@ -118,7 +123,8 @@
 		"uniqueName": "53Kelvin Survival",
 		"style": "Gley",
 		"uniques": ["Alien","Starts with [Unified theory]","[+25]% Strength <for [All] units> <when defending> <in [Snow] tiles>",
-		"Special Victory Condition: Build the 'Artificial Planet'."],
+		"Special Victory Condition: Build the 'Artificial Planet'.",
+		"Triggers victory <hidden from users> <if [Artificial Planet] is constructed>"],
 		"cities": ["Triton","GDS-89","Kuiper"],
         },
     	// Trans Neptunian
@@ -135,7 +141,8 @@
 		"uniqueName": "Naval Race",
 		"style": "Human", // I imagine it Human like Nation. but not on earth so... Star wars Like Nation?
 		"uniques": ["Human","Starts with [Unified theory]","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [in all cities]",
-		"Special Victory Condition: Build the 'Parliament of Milky Way'."],
+		"Special Victory Condition: Build the 'Parliament of Milky Way'.",
+		"Triggers victory <hidden from users> <if [Parliament of Milky Way] is constructed>"],
 		"cities": ["Nibiru","Breslow Point","Terrus","Lagrange"],
         },
 	{
@@ -154,7 +161,8 @@
 		"uniques": ["Xeno","Starts with [Xeno Life]",
 			"[+1 Science] per [2] population [in all cities]",
 			// "[+1 Science] from every specialist [in all cities]",
-		"Special Victory Condition: Build the 'University of Universe'."],
+		"Special Victory Condition: Build the 'University of Universe'.",
+		"Triggers victory <hidden from users> <if [University of Universe] is constructed>"],
 	},
 	{
 		"name": "Xenomorph",
@@ -170,7 +178,8 @@
 		"style": "Xeno",
 		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
 		"uniques": ["Xeno","Starts with [Xeno Life]","[+1 Culture] per [3] population [in all cities]","[+1 Culture] from every specialist [in all cities]",
-		"Special Victory Condition: Build the 'Galaxic Mind Control Center' and Complete 3 Policy."],
+		"Special Victory Condition: Build the 'Galaxic Mind Control Center' and empire has 20 Happiness.",
+		"Triggers victory <if [Mind Control Center] is constructed> <when above [19] [Happiness]> <hidden from users>"],
 	},
 /*
 	//Barbarian
@@ -192,6 +201,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [150, 150, 150],
+		"uniques": ["Human"],
 		"cities": ["SpaceX"]
 	},
 	{
@@ -204,6 +214,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [203, 253, 232],
+		"uniques": ["Human"],
 		"cities": ["Ottawa"]
 	},
 	{
@@ -216,6 +227,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
+		"uniques": ["Human"],
 		"cities": ["Tokyo"]
 	},
 	{
@@ -228,6 +240,7 @@
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
+		"uniques": ["Human"],
 		"cities": ["Berlin"]
 	},
 ]
