@@ -318,7 +318,8 @@
 		"strength": 1,
 		"attackSound": "torpedo",
 		"cost": 100,
-		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement","Unbuildable <for [non-[Alien]]>"]
+		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
+			"Unbuildable <for [non-[Alien]]>"]
 		"requiredTech": "Light Sail",
 	},
 	{
