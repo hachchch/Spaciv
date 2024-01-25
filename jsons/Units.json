@@ -47,10 +47,11 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Unbuildable","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
+	/*
 	{
 		"name": "Pioneer",
 		"replaces": "Settler",
@@ -81,6 +82,7 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
+	*/
         {
                 "name": "Rover",
 		"unitType": "Scout",
