@@ -452,6 +452,6 @@
 		"culture": 3,
 		"gold": 1,
 		"requiredTech": "Plasma control",
-		"uniques": ["Only available <for [Alien]>","Gain a free [Telemoss] [in this city]"]
+		"uniques": ["Only available <for [Alien]>","Gain a free [Telemoss] [in this city]","[+25]% [Culture] [in all cities]"]
 	}
 ]
