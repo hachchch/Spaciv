@@ -131,7 +131,7 @@
 	{
 		"name": "Relation Score (United Nations)",
 		"resourceType": "Strategic",
-		"uniques": ["Excluded from map editor"],
+		"uniques": ["Not shown on world screen","Excluded from map editor"],
 	},
 	{
 		"name": "Relation Score (Martian)",
