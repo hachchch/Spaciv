@@ -9,14 +9,14 @@
         "allyBonusUniques": [
             "[+6 Culture] <before the [Research era]>",
             "[+12 Culture] <starting from the [Research era]> <before the [Techno era]>",
-            "[+26 Culture] <starting from the [Techno era]>"
+            "[+26 Culture] <starting from the [Techno era]>","Provides [1] [Allied City State] <hidden from users>"
         ],
         "color": [139, 96, 255]
     },
     {
         "name": "Maritime",
         "friendBonusUniques": ["[+2 Food] [in capital]"],
-        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+        "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]","Provides [1] [Allied City State] <hidden from users>"],
         "color": [56, 255, 112]
     },
     {
@@ -28,7 +28,7 @@
         "allyBonusUniques": [
             "[+2 Happiness] <before the [Research era]>",
             "[+3 Happiness] <starting from the [Research era]>",
-            "Provides a unique luxury"
+            "Provides a unique luxury","Provides [1] [Allied City State] <hidden from users>"
         ],
         "color": [255, 216, 0]
     },
@@ -48,7 +48,7 @@
         "allyBonusUniques":  [
             "[+6 Faith] <before the [Research era]>",
             "[+12 Faith] <starting from the [Research era]> <before the [Techno era]>",
-            "[+26 Faith] <starting from the [Techno era]>"
+            "[+26 Faith] <starting from the [Techno era]>","Provides [1] [Allied City State] <hidden from users>"
         ],
         "color": [255, 255, 255]
     }
