@@ -194,6 +194,7 @@
 	{
 		"name": "SpaceX",
 		"adjective": ["SpaceX"],
+		"startBias": ["Earth","Mars"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
@@ -208,7 +209,8 @@
 	{
 		"name": "Canada",
 		"adjective": ["Canadian"],
-		"cityStateType": "Militaristic",
+		"startBias": ["Earth"],
+		"cityStateType": "Mercantile",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -221,8 +223,9 @@
 	},
 	{
 		"name": "Japan",
+		"startBias": ["Earth"],
 		"adjective": ["Japanese"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Cultured",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
@@ -235,6 +238,7 @@
 	},
 	{
 		"name": "Germany",
+		"startBias": ["Earth"],
 		"adjective": ["German"],
 		"cityStateType": "Militaristic",
 
@@ -246,5 +250,35 @@
 		"style": "Human",
 		"uniques": ["Human"],
 		"cities": ["Berlin"]
+	},
+	{
+		"name": "Ultima",
+		"startBias": ["Stromat"],
+		"adjective": ["Ultimian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100, 100, 100],
+		"style": "Xeno",
+		"uniques": ["Xeno"],
+		"cities": ["Ultima"]
+	},
+	{
+		"name": "Ultima",
+		"startBias": ["Stromat"],
+		"adjective": ["Ultimian"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100, 100, 100],
+		"style": "Xeno",
+		"uniques": ["Xeno"],
+		"cities": ["Ultima"]
 	},
 ]
