@@ -125,7 +125,7 @@
 		"uniques": ["Alien","Starts with [Unified theory]","[+25]% Strength <for [All] units> <when defending> <in [Snow] tiles>",
 		"Special Victory Condition: Build the 'Artificial Planet'.",
 		"Triggers victory <hidden from users> <if [Artificial Planet] is constructed>"],
-		"cities": ["Triton","GDS-89","Kuiper"],
+		"cities": ["Triton","GDS-89","Kuiper","Despina","Hippocamp","Galatea","Nereid","Naiad","Larissa","Laomedeia"],
         },
     	// Trans Neptunian
    	{
@@ -143,7 +143,7 @@
 		"uniques": ["Human","Starts with [Unified theory]","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [in all cities]",
 		"Special Victory Condition: Build the 'Parliament of Milky Way'.",
 		"Triggers victory <hidden from users> <if [Parliament of Milky Way] is constructed>"],
-		"cities": ["Nibiru","Breslow Point","Terrus","Lagrange"],
+		"cities": ["Nibiru","Breslow Point","Terrus","Lagrange","Klemperer Rosette","Oberth","Charnia","Gegenschein","Green Beach","Halo Point"],
         },
 	{
 		"name": "Aether Republic",
