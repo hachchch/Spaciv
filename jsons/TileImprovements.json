@@ -102,6 +102,14 @@
 		"uniques": ["Provides [1] [Encid] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "C"
 	},
+	{
+		"name": "Weak Reactor",
+		"turnsToBuild": 10,
+		"uniques": ["Consumes [1] [Prismaxium]",
+			"[+3 Production] <when above [0] [Prismaxium]>",
+		"Unbuildable <for [AI player]> <when below [3] [Prismaxium]> <hidden from users>" // Hidden AI Behave Enhancement
+		]
+	},
 	// necessary
 	{
 	"name": "Road",
