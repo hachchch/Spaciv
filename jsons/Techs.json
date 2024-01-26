@@ -145,11 +145,12 @@
 				"name": "Light Sail",
 				"prerequisites": ["Beyond"],
 				"row": 1,
-				"uniques": ["[+1] Movement <for [Embarked] units>"]
+				"uniques": ["[+1] Movement <for [Embarked] units>","[+1] Range <for [Air] units>","[+1] Range <for [Missile] units>"]
 			},
             {
                 "name": "Space Meteorology",
                 "row": 6,
+		    "uniques": ["[+1] Sight <for [Embarked] units>"],
 		    "prerequisites": ["Beyond"],
 		"quote": "",
                 },
