@@ -4,6 +4,16 @@
                 "uniques": ["Can Embark <after discovering [Space Engineering]>"]
         },
         {
+                "name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Laser","Gunpowder","Xeno Entity","Space Object","Scout","Death","Spaceship","Space Craft","Carrier","Air Craft","Atmo Craft","Earth Soldiers"],
+                "row": 0,
+                "column": 0
+        },
+        {
+                
+        },
+        {
                 "name": "Rocket Armor I",
                 "column": 1,
                 "row": 1,
