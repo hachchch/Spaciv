@@ -23,9 +23,15 @@
 	// uniresource
 	{
 		"name": "Neptunium",
+		"terrainsCanBeFoundOn": ["Snow"],
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
+		"production": 1,
 		"resourceType": "Strategic",
 		"revealedBy": "Beyond",
-		"uniques": ["Excluded from map editor"]
+		"uniques": ["Excluded from map editor"],
+		"improvementStats": {"production": 1},
+		"majorDepositAmount": {"sparse": 5, "default": 7, "abundant": 10},
+		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 3}
 	},
 	{
 		"name": "Dominium",
