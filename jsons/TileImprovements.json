@@ -104,6 +104,7 @@
 	},
 	{
 		"name": "Weak Reactor",
+		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 10,
 		"uniques": ["Consumes [1] [Prismaxium]",
 			"[+3 Production] <when above [0] [Prismaxium]>",
