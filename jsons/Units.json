@@ -694,7 +694,7 @@
 		"cost": 1,
 		"movement": 2,
 		"strength": 10,
-		"uniques": ["Unbuildable","[-1] Sight"]
+		"uniques": ["Unbuildable"]
 	},
 	// Missiles
 	{
