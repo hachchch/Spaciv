@@ -58,7 +58,7 @@
 		"uniqueName": "Chang'e Program",
 		"uniques": ["Human","Starts with [Information era]",
 			"[+1 Food] from [Dome] tiles [in all cities]",
-			"[+20]% Production when constructing [Missile] units [in all cities]",
+			"[+75]% Production when constructing [Missile] units [in all cities]",
 		"Special Victory Condition: Correct 10000 Gold and beat all earth nation.",
 		"Triggers victory <hidden from users> <when above [9999] [Gold]> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>"],
 		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong"],
