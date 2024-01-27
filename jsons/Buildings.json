@@ -537,7 +537,8 @@
 		"name": "Climate Manage AI",
 		"cost": 1,
 		"uniques": ["Unsellable","Unbuildable","Gain a free [Cooling Facility] [in this city] <in [Earth] tiles> <for [non-[Human]]>","Gain a free [Virus Extermination] [in this city] <in [Earth] tiles> <for [non-[Human]]>",
-			"Gain a free [Cyanobacteria Plantation] [in this city] <in [non-[Earth]] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [non-[Earth]] tiles> <for [Human]>"],
+			"Gain a free [Cyanobacteria Plantation] [in this city] <in [Mars] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [Mars] tiles> <for [Human]>",
+		"Gain a free [Cyanobacteria Plantation] [in this city] <in [Stromat] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [Stromat] tiles> <for [Human]>"],
 		"requiredTech": "Automatic Terraforming System",
 	},
 	// Resource Making
