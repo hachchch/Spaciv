@@ -106,7 +106,7 @@
 		"name": "Weak Reactor",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 10,
-		"uniques": ["Consumes [1] [Prismaxium]",
+		"uniques": ["Provides [1] [Neptunium]","Consumes [1] [Prismaxium]",
 			"[+3 Production] <when above [0] [Prismaxium]>",
 		"Unbuildable <for [AI player]> <when below [3] [Prismaxium]> <hidden from users>" // Hidden AI Behave Enhancement
 		]
