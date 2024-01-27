@@ -59,7 +59,7 @@
                 "name": "Gas",
                 "type": "Water",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
+                "uniques": ["Neighboring tiles will convert to [Gas]"/*,"Units ending their turn on this terrain take [10] damage"*/,"Rare feature"],
 		"RGB": [128, 125, 71]
         },
         {
