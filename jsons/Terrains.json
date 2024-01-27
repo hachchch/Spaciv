@@ -11,7 +11,7 @@
 		"type": "Land",
 		// "food": 2,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature","[+2 Food] <for [Human]>","[+1 Production] <for [non-[Human]]>"],
+                "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature","[+2 Food] <for [Human]>"/*,"[+1 Production] <for [non-[Human]]>"*/],
 		"RGB": [0, 163, 0],
         },
 	{
@@ -43,7 +43,7 @@
 		"type": "Land",
                 // "production": 2,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Mars]","Rare feature","[+1 Production] <for [Human]>","[+2 Food] <for [non-[Human]]>"],
+                "uniques": ["Neighboring tiles will convert to [Mars]","Rare feature"/*,"[+1 Production] <for [Human]>",*/"[+2 Food] <for [non-[Human]]>"],
 		"RGB": [171, 79, 76]
         },
         {
