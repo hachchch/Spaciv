@@ -27,7 +27,7 @@
                 // "food": 1,
 		// "production": 1,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Stromat]","Rare feature"/*,"[+1 Production] <for [Human]>",*/"[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food] <for [Empire]>"],
+                "uniques": ["Neighboring tiles will convert to [Stromat]","Rare feature"/*,"[+1 Production] <for [Human]>"*/,"[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food] <for [Empire]>"],
 		"RGB": [136, 125, 112]
         },
         {
