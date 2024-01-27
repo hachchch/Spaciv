@@ -2,7 +2,8 @@
     {
         "name": "Civilian",
         "movementType": "Land",
-	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>",
+	"This Unit takes [25] damage <upon ending a turn in a [Solar Star] tile>"]
     },
     {
         "name": "Scout",
