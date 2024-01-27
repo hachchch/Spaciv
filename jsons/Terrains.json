@@ -96,7 +96,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Earth"],
+		"occursOn": ["Earth","Mars","Lunar","Stromat","Snow","Asteroid Belt"],
 		"uniques": ["Rough terrain","[+5] Strength for cities built on this terrain"]
 	},
 	{
