@@ -17,6 +17,9 @@
 			"Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>",
 			"Provides [20] [Relation Score (Empire)] <for [Empire]>",
 			"Provides [20] [Relation Score (Neptunian)] <for [Neptunian]>",
+			"All newly-trained [Land] units [in all cities] receive the [Human Technology] promotion <for [Human]>",
+			"All newly-trained [Land] units [in all cities] receive the [Alien Technology] promotion <for [Alien]>",
+			"All newly-trained [Land] units [in all cities] receive the [Xeno Technology] promotion <for [Xeno]>",
 			"Gain a free [Government] [in all cities] <for [Human]>",
 			"Gain a free [America Government] [in capital] <for [United Nations]> <when not at war>",
 			"Gain a free [Russia Government] [in capital] <for [Roscosmos]> <when not at war>",
@@ -122,7 +125,7 @@
 		"cost": 100,
 		"production": 2,
 		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured",
-			"[+15]% Production when constructing [Spaceship] units [in this city]",],
+			"[+15]% Production when constructing [Space] units [in this city]",],
 	},
 	// Other
 	{
@@ -531,7 +534,7 @@
 		"culture": 1,
 		"science": 1,
 		"requiredTech": "Automatic Terraforming System",
-		"uniques": ["Gain a free [Climate Manage AI] [in all cities]","Consume [5] [Prismaxium]","Consume [5] [Dominium]","Consume [5] [Neptunium]","Consume [5] [Amino Metal]"]
+		"uniques": ["Gain a free [Climate Manage AI] [in all cities]","Consumes [5] [Prismaxium]","Consumes [5] [Dominium]","Consumes [5] [Neptunium]","Consumes [5] [Amino Metal]"]
 	},
 	{
 		"name": "Climate Manage AI",
@@ -554,7 +557,7 @@
 		"production": 3,
 		"gold": 4,
 		"requiredTech": "Solar Industry",
-		"uniques": ["Must have an owned [Solar Star] within [3] tiles","Provides [5] [Power] <for [Human]>","Provides [5] [Super Energy] <for [Alien]>","[+5 Faith] <for [Xeno]>"]
+		"uniques": ["Must have an owned [Solar Star] within [20] tiles","Provides [5] [Power] <for [Human]>","Provides [5] [Super Energy] <for [Alien]>","[+5 Faith] <for [Xeno]>"]
 	},
 	{
 		"name": "Mega Solar Farm",
