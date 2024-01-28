@@ -78,7 +78,7 @@
 		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Scientific",
-                "startIntroPart1": "",
+                "startIntroPart1": "Mother Russia!During the era of the Cold War between East and West, we made great contributions to the evolution of humanity through space development!And now Russia is divided due to economic crisis and diplomatic failures, and conflicts over national reunification are occurring one after another... Great leader! Can you lead us to glory again?", // Original text 母なるロシア！我々は東西冷戦の時代に、宇宙開発を通じて人類の進化に偉大な貢献をしてきました！そして今、ロシアは経済の危機や、外交的失敗により分断が起きており、民族統一の紛争が相次いでいます...偉大なるリーダーよ！あなたは我々を再び栄光へと導くことはできますか？
 		"startIntroPart2": "",
                 "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
 		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
