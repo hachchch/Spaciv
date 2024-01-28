@@ -145,7 +145,7 @@
 		"startBias": ["Avoid [Earth]"],
 		"preferredVictoryType": "Domination",
                 "startIntroPart1": "Greater our empire, Comrade! It has now been 14 years since this Empire discovered abundant food and resources in a certain solar system in the Milky Way Galaxy. Meanwhile, we have been steadily making preparations for Operation Pluto. The time has finally come.",
-		"startIntroPart2": "As you know, our home world has already been swallowed up by an unavoidable black hole and 462 trillion people have died. We, a group of 150,000 people, are the survivors. This solar system, especially Earth, will become our new world, but be careful of H.sapiens. According to the third investigation team's information, they seems have space flight technology and already made mass complex society on earth, also they have strange thin box-like machine... I do not know at that well. First of all, let's use the asteroid called Feka as a base.",
+		"startIntroPart2": "As you know, our home world has already been swallowed up by an unavoidable black hole and 462 trillion people have died. We, a group of 150,000 people, are only the survivors. This solar system, especially Earth, will become our new world, but be careful of H.sapiens. According to the third investigation team's information, they seems have space flight technology and already made mass complex society on earth, also they have strange thin box-like machine... I do not know at that well. First of all, let's use the asteroid called Feka as a base.",
 		"outerColor": [15,0,0],
                 "innerColor": [125,10,15],
 		"uniqueName": "Naval Race",
