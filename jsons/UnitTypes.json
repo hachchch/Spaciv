@@ -40,9 +40,35 @@
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
 	},
     {
-        "name": "Spaceship",
+        //Spacecraft
+	{
+	"name": "Space Object",
         // "movementType": "Land",
-	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack"]
+	},
+    {
+	"name": "Corvette",
+        //"name": "Spaceship",
+        // "movementType": "Land",
+	"uniques": ["Can carry [1] [Missile] units","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement",
+	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
+    },
+    {
+        "name": "Destroyer",
+        // "movementType": "Land",
+	"uniques": ["Can carry [2] [Missile Defense] units","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement",
+	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
+    },
+    {
+        "name": "Cruiser",
+        // "movementType": "Land",
+	"uniques": ["Can carry [1] [Missile Defense] units","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement",
+	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
+    },
+    {
+        "name": "Battleship",
+        // "movementType": "Land",
+	"uniques": ["[-25]% Strength <vs [Bomber] units> <when defending>","[-20]% Strength <vs [Missile] units> <when defending>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement",
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
     {
@@ -52,31 +78,32 @@
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
     {
-        "name": "Space Craft",
+		//Strike Craft
+    {
+        "name": "Fighter",
         "movementType": "Air",
-	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","[-25]% Strength <when fighting in [Land] tiles>",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","[+150]% Strength <vs [Bomber] units>","Cannot intercept [Missile] units","Cannot intercept [Missile Defense] units",
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
     {
-        "name": "Atmo Craft",
+        "name": "Bomber",
         "movementType": "Air",
-	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","[+25]% Strength <when fighting in [Land] tiles>","Can only attack [Land] tiles",
-	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
-    },
-	{
-		"name": "Air Craft",
-        "movementType": "Air",
-	"uniques": ["[+100]% Strength <when fighting in [Earth] tiles> <starting from the [Research era]>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Can only attack [Earth] tiles","[+100]% Strength <vs cities> <in [Earth] tiles>",
+	"uniques": ["[+50]% Strength <vs [City] units> <when attacking>","[+50]% Strength <vs [Spaceship] units> <when attacking>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Cannot intercept [Missile] units","Cannot intercept [Missile Defense] units",
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
 	},
 	{
 		"name": "Missile",
        		 "movementType": "Air",
-        	"uniques": ["[+100]% Strength <when fighting in [Earth] tiles> <starting from the [Research era]>","Self-destructs when attacking", "Cannot be intercepted"]
+        	"uniques": ["[+100]% Strength <when fighting in [Earth] tiles> <starting from the [Research era]>","Self-destructs when attacking"/*, "Cannot be intercepted"*/]
 	},
 	{
 		"name": "Earth Soldiers",
 		"movementType": "Land",
 		"uniques": ["[+100]% Strength <when fighting in [Earth] tiles> <starting from the [Research era]>","Cannot enter ocean tiles","Can only attack [Earth] tiles","[+100]% Strength <vs cities> <in [Earth] tiles>"]
 	},
+	{
+        "name": "Missile Defense",
+       		 "movementType": "Air",
+	"uniques": ["Can only attack [non-[All]] tiles","Cannot intercept [non-[Missile]] units", "Cannot intercept [Bomber] units", "[+750]% Strength <vs [Missile] units>","Self-destructs when attacking"]
+    },
 ]
