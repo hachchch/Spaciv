@@ -1,6 +1,9 @@
 {
     "name": "Global uniques",
     "uniques": [
+        "All newly-trained [non-[Support]] units [in all cities] receive the [Alien Technology] promotion <for [Alien]>",
+        "All newly-trained [non-[Support]] units [in all cities] receive the [Human Technology] promotion <for [Human]>",
+        "All newly-trained [non-[Support]] units [in all cities] receive the [Xeno Technology] promotion <for [Xeno]>",
         "Reveal up to [9999] [Earth] within a [10] tile radius <for [Human]>",
         "Reveal up to [9999] [Solar Star] within a [999] tile radius",
         "[-75]% growth [in all cities] <when between [-10] and [0] Happiness>",
