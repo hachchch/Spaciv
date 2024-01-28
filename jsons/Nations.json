@@ -13,7 +13,7 @@
 		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Diplomatic",
-                "startIntroPart1": "",
+                "startIntroPart1": "Our planet is now in danger. Climate change is raging and seems like nature's revenge on human civilization. responding to it requires strong ties between humans through international cooperation or integration, and United Nation's leadership...", // Original text 今、我々の惑星は危機に瀕しています。気候変動は猛威をふるい、人類の文明に対しての自然の報復のようにも見え、それに対応するためには国際的な協調、あるいは統合による全人類の強い結びつきと、あなたのリーダーシップが必要です。
 		"startIntroPart2": "",
                 "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
 		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
