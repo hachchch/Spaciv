@@ -207,8 +207,8 @@
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
+		"attacked": "War has been officially declared from the nation.",
+		"defeated": "Although the company folded, I am proud to have served humans on the front lines of space engineering for so many years.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [150, 150, 150],
 		"style": "Human",
@@ -221,9 +221,9 @@
 		"startBias": ["Earth"],
 		"cityStateType": "Mercantile",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
+		"declaringWar": ".",
+		"attacked": "Very well, Your warships will soon become space debris!",
+		"defeated": "This ship may sink, but our spirits will linger.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [203, 253, 232],
 		"style": "Human",
@@ -236,9 +236,9 @@
 		"adjective": ["Japanese"],
 		"cityStateType": "Cultured",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
+		"declaringWar": ".",
+		"attacked": "Very well, Like the Mongol Invaders, you will be defeated.",
+		"defeated": "The America's security treaty was useless... This war would be a precedent of that.",
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
 		"style": "Human",
@@ -251,7 +251,7 @@
 		"adjective": ["German"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"declaringWar": "Operation Space Lion was announced,The German Navy will coming to your planet.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
@@ -276,11 +276,10 @@
 		"cities": ["Ultima"]
 	},
 	{
-		"name": "Ultima",
-		"startBias": ["Stromat"],
-		"adjective": ["Ultimian"],
-		"cityStateType": "Militaristic",
-
+		"name": "Nijino Hoshi",
+		"startBias": ["Regold"],
+		"adjective": ["Nijinian"],
+		"cityStateType": "Cultured",
 		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
@@ -288,6 +287,6 @@
 		"innerColor": [100, 100, 100],
 		"style": "Xeno",
 		"uniques": ["Xeno"],
-		"cities": ["Ultima"]
+		"cities": ["Nijino Hoshi"]
 	},
 ]
