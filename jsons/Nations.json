@@ -78,8 +78,9 @@
 		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Scientific",
-                "startIntroPart1": "Mother Russia!During the era of the Cold War between East and West, we made great contributions to the evolution of humanity through space development!And now Russia is divided due to economic crisis and diplomatic failures, and conflicts over national reunification are occurring one after another... Great leader! Can you lead us to glory again?", // Original text 母なるロシア！我々は東西冷戦の時代に、宇宙開発を通じて人類の進化に偉大な貢献をしてきました！そして今、ロシアは経済の危機や、外交的失敗により分断が起きており、民族統一の紛争が相次いでいます...偉大なるリーダーよ！あなたは我々を再び栄光へと導くことはできますか？
-		"startIntroPart2": "",
+                "startIntroPart1": "The Cold War has brought dramatic times, of plentiful highs and lows. The Soviet Space Program has been a pioneer; it had launched into space the first satellite, the first animal, the first human, and the first space station. As the economy began to stagnate, it has been outdone by the Americans, with their Apollo 11 landing on the Moon. Soon, the Soviet Union began to crack, and the Soviet Space Program's successor, Roscosmos, took the brunt of the fall as the Union collapsed.",
+	    // Mother Russia!During the era of the Cold War between East and West, we made great contributions to the evolution of humanity through space development!And now Russia is divided due to economic crisis and diplomatic failures, and conflicts over national reunification are occurring one after another... Great leader! Can you lead us to glory again? // Original text 母なるロシア！我々は東西冷戦の時代に、宇宙開発を通じて人類の進化に偉大な貢献をしてきました！そして今、ロシアは経済の危機や、外交的失敗により分断が起きており、民族統一の紛争が相次いでいます...偉大なるリーダーよ！あなたは我々を再び栄光へと導くことはできますか？
+		"startIntroPart2": "Behold the wonders of the past, the legacy you inherit, and think of what you have the potential to achieve! Will you let the mighty legacy of Gagarin be overshadowed by space programs decades younger than yours, led by Americans? Or will you take the place you deserve, as the leading edge of Mankind's push into the stars? Hail to Russia! Hail to its people, its industry and its glory!",
                 "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
 		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
 		"defeated": "The day...is yours. I hope you will be merciful in your triumph.",
