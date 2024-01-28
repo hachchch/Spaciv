@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tradition",
+        "name": "Freedom",
         "era": "FlightTest era",
         "priorities": {
             "Neutral": 0,
@@ -20,7 +20,7 @@
                 "column": 1
             },
             {
-                "name": "Tradition Complete",
+                "name": "Freedom Complete",
                 "uniques": [
                     "[+15]% growth [in all cities]",
                     "Free Technology"
@@ -29,7 +29,7 @@
         ]
     },
     {
-        "name": "Liberty",
+        "name": "Autocracy",
         "era": "FlightTest era",
         "priorities": {
             "Neutral": 10,
@@ -46,13 +46,13 @@
                 "column": 1
             },
             {
-                "name": "Liberty Complete",
+                "name": "Autocracy Complete",
                 "uniques": ["Free Great Person"]
             }
         ]
     },
     {
-        "name": "Honor",
+        "name": "Order",
         "era": "FlightTest era",
         "priorities": {
             "Neutral": 0,
@@ -72,7 +72,7 @@
                 "column": 1
             },
             {
-                "name": "Honor Complete",
+                "name": "Order Complete",
                 "uniques": [
                     "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"
                 ]
@@ -80,8 +80,8 @@
         ]
     },
     {
-        "name": "Piety",
-        "era": "FlightTest era",
+        "name": "Integrationism",
+        "era": "Exploration era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -95,12 +95,17 @@
         ],
         "policies": [
             {
-                "name": "4",
+                "name": "Asgardia",
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Piety Complete",
+                "name": "Asgardia",
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Integrationism Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
                     "[+1 Culture] from [Space] tiles [in all cities]"
@@ -109,8 +114,8 @@
         ]
     },
     {
-        "name": "Patronage",
-        "era": "FlightTest era",
+        "name": "Space-Law",
+        "era": "Exploration era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -121,12 +126,12 @@
         "uniques": ["[-25]% City-State Influence degradation"],
         "policies": [
             {
-                "name": "5",
+                "name": "Artemis Accords",
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Patronage Complete",
+                "name": "Space-Law Complete",
                 "uniques": [
                     "Influence of all other civilizations with all city-states degrades [33]% faster",
                     "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
@@ -135,8 +140,8 @@
         ]
     },
     {
-        "name": "Commerce",
-        "era": "FlightTest era",
+        "name": "Eco-Justice",
+        "era": "Research era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -147,12 +152,12 @@
         "uniques": ["[+25]% [Gold] [in capital]"],
         "policies": [
             {
-                "name": "6",
+                "name": "Pantropy",
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Commerce Complete",
+                "name": "Eco-Justice Complete",
                 "uniques": [
                     "[+3 Gold] from every [City center]",
                     "[+100]% Gold from Great Merchant trade missions",
@@ -162,8 +167,8 @@
         ]
     },
     {
-        "name": "Rationalism",
-        "era": "FlightTest era",
+        "name": "Terraformism",
+        "era": "Research era",
         "priorities": {
             "Neutral": 0,
             "Cultural": 10,
@@ -177,12 +182,12 @@
         ],
         "policies": [
             {
-                "name": "7",
+                "name": "Planetary Chauvinism",
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Rationalism Complete",
+                "name": "Terraformism Complete",
                 "uniques": [
                     "[2] Free Technologies",
                     "May buy [Great General] units for [500] [Culture] [in all cities] at an increasing price ([0])"
