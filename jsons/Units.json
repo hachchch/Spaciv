@@ -106,7 +106,7 @@
         },
         {
                 "name": "Infantry",
-		"promotions": ["Human Technology"],
+		// "promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
@@ -123,11 +123,12 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Consumes [2] [Relation Score (United Nations)]","Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects"],
+		"uniques" : ["Support","Consumes [2] [Relation Score (United Nations)]","Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects"],
 		"attackSound": "shot",
 	},
         {
                 "name": "Xenomob",
+		// "promotions": ["Xeno Technology"],
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 8,
@@ -140,10 +141,11 @@
 	},
 	{
 		"name": "Xenomob (Xeno)",
+		// "promotions": ["Xeno Technology"],
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Consumes [2] [Relation Score (Xenomorph)]","Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects"],
+		"uniques" : ["Support","Consumes [2] [Relation Score (Xenomorph)]","Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
 	},
         {
@@ -163,12 +165,12 @@
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Consumes [2] [Relation Score (Martian)]","Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects"],
+		"uniques" : ["Support","Consumes [2] [Relation Score (Martian)]","Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects"],
 		"attackSound": "bombing",
 	},
 	{
 		"name": "Mechanized Artillery",
-		"promotions": ["Human Technology"],
+		// "promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 18,
@@ -209,7 +211,7 @@
 	},
 	{
 		"name": "Mechanized Infantry",
-		"promotions": ["Human Technology"],
+		// "promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 12,
@@ -226,7 +228,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
-		"uniques": ["Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
 	},
 	//Xeno scum
 	{
@@ -242,6 +244,7 @@
 	},
 	{
 		"name": "Xenowarrior (Xeno)",
+		"promotions": ["Xeno Technology"],
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 12,
@@ -262,11 +265,12 @@
 	},
 	{
 		"name": "Laser Blaster (Alien)",
+		"promotions": ["Alien Technology"],
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "gdrAttack",
-		"uniques": ["Consumes [4] [Relation Score (Martian)]","Unbuildable","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (Martian)]","Unbuildable","[+25]% Strength <vs [Gunpowder] units>"],
 	},
 	//Great Units
 	{
