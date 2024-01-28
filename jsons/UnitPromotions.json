@@ -21,7 +21,9 @@
                 "name": "Human Technology",
                 "column": 1,
                 "row": 0,
-                "uniques": ["[+25]% Strength <vs [Xeno Technology] units>"],
+                "uniques": ["[+25]% Strength <vs [Xeno Technology] units>",
+		"Cannot be carried by [All] units <for [Atmo]> <hidden from users>",
+		"Can only attack [Earth] tiles <for [Atmo]> <hidden from users>"],
         },
         {
                 "name": "Rocket Armor I",
