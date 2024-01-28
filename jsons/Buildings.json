@@ -122,7 +122,7 @@
 		"cost": 100,
 		"production": 2,
 		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured",
-			"[+15]% Production when constructing [Space] units [in this city]",],
+			"[+15]% Production when constructing [Space] units [in this city]"],
 	},
 	// Other
 	{
