@@ -647,7 +647,7 @@
 		"name": "Galaxic Mind Control Center",
 		"cost": 800,
 		"isNationalWonder": true,
-		"uniques": ["Only available <for [Aether Republic]>"],
+		"uniques": ["Only available <for [Xenomorph]>"],
 		"requiredTech": "Superstrings",
 	},
 ]
