@@ -90,19 +90,13 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Strength <for [Military] units> <when below [10] HP>",
-            "Only available <before adopting [Rationalism]>"
+            "[+100]% Strength <for [Military] units> <when below [10] HP>", // The effect is still under consideration
         ],
         "policies": [
             {
                 "name": "Asgardia",
                 "row": 1,
                 "column": 1
-            },
-            {
-                "name": "Asgardia",
-                "row": 1,
-                "column": 3
             },
             {
                 "name": "Integrationism Complete",
@@ -178,7 +172,6 @@
         },
         "uniques": [
             "[+15]% [Science] <while the empire is happy>",
-            "Only available <before adopting [Piety]>"
         ],
         "policies": [
             {
