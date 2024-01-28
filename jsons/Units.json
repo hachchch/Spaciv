@@ -407,7 +407,7 @@
 		"cost": 50,
 		"requiredTech": "Plasma control",
 		"uniques": [
-			"Atmo",
+			"Space",
 			"Only available <for [Alien]>",
 			"[75]% chance to intercept air attacks",
 			"[+50]% Strength <vs [Bomber] units>",
@@ -509,7 +509,7 @@
 		"cost": 50,
 		"requiredTech": "Acid processing",
 		"uniques": [
-			"Atmo",
+			"Space",
 			"Only available <for [Xeno]>",
 			"[50]% chance to intercept air attacks",
 			"[+25]% Strength <when fighting in [Land] tiles>",
