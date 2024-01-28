@@ -1,20 +1,37 @@
 [
-        {
-                "name": "Space Force",
-                "uniques": ["Can Embark <after discovering [Space Engineering]>"]
-        },
+        
         {
                 "name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Laser","Gunpowder","Xeno Entity","Space Object","Scout","Death","Spaceship","Space Craft","Carrier","Air Craft","Atmo Craft","Earth Soldiers"],
+		"unitTypes": ["Laser","Gunpowder","Xeno Entity","Space Object","Scout","Death","Corvette","Destroyer","Cruiser","Battleship","Carrier","Fighter","Bomber","Earth Soldiers"],
                 "row": 0,
                 "column": 0
+        },
+/*
+	{
+                "name": "Space Force",
+                "column": 0,
+                "row": 1,
+                "uniques": ["Can Embark <after discovering [Space Engineering]>"]
+        },
+*/
+	 // These shall connect to dedicated promotion trees.
+        
+        {
+                "name": "Human Technology",
+                "column": 1,
+                "row": 0,
+                "uniques": ["[+25]% Strength <vs [Xeno Technology] units>",
+		"Cannot be carried by [All] units <for [Atmo] units> <hidden from users>",
+		"Can only attack [Earth] tiles <for [Atmo] units> <hidden from users>",
+		"[+100]% Strength <when fighting in [Earth] tiles> <for [Atmo] units> <hidden from users> <starting from the [Research era]>"],
         },
         {
                 "name": "Rocket Armor I",
                 "column": 1,
                 "row": 1,
-                "unitType": ["Gunpowder"],
+                "unitTypes": ["Gunpowder"],
+		"prerequisites": ["Human Technology"],
                 "uniques": ["[+25]% Strength <when [Embarked]>"]
         },
         {
@@ -22,7 +39,15 @@
                 "column": 1,
                 "row": 2,
                 "prerequisites": ["Rocket Armor I"],
-                "unitType": ["Gunpowder"],
+                "unitTypes": ["Gunpowder"],
+                "uniques": ["[+25]% Strength <when [Embarked]>"]
+        },
+        {
+                "name": "Rocket Armor III",
+                "column": 1,
+                "row": 3,
+                "prerequisites": ["Rocket Armor II"]
+                "unitTypes": ["Gunpowder"],
                 "uniques": ["[+25]% Strength <when [Embarked]>"]
         },
         {
@@ -30,22 +55,21 @@
                 "column": 2,
                 "row": 3,
                 "prerequisites": ["Rocket Armor II"],
-                "unitType": ["Gunpowder"],
+                "unitTypes": ["Gunpowder"],
                 "uniques": ["[+1] Movement <when [Embarked]>"]
         },
         {
-                "name": "Rocket Armor III",
-                "column": 1,
-                "row": 3,
-                "prerequisites": ["Rocket Armor II"]
-                "unitType": ["Gunpowder"],
-                "uniques": ["[+25]% Strength <when [Embarked]>"]
+                "name": "Alien Technology",
+                "column": 10,
+                "row": 0,
+                "uniques": ["[+25]% Strength <vs [Human Technology] units>"],
         },
         {
                 "name": "UFO Armor I",
                 "column": 10,
                 "row": 1,
-                "unitType": ["Laser"],
+                "unitTypes": ["Laser"],
+		"prerequisites": ["Alien Technology"],
                 "uniques": ["[+25]% Strength <when [Embarked]>"]
         },
         {
@@ -53,7 +77,15 @@
                 "column": 10,
                 "row": 2,
                 "prerequisites": ["UFO Armor I"],
-                "unitType": ["Laser"],
+                "unitTypes": ["Laser"],
+                "uniques": ["[+25]% Strength <when [Embarked]>"]
+        },
+        {
+                "name": "UFO Armor III",
+                "column": 10,
+                "row": 3,
+                "prerequisites": ["UFO Armor II"]
+                "unitTypes": ["Laser"],
                 "uniques": ["[+25]% Strength <when [Embarked]>"]
         },
         {
@@ -61,22 +93,21 @@
                 "column": 11,
                 "row": 3,
                 "prerequisites": ["UFO Armor II"],
-                "unitType": ["Laser"],
+                "unitTypes": ["Laser"],
                 "uniques": ["[+1] Sight <when [Embarked]>"]
         },
-        {
-                "name": "UFO Armor III",
-                "column": 10,
-                "row": 3,
-                "prerequisites": ["UFO Armor II"]
-                "unitType": ["Laser"],
-                "uniques": ["[+25]% Strength <when [Embarked]>"]
+	{
+                "name": "Xeno Technology",
+                "column": 20,
+                "row": 0,
+                "uniques": ["[+25]% Strength <vs [Alien Technology] units>"],
         },
         {
                 "name": "Mirror Neuron I",
                 "column": 20,
                 "row": 1,
-                "unitType": ["Xeno Entity"],
+                "unitTypes": ["Xeno Entity"],
+		"prerequisites": ["Xeno Technology"],
                 "uniques": ["[+25]% Strength <when [Embarked]>"]
         },
         {
@@ -84,7 +115,15 @@
                 "column": 20,
                 "row": 2,
                 "prerequisites": ["Mirror Neuron I"],
-                "unitType": ["Xeno Entity"],
+                "unitTypes": ["Xeno Entity"],
+                "uniques": ["[+25]% Strength <when [Embarked]>"]
+        },
+        {
+                "name": "Mirror Neuron III",
+                "column": 20,
+                "row": 3,
+                "prerequisites": ["Mirror Neuron II"]
+                "unitTypes": ["Xeno Entity"],
                 "uniques": ["[+25]% Strength <when [Embarked]>"]
         },
         {
@@ -92,27 +131,7 @@
                 "column": 21,
                 "row": 3,
                 "prerequisites": ["Mirror Neuron II"],
-                "unitType": ["Xeno Entity"],
+                "unitTypes": ["Xeno Entity"],
                 "uniques": ["May attack when embarked"]
         },
-        {
-                "name": "Mirror Neuron III",
-                "column": 20,
-                "row": 3,
-                "prerequisites": ["Mirror Neuron II"]
-                "unitType": ["Xeno Entity"],
-                "uniques": ["[+25]% Strength <when [Embarked]>"]
-        },
-        {
-                "name": "Xeno Technology", // These will connects to a dedicated promotion tree.
-                "uniques": ["[+25]% Strength <vs [Alien Technology] units>"],
-        },
-        {
-                "name": "Human Technology",
-                "uniques": ["[+25]% Strength <vs [Xeno Technology] units>"],
-        },
-        {
-                "name": "Alien Technology",
-                "uniques": ["[+25]% Strength <vs [Human Technology] units>"],
-        }
 ]
