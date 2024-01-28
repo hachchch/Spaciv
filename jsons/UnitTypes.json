@@ -19,19 +19,19 @@
     {
         "name": "Xeno Entity",
         "movementType": "Land",
-	"uniques": ["[+25]% Strength <vs [Laser] units>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>",
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
     {
         "name": "Gunpowder",
         "movementType": "Land",
-	"uniques": ["[+25]% Strength <vs [Xeno Entity] units>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>",
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>",
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
     {
         "name": "Laser",
         "movementType": "Land",
-	"uniques": ["[+25]% Strength <vs [Gunpowder] units>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
+	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
 	{
 		"name": "Space Object",
