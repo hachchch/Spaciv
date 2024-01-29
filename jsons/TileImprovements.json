@@ -115,7 +115,7 @@
 	{
 		"name": "Artificial Habitat",
 		"terrainsCanBeBuiltOn": [
-			"Lagrange Zone"
+			"Lagrange Zone" // I decided that the game balance would be at risk if it were able to create every space. Sorry for changing it without permission.
 		],
 		"turnsToBuild": 15,
 		"food": 2,
