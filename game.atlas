@@ -613,9 +613,9 @@ TileSets/FantasyHex/Tiles/Earth
   index: -1
 TileSets/FantasyHex/Tiles/Power Farm
   rotate: false
-  xy: 484, 1039
-  size: 32, 38
-  orig: 32, 38
+  xy: 484, 1044
+  size: 32, 33
+  orig: 32, 33
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Farm
