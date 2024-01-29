@@ -375,9 +375,9 @@ TileSets/FantasyHex/Tiles/Water
   index: -1
 TileSets/FantasyHex/Tiles/Acid Furnace
   rotate: false
-  xy: 244, 841
-  size: 32, 28
-  orig: 32, 28
+  xy: 244, 851
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Xenomine
@@ -422,7 +422,7 @@ TileSets/FantasyHex/Tiles/Asteroid Belt
   orig: 32, 29
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Asteroid Belt+Asteroid Mine
+TileSets/FantasyHex/Tiles/Asteroid Mine
   rotate: false
   xy: 564, 511
   size: 32, 29
