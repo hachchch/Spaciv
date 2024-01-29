@@ -197,8 +197,7 @@
 	{
 		"name": "Nebula Harvester",
 		"terrainsCanBeBuiltOn": [
-			"Nebula",
-			"Ocean",
+			"Nebula"
 		],
 		"turnsToBuild": 15,
 		"gold": 2,
