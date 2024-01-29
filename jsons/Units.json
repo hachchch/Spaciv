@@ -1,4 +1,5 @@
 [
+	//Workers
         {
 		"name": "Human Worker",
 		"unitType": "Civilian",
@@ -43,22 +44,31 @@
 		"cost": 70
         },
 	{
+		"name": "Space Worker",
+		"unitType": "Space Object",
+		"movement": 4,
+		"cost": 150,
+		"requiredTech": "Commercial Space Flight",
+		"uniques": ["May create improvements on water resources","Can instantly construct a [Artificial Habitat] improvement <by consuming this unit>","Can build [Artificial Habitat] improvements on tiles","Can build [Orbital Shipyard] improvements on tiles","Can build [Orbital Industry] improvements on tiles","Can build [Asteroid Mine] improvements on tiles","Can build [Nebula Harvester] improvements on tiles","Can build [Solar Array] improvements on tiles","Can build [Transportation] improvements on tiles","Uncapturable", "Automation is a primary action"]
+	},
+	//Settlers
+	{
 		"name": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit> <before adopting [Great Acceleration]>","Founds a new city <[2] times> <after which this unit is consumed> <after adopting [Great Acceleration]> <hidden from users>", "Excess Food converted to Production when under construction",
+		"cost": 110,
+		"uniques": ["Founds a new city <by consuming this unit> <before adopting [Great Acceleration]>","Founds a new city <[2] times> <after which this unit is consumed> <after adopting [Great Acceleration]> <hidden from users>", "Excess Food converted to Production when under construction","Uncapturable",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
-	/*
+/*
 	{
 		"name": "Pioneer",
 		"replaces": "Settler",
 		"unitType": "Civilian",
 		"movement": 2,
-		"cost": 106,
-		"uniques": ["Only available <for [Human]>","Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction","Uncapturable",
+		"cost": 110,
+		"uniques": ["Founds a new city <by consuming this unit> <before adopting [Great Acceleration]>","Founds a new city <[2] times> <after which this unit is consumed> <after adopting [Great Acceleration]> <hidden from users>", "Excess Food converted to Production when under construction","Uncapturable",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
@@ -82,7 +92,19 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
-	*/
+*/
+	{
+		"name": "Colony Ship",
+		"unitType": "Space Object",
+		"movement": 3,
+		"strength": 5,
+		"cost": 180,
+		"uniques": ["Cannot attack",
+			"Founds a new city <by consuming this unit> <in [Lagrange Zone] tiles>"]
+		"requiredTech": "Commercial Space Flight",
+	},
+
+	//Scouts
         {
                 "name": "Rover",
 		"unitType": "Scout",
@@ -104,9 +126,10 @@
 		"cost": 25,
 		"uniques": ["Only available <for [Alien]>","Uncapturable"],
         },
+	//Human
         {
                 "name": "Infantry",
-		// "promotions": ["Human Technology"],
+		"promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
@@ -119,7 +142,6 @@
 	},
 	{
 		"name": "Infantry (Human)",
-		"promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
@@ -128,8 +150,8 @@
 	},
         {
                 "name": "Xenomob",
-		// "promotions": ["Xeno Technology"],
 		"unitType": "Xeno Entity",
+		"promotions": ["Xeno Technology"],
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -141,7 +163,6 @@
 	},
 	{
 		"name": "Xenomob (Xeno)",
-		// "promotions": ["Xeno Technology"],
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 8,
@@ -151,6 +172,7 @@
         {
                 "name": "Phaser",
 		"unitType": "Laser",
+		"promotions": ["Alien Technology"],
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -170,7 +192,7 @@
 	},
 	{
 		"name": "Mechanized Artillery",
-		// "promotions": ["Human Technology"],
+		"promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 18,
@@ -185,6 +207,7 @@
 	{
 		"name": "Xenohornet",
 		"unitType": "Xeno Entity",
+		"promotions": ["Xeno Technology"],
 		"movement": 2,
 		"rangedStrength": 20,
 		"range": 2,
@@ -198,6 +221,7 @@
 	{
 		"name": "Tripod",
 		"unitType": "Laser",
+		"promotions": ["Alien Technology"],
 		"movement": 2,
 		"rangedStrength": 20,
 		"range": 2,
@@ -211,7 +235,7 @@
 	},
 	{
 		"name": "Mechanized Infantry",
-		// "promotions": ["Human Technology"],
+		"promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 12,
@@ -223,17 +247,17 @@
 	},
 	{
 		"name": "Mechanized Infantry (Human)",
-		"promotions": ["Human Technology"],
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
 		"uniques": ["Support","Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
 	},
-	//Xeno scum
+	//Xenos
 	{
 		"name": "Xenowarrior",
 		"unitType": "Xeno Entity",
+		"promotions": ["Xeno Technology"],
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
@@ -244,17 +268,17 @@
 	},
 	{
 		"name": "Xenowarrior (Xeno)",
-		"promotions": ["Xeno Technology"],
 		"unitType": "Xeno Entity",
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
-		"uniques": ["Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+25]% Strength <vs [Laser] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+25]% Strength <vs [Laser] units>"],
 	},
 	// Mars
 	{
 		"name": "Laser Blaster",
 		"unitType": "Laser",
+		"promotions": ["Alien Technology"],
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "gdrAttack",
@@ -265,7 +289,6 @@
 	},
 	{
 		"name": "Laser Blaster (Alien)",
-		"promotions": ["Alien Technology"],
 		"unitType": "Laser",
 		"movement": 2,
 		"strength": 12,
@@ -574,7 +597,7 @@
 		"rangedStrength": 35,
 		"strength": 30,
 		"attackSound": "shipguns",
-		"cost": 320,
+		"cost": 350,
 		"requiredTech": "Magnetogravitical Engineering",
 		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>",
 			"Must set up to ranged attack",
@@ -584,11 +607,12 @@
 		"name": "Carrier",
 		"unitType": "Carrier",
 		"movement": 2,
-		"strength": 20,
+		"strength": 10,
 		"attackSound": "shipguns",
 		"cost": 250,
 		"requiredTech": "Magnetogravitical Engineering",
-		"uniques": ["[+50]% Strength <vs [Interceptor] units> <when defending>",
+		"uniques": ["[+50]% Strength <vs [Fighter] units> <when defending>",
+			"[+100]% Strength <when defending>",
 			"Can carry [3] [Space] units",
 			"Unbuildable <in cities without a [Launch site]>"],
 	},
@@ -657,7 +681,7 @@
 			"[+150]% Strength <vs [Helicopter] units>",
 			"This Unit takes [25] damage <upon ending a turn in a [non-[Earth]] tile>",
 			"Can only attack [Earth] tiles",
-			"[+25]% Strength <when fighting in [Earth] tiles>"],
+			"[+100]% Strength <when fighting in [Earth] tiles>"],
 		"attackSound": "jetgun",
 	},
 	{
@@ -681,7 +705,7 @@
 			"[+150]% Strength <vs [Tank] units>",
 			"This Unit takes [25] damage <upon ending a turn in a [non-[Earth]] tile>",
 			"[+100]% Strength <vs cities> <in [Earth] tiles>",
-			"[+25]% Strength <when fighting in [Earth] tiles>"],
+			"[+100]% Strength <when fighting in [Earth] tiles>"],
 		"attackSound": "jetgun",
 	},
 	{
@@ -701,7 +725,7 @@
 			"This Unit takes [25] damage <upon ending a turn in a [non-[Earth]] tile>",
 			"[+100]% Strength <vs cities> <in [Earth] tiles>",
 			"Can only attack [Earth] tiles",
-			"[+25]% Strength <when fighting in [Earth] tiles>"],
+			"[+100]% Strength <when fighting in [Earth] tiles>"],
 		"attackSound": "jetgun",
 	},
 	{
@@ -783,16 +807,6 @@
 		"attackSound": "shipguns"
 	},
 	// Late Game units
-	/*
-	{
-		"name": "Space Worker",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Commercial Space Flight",
-		"uniques": ["May create improvements on water resources", "Uncapturable", "Automation is a primary action"]
-	},
-	*/
 	{
 		"name": "Solar Armored",
 		"strength": 30,
@@ -845,7 +859,7 @@
 		"cost": 1,
 		"movement": 2,
 		"strength": 10,
-		"uniques": ["Unbuildable","[-1] Sight"]
+		"uniques": ["Unbuildable"]
 	},
 	// Missiles
 	{
