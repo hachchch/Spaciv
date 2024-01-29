@@ -121,7 +121,7 @@
 		// "requiredBuilding": "Shipbuilding Capability",
 		"cost": 100,
 		"production": 2,
-		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured",
+		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
 			"[+15]% Production when constructing [Space] units [in this city]"],
 	},
 	// Other
@@ -501,28 +501,32 @@
 		"name": "Cyanobacteria Plantation",
 		"happiness": 2,
 		// "food": 2,
-		"uniques": ["[+1 Food] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]"]
+		"uniques": ["[+1 Food] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]",
+            "Only available <before adopting [Eco-Justice]>"]
 		"requiredTech": "Terraforming",
 	},
 	{
 		"name": "Groundwater Dam",
 		"happiness": 2,
 		// "food": 2,
-		"uniques": ["[+1 Production] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]"]
+		"uniques": ["[+1 Production] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]",
+            "Only available <before adopting [Eco-Justice]>"]
 		"requiredTech": "Terraforming",
 	},
 	{
 		"name": "Virus Extermination",
 		"happiness": 2,
 		// "food": 2,
-		"uniques": ["[+1 Food] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]"]
+		"uniques": ["[+1 Food] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]",
+            "Only available <before adopting [Eco-Justice]>"]
 		"requiredTech": "Terraforming",
 	},
 	{
 		"name": "Cooling Facility",
 		"happiness": 2,
 		// "food": 2,
-		"uniques": ["[+1 Production] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]"]
+		"uniques": ["[+1 Production] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]",
+            "Only available <before adopting [Eco-Justice]>"]
 		"requiredTech": "Terraforming",
 	},
 	{
@@ -531,14 +535,15 @@
 		"culture": 1,
 		"science": 1,
 		"requiredTech": "Automatic Terraforming System",
-		"uniques": ["Gain a free [Climate Manage AI] [in all cities]","Consumes [5] [Prismaxium]","Consumes [5] [Dominium]","Consumes [5] [Neptunium]","Consumes [5] [Amino Metal]"]
+		"uniques": ["Gain a free [Climate Manage AI] [in all cities]","Consumes [5] [Prismaxium]","Consumes [5] [Dominium]","Consumes [5] [Neptunium]","Consumes [5] [Amino Metal]",
+            "Only available <before adopting [Eco-Justice]>"]
 	},
 	{
 		"name": "Climate Manage AI",
 		"cost": 1,
 		"uniques": ["Unsellable","Unbuildable","Gain a free [Cooling Facility] [in this city] <in [Earth] tiles> <for [non-[Human]]>","Gain a free [Virus Extermination] [in this city] <in [Earth] tiles> <for [non-[Human]]>",
-			"Gain a free [Cyanobacteria Plantation] [in this city] <in [Mars] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [Mars] tiles> <for [Human]>",
-		"Gain a free [Cyanobacteria Plantation] [in this city] <in [Stromat] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [Stromat] tiles> <for [Human]>"],
+			"Gain a free [Cyanobacteria Plantation] [in this city] <in [non-[Earth]] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [non-[Earth]] tiles> <for [Human]>",
+            "Only available <before adopting [Eco-Justice]>"],
 		"requiredTech": "Automatic Terraforming System",
 	},
 	// Resource Making
@@ -550,11 +555,24 @@
 	},
 	// About Heliophysics
 	{
-		"name": "Dyson Sphere",
+		"name": "Dyson Relay",
 		"production": 3,
 		"gold": 4,
+		"cost": 200,
 		"requiredTech": "Solar Industry",
-		"uniques": ["Must have an owned [Solar Star] within [20] tiles","Provides [5] [Power] <for [Human]>","Provides [5] [Super Energy] <for [Alien]>","[+5 Faith] <for [Xeno]>"]
+		"uniques": ["Must have an owned [Solar Star] within [10] tiles","Must have an owned [Solar Array] within [3] tiles"]
+	},
+	{
+		"name": "Dyson Swarm",
+		"requiredTech": "Solar Industry",
+		"isWonder": true,
+		"cost": 2000,
+		"uniques": [
+			"Requires a [Dyson Relay] in at least [6] cities",
+			"Double quantity of [Power] produced <for [Human]>",
+			"Double quantity of [Super Energy] produced <for [Alien]>",
+			"Double quantity of [Encid] produced <for [Xeno]>",
+			"Only available <in cities with a [Dyson Relay]>"]
 	},
 	{
 		"name": "Mega Solar Farm",
@@ -640,7 +658,7 @@
 		"name": "University of Universe",
 		"cost": 1300,
 		"isNationalWonder": true,
-		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Aether Republic]>","Requires a [Science] in at least [4] cities"],
+		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Aether Republic]>","Requires a [Brain Center] in at least [4] cities"],
 		"requiredTech": "Metaphysics",
 	},
 	{
