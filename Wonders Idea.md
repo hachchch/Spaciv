@@ -2,17 +2,17 @@
 
 ・L5 Society-done
 
-・Interplanetary Transport Network
+・Interplanetary Transport Network-done as National Wonder
 
-・lunar spacelift
+・lunar spacelift-done
 
-・space elevator
+・space elevator-done
 
-・O'Neill cylinder(it also will be UN's unique improvement)
+・O'Neill cylinder(it also will be UN's unique improvement)-done as improvement
 
 ・Mass driver
 
-・Millennial Project
+・Millennial Project-done
 
 ・Dyson tree
 
