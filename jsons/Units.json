@@ -47,7 +47,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 106,
-		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+		"uniques": ["Founds a new city <by consuming this unit> <before adopting [Great Acceleration]>","Founds a new city <[2] times> <after which this unit is consumed> <after adopting [Great Acceleration]> <hidden from users>", "Excess Food converted to Production when under construction",
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
