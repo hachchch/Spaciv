@@ -42,7 +42,7 @@
 		"Special Victory Condition: 'Stop the climate changes' and 'beat all earth nation' or 'correct 20 relation score from all earth nation and ally with 1 city state'.",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <when above [19] [Relation Score (Roscosmos)]> <when above [19] [Relation Score (CNSA)]> <when above [0] [Allied City State]>"],
-		"cities": ["New York","London","Rome","Constantinople","Cape Town"],
+		"cities": ["New York","London","Paris","Singapore","Amsterdam","Seoul","Dubai","Melbourne","Copenhagen","Sydney","Vienna","Madrid","Stockholm","Zurich","Los Angeles","Barcelona","Brussels","Chicago","Geneva","San Francisco","Dublin","Boston","Istanbul","Helsinki","Vancouver","Milan","Taipei","Washington","Bangkok","Sao Paulo","Tel Aviv","Kuala Lumpur","Mexico City","Buenos Aires","Jakarta","Johannesburg","Cairo","Mumbai"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
 	},
     {
@@ -98,7 +98,7 @@
 			"[+15]% [Science] <before discovering [Beyond]>",
 		"Special Victory Condition: Research all Techs and beat all earth nation.",
 		"Triggers victory <hidden from users> <after discovering [Meaning of Universe]> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>"],
-		"cities": ["Moscow","Vostochny","Baikonur"],
+		"cities": ["Moscow","Vostochny","Baikonur","Zvyozdny Gorodok","Amur","Lunokhod","Spektr"],
         },
     // Aliens
         {
@@ -118,7 +118,7 @@
 		"Double quantity of [Super Energy] produced",
 		"Special Victory Condition: Build the 'Artificial Planet'.",
 		"Triggers victory <hidden from users> <if [Artificial Planet] is constructed>"],
-		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1"],
+		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1","Voltex-A3","Opabinia","Hallucigenia","Radionia"],
         },
     	{
         	"name": "Neptunian",
@@ -162,7 +162,7 @@
 		"uniques": ["Human","Starts with [Unified theory]","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [in all cities]",
 		"Special Victory Condition: Build the 'Parliament of Milky Way'.",
 		"Triggers victory <hidden from users> <if [Parliament of Milky Way] is constructed>"],
-		"cities": ["Feka","Nibiru","Breslow Point","Terrus","Lagrange","Klemperer Rosette","Oberth","Charnia","Gegenschein","Green Beach","Halo Point"],
+		"cities": ["Theia","Nibiru","Breslow Point","Terrus","Lagrange","Klemperer Rosette","Oberth","Charnia","Gegenschein","Green Beach","Halo Point","Hades Asteroid","Gas Spheroid","Crystal Fade","Kiwi Desert"],
         },
 	{
 		"name": "Aether Republic",
@@ -186,17 +186,17 @@
 	},
 	{
 		"name": "Xenomorph",
-		"leaderName": "qPQue",
+		"leaderName": "ꁛꍜꉚ",
 		"adjective": ["Xenon"],
 		"startBias": ["Avoid [Earth]","Avoid [Mars]"],
 		"preferredVictoryType": "Cultural",
-                "startIntroPart1": "Xenomorphs are a member of the Xenidae family and are the most socially evolved space creatures! Our civilization was born 200,000 years ago when Xeno Communication began, and rapidly expanded with the discovery of biological acid replication culkus catalysts 205 years ago. Legend has it that Xeno Communication first took place among Xenotis and appears to have diversified across species. And may glory be to our leader qPQue, whose ancestor is Xenotis!",
+                "startIntroPart1": "Xenomorphs are a member of the Xenidae family and are the most socially evolved space creatures! Our civilization was born 200,000 years ago when Xeno Communication began, and rapidly expanded with the discovery of biological acid replication culkus catalysts 205 years ago. Legend has it that Xeno Communication first took place among Xenotis and appears to have diversified across species. And may glory be to our leader ꁛꍜꉚ, whose ancestor is Xenotis!",
 		"startIntroPart2": "All of the Xenidae that make up our Xenotopia are now on the brink of collapse. These include workers stress and riots due to severe food depletion in the late Uradonian anoxic crisis and the division of people by biological barriers. Our leader, the people in xenotopia need your leadership. In this space age, is it possible to create space colonies and provide food? We pray that our fight shall be successful.",
 		"outerColor": [26,62,78],
                 "innerColor": [172,152,223],
 		"uniqueName": "Interspecies Communication",
 		"style": "Xeno",
-		"cities": ["Hokei","Eakai","Syuji","Maji","Sanlanoi","Constai","NebulaTOI0"],
+		"cities": ["Hokei","Eakai","Syuji","Module Gamma","Sanlanoi","Constai","NebulaԊ","ꤾew ꤿorld"],
 		"uniques": ["Xeno","Starts with [Xeno Life]","[+1 Culture] per [3] population [in all cities]","[+1 Culture] from every specialist [in all cities]",
 		"Special Victory Condition: Build the 'Galaxic Mind Control Center' and empire has 20 Happiness.",
 		"Triggers victory <if [Galaxic Mind Control Center] is constructed> <when above [19] [Happiness]> <hidden from users>"],
