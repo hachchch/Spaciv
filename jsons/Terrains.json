@@ -88,7 +88,7 @@
 		"RGB": [60, 87, 151]
 	},
 	{
-		"name": "Lagrangian Point",
+		"name": "Lagrangian Zone", // Need Texture
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"occursOn": ["Ocean"],
