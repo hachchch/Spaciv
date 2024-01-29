@@ -115,7 +115,7 @@
 	{
 		"name": "Artificial Habitat",
 		"terrainsCanBeBuiltOn": [
-			"Ocean"
+			"Lagrange Zone"
 		],
 		"turnsToBuild": 15,
 		"food": 2,
@@ -137,7 +137,7 @@
 	{
 		"name": "Orbital Shipyard",
 		"terrainsCanBeBuiltOn": [
-			"Ocean"
+			"Lagrange Zone"
 		],
 		"turnsToBuild": 15,
 		"production": 1,
@@ -157,7 +157,7 @@
 	{
 		"name": "Orbital Industry",
 		"terrainsCanBeBuiltOn": [
-			"Ocean"
+			"Lagrange Zone"
 		],
 		"turnsToBuild": 15,
 		"production": 1,
@@ -217,7 +217,7 @@
 	},
 	{
 		"name": "Solar Array",
-		"terrainsCanBeBuiltOn": ["Ocean"],
+		"terrainsCanBeBuiltOn": ["Lagrange Zone"],
 		"turnsToBuild": 10,
 		"techRequired": "Solar Industry",
 		"uniques": ["Provides [1] [Encid] <for [Xeno]>",
