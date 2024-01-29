@@ -555,6 +555,13 @@ TileSets/FantasyHex/Units/Laser Blaster
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Solar Ray Blaster
+  rotate: false
+  xy: 644, 720
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Xenomob
   rotate: false
   xy: 684, 672
@@ -579,13 +586,6 @@ TileSets/FantasyHex/Units/Xenohornet
 TileSets/FantasyHex/Units/Felsian Xenohornet
   rotate: false
   xy: 726, 713
-  size: 32, 28
-  orig: 32, 28
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Solar Ray Blaster
-  rotate: false
-  xy: 646, 713
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
