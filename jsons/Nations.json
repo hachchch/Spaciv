@@ -300,4 +300,18 @@
 		"uniques": ["Xeno"],
 		"cities": ["Nijino Hoshi"]
 	},
+	{
+		"name": "Shenzhou",
+		"startBias": ["Stromat"],
+		"adjective": ["Shenzhoian"],
+		"cityStateType": "Cultured",
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100, 100, 100],
+		"style": "Alien",
+		"uniques": ["Alien"],
+		"cities": ["Shenzhou"]
+	},
 ]
