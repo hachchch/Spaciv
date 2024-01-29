@@ -1,7 +1,7 @@
 [
   {
 		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Land","Ocean"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Ensures a minimum tile yield of [+2 Food, +1 Production]",
             "Unpillagable", "Irremovable", "Unbuildable", "Excluded from map editor"],
         "civilopediaText": [
@@ -312,7 +312,7 @@
 	},
 	{
 		"name": "City ruins",
-		"terrainsCanBeBuiltOn": ["Land","Ocean"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Unpillagable", "Unbuildable", "Will be replaced by automated workers"],
         "civilopediaText": [{"text":"A bleak reminder of the destruction wreaked by War"}]
 	},
