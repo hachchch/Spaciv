@@ -634,6 +634,29 @@
 		"requiredTech": "Plasma control",
 		"uniques": ["Only available <for [Alien]>","Gain a free [Telemoss] [in this city]","[+25]% [Culture] [in all cities]"]
 	},
+	{
+		"name": "L5 Society",
+		"isWonder": true,
+		"culture": 2,
+		"requiredTech": "Space Engineering",
+		"uniques": ["Only available <for [Human]>","[+1 Food] from [Artificial Terrain] tiles [in all cities]","[+1 Science] from [Lagrange Zone] tiles [in all cities]"],
+	},
+	{
+		"name": "Lunar Spacelift",
+		"isWonder": true,
+		"food": 2,
+		"gold": 2,
+		"requiredTech": "Solar Industry",
+		"uniques": ["Only available <for [Human]>","[+1 Food] from [Lunar] tiles [in all cities]"],
+	},
+	// National Wonders
+	{
+		"name": "Interplanetary Transport Network",
+		"isWonder": true,
+		"gold": 8,
+		"requiredTech": "Heliophysics",
+		"uniques": ["[+35]% [Gold]","Requires a [Launch site] in all cities", "Cost increases by [30] per owned city","[+1] Movement <for [All] units> <in [Lagrange Zone] tiles>"],
+	},
 	// Special Victory
 	{
 		"name": "Global Earth Treaty",
