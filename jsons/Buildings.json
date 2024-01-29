@@ -649,10 +649,24 @@
 		"requiredTech": "Solar Industry",
 		"uniques": ["Only available <for [Human]>","[+1 Food] from [Lunar] tiles [in all cities]"],
 	},
+	{
+		"name": "Space Elevator",
+		"isWonder": true,
+		"food": 3,
+		"requiredTech": "Heliophysics",
+		"uniques": ["Only available <for [Human]>","[1] population [in all cities]"], // maybe change later
+	},
+	{
+		"name": "Millennial Project",
+		"isWonder": true,
+		"science": 1,
+		"requiredTech": "Terraforming",
+		"uniques": ["Free [Settler] appears","Free [Rover] appears","Free [Human Worker] appears"] // maybe change later too
+	},
 	// National Wonders
 	{
 		"name": "Interplanetary Transport Network",
-		"isWonder": true,
+		"isNationalWonder": true,
 		"gold": 8,
 		"requiredTech": "Heliophysics",
 		"uniques": ["[+35]% [Gold]","Requires a [Launch site] in all cities", "Cost increases by [30] per owned city","[+1] Movement <for [All] units> <in [Lagrange Zone] tiles>"],
