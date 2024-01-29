@@ -375,7 +375,7 @@ TileSets/FantasyHex/Tiles/Water
   index: -1
 TileSets/FantasyHex/Tiles/Acid Furnace
   rotate: false
-  xy: 244, 851
+  xy: 244, 831
   size: 32, 38
   orig: 32, 38
   offset: 0, 0
@@ -424,9 +424,9 @@ TileSets/FantasyHex/Tiles/Asteroid Belt
   index: -1
 TileSets/FantasyHex/Tiles/Asteroid Mine
   rotate: false
-  xy: 564, 511
-  size: 32, 29
-  orig: 32, 29
+  xy: 564, 501
+  size: 32, 39
+  orig: 32, 39
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human
@@ -613,9 +613,9 @@ TileSets/FantasyHex/Tiles/Earth
   index: -1
 TileSets/FantasyHex/Tiles/Power Farm
   rotate: false
-  xy: 484, 1049
-  size: 32, 28
-  orig: 32, 28
+  xy: 484, 1039
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Farm
