@@ -376,7 +376,7 @@
         ],
         "policies": [
             {
-                "name": "8",
+                "name": "Multiverse",
                 "row": 1,
                 "column": 1
             },
@@ -448,12 +448,12 @@
         ],
         "policies": [
             {
-                "name": "Universal Right",
+                "name": "Basic Freedom",
                 "row": 1,
                 "column": 1
             },
             {
-                "name": "Order Complete",
+                "name": "Universal Right Complete",
                 "uniques": [
                     "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
                 ]
