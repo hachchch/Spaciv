@@ -13,7 +13,7 @@
 		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Diplomatic",
-                "startIntroPart1": "Earth is in danger. The climate is changing at a dangerous rate, and nature itself seems to bring its vengeance on humans. Mankind must respond to this threat, united, as one whole. Cooperation and integration shall allow Humanity to overcome threats and opportunities, on our planet and beyond.", // Our planet is now in danger. Climate change is raging and seems like nature's revenge on human civilization. responding to it requires strong ties between humans through international cooperation or integration, and United Nation's leadership... // Original text 今、我々の惑星は危機に瀕しています。気候変動は猛威をふるい、人類の文明に対しての自然の報復のようにも見え、それに対応するためには国際的な協調、あるいは統合による全人類の強い結びつきと、あなたのリーダーシップが必要です。
+                "startIntroPart1": "Earth is in danger. The climate is changing at a dangerous rate, and nature itself seems to bring its vengeance on humans. Mankind must respond to this threat, united, as one whole. Cooperation and integration shall allow Humanity to overcome threats and opportunities, on our planet and beyond.",
 		"startIntroPart2": "Strength in Unity. May the United Nations prevail.",
                 "declaringWar": "Your wanton aggression leaves us no choice. Prepare for war!",
 		"attacked": "You have mistaken our love of peace for weakness. You shall regret this!",
@@ -70,7 +70,7 @@
 			"[+75]% Production when constructing [Missile] units [in all cities]",
 		"Special Victory Condition: Correct 10000 Gold and beat all earth nation.",
 		"Triggers victory <hidden from users> <when above [9999] [Gold]> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>"],
-		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong"],
+		"cities": ["Beijing","Shanghai","Guangzhou","Nanjing","Xian","Chengdu","Hangzhou","Tianjin","Macau","Shandong","Taiyuan","Changchun","Harbin","Hefei","Wuhan"],
         },
     {
         "name": "Roscosmos",
@@ -79,7 +79,6 @@
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Scientific",
                 "startIntroPart1": "The Cold War has brought dramatic times, of plentiful highs and lows. The Soviet Space Program has been a pioneer; it had launched into space the first satellite, the first animal, the first human, and the first space station. As the economy began to stagnate, it has been outdone by the Americans, with their Apollo 11 landing on the Moon. Soon, the Soviet Union began to crack, and the Soviet Space Program's successor, Roscosmos, took the brunt of the fall as the Union collapsed.",
-	    // Mother Russia!During the era of the Cold War between East and West, we made great contributions to the evolution of humanity through space development!And now Russia is divided due to economic crisis and diplomatic failures, and conflicts over national reunification are occurring one after another... Great leader! Can you lead us to glory again? // Original text 母なるロシア！我々は東西冷戦の時代に、宇宙開発を通じて人類の進化に偉大な貢献をしてきました！そして今、ロシアは経済の危機や、外交的失敗により分断が起きており、民族統一の紛争が相次いでいます...偉大なるリーダーよ！あなたは我々を再び栄光へと導くことはできますか？
 		"startIntroPart2": "Behold the wonders of the past, the legacy you inherit, and think of what you have the potential to achieve! Will you let the mighty legacy of Gagarin be overshadowed by space programs decades younger than yours, led by Americans? Or will you take the place you deserve, as the leading edge of Mankind's push into the stars? Hail to Russia! Hail to its people, its industry and its glory!",
                 "declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
 		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
@@ -98,7 +97,7 @@
 			"[+15]% [Science] <before discovering [Beyond]>",
 		"Special Victory Condition: Research all Techs and beat all earth nation.",
 		"Triggers victory <hidden from users> <after discovering [Meaning of Universe]> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>"],
-		"cities": ["Moscow","Vostochny","Baikonur","Zvyozdny Gorodok","Amur","Lunokhod","Spektr"],
+		"cities": ["Moscow","Sankt Petersburg","Kazan","Gorky","Baikonur","Volgograd","Amur","Rostov","Omsk","Yekaterinburg","Belgorod","Novgorod","Sverdlovsk","Vladivostok","Irkutsk","Yakutsk"],
         },
     // Aliens
         {
@@ -145,19 +144,17 @@
 		"startBias": ["Avoid [Earth]"],
 		"preferredVictoryType": "Domination",
                 "startIntroPart1": "The Empire had ruled for centuries over our home system, when it discovered the system Sol, wealthy in resources and with one livable planet. As it was on the cusp of building a working interstellar-capable colony ship, as soon as one was built, it was sent at Sol. 14 years have passed since, and disaster befell the ancient Empire. A black hole moving at a tremendous velocity towards our home system, launched either by some accursed aliens or fate itself, devoured it all. 462 billion Citizen vanished, and yet the singularity continues on its rampage, far away from the colony. Only 150 thousand people survived, and of those who weren't outside the system, were on the colony ship. We have established on a large asteroid, and begun to build a new Empire. However, it appears Sol already has life on it: from the armoured lifeforms on the red planet, to stranger things lurking among the asteroid fields.",
-		// past Greater our empire, Comrade! It has now been 14 years since this Empire discovered abundant food and resources in a certain solar system in the Milky Way Galaxy. Meanwhile, we have been steadily making preparations for Operation Pluto. The time has finally come.
-		"startIntroPart2": "Ostensibly however, that ideal world full of life, the one we were meant to build a new capital on, is already populated by beings alike us. And worst of all, they have large armies and are on the cusp of space travel. Emperor, we live in bleak times, and have barely avoided tragedy. As the successors of the nigh-interstellar Empire, we must unify this system, under our own rule. Let us build a new empire off the ashes of Sol! The Empire is not yet lost! May Operation Pluto success!",
-		// past As you know, our home world has already been swallowed up by an unavoidable black hole and 462 billion people have died. We, a group of 150,000 people, are only the survivors. This solar system, especially Earth, will become our new world, but be careful of H.sapiens. According to the third investigation team's information, they seems have space flight technology and already made mass complex society on earth, also they have strange thin box-like machine... I do not know at that well. First of all, let's use the asteroid called Feka as a base.
+		"startIntroPart2": "Ostensibly however, that ideal world full of life, the one we were meant to build a new capital on, is already populated by beings alike us. And worst of all, they have large armies and are on the cusp of space travel. Emperor, we live in bleak times, and have barely avoided tragedy. As the successors of the nigh-interstellar Empire, we must unify this system, under our own rule. Let us build a new empire off the ashes of Sol! The Empire is not yet lost! May Operation Pluto succeed!",
 		"declaringWar": "You've behaved yourself very badly, you know it. Now it's payback time.",
 		"attacked": "You've mistaken my passion for a weakness, you'll regret about this.",
-		"defeated": "Our history has finally come to an end. it was long time. but, end come too momently auch as a your Earth's extinction history. Our comrades existence will continue to remain like a fossil. especially inside the event horizon.",
-		"introduction": "Greetings, can you accept us in this galaxy?",
+		"defeated": "So ends the Empire's glory; crippled by a relativistic monster, and ended by a biological one. I am proud to have served to preserve and continue our legacy. Can you say the same for yourself?",
+		"introduction": "The Empire greets you.",
 		"neutralHello": "Hello.",
 		"hateHello": "What do you need?!",
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
 		"outerColor": [15,0,0],
                 "innerColor": [125,10,15],
-		"uniqueName": "Naval Castaways",
+		"uniqueName": "Naval Remnants",
 		"style": "Human", // I imagine it Human like Nation. but not on earth so... Star wars Like Nation?
 		"uniques": ["Human","Starts with [Unified theory]","Starts with [Space Engineering]","[+35]% Production when constructing [Spaceship] units [in capital]","[+50]% Strength <for [Embarked] units>","[+1 Science] from [Stardust] tiles [in all cities]",
 		"Special Victory Condition: Build the 'Parliament of Milky Way'.",
@@ -170,11 +167,11 @@
 		"adjective": ["Xenon"],
 		"startBias": ["Stromat"],
 		"preferredVictoryType": "Scientific",
-                "startIntroPart1": "The past rulers of this country have been at the helm of our country for more than 5029 years, and have had the opportunity to meet the nation's challenges for that long. However, they were unable to respond to the needs of the people at all, relying on traditional oracles and star divination to govern without any knowledge. during, the wise men who had been supporting the unstable nation for a long time, led by political philosophers, stood up. This was known as the Non-Infersian Revolution, and a politics was established that valued current knowledge more than wealth or fantasy.",
-		"startIntroPart2": "Peoples are wishing that build a University of the Universe to show to the world that make knowledge the global standard currency than money. If you are a smart and ambition leader, we can do it.",
+                "startIntroPart1": "For 5029 years, the Aether has had the same rulers. In that eon, many opportunities arose, for the rulers to secure the dreams, or even the wellbeing of the Aetherfolk, relying on superstition to guide their actions and entrench their power. However, over the years, the scholars, roused up by a wave of political philosophers, slowly built up support, and when time came, started a civil conflict known as the Non-Infersian Revolution. The faction that put value on knowledge above all else won out, kickstarting a new Era as the Aether Republic.",
+		"startIntroPart2": "The Revolution's success has filled the Aetherfolk with a sense of purpose: to build up the greatest House of Knowledge to ever exist: the University of the Universe. Hail to the Aether! Glory to Knowledge!",
 		"outerColor": [18,4,98],
                 "innerColor": [50,12,223],
-		"uniqueName": "Non-Infersian Revolution", // past is Basic Ingenium
+		"uniqueName": "Non-Infersian Revolution",
 		"style": "Xeno",
 		"cities": ["Minerva","Esoterica","Indoles","Keine","Fortitudo","Caeruleumia","Hornia","Xcentia"],
 		"uniques": ["Xeno","Starts with [Xeno Life]",
@@ -196,7 +193,7 @@
                 "innerColor": [172,152,223],
 		"uniqueName": "Interspecies Communication",
 		"style": "Xeno",
-		"cities": ["Hokei","Eakai","Syuji","Module Gamma","Sanlanoi","Constai","NebulaԊ","ꤾew ꤿorld"],
+		"cities": ["Hokei","Eakai","Syuji","Module Gamma","Sanlanoi","Constai","NebulaԊ","New World"],
 		"uniques": ["Xeno","Starts with [Xeno Life]","[+1 Culture] per [3] population [in all cities]","[+1 Culture] from every specialist [in all cities]",
 		"Special Victory Condition: Build the 'Galaxic Mind Control Center' and empire has 20 Happiness.",
 		"Triggers victory <if [Galaxic Mind Control Center] is constructed> <when above [19] [Happiness]> <hidden from users>"],
@@ -262,7 +259,7 @@
 		"adjective": ["German"],
 		"cityStateType": "Militaristic",
 
-		"declaringWar": "Operation Space Lion was announced,The German Navy will coming to your planet.",
+		"declaringWar": "Operation Space Lion was announced,The German Navy shall visit your planet.",
 		"attacked": "Very well, we will kick you back to the ancient era!",
 		"defeated": "This isn't how it is supposed to be!",
 		"outerColor": [0, 0, 0],
@@ -270,6 +267,21 @@
 		"style": "Human",
 		"uniques": ["Human"],
 		"cities": ["Berlin"]
+	},
+	{
+		"name": "Nijino Hoshi",
+		"startBias": ["Regold"],
+		"adjective": ["Nijinian"],
+		"cityStateType": "Cultured",
+
+		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
+		"attacked": "Very well, we will kick you back to the ancient era!",
+		"defeated": "This isn't how it is supposed to be!",
+		"outerColor": [0, 0, 0],
+		"innerColor": [100, 100, 100],
+		"style": "Xeno",
+		"uniques": ["Xeno"],
+		"cities": ["Nijino Hoshi"]
 	},
 	{
 		"name": "Ultima",
@@ -285,20 +297,6 @@
 		"style": "Xeno",
 		"uniques": ["Xeno"],
 		"cities": ["Ultima"]
-	},
-	{
-		"name": "Nijino Hoshi",
-		"startBias": ["Regold"],
-		"adjective": ["Nijinian"],
-		"cityStateType": "Cultured",
-		"declaringWar": "We have wanted this for a LONG time. War it shall be.",
-		"attacked": "Very well, we will kick you back to the ancient era!",
-		"defeated": "This isn't how it is supposed to be!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [100, 100, 100],
-		"style": "Xeno",
-		"uniques": ["Xeno"],
-		"cities": ["Nijino Hoshi"]
 	},
 	{
 		"name": "Shenzhou",
