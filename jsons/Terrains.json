@@ -82,8 +82,15 @@
 		"name": "Asteroid Belt",
 		"type": "TerrainFeature",
 		"movementCost": 2,
-                "gold": 1,
 		"production": 2,
+		"occursOn": ["Ocean"],
+                "uniques": ["Rare feature"],
+		"RGB": [60, 87, 151]
+	},
+	{
+		"name": "Lagrangian Point",
+		"type": "TerrainFeature",
+		"movementCost": 1,
 		"occursOn": ["Ocean"],
                 "uniques": ["Rare feature"],
 		"RGB": [60, 87, 151]
