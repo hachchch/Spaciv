@@ -106,7 +106,6 @@
                     "[+3 Happiness] from every [Courthouse]",
                     "[+100]% Production when constructing [Courthouse] buildings [in all cities]"
                 ],
-                // There are also some uniques regarding espoinage, which as of this writing is not yet implemented
                 "requires": ["Militarism"],
                 "row": 2,
                 "column": 4
@@ -201,7 +200,7 @@
         ]
     },
     {
-        "name": "Integrationism",
+        "name": "Space-Sovereignty",
         "era": "Exploration era",
         "priorities": {
             "Neutral": 0,
@@ -211,16 +210,23 @@
             "Scientific": 0
         },
         "uniques": [
-            "[+100]% Strength <for [Military] units> <when below [10] HP>", // The effect is still under consideration
+            "[+1] Sight <for [Space] units> <in [Ocean] tiles>", // The effect is still under consideration
         ],
         "policies": [
             {
-                "name": "Asgardia",
+                "name": "Asgardism",
                 "row": 1,
-                "column": 1
+                "column": 1,
+                "uniques": ["[+2 Culture] [in all cities] <in cities with a [Launch site]>","[-25]% Culture cost of natural border growth [in all cities] <in cities with a [Launch site]>"]
             },
             {
-                "name": "Integrationism Complete",
+                "name": "Interplanetism",
+                "row": 2,
+                "column": 1,
+                "uniques": ["[+3 Culture] [in capital]","[+1 Culture] per [4] population [in all cities]"],
+            },
+            {
+                "name": "Space-Sovereignty Complete",
                 "uniques": [
                     "[Faith] cost of purchasing items in cities [-20]%",
                     "[+1 Culture] from [Space] tiles [in all cities]"
@@ -238,18 +244,24 @@
             "Domination": 0,
             "Scientific": 10
         },
-        "uniques": ["[-25]% City-State Influence degradation"],
+        "uniques": ["May buy items in puppet cities <on foreign continents>"],
         "policies": [
             {
                 "name": "Artemis Accords",
                 "row": 1,
-                "column": 1
+                "column": 1,
+                "uniques": ["[+1 Happiness, +1 Gold] per [2] social policies adopted"]
+            },
+            {
+                "name": "Outer Space Treaty",
+                "row": 1,
+                "column": 3,
+                "uniques": ["[+3 Gold] [in all cities] <on foreign continents>","[+30]% [Gold] from Trade Routes"]
             },
             {
                 "name": "Space-Law Complete",
                 "uniques": [
-                    "Influence of all other civilizations with all city-states degrades [33]% faster",
-                    "Triggers the following global alert: [Our influence with City-States has started dropping faster!]"
+                    "[+1 Gold] per every [10] [Culture]"
                 ]
             }
         ]
@@ -264,12 +276,31 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+25]% [Gold] [in capital]"],
+        "uniques": ["[+25]% [Food] [in capital]","Cannot build Terraforming Buildings"],
         "policies": [
             {
                 "name": "Pantropy",
                 "row": 1,
-                "column": 1
+                "column": 1,
+                "uniques": ["[+1 Food, +1 Production] from [Earth] tiles [in all cities] <when [Alien]>",
+                "[+1 Food] from [Stromat] tiles [in all cities] <when [Human]>",
+                "[+1 Food] from [Mars] tiles [in all cities] <when [Human]>"]
+            },
+            {
+                "name": "Map Genome",
+                "row": 2,
+                "column": 1,
+                "uniques": ["[20]% growth [in all cities]"]
+            },
+            {
+                "name": "Anoxic Biont",
+                "row": 2,
+                "column": 3
+            },
+            {
+                "name": "Ethical Laws",
+                "row": 1,
+                "column": 3
             },
             {
                 "name": "Eco-Justice Complete",
@@ -299,6 +330,9 @@
                 "name": "Planetary Chauvinism",
                 "row": 1,
                 "column": 1
+            },
+            {
+                "name": "Utilitarian Ecogenocide",
             },
             {
                 "name": "Terraformism Complete",
