@@ -75,14 +75,14 @@ NationIcons/Xenomorph
   index: -1
 ResourceIcons/Relation Score (Aether Republic)
   rotate: false
-  xy: 400, 400
+  xy: 400, 600
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
   index: -1
 NationIcons/Aether Republic
   rotate: false
-  xy: 400, 600
+  xy: 400, 400
   size: 200, 200
   orig: 200, 200
   offset: 0, 0
