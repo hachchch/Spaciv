@@ -373,7 +373,7 @@ TileSets/FantasyHex/Tiles/Water
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Acid Fernace
+TileSets/FantasyHex/Tiles/Acid Furnace
   rotate: false
   xy: 244, 841
   size: 32, 28
@@ -616,6 +616,13 @@ TileSets/FantasyHex/Tiles/Power Farm
   xy: 484, 1049
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Farm
+  rotate: false
+  xy: 444, 1005
+  size: 32, 32
+  orig: 32, 32
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Farm-United Nations
