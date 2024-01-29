@@ -1,7 +1,7 @@
 [
     {
         "name": "Freedom",
-        "era": "Industrial era",
+        "era": "FlightTest era",
         "priorities": {
             "Neutral": 50,
             "Cultural": 50,
@@ -63,7 +63,7 @@
     },
     {
         "name": "Autocracy",
-        "era": "Industrial era",
+        "era": "FlightTest era",
         "priorities": {
             "Neutral": 50,
             "Cultural": 40,
@@ -131,7 +131,7 @@
     },
     {
         "name": "Order",
-        "era": "Industrial era",
+        "era": "FlightTest era",
         "priorities": {
             "Neutral": 50,
             "Cultural": 40,
@@ -276,7 +276,8 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": ["[+25]% [Food] [in capital]","Cannot build Terraforming Buildings"],
+        "uniques": ["[+25]% [Food] [in capital]","Cannot build Terraforming Buildings",
+            "Only available <before adopting [Terraformism]>"],
         "policies": [
             {
                 "name": "Pantropy",
@@ -327,6 +328,7 @@
         },
         "uniques": [
             "[+100]% Production when constructing [Civilian] units [in all cities] <on foreign continents> <while the empire is happy>",
+            "Only available <before adopting [Eco-Justice]>"
         ],
         "policies": [
             {
