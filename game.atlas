@@ -373,6 +373,13 @@ TileSets/FantasyHex/Tiles/Water
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Acid Fernace
+  rotate: false
+  xy: 244, 841
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Xenomine
   rotate: false
   xy: 404, 877
@@ -408,9 +415,30 @@ TileSets/FantasyHex/Tiles/Stromat
   orig: 32, 29
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Asteroid Belt
+  rotate: false
+  xy: 564, 551
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Asteroid Belt+Asteroid Mine
+  rotate: false
+  xy: 564, 511
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human
   rotate: false
   xy: 434, 823
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Techno era-Human
+  rotate: false
+  xy: 434, 783
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -548,14 +576,21 @@ TileSets/FantasyHex/Units/Xenohornet
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Lunar+Mechanized Infantry
+TileSets/FantasyHex/Units/Felsian Xenohornet
   rotate: false
-  xy: 604, 600
+  xy: 726, 713
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Stromat+Mechanized Infantry
+TileSets/FantasyHex/Units/Solar Ray Blaster
+  rotate: false
+  xy: 646, 713
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Mechanized Infantry (Human)
   rotate: false
   xy: 604, 600
   size: 32, 28
@@ -576,9 +611,30 @@ TileSets/FantasyHex/Tiles/Earth
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Farm
+TileSets/FantasyHex/Tiles/Power Farm
+  rotate: false
+  xy: 484, 1049
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Farm-United Nations
   rotate: false
   xy: 444, 1005
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Farm-Roscosmos
+  rotate: false
+  xy: 404, 1005
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Farm-CNSA
+  rotate: false
+  xy: 364, 1005
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
