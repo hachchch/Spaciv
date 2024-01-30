@@ -154,6 +154,7 @@
 		"uniques": ["Only available <for [Xeno]>"],
 		"requiredTech": "Xeno Life"
 	},
+	// Hive Worker Storage
 	{
 		"name": "Hive Worker District", // tier I
 		"production": 1,
@@ -179,6 +180,14 @@
 		"maintenance": 12,
 		"uniques": ["Heavy Industry","Only available <for [Xeno]>"]
 		"requiredTech": "Urban Satellite",
+	},
+	// Other
+	{
+		"name": "Orbital Solenoid",
+		"production": 2,
+		"cost": 100,
+		"requiredTech": "Event Horizon",
+		"uniques": ["Must be next to [Ocean]","Only available <for [Human]>"]
 	},
 	//Placeholder for Refinery Buildings
 	{
