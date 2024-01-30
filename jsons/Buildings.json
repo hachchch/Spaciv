@@ -15,6 +15,7 @@
 			"Provides [20] [Relation Score (CNSA)] <for [CNSA]>",
 			"Provides [20] [Relation Score (Martian)] <for [Martian]>",
 			"Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>",
+			"Provides [20] [Relation Score (Aether Republic)] <for [Aether Republic]>",
 			"Provides [20] [Relation Score (Empire)] <for [Empire]>",
 			"Provides [20] [Relation Score (Neptunian)] <for [Neptunian]>",
 			"Gain a free [Government] [in all cities] <for [Human]>",
@@ -469,6 +470,11 @@
 		"uniques": ["Cannot be purchased","Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xeno)] units appear","[1] free [Xenowarrior (Xeno)] units appear"],
 	},
 	{
+		"name": "Military Support (Aether Republic)",
+		"cost": 100,
+		"uniques": ["Cannot be purchased","Unbuildable <for [Aether Republic]>","Consumes [10] [Relation Score (Aether Republic)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xeno)] units appear","[1] free [Xenowarrior (Xeno)] units appear"],
+	},
+	{
 		"name": "Military Support (CNSA)",
 		"cost": 100,
 		"uniques": ["Cannot be purchased","Unbuildable <for [CNSA]>","Consumes [10] [Relation Score (CNSA)]","Provides [10] [Relation Score (CNSA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
@@ -707,7 +713,7 @@
 	// Special Victory
 	{
 		"name": "Global Earth Treaty",
-		"cost": 500,
+		"cost": 600,
 		"uniques": ["Hidden when [Special] Victory is disabled","Treaty","Unbuildable","Can only be built [in capital]","Only available <for [United Nations]>","Requires at least [20] population"],
 	},
 	{
