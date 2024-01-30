@@ -21,8 +21,8 @@
                 "name": "Human Technology",
                 "column": 1,
                 "row": 0,
-                
-                "uniques": ["Cannot be carried by [All] units <for [Atmo] units> <hidden from users>",
+                "uniques": ["[+25]% Strength <vs [Xeno Technology] units>",
+		"Cannot be carried by [All] units <for [Atmo] units> <hidden from users>",
 		"Can only attack [Earth] tiles <for [Atmo] units> <hidden from users>",
 		"[+100]% Strength <when fighting in [Earth] tiles> <for [Atmo] units> <hidden from users> <starting from the [Research era]>"],
         },
