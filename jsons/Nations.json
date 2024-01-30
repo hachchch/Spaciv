@@ -62,8 +62,7 @@
 		"tradeRequest": "My friend, do you think you can accept this request?",
                 "outerColor": [153,5,3],
         "innerColor": [244,232,54],
-
-		"style": "Human",
+		"style": "Human-Chinese",
 		"uniqueName": "Chang'e Program",
 		"uniques": ["Human","Starts with [Information era]",
 			"[+1 Food] from [Dome] tiles [in all cities]",
@@ -89,7 +88,7 @@
 		"tradeRequest": "How would you like it if I propose this kind of exchange?",
                 "outerColor": [239, 180, 0],
 		"innerColor": [0, 0, 0],
-		"style": "Human",
+		"style": "Human-Russian",
 		"uniqueName": "Soviet's Bequest",
 		"uniques": ["Human","Starts with [Information era]",
 			"Sputnik I will be sent at the start of the game, allowing space exploration in the early stages.",
