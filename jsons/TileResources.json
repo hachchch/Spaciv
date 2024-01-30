@@ -177,7 +177,7 @@
 		"name": "Gold Ore",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Earth","Stromat","Asteroid Belt"],
-		"improvedBy": ["Industry", "Compounds","Xenomine"],
+		"improvedBy": ["Mine", "Compounds","Xenomine"],
 		"gold": 1,
 		"improvementStats": {"gold": 1},
         "uniques": [
@@ -242,9 +242,9 @@
 		"terrainsCanBeFoundOn": ["Stromat"],
 		"improvedBy": ["Industry", "Compounds","Xenomine"],
 		"uniques": ["Generated with weight [5] <in [Featureless] [Stromat] tiles>",
-			"Generated with weight [8] <in [Stromat] [Hill] tiles>"]
-		"gold": 5,
-		"improvementStats": {"happiness": 3 ,"gold": 5},
+			"Generated with weight [10] <in [Stromat] [Hill] tiles>"]
+		"gold": 18,
+		"improvementStats": {"happiness": 3 ,"gold": 3},
 	},
 	//Reinforcement Resources
 	{

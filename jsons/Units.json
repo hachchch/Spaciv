@@ -185,8 +185,8 @@
         },
 	{
 		"name": "Phaser (Alien)",
-		"promotions": ["Alien Technology"],
 		"unitType": "Laser",
+		"promotions": ["Alien Technology"],
 		"movement": 2,
 		"strength": 8,
 		"uniques" : ["Support","Consumes [2] [Relation Score (Martian)]","Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects"],
@@ -256,6 +256,7 @@
 	{
 		"name": "Xenowarrior",
 		"unitType": "Xeno Entity",
+		// "promotions": ["Xeno Technology"], maybe it not need...isn't it?
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
@@ -304,8 +305,8 @@
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
 	},
-	/*
 	//nuke units
+/*
 	{
 		"name": "Xenotic Fire",
 		"unitType": "Death",
@@ -339,7 +340,7 @@
 		"replaces": "Great General",
 		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [1]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
 	},
-	*/
+*/
 	//Special Spacecraft&Stuff for Aliens
 	{
 		"name": "Probe UFO",
@@ -675,6 +676,7 @@
 		"requiredTech": "Information era",
 		// "requiredResource": "Aluminum",
 		"uniques": ["Atmo",
+			"[+1] Sight",
 			"[+100]% Strength <vs [Human] units>",
 			"[+50]% Strength <vs [Space] units>",
 			"Only available <in cities with a [Earth]>",
@@ -698,7 +700,6 @@
 		// "requiredResource": "Aluminum",
 		"uniques": [
 			"Atmo",
-			"[+1] Sight",
 			"Can only attack [Earth] tiles",
 			"[+100]% Strength <vs [Human] units>",
 			"Only available <in cities with a [Earth]>",
@@ -866,8 +867,6 @@
 	// Missiles
 	{
 		"name": "ICBM",
-		"obsoleteTech": "Space Meteorology",
-		"upgradesTo": "Interplanetary Missile",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 12,
@@ -875,13 +874,13 @@
 		"range": 6,
 		"cost": 110,
 		"requiredTech": "Liquid Propellant",
+		"obsoleteTech": "Space Meteorology",
+		"upgradesTo": "Interplanetary Missile",
 		"uniques": ["[+100]% Strength <when attacking>","[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},
 	{
 		"name": "Guided Missile",
-		"obsoleteTech": "Liquid Propellant",
-		"upgradesTo": "ICBM",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 6,
@@ -889,6 +888,8 @@
 		"range": 3,
 		"cost": 55,
 		"requiredTech": "Information era",
+		"obsoleteTech": "Liquid Propellant",
+		"upgradesTo": "ICBM",
 		"uniques": ["[+100]% Strength <when attacking>","[-100]% maintenance costs"],
 		"attackSound": "missile"
 	},

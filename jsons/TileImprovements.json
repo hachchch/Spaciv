@@ -125,7 +125,6 @@
 			"Only available <for [non-[Alien]]> <hidden from users>",
 			"Consumes [1] [Encid] <for [Xeno]>",
 			"Consumes [1] [Power] <for [Human]>",
-			// "Consumes [1] [Super Energy] <for [Alien]>",
 			"Unpillagable",
 			"Artificial Terrain",
 			"Land",
@@ -188,6 +187,7 @@
 		"uniques": [
 			"Units that stay on this tile for one turn gain +5 Movement. (also You can use many StarTram to make transport chain in space. How amazing!)",
 			"Costs [100] [Encid] <for [Xeno]>",
+			"Can be built outside your borders",
 			"Costs [100] [Power] <for [Human]>",
 			"Costs [100] [Super Energy] <for [Alien]>",
 			"Space Facility",
