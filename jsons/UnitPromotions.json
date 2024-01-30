@@ -134,4 +134,92 @@
                 "unitTypes": ["Xeno Entity"],
                 "uniques": ["May attack when embarked"]
         },
+	// ---Space ships---
+	// Common Tree
+	{
+		"name": "Generation Ship I",
+		"prerequisites": ["Human Technology","Xeno Technology","Alien Technology"],
+		"column": 31,
+                "row": 1,
+		"unitType": ["Corvette","Destroyer","Cruiser","Battleship"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"]
+	},
+	{
+		"name": "Generation Ship II",
+		"column": 31,
+                "row": 2,
+		"prerequisites": ["Generation Ship I"],
+		"unitType": ["Corvette","Destroyer","Cruiser","Battleship"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"]
+	},
+	// Separated Tree
+	// Carrier
+	{
+		"name": "Armor Plating I",
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Carrier"],
+		"column": 41,
+		"row": 1
+	},
+	{
+		"name": "Armor Plating II",
+		"prerequisites": ["Armor Plating I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Carrier"],
+		"column": 41,
+		"row": 2
+	},
+	{
+		"name": "Armor Plating III",
+		"prerequisites": ["Armor Plating II"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Carrier"],
+		"column": 41,
+		"row": 3
+	},
+	{
+		"name": "Flight Deck I",
+		"uniques": ["Can carry [1] extra [Space] units"],
+		"unitTypes": ["Carrier"],
+		"column": 43,
+		"row": 1
+	},
+	{
+		"name": "Flight Deck II",
+		"prerequisites": ["Flight Deck I"],
+		"uniques": ["Can carry [1] extra [Space] units"],
+		"unitTypes": ["Carrier"],
+		"column": 43,
+		"row": 2
+	},
+	{
+		"name": "Flight Deck III",
+		"prerequisites": ["Flight Deck II"],
+		"uniques": ["Can carry [1] extra [Space] units"],
+		"unitTypes": ["Carrier"],
+		"column": 43,
+		"row": 3
+	},
+	{
+		"name": "Mass Driver I",
+		"prerequisites": ["Flight Deck I","Armor Plating I"],
+		"uniques": ["Give 30% Strength Bonus for Carrying Air units"],
+		"unitTypes": ["Carrier"],
+		"column": 42,
+		"row": 2
+	},
+	{
+		"name": "Mass Driver II",
+		"prerequisites": ["Mass Driver I"],
+		"uniques": ["Give 20% Strength Bonus for Carrying Air units"],
+		"unitTypes": ["Carrier"],
+		"column": 42,
+		"row": 3
+	},
+	// Others
+	{
+		"name": "Optical Camouflage", // it work for Scouts and Scout ship(such a Nanocraft)
+		"unitTypes": ["Scout","Space Object"],
+		"uniques": ["Invisible to non-adjacent units"]
+	},
 ]
