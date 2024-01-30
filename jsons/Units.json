@@ -256,7 +256,7 @@
 	{
 		"name": "Xenowarrior",
 		"unitType": "Xeno Entity",
-		"promotions": ["Xeno Technology"],
+		// "promotions": ["Xeno Technology"], maybe it not need...isn't it?
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
