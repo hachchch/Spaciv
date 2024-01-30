@@ -41,7 +41,7 @@
 		"name": "Earth Soldiers",
 		"movementType": "Land",
 		"uniques": ["Cannot enter ocean tiles","Can only attack [Earth] tiles","[+100]% Strength <vs cities> <in [Earth] tiles>",
-			"[+100]% Strength <when fighting in [Earth] tiles>"]
+			"[+100]% Strength <when fighting in [Earth] tiles> <starting from the [Research era]>"]
 	},
 	//Spacecraft
 	{
