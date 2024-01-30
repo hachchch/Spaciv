@@ -43,7 +43,7 @@
 		"resourceType": "Strategic",
 		"revealedBy": "Beyond",
 		"terrainsCanBeFoundOn": ["Earth","Mars","Lunar","Asteroid Belt"],
-		"improvedBy": ["Industry", "Compounds","Xenomine","Asteroid Mine"],
+		"improvedBy": ["Mine", "Compounds","Xenomine","Asteroid Mine"],
 		"production": 1,
 		"improvementStats": {"production": 1},
         	"uniques": [
@@ -100,7 +100,7 @@
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Earth","Mars","Stromat","Asteroid Belt","Lunar"],
-		"improvedBy": ["Industry", "Compounds","Xenomine","Asteroid Mine"],
+		"improvedBy": ["Mine", "Compounds","Xenomine","Asteroid Mine"],
 		"production": 1,
 		"improvementStats": {"production": 1},
         "uniques": [
