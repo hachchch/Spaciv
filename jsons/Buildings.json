@@ -233,8 +233,17 @@
 		"hurryCostModifier": 15,
 		"uniques": ["Consumes [1] [Neptunium]","Provides [2] [Power] <for [Human]>","Provides [2] [Super Energy] <for [Alien]>","Provides [2] [Encid] <for [Xeno]>"],
 		"requiredTech": "White Hole"
-},
-
+	},
+	{
+		"name": "RAPID-L",
+		"uniqueTo": "United Nations",
+		"replaces": "Neptunium Centrifuge",
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"uniques": ["Consumes [1] [Neptunium]","Provides [3] [Power]"],
+		"requiredTech": "White Hole"
+	},
 	// Even more Adv.Industries
 	{
 		"name": "Infinity Industrial Complex",
