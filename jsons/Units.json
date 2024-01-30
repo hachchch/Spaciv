@@ -866,6 +866,8 @@
 	// Missiles
 	{
 		"name": "ICBM",
+		"obsoleteTech": "Space Meteorology",
+		"upgradesTo": "Interplanetary Missile",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 12,
@@ -878,6 +880,8 @@
 	},
 	{
 		"name": "Guided Missile",
+		"obsoleteTech": "Liquid Propellant",
+		"upgradesTo": "ICBM",
 		"unitType": "Missile",
 		"movement": 1,
 		"strength": 6,
