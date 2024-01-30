@@ -413,9 +413,19 @@
                 "column": 5
             },
             {
-                "name": "Order42",
+                "name": "Order42", // Answer to the Ultimate Question of Life, the Universe, and Everything
                 "row": 1,
                 "column": 1
+            },
+            {
+                "name": "Galaxic Holysite",
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Biblical cosmology",
+                "row": 2,
+                "column": 4
             },
             {
                 "name": "Creationism Complete",
