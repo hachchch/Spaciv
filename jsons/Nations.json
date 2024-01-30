@@ -9,7 +9,7 @@
 	// Nations
     // Human Faction
 		"name": "United Nations",
-		"leaderName": "Nasa",
+		"leaderName": "UNSA",
 		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Diplomatic",
@@ -62,6 +62,7 @@
 		"tradeRequest": "My friend, do you think you can accept this request?",
                 "outerColor": [153,5,3],
         "innerColor": [244,232,54],
+
 		"style": "Human-Chinese",
 		"uniqueName": "Chang'e Program",
 		"uniques": ["Human","Starts with [Information era]",
