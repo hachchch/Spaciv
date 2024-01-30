@@ -225,6 +225,84 @@
 		"uniques": ["Consumes [1] [Neptunium]","Provides [2] [Power] <for [Human]>","Provides [2] [Super Energy] <for [Alien]>","Provides [2] [Encid] <for [Xeno]>"],
 		"requiredTech": "White Hole"
 },
+	// Even more Adv.Industries
+	{
+		"name": "Infinity Industrial Complex",
+		"gold": 4,
+		"uniques": ["Only available <for [non-[Xeno]]>","Limited to [4] per Civilization <before adopting [Planned Economy]>",
+		"Limited to [5] per Civilization <after adopting [Planned Economy]>"],
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"requiredTech": "Event Horizon"
+	},
+	{
+		"name": "Mass Electron-Positron Collider",
+		"requiredBuilding": "Infinity Industrial Complex",
+		"production": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"uniques": ["Only available <for [Alien]> <when above [199] [Super Energy]>",
+		"Costs [200] [Super Energy]","Provides [3] [Neptunium]","Provides [2] [Dominium]","Provides [1] [Prismaxium]","Consumes [2] [Super Energy]","Consumes [2] [Iron]"]
+		"requiredTech": "Event Horizon"
+	},
+	{
+		"name": "Entropy Synthesis Factory",
+		"requiredBuilding": "Infinity Industrial Complex",
+		"production": 4,
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"uniques": ["Only available <for [Human]> <when above [199] [Power]>",
+		"Costs [200] [Power]","Provides [3] [Neptunium]","Provides [1] [Dominium]","Provides [2] [Prismaxium]","Consumes [2] [Power]","Consumes [2] [Iron]"]
+		"requiredTech": "Event Horizon"
+	},
+	{
+		"name": "Gauss Accelerator",
+		"gold": 3,
+		"requiredBuilding": "Infinity Industrial Complex",
+		"uniques": ["Consumes [1] [Neodymium]","Provides [4] [Super Energy] <for [Alien]>","Provides [4] [Power] <for [Human]>"]
+		"requiredTech": "Gravitational Optics"
+	},
+	{
+		"name": "Hole Observatory",
+		"requiredBuilding": "Infinity Industrial Complex",
+		"science": 4,
+		"happiness": 1,
+		"maintenance": 3,
+		"uniques": ["[+33]% [Science] [in this city]","Consumes [1] [Dominium]"]
+		"requiredTech": "Event Horizon"
+	},
+	// Amino Industries
+	{
+		"name": "Energy Drink Factory",
+		"requiredBuilding": "Infinity Industrial Complex",
+		"gold": 4,
+		"happiness": 1,
+		"maintenance": 2,
+		"uniques": ["[+30]% [Gold] [in this city]","Consumes [1] [Amino Metal]"]
+		"requiredTech": "Event Horizon"
+	},
+	{
+		"name": "Stetter Reactor",
+		"requiredBuilding": "Infinity Industrial Complex",
+		"food": 4,
+		"maintenance": 2,
+		"uniques": ["[+10]% [Food] [in this city]","Consumes [1] [Amino Metal]"]
+		"requiredTech": "Terraforming"
+	},
+	{
+		"name": "Theater of Abiogenesis",
+		"faith": 2,
+		"science": 2,
+		"happiness": 1,
+		"maintenance": 2,
+		"uniques": ["[+50]% [Faith] [in this city]","Consumes [2] [Amino Metal]"]
+		"requiredTech": "Terraforming"
+	},
+	// Metaphysics Building (for non-Xeno)
+	{
+		"name": "",
+		"maintenance": 5,
+	},
 	// Xeno industrial system tier III
 	{
 		"name": "Hive Port",
