@@ -4,4 +4,9 @@
                 "type": "Pantheon",
                 "uniques": ["[+1 Culture] from every [Faith]"]
         },
+        {
+                "name": "Armageddon",
+                "type": "Pantheon",
+                "uniques": ["[+100]% Production when constructing [Missile] units [in all cities]"]
+        }
 ]
