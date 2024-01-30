@@ -3,7 +3,7 @@
         {
                 "name": "Heal Instantly",
 		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Laser","Gunpowder","Xeno Entity","Space Object","Scout","Death","Corvette","Destroyer","Cruiser","Battleship","Carrier","Fighter","Bomber","Earth Soldiers"],
+		"unitTypes": ["Laser","Gunpowder","Xeno Entity","Space Object","Scout","Corvette","Destroyer","Cruiser","Battleship","Carrier","Fighter","Bomber","Earth Soldiers"],
                 "row": 0,
                 "column": 0
         },
