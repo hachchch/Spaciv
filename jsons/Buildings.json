@@ -191,18 +191,6 @@
 	},
 	//Placeholder for Refinery Buildings
 	{
-		"name": "Tech-3 Collider",
-		"uniqueTo": "Martian",
-		"replaces": "Advanced Foundry",
-		"production": 2,
-		"maintenance": 4,
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 15,
-		"uniques": ["Only available <when above [299] [Super Energy]> <for [Alien]>","Heavy Industry","Provides [3] [Neodymium]",
-			"Costs [300] [Super Energy] <for [Alien]>","Consumes [6] [Iron]"],
-		"requiredTech": "Gravitational Optics"
-	},
-	{
 		"name": "Advanced Foundry",
 		"production": 2,
 		"maintenance": 4,
@@ -212,6 +200,18 @@
 			"Consumes [1] [Encid] <for [Xeno]>",
 			"Consumes [1] [Power] <for [Human]>",
 			"Consumes [1] [Super Energy] <for [Alien]>","Consumes [3] [Iron]"],
+		"requiredTech": "Gravitational Optics"
+	},
+	{
+		"name": "Tech-3 Collider",
+		"uniqueTo": "Martian",
+		"replaces": "Advanced Foundry",
+		"production": 2,
+		"maintenance": 4,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 15,
+		"uniques": ["Only available <when above [299] [Super Energy]> <for [Alien]>","Heavy Industry","Provides [3] [Neodymium]",
+			"Costs [300] [Super Energy] <for [Alien]>","Consumes [6] [Iron]"],
 		"requiredTech": "Gravitational Optics"
 	},
 	{
@@ -234,6 +234,7 @@
 		"uniques": ["Consumes [1] [Neptunium]","Provides [2] [Power] <for [Human]>","Provides [2] [Super Energy] <for [Alien]>","Provides [2] [Encid] <for [Xeno]>"],
 		"requiredTech": "White Hole"
 },
+
 	// Even more Adv.Industries
 	{
 		"name": "Infinity Industrial Complex",
@@ -307,6 +308,7 @@
 		"uniques": ["[+50]% [Faith] [in this city]","Consumes [2] [Amino Metal]"]
 		"requiredTech": "Terraforming"
 	},
+
 	// Metaphysics Building (for non-Xeno) // Progress
 	/*
 	{
@@ -314,6 +316,7 @@
 		"maintenance": 5,
 	},
 	*/
+
 	// Xeno industrial system tier III
 	{
 		"name": "Hive Port",
