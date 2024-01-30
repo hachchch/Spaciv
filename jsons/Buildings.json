@@ -182,6 +182,18 @@
 	},
 	//Placeholder for Refinery Buildings
 	{
+		"name": "Tech-3 Collider",
+		"uniqueTo": "Martian",
+		"replaces": "Advanced Foundry",
+		"production": 2,
+		"maintenance": 4,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 15,
+		"uniques": ["Only available <when above [299] [Super Energy]> <for [Alien]>","Heavy Industry","Provides [3] [Neodymium]",
+			"Costs [300] [Super Energy] <for [Alien]>","Consumes [6] [Iron]"],
+		"requiredTech": "Gravitational Optics"
+	},
+	{
 		"name": "Advanced Foundry",
 		"production": 2,
 		"maintenance": 4,
@@ -213,7 +225,7 @@
 		"uniques": ["Consumes [1] [Neptunium]","Provides [2] [Power] <for [Human]>","Provides [2] [Super Energy] <for [Alien]>","Provides [2] [Encid] <for [Xeno]>"],
 		"requiredTech": "White Hole"
 },
-	// tier III
+	// Xeno industrial system tier III
 	{
 		"name": "Hive Port",
 		"requiredTech": "Event Horizon",
@@ -242,7 +254,7 @@
 		"requiredBuilding": "Space Hive Worker District",
 	},
 	{
-		"name": "Causality Loop",
+		"name": "Causality Collider",
 		"requiredBuilding": "Space Hive Worker District",
 		"science": 8,
 		"requiredTech": "Metaphysics",
@@ -257,7 +269,7 @@
 		"uniques": ["Heavy Industry","Only available <for [Xeno]>","[+5]% [Production] [in this city]","Consumes [2] [Amino Metal]","Consumes [2] [Encid]"]
 		"requiredBuilding": "Space Hive Worker District",
 	},
-	// tier II
+	// Xeno industrial system tier II
 	{
 		"name": "Encid Smelter",
 		"requiredBuilding": "Even Bigger Hive Worker District",
@@ -280,7 +292,7 @@
 		"uniques": ["Only available <for [Xeno]>","Consumes [1] [Encid]"],
 		"requiredTech": "Beyond"
 	},
-	// tier I
+	// Xeno industrial system tier I
 	{
 		"name": "Photosynthesis Generator",
 		"requiredBuilding": "Hive Worker District",
@@ -693,7 +705,7 @@
 		"isWonder": true,
 		"food": 3,
 		"requiredTech": "Heliophysics",
-		"uniques": ["Only available <for [Human]>","[1] population [in all cities]"], // maybe change later
+		"uniques": ["[1] population [in all cities]"], // maybe change later
 	},
 	{
 		"name": "Millennial Project",
@@ -701,6 +713,15 @@
 		"science": 1,
 		"requiredTech": "Terraforming",
 		"uniques": ["Free [Settler] appears","Free [Rover] appears","Free [Human Worker] appears"] // maybe change later too
+	},
+	{
+		"name": "Anaxam",
+		"isWonder": true,
+		"science": 1,
+		"production": 3,
+		"requiredTech": "Terraforming",
+		"uniques": ["Only available <for [Human]> <when above [499] [Power]>",
+		"Costs [500] [Power]","Provides [4] [Coaxium]"]
 	},
 	// National Wonders
 	{
