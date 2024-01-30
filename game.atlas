@@ -331,6 +331,20 @@ TileSets/FantasyHex/Tiles/City center-Human
   orig: 32, 34
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/City center-Human-Chinese
+  rotate: false
+  xy: 145, 4
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Human-Russian
+  rotate: false
+  xy: 145, 4
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Industry
   rotate: false
   xy: 1485, 912
@@ -438,7 +452,7 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human
   index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Techno era
   rotate: false
-  xy: 434, 783
+  xy: 429, 783
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
@@ -625,21 +639,21 @@ TileSets/FantasyHex/Tiles/Farm
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Farm-United Nations
+TileSets/FantasyHex/Tiles/Farm-Human
   rotate: false
   xy: 444, 1005
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Farm-Roscosmos
+TileSets/FantasyHex/Tiles/Farm-Human-Russian
   rotate: false
   xy: 404, 1005
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Farm-CNSA
+TileSets/FantasyHex/Tiles/Farm-Human-Chinese
   rotate: false
   xy: 364, 1005
   size: 32, 32
