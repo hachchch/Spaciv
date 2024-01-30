@@ -307,11 +307,13 @@
 		"uniques": ["[+50]% [Faith] [in this city]","Consumes [2] [Amino Metal]"]
 		"requiredTech": "Terraforming"
 	},
-	// Metaphysics Building (for non-Xeno)
+	// Metaphysics Building (for non-Xeno) // Progress
+	/*
 	{
 		"name": "",
 		"maintenance": 5,
 	},
+	*/
 	// Xeno industrial system tier III
 	{
 		"name": "Hive Port",
