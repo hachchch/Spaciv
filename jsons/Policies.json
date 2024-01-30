@@ -154,8 +154,8 @@
             {
                 "name": "Planned Economy",
                 "uniques": [
-                    "[+25]% [Science] from every [Factory]",
-                    "[+100]% Production when constructing [Factory] buildings [in all cities]"
+                    "[+10]% [Science] from every [Heavy Industry]",
+                    "[+100]% Production when constructing [Heavy Industry] buildings [in all cities]"
                 ],
                 "row": 1,
                 "column": 3
@@ -181,9 +181,7 @@
                 "name": "Communism",
                 "requires": ["Socialism"],
                 "uniques": [
-                    "[+2 Production] [in all cities]",
-                    "[+1 Production] from every [Mine]",
-                    "[+1 Production] from every [Quarry]"
+                    "[+1 Production] from every [Production Facility]"
                 ],
                 "row": 3,
                 "column": 3
