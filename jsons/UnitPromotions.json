@@ -21,8 +21,8 @@
                 "name": "Human Technology",
                 "column": 1,
                 "row": 0,
-                "uniques": ["[+25]% Strength <vs [Xeno Technology] units>",
-		"Cannot be carried by [All] units <for [Atmo] units> <hidden from users>",
+                
+                "uniques": ["Cannot be carried by [All] units <for [Atmo] units> <hidden from users>",
 		"Can only attack [Earth] tiles <for [Atmo] units> <hidden from users>",
 		"[+100]% Strength <when fighting in [Earth] tiles> <for [Atmo] units> <hidden from users> <starting from the [Research era]>"],
         },
@@ -137,7 +137,7 @@
 	// ---Space ships---
 	// Common Tree
 	{
-		"name": "Generation Ship I",
+		"name": "Logistical Support",
 		"prerequisites": ["Human Technology","Xeno Technology","Alien Technology"],
 		"column": 31,
                 "row": 1,
@@ -145,10 +145,10 @@
 		"uniques": ["All adjacent units heal [+5] HP when healing"]
 	},
 	{
-		"name": "Generation Ship II",
+		"name": "Mobile Repair",
 		"column": 31,
                 "row": 2,
-		"prerequisites": ["Generation Ship I"],
+		"prerequisites": ["Logistical Support"],
 		"unitType": ["Corvette","Destroyer","Cruiser","Battleship"],
 		"uniques": ["All adjacent units heal [+5] HP when healing"]
 	},
@@ -201,7 +201,7 @@
 		"row": 3
 	},
 	{
-		"name": "Mass Driver I",
+		"name": "Tactical Battle-Net",
 		"prerequisites": ["Flight Deck I","Armor Plating I"],
 		"uniques": ["Give 30% Strength Bonus for Carrying Air units"],
 		"unitTypes": ["Carrier"],
@@ -209,8 +209,8 @@
 		"row": 2
 	},
 	{
-		"name": "Mass Driver II",
-		"prerequisites": ["Mass Driver I"],
+		"name": "Targeting Support Net",
+		"prerequisites": ["Tactical Battle-Net"],
 		"uniques": ["Give 20% Strength Bonus for Carrying Air units"],
 		"unitTypes": ["Carrier"],
 		"column": 42,
