@@ -93,7 +93,7 @@
 		"hurryCostModifier": 20
         },
 */
-	/*
+/*
 	{
 		"name": "Colony Ship",
 		"unitType": "Space Object",
@@ -101,11 +101,11 @@
 		"strength": 5,
 		"cost": 180,
 		"uniques": ["Cannot attack",
-			"Founds a new city <by consuming this unit> <in [Lagrange Zone] tiles>"] // I think it shouldn't enable to settling in space
+			"Founds a new city <by consuming this unit> <in [Lagrange Zone] tiles>"]
 		"requiredTech": "Commercial Space Flight",
 	},
-	*/
-
+//aye, chief, it's disabled now
+*/
 	//Scouts
         {
                 "name": "Rover",
@@ -388,7 +388,7 @@
 		"attackSound": "shipguns",
 		"cost": 350,
 		"requiredTech": "Magnetogravitical Engineering",
-		"uniques": ["Must set up to ranged attack","[+60]% Strength <vs [Water] units> <when attacking>",
+		"uniques": ["Must set up to ranged attack","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [1] [Prismaxium]","[+60]% Strength <vs [Water] units> <when attacking>",
 			"Unbuildable <in cities without a [UFO Facility]>"],
 	},
 	{
@@ -489,7 +489,7 @@
 		"attackSound": "shipguns",
 		"cost": 350,
 		"requiredTech": "Magnetogravitical Engineering",
-		"uniques": ["May heal outside of friendly territory","Must set up to ranged attack","[+60]% Strength <vs [Space] units> <when attacking>", // "Consumes [1] [Amino Metal]",
+		"uniques": ["May heal outside of friendly territory","Must set up to ranged attack","[+60]% Strength <vs [Space] units> <when attacking>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [1] [Amino Metal]",
 			"Unbuildable <in cities without a [Warp hole Generator]>"],
 	},
 	{
@@ -588,7 +588,7 @@
 		"attackSound": "tankshot",
 		"cost": 160,
 		"requiredTech": "Commercial Space Flight",
-		"uniques": ["[+25]% Strength <vs [Destroyer] units> <when attacking>",
+		"uniques": ["[+25]% Strength <vs [Destroyer] units> <when attacking>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]",
 			"Unbuildable <in cities without a [Launch site]>"],
 	},
 	{
@@ -597,11 +597,11 @@
 		"movement": 2,
 		"range": 3,
 		"rangedStrength": 35,
-		"strength": 30,
+		"strength": 35,
 		"attackSound": "shipguns",
 		"cost": 350,
 		"requiredTech": "Magnetogravitical Engineering",
-		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>",
+		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>","Consumes [2] [Neodymium]","Consumes [2] [Coaxium]",
 			"Must set up to ranged attack",
 			"Unbuildable <in cities without a [Spaceship Factory]>"],
 	},
@@ -613,7 +613,7 @@
 		"attackSound": "shipguns",
 		"cost": 250,
 		"requiredTech": "Magnetogravitical Engineering",
-		"uniques": ["[+50]% Strength <vs [Fighter] units> <when defending>",
+		"uniques": ["[+50]% Strength <vs [Fighter] units> <when defending>","Consumes [2] [Coaxium]",
 			"[+100]% Strength <when defending>",
 			"Can carry [3] [Space] units",
 			"Unbuildable <in cities without a [Launch site]>"],

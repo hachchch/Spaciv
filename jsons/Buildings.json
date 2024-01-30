@@ -122,7 +122,7 @@
 		"cost": 100,
 		"production": 2,
 		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
-			"[+15]% Production when constructing [Space] units [in this city]"],
+			"[+33]% Production when constructing [Space] units [in this city]"],
 	},
 	// Other
 	{
@@ -167,7 +167,7 @@
 		"production": 1,
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 6,
-		"uniques": ["Only available <for [Xeno]>"]
+		"uniques": ["Heavy Industry","Only available <for [Xeno]>"]
 		"requiredTech": "Beyond",
 	},
 	{
@@ -176,15 +176,48 @@
 		"production": 1,
 		"specialistSlots": {"Engineer": 3},
 		"maintenance": 12,
-		"uniques": ["Only available <for [Xeno]>"]
+		"uniques": ["Heavy Industry","Only available <for [Xeno]>"]
 		"requiredTech": "Urban Satellite",
 	},
+	//Placeholder for Refinery Buildings
+	{
+		"name": "Advanced Foundry",
+		"production": 2,
+		"maintenance": 4,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 15,
+		"uniques": ["Heavy Industry","Provides [2] [Neodymium]",
+			"Consumes [1] [Encid] <for [Xeno]>",
+			"Consumes [1] [Power] <for [Human]>",
+			"Consumes [1] [Super Energy] <for [Alien]>","Consumes [3] [Iron]"],
+		"requiredTech": "Gravitational Optics"
+	},
+	{
+		"name": "Coaxium Refinery",
+		"production": 1,
+		"gold": 1,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 15,
+		"uniques": ["Heavy Industry","Provides [2] [Coaxium]",
+			"Consumes [1] [Encid] <for [Xeno]>",
+			"Consumes [1] [Power] <for [Human]>",
+			"Consumes [1] [Super Energy] <for [Alien]>","Consumes [3] [Neptunium]"],
+		"requiredTech": "Event Horizon"
+	},
+	{
+		"name": "Neptunium Centrifuge",
+		"production": 1,
+		"maintenance": 1,
+		"hurryCostModifier": 15,
+		"uniques": ["Consumes [1] [Neptunium]","Provides [2] [Power] <for [Human]>","Provides [2] [Super Energy] <for [Alien]>","Provides [2] [Encid] <for [Xeno]>"],
+		"requiredTech": "White Hole"
+},
 	// tier III
 	{
 		"name": "Hive Port",
 		"requiredTech": "Event Horizon",
 		"requiredBuilding": "Space Hive Worker District",
-		"uniques": ["Only available <for [Xeno]>","Consumes [1] [Dominium]","[+20]% Production when constructing [Space] units [in this city]"]
+		"uniques": ["Heavy Industry","Only available <for [Xeno]>","Consumes [1] [Dominium]","[+20]% Production when constructing [Space] units [in this city]"]
 	},
 	{
 		"name": "Hive Trade Center",
@@ -220,7 +253,7 @@
 		"happiness": 4,
 		"gold": 3,
 		"requiredTech": "Solar Industry",
-		"uniques": ["Only available <for [Xeno]>","[+5]% [Production] [in this city]","Consumes [2] [Amino Metal]","Consumes [2] [Encid]"]
+		"uniques": ["Heavy Industry","Only available <for [Xeno]>","[+5]% [Production] [in this city]","Consumes [2] [Amino Metal]","Consumes [2] [Encid]"]
 		"requiredBuilding": "Space Hive Worker District",
 	},
 	// tier II
@@ -232,7 +265,7 @@
 		"specialistSlots": {"Engineer": 1},
 		"percentStatBonus": {"production": 15},
 		"hurryCostModifier": 15,
-		"uniques": ["Provides [1] [Amino Metal]","Only available <for [Xeno]> <when above [29] [Encid]>","Costs [30] [Encid]"],
+		"uniques": ["Heavy Industry","Provides [1] [Amino Metal]","Only available <for [Xeno]> <when above [29] [Encid]>","Costs [30] [Encid]"],
 		"requiredTech": "Beyond"
 	},
 	{
@@ -627,7 +660,7 @@
 		"uniques": ["Free Social Policy","[-20]% Gold cost of upgrading <for [Military] units>","Only available <for [Xeno]>"],
 	},
 	{
-		"name": "X4-B Pasma Broadcast Center",
+		"name": "X4-B Plasma Broadcast Center",
 		"isWonder": true,
 		"culture": 3,
 		"gold": 1,
