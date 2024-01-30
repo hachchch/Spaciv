@@ -66,6 +66,8 @@
 		"style": "Human-Chinese",
 		"uniqueName": "Chang'e Program",
 		"uniques": ["Human","Starts with [Information era]",
+			"Start with 100 Gold (modified by game speed)",
+			"Gain [100] [Gold] (modified by game speed)",
 			"[+1 Food] from [Dome] tiles [in all cities]",
 			"[+75]% Production when constructing [Missile] units [in all cities]",
 		"Special Victory Condition: Correct 10000 Gold and beat all earth nation.",
