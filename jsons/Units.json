@@ -699,6 +699,7 @@
 		// "requiredResource": "Aluminum",
 		"uniques": [
 			"Atmo",
+			"[+1] Sight",
 			"Can only attack [Earth] tiles",
 			"[+100]% Strength <vs [Human] units>",
 			"Only available <in cities with a [Earth]>",
