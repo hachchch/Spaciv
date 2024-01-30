@@ -263,6 +263,11 @@
 		"uniques": ["Not shown on world screen","Excluded from map editor"],
 	},
 	{
+		"name": "Relation Score (Aether Republic)",
+		"resourceType": "Strategic",
+		"uniques": ["Not shown on world screen","Excluded from map editor"],
+	},
+	{
 		"name": "Relation Score (Roscosmos)",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen","Excluded from map editor"],
