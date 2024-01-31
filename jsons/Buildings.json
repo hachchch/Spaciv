@@ -937,4 +937,9 @@
 		"uniques": ["Hidden when [Special] Victory is disabled","Costs [2000] [Encid]","Only available <for [Xenomorph]> <when above [1999] [Encid]>"],
 		"requiredTech": "Superstrings",
 	},
+	{
+		"name": "Unbuildable",
+		"cost": 9999,
+		"uniques": ["Hidden when [Special] Victory is disabled","Unbuildable","Unsellable"],
+	},
 ]
