@@ -353,8 +353,12 @@
 		"cost": 124,
 		"science": -3,
 		"maintenance": 1,
-		"uniques": ["Consumes [2] [Amino Metal]","Enable to make Biochemicalweapon in this city","Limited to [1] per Civilization"]
+		"uniques": ["Consumes [2] [Amino Metal]","Enable to make Biochemicalweapon in this city","Limited to [1] per Civilization",
+		"Provides [1] [Sarin]", "Provides [1] []"]
 		"requiredTech": "Beyond"
+	},
+	{
+		"name": "Automatic Cultivater",
 	},
 	// Helium three Industries
 	{
