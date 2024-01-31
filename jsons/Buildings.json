@@ -244,7 +244,7 @@
 		"uniques": ["Consumes [1] [Neptunium]","Provides [3] [Power]"],
 		"requiredTech": "White Hole"
 	},
-	// Even more Adv.Industries
+	// Infinity Industrial Complex.Industries
 	{
 		"name": "Infinity Industrial Complex",
 		"gold": 4,
@@ -292,17 +292,32 @@
 	},
 	// Amino Industries
 	{
+		"name": "Pressure Refrigerator",
+		"science": 1,
+		"maintenance": 1,
+		"uniques": ["Enable to Build Amino Metal Improvements"]
+		"requiredTech": "Beyond"
+	},
+	{
+		"name": "Miller-Urey Factory",
+		"cost": 100,
+		"science": 1,
+		"replaces": "Pressure Refrigerator",
+		"uniqueTo": "CNSA",
+		"requiredTech": "Beyond",
+		"uniques": ["Enable to Build Amino Metal Improvements","Provides [1] [Amino Metal]"]
+	},
+	{
 		"name": "Energy Drink Factory",
-		"requiredBuilding": "Infinity Industrial Complex",
+		"requiredBuilding": "Pressure Refrigerator",
 		"gold": 4,
-		"happiness": 1,
 		"maintenance": 2,
 		"uniques": ["[+30]% [Gold] [in this city]","Consumes [1] [Amino Metal]"]
 		"requiredTech": "Event Horizon"
 	},
 	{
 		"name": "Stetter Reactor",
-		"requiredBuilding": "Infinity Industrial Complex",
+		"requiredBuilding": "Pressure Refrigerator",
 		"food": 4,
 		"maintenance": 2,
 		"uniques": ["[+10]% [Food] [in this city]","Consumes [1] [Amino Metal]"]
@@ -310,14 +325,49 @@
 	},
 	{
 		"name": "Theater of Abiogenesis",
+		"requiredBuilding": "Pressure Refrigerator",
 		"faith": 2,
 		"science": 2,
-		"happiness": 1,
 		"maintenance": 2,
 		"uniques": ["[+50]% [Faith] [in this city]","Consumes [2] [Amino Metal]"]
 		"requiredTech": "Terraforming"
 	},
-
+	{
+		"name": "Synthesis Winery",
+		"requiredBuilding": "Pressure Refrigerator",
+		"happiness": 3,
+		"maintenance": 1,
+		"uniques": ["Consumes [1] [Amino Metal]"]
+		"requiredTech": "Beyond"
+	},
+	{
+		"name": "Nanite Hospital",
+		"requiredBuilding": "Pressure Refrigerator",
+		"maintenance": 1,
+		"uniques": ["[40]% Food is carried over after population increases [in this city]","Consumes [1] [Amino Metal]"]
+		"requiredTech": "Beyond"
+	},
+	{
+		"name": "Biochemicalweapon Research Facility",
+		"requiredBuilding": "Pressure Refrigerator",
+		"cost": 124,
+		"science": -3,
+		"maintenance": 1,
+		"uniques": ["Consumes [2] [Amino Metal]","Enable to make Biochemicalweapon in this city","Limited to [1] per Civilization"]
+		"requiredTech": "Beyond"
+	},
+	// Helium three Industries
+	{
+		"name": "Advanced Fusion Reactor",
+		"isNationalWonder": true,
+		"production": 8,
+		"maintenance": 2,
+		"uniques": ["Provides [2] [Power] <for [Human]>",
+			"Provides [2] [Super Energy] <for [Alien]>",
+			"Provides [2] [Encid] <for [Xeno]>",
+			"Consumes [2] [Dominium]","Consumes [2] [Regolith]"]
+		"requiredTech": "Superfluidity"
+	},
 	// Metaphysics Building (for non-Xeno) // Progress
 	/*
 	{
