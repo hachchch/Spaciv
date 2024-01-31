@@ -1,12 +1,57 @@
 [
+        // Pantheon
         {
                 "name": "Ancestor Worship",
                 "type": "Pantheon",
                 "uniques": ["[+1 Culture] from every [Faith]"]
         },
         {
-                "name": "Armageddon",
+                "name": "Einstein Worship",
                 "type": "Pantheon",
+                "uniques": ["Double quantity of [Neptunium] produced"]
+        },
+        {
+                "name": "Darwin Worship",
+                "type": "Pantheon",
+                "uniques": ["[+1 Faith] <when above [3] [Animo Metal]>",
+                        "[+1 Faith] <when above [6] [Animo Metal]>",
+                        "[+1 Faith] <when above [9] [Animo Metal]>"]
+        },
+        // Follower
+        /*
+        {
+        },
+        */
+        // Founder
+        {
+                "name": "Floating Island",
+                "type": "Founder",
+                "uniques": ["[+1 Culture, +1 Faith] from [Artificial Terrain] tiles [in all cities]"]
+        },
+        {
+                "name": "Mana Generation Plant",
+                "type": "Founder",
+                "uniques": ["[+1 Culture] from [Power Plant] tiles [in all cities]"]
+        },
+        {
+                "name": "Cosmo-A",
+                "type": "Founder",
+                "uniques": ["[+1 Culture] from [Stardust] tiles [in all cities]"]
+        },
+        {
+                "name": "Selene Church",
+                "type": "Founder",
+                "uniques": ["[+1 Culture] from [Lunar] tiles [in all cities]"]
+        },
+        // Enhancer
+        {
+                "name": "Church of Solar Panel",
+                "type": "Enhancer",
+                "uniques": ["Church Provides Energy Resource"]
+        },
+        {
+                "name": "Armageddon",
+                "type": "Enhancer",
                 "uniques": ["[+100]% Production when constructing [Missile] units [in all cities]"]
         }
 ]
