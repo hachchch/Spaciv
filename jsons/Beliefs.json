@@ -19,9 +19,10 @@
         {
                 "name": "Darwin Worship",
                 "type": "Pantheon",
-                "uniques": ["[+1 Faith] <when above [3] [Amino Metal]>",
-                        "[+1 Faith] <when above [6] [Amino Metal]>",
-                        "[+1 Faith] <when above [9] [Amino Metal]>"]
+                "uniques": [
+                        "[+1 Faith] per [3] population [in all cities] <when above [3] [Amino Metal]>",
+                        "[+1 Faith] per [3] population [in all cities] <when above [6] [Amino Metal]>",
+                        "[+1 Faith] per [3] population [in all cities] <when above [9] [Amino Metal]>"]
         },
         // Follower
         {
