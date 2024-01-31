@@ -81,7 +81,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		// "production": 1,
 		"turnsToBuild": 10,
-		"uniques": ["Provides [1] [Power] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
+		"uniques": ["[+1 Gold] <for [Human]>","Provides [1] [Power] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
 		"shortcutKey": "C"
 	},
 	{
@@ -90,7 +90,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		// "production": 1,
 		"turnsToBuild": 10,
-		"uniques": ["Provides [1] [Super Energy] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
+		"uniques": ["[+1 Gold] <for [Alien]>","Provides [1] [Super Energy] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
 		"shortcutKey": "C"
 	},
 	{
@@ -99,7 +99,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		// "production": 1,
 		"turnsToBuild": 10,
-		"uniques": ["Provides [1] [Encid] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
+		"uniques": ["[+1 Gold] <for [Xeno]>","Provides [1] [Encid] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
 		"shortcutKey": "C"
 	},
 	{
