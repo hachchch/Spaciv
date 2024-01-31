@@ -20,13 +20,13 @@
 		"name": "Dominium Armor",
 		"unitTypes": ["Gunpowder","Laser","Xeno Entity"],
 		"uniques": ["Consumes [1] [Dominium]",
-			"[+25]% Strength <when defending>"]
+			"[+50]% Strength <when defending>"]
 	},
 	{
 		"name": "Prismaxium Module",
 		"unitTypes": ["Gunpowder","Laser","Xeno Entity"],
 		"uniques": ["Consumes [1] [Prismaxium]",
-			"[+25]% Strength <when attacking>"]
+			"[+50]% Strength <when attacking>"]
 	},
 	 // These shall connect to dedicated promotion trees.
         {
@@ -233,5 +233,11 @@
 		"name": "Optical Camouflage", // it work for Scouts and Scout ship(such a Nanocraft)
 		"unitTypes": ["Scout","Space Object"],
 		"uniques": ["Invisible to non-adjacent units"]
+	},
+	// unit uniques
+	{
+		"name": "Gauss Cannon",
+		"uniques": ["Ranged attacks may be performed over obstacles",
+			"Instantly consumes [50] [Super Energy] <when attacking>","Cannot attack <when below [50] [Super Energy]>"]
 	},
 ]
