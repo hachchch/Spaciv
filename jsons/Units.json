@@ -844,16 +844,61 @@
 		"uniques": ["[+50]% Strength <when attacking>","Only available <for [Alien]>"]
 	},
 	{
-		"name": "Superstrings Cannon",
-		"strength": 120,
+		"name": "Theseus Battleship",
+		"requiredTech": "Metaphysics",
+		"unitType": "Battleship",
+		"movement": 3,
 		"range": 2,
-		"rangedStrength": 160,
+		"rangedStrength": 50,
+		"strength": 50,
+		"attackSound": "tankshot",
+		"cost": 320,
+		"uniques": ["Only available <for [Aether Republic]>",
+			"[+50] HP when healing",
+			"This Unit takes [100] damage <upon losing at least [25] HP in a single attack> <with [25]% chance>",
+			"This Unit takes [100] damage <upon losing at least [50] HP in a single attack> <with [25]% chance>",
+			"This Unit takes [100] damage <upon losing at least [75] HP in a single attack> <with [25]% chance>",
+			"Consumes [1] [Coaxium]","Consumes [1] [Neodymium]"]
+	},
+	{
+		"name": "Gauss Cruiser",
+		"requiredTech": "Metaphysics",
+		"unitType": "Cruiser",
+		"movement": 3,
+		"range": 2,
+		"rangedStrength": 50,
+		"strength": 50,
+		"attackSound": "tankshot",
+		"cost": 320,
+		"promotion": ["Gauss Cannon"],
+		"uniques": ["Only available <for [Human]>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]",
+		"[+25]% Strength <vs [Destroyer] units> <when attacking>","Unbuildable <in cities without a [Launch site]>"]
+	},
+	{
+		"name": "Gauss Launcher",
+		"unitType": "Anti-Air",
+		"movement": 3,
+		"range": 3,
+		"rangedStrength": 45,
+		"strength": 45,
+		"attackSound": "tankshot",
+		"cost": 160,
+		"requiredTech": "Metaphysics",
+		"promotion": ["Gauss Cannon"],
+		"uniques": ["[200]% chance to intercept air attacks", // I'm testing how 200% possibility works...
+			"[1000]% Damage when intercepting","Can Inercept Missile","Consumes [1] [Neodymium]"]
+	},
+	{
+		"name": "Superstrings Cannon",
+		"strength": 50,
+		"range": 2,
+		"rangedStrength": 70,
 		"movement": 2,
 		"attackSound": "tankshot",
 		"cost": 160,
 		"unitType": "Laser",
 		"requiredTech": "Superstrings",
-		"uniques": ["Only available <for [Alien]>","Consumes [32] [Super Energy]","Consumes [16] [Prismaxium]","[+300]% Strength <when attacking>"]
+		"uniques": ["Only available <for [Alien]>","Consumes [3] [Super Energy]","Consumes [3] [Prismaxium]","[+300]% Strength <when attacking>","Limited to [3] per Civilization"]
 	},
 	// uniques
 	{
