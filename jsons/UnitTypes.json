@@ -98,4 +98,12 @@
        		 "movementType": "Air",
 	"uniques": ["Cannot intercept [Fighter] units", "Cannot intercept [Bomber] units", "[+5000]% Strength <vs [Missile] units>","Self-destructs when attacking","This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
+	{
+		"name": "Chemicalweapon",
+		"movementType": "Air",
+	},
+	{
+		"name": "Bioweapon",
+		"movementType": "Land",
+	},
 ]
