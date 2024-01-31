@@ -870,7 +870,7 @@
 		"strength": 50,
 		"attackSound": "tankshot",
 		"cost": 320,
-		"promotion": ["Gauss Cannon"],
+		"promotions": ["Gauss Cannon"],
 		"uniques": ["Only available <for [Human]>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]",
 		"[+25]% Strength <vs [Destroyer] units> <when attacking>","Unbuildable <in cities without a [Launch site]>"]
 	},
@@ -884,7 +884,7 @@
 		"attackSound": "tankshot",
 		"cost": 160,
 		"requiredTech": "Metaphysics",
-		"promotion": ["Gauss Cannon"],
+		"promotions": ["Gauss Cannon"],
 		"uniques": ["[200]% chance to intercept air attacks", // I'm testing how 200% possibility works...
 			"[1000]% Damage when intercepting","Can Inercept Missile","Consumes [1] [Neodymium]"]
 	},
@@ -1002,5 +1002,5 @@
 		"uniques": ["Only available <in cities with a [Biochemicalweapon Research Facility]>","Consumes [1] [Amino Metal]",
 			"Limited to [3] per Civilization"],
 		"attackSound": "gdrAttack"
-	},
+	}
 ]
