@@ -358,29 +358,66 @@
         "era": "Techno era",
         "priorities": {
             "Neutral": 50,
-            "Cultural": 50,
-            "Diplomatic": 50,
-            "Domination": 40,
-            "Scientific": 50
+            "Cultural": 40,
+            "Diplomatic": 40,
+            "Domination": 50,
+            "Scientific": 40
         },
         "uniques": [
             "[+25]% Great Person generation [in all cities]",
             "[+10]% [Happiness]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Order]>",
+            "Only available <before adopting [Universal Right]>",
+            "Only available <before adopting [Creationism]>",
         ],
         "policies": [
             {
-                "name": "Multiverse",
+                "name": "Totalitarianism",
+                "prerequisites": ["Home Planetism"],
+                "row": 2,
+                "column": 4,
+                "uniques": [
+                    "[+10]% [Production] [in all cities] <when at war>",
+                    "[+1 Culture] from all [Production] buildings",
+                    // "[+1 Production] from [Dominium] tiles [in all cities]",
+                // "[+1 Production] from [Prismaxium] tiles [in all cities]",
+                // "[+1 Production] from [Amino Metal] tiles [in all cities]"
+                ]
+            },
+            {
+                "name": "StarTram March",
+                "prerequisites": ["Totalitarianism"],
+                "row": 3,
+                "column": 4,
+                "uniques": [
+                    "[+50]% XP gained from combat <for [Military] units>",
+                    "[+1 Culture] from [StarTram] tiles [in all cities]",
+                ]
+            },
+            {
+                "name": "Home Planetism",
                 "row": 1,
-                "column": 1
+                "column": 4,
+                "uniques": ["[+35]% Production when constructing [Military] units [in capital]"]
+            },
+            {
+                "name": "Space Colonism",
+                "row": 1,
+                "column": 2,
+                "uniques": ["[+3 Food] [in all cities] <on foreign continents>"]
+            },
+            {
+                "name": "Space Imperialism",
+                "row": 2,
+                "prerequisites": ["Space Colonism"],
+                "column": 2,
+                "uniques": ["[+25]% Production when constructing [Land] units [in all cities]","[+3 Production] [in all cities] <with a garrison>"]
             },
             {
                 "name": "Unity Complete",
                 "uniques": [
-                    "[+20]% Yield from every [Food Source]",
-                    "[+1 Happiness, +1 Culture] from [Food Source] tiles [in all cities]",
-                    "[+50]% Golden Age length",
+                    "[+20]% Strength <for [Space] units> <vs [Wounded] units>",
+                    "[+50]% Yield from every [Production Facility]",
+                    "[+100]% Golden Age length",
                 ]
             }
         ]
@@ -390,22 +427,23 @@
         "era": "Techno era",
         "priorities": {
             "Neutral": 50,
-            "Cultural": 40,
+            "Cultural": 50,
             "Diplomatic": 40,
-            "Domination": 50,
+            "Domination": 40,
             "Scientific": 40
         },
         "uniques": [
             "[-33]% maintenance costs <for [All] units>",
             "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
-            "Only available <before adopting [Order]>",
-            "Only available <before adopting [Freedom]>"
+            "Only available <before adopting [Universal Right]>",
+            "Only available <before adopting [Unity]>"
         ],
         "policies": [
             {
                 "name": "Pantheism",
                 "row": 1,
-                "column": 3
+                "column": 3,
+                "uniques": [""]
             },
             {
                 "name": "Akashic Records",
@@ -413,7 +451,7 @@
                 "column": 5
             },
             {
-                                "name": "Order42", // Answer to the Ultimate Question of Life, the Universe, and Everything
+                "name": "Order42", // Answer to the Ultimate Question of Life, the Universe, and Everything
                 "row": 1,
                 "column": 1
             },
@@ -447,20 +485,52 @@
             "Scientific": 50
         },
         "uniques": [
-            "[+1 Happiness] [in all cities]",
-            "Only available <before adopting [Autocracy]>",
-            "Only available <before adopting [Freedom]>"
+            "[-20]% Unhappiness from [Population] [in this city]",
+            "Only available <before adopting [Creationism]>",
+            "Only available <before adopting [Unity]>"
         ],
         "policies": [
             {
                 "name": "Basic Freedom",
                 "row": 1,
-                "column": 1
+                "column": 3,
+                "uniques": ["[+50]% Strength for cities <when attacking>"]
+            },
+            {
+                "name": "Planet Law",
+                "row": 1,
+                "column": 5,
+                "uniques": ["[+3 Culture] [in all cities]","[Gold] cost of purchasing items in cities [-33]%"]
+            },
+            {
+                "name": "Solar Star Ownership",
+                "prerequisites": ["Basic Freedom","Planet Law"],
+                "row": 2,
+                "column": 4,
+                "uniques": ["[+25]% Production when constructing [Solar] units [in all cities]",
+                "[+1 Gold] from all [Dyson Relay] buildings",
+                "[+1 Gold] from all [Dyson Swarm] buildings",
+                "[+1 Gold] from all [Mega Solar Farm] buildings",
+                "[+1 Gold] from all [Solar Fusion Plant] buildings",
+                "[+1 Gold] from all [Solar Acid Accelerator] buildings"]
+            },
+            {
+                "name": "Technological Ethics",
+                "row": 1,
+                "column": 1,
+                "uniques": ["[+1 Happiness] from all [Science] buildings"]
+            },
+            {
+                "name": "Astronaut Safety",
+                "prerequisites": ["Technological Ethics"]
+                "row": 2,
+                "column": 1,
+                "uniques": ["Defense bonus when embarked <for [non-[Air]] units>"]
             },
             {
                 "name": "Universal Right Complete",
                 "uniques": [
-                    "[+2 Food, +2 Production, +2 Science, +2 Gold, +2 Culture] [in all cities]",
+                    "[+50]% Great Person generation [in all cities]",
                 ]
             }
         ]
