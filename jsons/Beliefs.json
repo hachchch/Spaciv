@@ -8,14 +8,20 @@
         {
                 "name": "Einstein Worship",
                 "type": "Pantheon",
-                "uniques": ["Double quantity of [Neptunium] produced"]
+                "uniques": ["Provides [1] [Neptunium] <when above [99] [Faith]>",
+                        "Provides [1] [Neptunium] <when above [199] [Faith]>",
+                        "Provides [1] [Neptunium] <when above [299] [Faith]>",
+                        "Provides [1] [Neptunium] <when above [399] [Faith]>",
+                        "Provides [1] [Neptunium] <when above [499] [Faith]>",
+                        "Provides [1] [Neptunium] <when above [599] [Faith]>"
+                ]
         },
         {
                 "name": "Darwin Worship",
                 "type": "Pantheon",
-                "uniques": ["[+1 Faith] <when above [3] [Animo Metal]>",
-                        "[+1 Faith] <when above [6] [Animo Metal]>",
-                        "[+1 Faith] <when above [9] [Animo Metal]>"]
+                "uniques": ["[+1 Faith] <when above [3] [Amino Metal]>",
+                        "[+1 Faith] <when above [6] [Amino Metal]>",
+                        "[+1 Faith] <when above [9] [Amino Metal]>"]
         },
         // Follower
         {
