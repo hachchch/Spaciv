@@ -297,5 +297,14 @@
 		"name": "Allied City State",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
-	}
+	},
+		{
+			"name": "Sarin",
+			"resourceType": "Strategic",
+			"uniques": ["Not shown on world screen","Excluded from map editor"],
+		},
+		{
+			"name": "Botulinum",
+			"uniques": ["Not shown on world screen","Excluded from map editor"],
+		},
 ]
