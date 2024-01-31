@@ -44,7 +44,7 @@
 	},
 	{
 		"name": "Industry",
-		"terrainsCanBeBuiltOn": ["Earth"],
+		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility"],
@@ -105,13 +105,22 @@
 	{
 		"name": "Weak Reactor",
 		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
 		"turnsToBuild": 10,
 		"uniques": ["Power Plant","Consumes [1] [Prismaxium]","Provides [1] [Neptunium]",
 			"[+3 Production] <when above [0] [Prismaxium]>",
 		"Unbuildable <for [AI player]> <when below [3] [Prismaxium]> <hidden from users>" // Hidden AI Behave Enhancement
 		]
 	},
-	//Spacee
+	// Spice
+	{
+		"name": "Cosmodrome",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"turnsToBuild": 4,
+		"uniques": ["Gives a defensive bonus of [50]%"]
+		
+	},
+	// Space
 	{
 		"name": "Artificial Habitat",
 		"terrainsCanBeBuiltOn": [
@@ -275,6 +284,10 @@
 			"Provides [1] [Power] <for [Human]>",
 			"Provides [1] [Super Energy] <for [Alien]>"
 		]
+	},
+	// Great
+	{
+		
 	},
 	// Barbs
 	{
