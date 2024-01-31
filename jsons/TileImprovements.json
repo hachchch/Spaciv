@@ -290,7 +290,7 @@
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
-		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>", "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Heliophysics]>", "[+2 Science] <after discovering [Metaphysics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Landmark",
@@ -302,13 +302,13 @@
 		"name": "Manufactory",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"production": 4,
-		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Solar Industry]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Customs house",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"gold": 4,
-		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Economics]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+		"uniques": ["Great Improvement", "[+1 Gold] <after discovering [Commercial Space Flight]>", "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
 		"name": "Holy site",
