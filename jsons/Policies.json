@@ -372,7 +372,7 @@
         "policies": [
             {
                 "name": "Totalitarianism",
-                "prerequisites": ["Home Planetism"],
+                "requires": ["Home Planetism"],
                 "row": 2,
                 "column": 4,
                 "uniques": [
@@ -385,7 +385,7 @@
             },
             {
                 "name": "StarTram March",
-                "prerequisites": ["Totalitarianism"],
+                "requires": ["Totalitarianism"],
                 "row": 3,
                 "column": 4,
                 "uniques": [
@@ -403,12 +403,12 @@
                 "name": "Space Colonism",
                 "row": 1,
                 "column": 2,
-                "uniques": ["[+3 Food] [in all cities] <on foreign continents>"]
+                "uniques": ["[+3 Food] [in all cities] <on foreign continents>","May buy items in puppet cities"]
             },
             {
                 "name": "Space Imperialism",
                 "row": 2,
-                "prerequisites": ["Space Colonism"],
+                "requires": ["Space Colonism"],
                 "column": 2,
                 "uniques": ["[+25]% Production when constructing [Land] units [in all cities]","[+3 Production] [in all cities] <with a garrison>"]
             },
@@ -433,8 +433,8 @@
             "Scientific": 40
         },
         "uniques": [
-            "[-33]% maintenance costs <for [All] units>",
-            "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+            "[+100]% Production when constructing [Faith] buildings [in all cities]",
+            "[+1 Faith] from every [Faith]",
             "Only available <before adopting [Universal Right]>",
             "Only available <before adopting [Unity]>"
         ],
@@ -443,27 +443,33 @@
                 "name": "Pantheism",
                 "row": 1,
                 "column": 3,
-                "uniques": [""]
+                "uniques": ["[+10]% [Faith] from every [Science]"]
             },
             {
                 "name": "Akashic Records",
                 "row": 1,
-                "column": 5
+                "column": 5,
+                "uniques": ["[+30]% [Faith]","New [Military] units start with [15] Experience [in all cities]"]
             },
             {
                 "name": "Order42", // Answer to the Ultimate Question of Life, the Universe, and Everything
                 "row": 1,
-                "column": 1
+                "column": 1,
+                "uniques": ["May buy [Military] units with [Faith] for [42] times their normal Production cost"]
             },
             {
                 "name": "Galaxic Holysite",
+                "requires": ["Pantheism","Akashic Records"],
                 "row": 2,
-                "column": 2
+                "column": 2,
+                "uniques": ["[+1 Gold] per every [20] [Faith]"]
             },
             {
                 "name": "Biblical cosmology",
+                "requires": ["Pantheism","Order42"],
                 "row": 2,
-                "column": 4
+                "column": 4,
+                "uniques": ["[-100]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]"]
             },
             {
                 "name": "Creationism Complete",
@@ -485,7 +491,7 @@
             "Scientific": 50
         },
         "uniques": [
-            "[-20]% Unhappiness from [Population] [in this city]",
+            "[-20]% Unhappiness from [Population] [in all cities]",
             "Only available <before adopting [Creationism]>",
             "Only available <before adopting [Unity]>"
         ],
@@ -504,7 +510,7 @@
             },
             {
                 "name": "Solar Star Ownership",
-                "prerequisites": ["Basic Freedom","Planet Law"],
+                "requires": ["Basic Freedom","Planet Law"],
                 "row": 2,
                 "column": 4,
                 "uniques": ["[+25]% Production when constructing [Solar] units [in all cities]",
@@ -522,7 +528,7 @@
             },
             {
                 "name": "Astronaut Safety",
-                "prerequisites": ["Technological Ethics"]
+                "requires": ["Technological Ethics"]
                 "row": 2,
                 "column": 1,
                 "uniques": ["Defense bonus when embarked <for [non-[Air]] units>"]
