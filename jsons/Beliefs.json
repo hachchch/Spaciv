@@ -18,10 +18,11 @@
                         "[+1 Faith] <when above [9] [Animo Metal]>"]
         },
         // Follower
-        /*
         {
+                "name": "Asceticism",
+                "type": "Follower",
+                "uniques": ["[+1 Happiness] from every [Faith] <in cities with at least [3] [Followers of this Religion]>"]
         },
-        */
         // Founder
         {
                 "name": "Floating Island",
