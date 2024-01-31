@@ -469,7 +469,7 @@
                 "requires": ["Pantheism","Order42"],
                 "row": 2,
                 "column": 4,
-                "uniques": ["[-100]% Unhappiness from [Followers of the Majority Religion] [in cities following our religion]"]
+                "uniques": ["[-100]% Unhappiness from [Followers of the Majority Religion] [in all cities]"]
             },
             {
                 "name": "Creationism Complete",
