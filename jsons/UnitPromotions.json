@@ -15,8 +15,20 @@
                 "uniques": ["Can Embark <after discovering [Space Engineering]>"]
         },
 */
+	// Common For Land
+	{
+		"name": "Dominium Armor",
+		"unitTypes": ["Gunpowder","Laser","Xeno Entity"],
+		"uniques": ["Consumes [1] [Dominium]",
+			"[+25]% Strength <when defending>"]
+	},
+	{
+		"name": "Prismaxium Module",
+		"unitTypes": ["Gunpowder","Laser","Xeno Entity"],
+		"uniques": ["Consumes [1] [Prismaxium]",
+			"[+25]% Strength <when attacking>"]
+	},
 	 // These shall connect to dedicated promotion trees.
-        
         {
                 "name": "Human Technology",
                 "column": 1,
