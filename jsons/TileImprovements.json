@@ -82,7 +82,7 @@
 		// "production": 1,
 		"turnsToBuild": 10,
 		"uniques": ["[+1 Gold] <for [Human]>","Provides [1] [Power] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
-		"shortcutKey": "C"
+		"shortcutKey": "P"
 	},
 	{
 		"name": "Hadron Collider",
@@ -91,7 +91,7 @@
 		// "production": 1,
 		"turnsToBuild": 10,
 		"uniques": ["[+1 Gold] <for [Alien]>","Provides [1] [Super Energy] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
-		"shortcutKey": "C"
+		"shortcutKey": "H"
 	},
 	{
 		"name": "Acid Furnace",
@@ -100,7 +100,7 @@
 		// "production": 1,
 		"turnsToBuild": 10,
 		"uniques": ["[+1 Gold] <for [Xeno]>","Provides [1] [Encid] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
-		"shortcutKey": "C"
+		"shortcutKey": "F"
 	},
 	{
 		"name": "Weak Reactor",
@@ -111,15 +111,17 @@
 			"[+3 Production] <when above [0] [Prismaxium]>",
 		"Unbuildable <for [AI player]> <when below [3] [Prismaxium]> <hidden from users>" // Hidden AI Behave Enhancement
 		]
+		"shortcutKey": "W"
 	},
 	// Spice
+	/*
 	{
 		"name": "Cosmodrome",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"turnsToBuild": 4,
 		"uniques": ["Gives a defensive bonus of [50]%"]
-		
 	},
+	*/
 	// Space
 	{
 		"name": "Artificial Habitat",
