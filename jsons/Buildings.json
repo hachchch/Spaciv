@@ -890,9 +890,18 @@
 		"requiredTech": "Heliophysics",
 		"uniques": ["[+35]% [Gold]","Requires a [Launch site] in all cities", "Cost increases by [30] per owned city","[+1] Movement <for [All] units> <in [Lagrange Zone] tiles>"],
 	},
+	// Victory
+	{
+		"name": "Utopia Project",
+		"cost": 1500,
+		"isNationalWonder": true,
+		"uniques": ["Hidden until [5] social policy branches have been completed", "Triggers a global alert upon build start",
+			"Triggers a Cultural Victory upon completion", "Hidden when [Cultural] Victory is disabled", "Cannot be hurried"]
+	},
 	// Special Victory
 	{
 		"name": "Global Earth Treaty",
+		"culture": 5,
 		"cost": 600,
 		"uniques": ["Hidden when [Special] Victory is disabled","Treaty","Unbuildable","Can only be built [in capital]","Only available <for [United Nations]>","Requires at least [20] population"],
 	},
@@ -911,6 +920,7 @@
 	},
 	{
 		"name": "Artificial Planet",
+		"production": 20,
 		"cost": 800,
 		"isNationalWonder": true,
 		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Alien]> <when above [2499] [Super Energy]>","Costs [2500] [Super Energy]","Consumes [8] [Dominium]","Consumes [8] [Prismaxium]","Consumes [5] [Amino Metal]","Consumes [10] [Neptunium]"],
@@ -918,6 +928,7 @@
 	},
 	{
 		"name": "Parliament of Milky Way",
+		"culture": 10,
 		"cost": 2000,
 		"isNationalWonder": true,
 		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Empire]>","Requires a [Species cleansing] in at least [6] cities"],
@@ -925,14 +936,17 @@
 	},
 	{
 		"name": "University of Universe",
+		"science": 32,
 		"cost": 1300,
 		"isNationalWonder": true,
-		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Aether Republic]>","Requires a [Brain Center] in at least [4] cities"],
+		"uniques": ["[+100]% [Science] [in this city]","Hidden when [Special] Victory is disabled","Only available <for [Aether Republic]>","Requires a [Brain Center] in at least [4] cities"],
 		"requiredTech": "Metaphysics",
 	},
 	{
 		"name": "Galaxic Mind Control Center",
 		"cost": 800,
+		"faith": 8,
+		"happiness": 8,
 		"isNationalWonder": true,
 		"uniques": ["Hidden when [Special] Victory is disabled","Costs [2000] [Encid]","Only available <for [Xenomorph]> <when above [1999] [Encid]>"],
 		"requiredTech": "Superstrings",
