@@ -157,13 +157,13 @@
 		"name": "Neodymium", // Resource for Gauss cannon
 		"revealedBy": "Gravitational Optics",
 		"resourceType": "Strategic",
-		"uniques": ["City-level resource","Not shown on world screen","Excluded from map editor"]
+		"uniques": ["Excluded from map editor"]
 	},
 	{
 		"name": "Coaxium", // Resource for Big Boats (and maybe a speed boost promotion)
 		"revealedBy": "White Hole",
 		"resourceType": "Strategic",
-		"uniques": ["City-level resource","Not shown on world screen","Excluded from map editor"]
+		"uniques": ["Excluded from map editor"]
 	},
 	//Space
 	{
