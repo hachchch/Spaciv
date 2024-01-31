@@ -897,6 +897,19 @@
 		"uniques": ["Hidden when [Special] Victory is disabled","Treaty","Unbuildable","Can only be built [in capital]","Only available <for [United Nations]>","Requires at least [20] population"],
 	},
 	{
+		"name": "Lagrange Silk Road",
+		"isNationalWonder": true,
+		"cost": 1200,
+		"gold": 5,
+		"requiredTech": "Heliophysics",
+		"uniques": ["Hidden when [Special] Victory is disabled",
+			"[+100]% Gold from Great Merchant trade missions",
+			"Empire enters golden age",
+			"Requires a [Stock Exchange] in at least [8] cities",
+			"[+25]% [Gold] [in all cities connected to capital]",
+			"Can only be built [in capital]","Only available <for [CNSA]>"]
+	},
+	{
 		"name": "Artificial Planet",
 		"cost": 800,
 		"isNationalWonder": true,
