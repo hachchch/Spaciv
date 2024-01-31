@@ -929,7 +929,7 @@
 		"range": 6,
 		"cost": 250,
 		"requiredTech": "Beyond",
-		"uniques": ["Only available <in cities with a [Biochemical Research Facility]>","Consumes [1] [Sarin] <when attacking>","Cannot attack <when below [1] [Sarin]>","[+50]% Strength <when attacking> <vs [Human] units>",
+		"uniques": ["Only available <in cities with a [Biochemicalweapon Research Facility]>","Consumes [1] [Sarin] <when attacking>","Cannot attack <when below [1] [Sarin]>","[+50]% Strength <when attacking> <vs [Human] units>",
 			"Limited to [1] per Civilization","Nuclear weapon of Strength [1]",
 			"Blast radius [3]"],
 		"attackSound": "fire"
@@ -943,7 +943,7 @@
 		"range": 1,
 		"cost": 250,
 		"requiredTech": "Beyond",
-		"uniques": ["Only available <in cities with a [Biochemical Research Facility]>","Consumes [1] [Botulinum] <when attacking>","Cannot attack <when below [1] [Botulinum]>","[+50]% Strength <when attacking> <vs [Alien] units>",
+		"uniques": ["Only available <in cities with a [Biochemicalweapon Research Facility]>","Consumes [1] [Botulinum] <when attacking>","Cannot attack <when below [1] [Botulinum]>","[+50]% Strength <when attacking> <vs [non-[Human]] units>",
 			"Limited to [2] per Civilization"],
 		"attackSound": "fire"
 	},
@@ -954,7 +954,7 @@
 		"strength": 42,
 		"cost": 400,
 		"requiredTech": "Beyond",
-		"uniques": ["Only available <in cities with a [Biochemical Research Facility]>","Consumes [1] [Amino Metal]",
+		"uniques": ["Only available <in cities with a [Biochemicalweapon Research Facility]>","Consumes [1] [Amino Metal]",
 			"Limited to [3] per Civilization"],
 		"attackSound": "gdrAttack"
 	},
