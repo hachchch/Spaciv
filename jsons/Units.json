@@ -378,6 +378,7 @@
 		"attackSound": "shipguns",
 		"cost": 350,
 		"requiredTech": "Magnetogravitical Engineering",
+		"promotions": ["Plasma Lance"],
 		"uniques": ["Must set up to ranged attack","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [1] [Prismaxium]","[+60]% Strength <vs [Water] units> <when attacking>",
 			"Unbuildable <in cities without a [UFO Facility]>"],
 	},
@@ -479,6 +480,7 @@
 		"attackSound": "shipguns",
 		"cost": 350,
 		"requiredTech": "Magnetogravitical Engineering",
+		"promotions": ["Bio-Torps"],
 		"uniques": ["May heal outside of friendly territory","Must set up to ranged attack","[+60]% Strength <vs [Space] units> <when attacking>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [1] [Amino Metal]",
 			"Unbuildable <in cities without a [Warp hole Generator]>"],
 	},
@@ -843,6 +845,7 @@
 		"strength": 50,
 		"attackSound": "tankshot",
 		"cost": 320,
+		"promotions": ["Bio-Torps"],
 		"uniques": ["Only available <for [Aether Republic]>",
 			"[+50] HP when healing",
 			"This Unit takes [100] damage <upon losing at least [25] HP in a single attack> <with [25]% chance>",
@@ -859,10 +862,9 @@
 		"rangedStrength": 50,
 		"strength": 50,
 		"attackSound": "tankshot",
-		"cost": 320,
+		"cost": 350,
 		"promotions": ["Gauss Cannon"],
 		"uniques": ["Only available <for [Human]>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]",
-			"Must set up to ranged attack",
 		"[+25]% Strength <vs [Destroyer] units> <when attacking>","Unbuildable <in cities without a [Launch site]>"]
 	},
 	{
@@ -870,14 +872,14 @@
 		"unitType": "Anti-Air",
 		"movement": 3,
 		"range": 3,
+		"interceptRange": 3,
 		"rangedStrength": 45,
 		"strength": 45,
 		"attackSound": "tankshot",
-		"cost": 160,
+		"cost": 250,
 		"requiredTech": "Metaphysics",
 		"promotions": ["Gauss Cannon"], //nope, I was stupid. I'll do something also stupid, but different now, in UnitPromotions
 		"uniques": ["[200]% chance to intercept air attacks", // I'm testing how 200% possibility works...
-			"Must set up to ranged attack",
 			"[1000]% Damage when intercepting","Can Intercept Missile","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]"] 
 	},
 	{
