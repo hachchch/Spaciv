@@ -67,14 +67,46 @@
                 "[+100]% Production when constructing [Chemicalweapon] units [in this city]"]
         },
         {
-                "name": "Flat Planetism",
+                "name": "Whisper Network",
                 "type": "Follower",
-                "uniques": ["[+25]% [Faith]"]
+                "uniques": ["[+25]% Natural religion spread [in all cities]"]
         },
         {
-                "name": "Donuts Planetism",
+                "name": "Gateway Model",
                 "type": "Follower",
-                "uniques": ["[+25]% [Culture]"]
+                "uniques": ["[+1]% [Science] from every follower, up to [15]%"]
+        },
+        {
+                "name": "Pyramid Scheme",
+                "type": "Follower",
+                "uniques": [
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [1] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [2] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [3] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [4] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [5] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [6] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [7] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [8] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [9] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [10] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [11] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [12] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [13] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [14] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [15] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [16] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [17] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [18] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [19] [Followers of this Religion]>",
+                "[+5]% Natural religion spread [in all cities] <in cities with at least [20] [Followers of this Religion]>"]
+        },
+        {
+                "name": "Virtue Signalling",
+                "type": "Follower",
+                "uniques": ["[+3 Faith] [in this city]",
+                "[+3 Faith] [in this city] <after adopting [Eco-Justice]>",
+                "[Gold] cost of purchasing [Global Earth Treaty] buildings [-50]% <for [United Nations]>"]
         },
         // Founder
         {
@@ -122,5 +154,40 @@
                 "name": "Happiness Beacon",
                 "type": "Enhancer",
                 "uniques": ["[+25]% [Happiness] [in this city] <in cities with a [Launch site]>","[+1 Happiness] per [10] population [in capital]"]
+        },
+        {
+                "name": "Propaganda",
+                "type": "Enhancer",
+                "uniques": ["[+25]% Spread Religion Strength <for [Missionary] units>"]
+        },
+        {
+                "name": "Big Media‎",
+                "type": "Enhancer",
+                "uniques": ["[+34]% Natural religion spread [in all cities]","[+34]% Natural religion spread [in all cities] <after discovering [Information era]>"]
+        },
+        {
+                "name": "Fear Appeal",
+                "type": "Enhancer",
+                "uniques": ["[+50]% Spread Religion Strength <for [Missionary] units> <when at war>"]
+        },
+        {
+                "name": "Advertisement Strategy",
+                "type": "Enhancer",
+                "uniques": ["Only available <after discovering [Smart Phone]>","[+1]% [Gold] from every follower, up to [100]%","[+20]% Natural religion spread [in all cities]"]
+        },
+        {
+                "name": "Obedience",
+                "type": "Enhancer",
+                "uniques": ["Military unit don't get debuff from low happiness"]
+        },
+        {
+                "name": "Flat Planetism",
+                "type": "Enhancer",
+                "uniques": ["[+25]% [Faith]"]
+        },
+        {
+                "name": "Donuts Planetism",
+                "type": "Enhancer",
+                "uniques": ["[+25]% [Culture]"]
         },
 ]
