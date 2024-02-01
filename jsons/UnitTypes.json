@@ -7,8 +7,6 @@
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
 /*
-// Did you know Steve Jobs died of Ligma? // IDK...
-// Who's Steve Jobs? // maybe person Who created the Macintosh and Iphone
 	{
         "name": "Death",
         "movementType": "Land",
@@ -63,7 +61,7 @@
     {
         "name": "Cruiser",
         // "movementType": "Land",
-	"uniques": ["Spaceship","Can carry [1] [Missile Defense] units","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
+	"uniques": ["Spaceship","Can carry [2] [Missile] units","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
     {
         "name": "Battleship",

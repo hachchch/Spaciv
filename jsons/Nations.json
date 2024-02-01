@@ -27,7 +27,7 @@
 		"style": "Human",
 		"uniqueName": "Endangered Earth",
 		"uniques": ["Human","Starts with [Information era]",
-			"units cost no maintenance per Allied City State,Maximum is 10",
+			"units cost no maintenance per Allied City State,up to 10",
 			"[1] units cost no maintenance <when above [0] [Allied City State]> <hidden from users>",
 			"[1] units cost no maintenance <when above [1] [Allied City State]> <hidden from users>",
 			"[1] units cost no maintenance <when above [2] [Allied City State]> <hidden from users>",
