@@ -860,6 +860,7 @@
 		"strength": 50,
 		"attackSound": "tankshot",
 		"cost": 320,
+		"promotions": ["Gauss Cannon"],
 		"uniques": ["Only available <for [Human]>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]",
 			"Must set up to ranged attack",
 		"[+25]% Strength <vs [Destroyer] units> <when attacking>","Unbuildable <in cities without a [Launch site]>"]
@@ -874,7 +875,7 @@
 		"attackSound": "tankshot",
 		"cost": 160,
 		"requiredTech": "Metaphysics",
-		//Imma do something really funny with the Unit Types, just you wait
+		"promotions": ["Gauss Cannon"], //nope, I was stupid. I'll do something also stupid, but different now, in UnitPromotions
 		"uniques": ["[200]% chance to intercept air attacks", // I'm testing how 200% possibility works...
 			"Must set up to ranged attack",
 			"[1000]% Damage when intercepting","Can Intercept Missile","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]"] 
