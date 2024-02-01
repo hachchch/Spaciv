@@ -189,6 +189,81 @@
 		"requiredTech": "Event Horizon",
 		"uniques": ["Must be next to [Ocean]","Only available <for [Human]>"]
 	},
+	{
+		"name": "Research Sattelite",
+		"science": 3,
+		"cost": 100,
+		"requiredTech": "Event Horizon",
+		"uniques": ["Must be next to [Ocean]","Only available <for [Human]>"]
+	},
+	// Faiths
+	{
+		"name": "Shrine",
+		"faith": 1,
+		"uniques": ["Only available <for [Human]>"],
+		"requiredTech": "Information era",
+	},
+	{
+		"name": "Statue of Xenidae",
+		"faith": 1,
+		"uniques": ["Only available <for [Xeno]>"],
+		"requiredTech": "Xeno Life",
+	},
+	{
+		"name": "Xenogenesis Research Facility",
+		"uniqueTo": "Aether Republic",
+		"replaces": "Statue of Xenidae",
+		"faith": 1,
+		"science": 1,
+		"requiredTech": "Xeno Life",
+	},
+	{
+		"name": "Cosmo-X Society",
+		"faith": 1,
+		"uniques": ["Only available <for [Alien]>"],
+		"requiredTech": "Xeno Life",
+	},
+	{
+		"name": "Orbital Church",
+		"uniques": ["Unbuildable <for [Human]> <in cities without a [Shrine]>","Unbuildable <for [Xeno]> <in cities without a [Statue of Xenidae]>","Unbuildable <for [Alien]> <in cities without a [Cosmo-X Society]>"],
+		"faith": 2,
+		"requiredTech": "Beyond",
+	},
+	{
+		"name": "Solar Church",
+		"requiredBuilding": "Orbital Church",
+		"faith": 3,
+		"requiredTech": "Solar Shield",
+	},
+	{
+		"name": "Sacrifice Church",
+		"replaces": "Solar Church",
+		"uniqueTo": "Xenomorph",
+		"requiredBuilding": "Orbital Church",
+		"faith": 4,
+		"happiness": 1,
+		"requiredTech": "Solar Shield",
+	},
+	// Cultures
+	{
+		"name": "Dance Palace",
+		"culture": 3,
+		"uniques": ["Only available <for [Alien]>"]
+		"requiredTech": "Beyond",
+	},
+	{
+		"name": "Acid Pool",
+		"culture": 3,
+		"happiness": 1,
+		"uniques": ["Costs [20] [Encid]","Only available <when above [19] [Encid]> <for [Xeno]>"]
+		"requiredTech": "Beyond",
+	},
+	{
+		"name": "Metaverse",
+		"culture": 3,
+		"uniques": ["Only available <for [Human]>"]
+		"requiredTech": "Beyond",
+	},
 	//Placeholder for Refinery Buildings
 	{
 		"name": "Advanced Foundry",
