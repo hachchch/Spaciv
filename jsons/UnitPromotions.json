@@ -238,6 +238,22 @@
 	{
 		"name": "Gauss Cannon",
 		"uniques": ["Ranged attacks may be performed over obstacles",
+			"Instantly consumes [50] [Super Energy] <when attacking>","Cannot attack <when below [50] [Super Energy]>",
+			/*"Instantly consumes [50] [Power] <when attacking>","Cannot attack <when below [50] [Power]>",*/ //u sure this one isn't better?
+			"Consumes [1] [Encid] <for [Xeno]>",
+			"Consumes [1] [Power] <for [Human]>",
+			"Consumes [1] [Super Energy] <for [Alien]>",]
+	},
+	{
+		"name": "Bio-Torps",
+		"uniques": ["Ranged attacks may be performed over obstacles",
+			"Instantly consumes [50] [Encid] <when attacking>","Cannot attack <when below [50] [Encid]>"]
+	},
+	{
+		"name": "Plasma Lance",
+		"uniques": ["Ranged attacks may be performed over obstacles",
 			"Instantly consumes [50] [Super Energy] <when attacking>","Cannot attack <when below [50] [Super Energy]>"]
 	},
+	
+	
 ]
