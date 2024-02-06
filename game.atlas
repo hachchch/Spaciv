@@ -675,7 +675,8 @@ TileSets/FantasyHex/Units/Mechanized Infantry (Human)
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lunar
-  rotate: 684, 533
+  rotate: false
+  xy: 684, 533
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
