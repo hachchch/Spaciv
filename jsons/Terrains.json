@@ -131,5 +131,30 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"[25]% Chance to be destroyed by nukes"]
-	}
+	},
+	// NW
+	{
+		"name": "Olympus Mons",
+		"type": "NaturalWonder",
+		"culture": 2,
+		"faith": 4,
+		"occursOn": ["Mars"],
+		"turnsInto": "Mars",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["[+2 Food, -2 Faith] <for [non-[Human]]>"],
+		"weight": 10",
+	},
+	{
+		"name": "The Star Spangled Banner",
+		"type": "NaturalWonder",
+		"science": 1,
+		"culture": 3,
+		"occursOn": ["Lunar"],
+		"turnsInto": "Lunar",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["[+2 Faith] <for [Human]>"],
+		"weight": 10",
+	},
 ]
