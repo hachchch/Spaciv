@@ -143,7 +143,7 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["[+2 Food, -2 Faith] <for [non-[Human]]>"],
-		"weight": 10",
+		"weight": 10
 	},
 	{
 		"name": "The Star Spangled Banner",
@@ -155,6 +155,6 @@
 		"impassable": true,
 		"unbuildable": true,
 		"uniques": ["[+2 Faith] <for [Human]>"],
-		"weight": 10",
+		"weight": 10
 	},
 ]
