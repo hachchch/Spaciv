@@ -410,7 +410,7 @@ TileSets/FantasyHex/Tiles/Xenohive
   index: -1
 TileSets/FantasyHex/Tiles/Olympus Mons
   rotate: false
-  xy: 404, 867
+  xy: 404, 827
   size: 32, 78
   orig: 32, 78
   offset: 0, 0
@@ -675,15 +675,14 @@ TileSets/FantasyHex/Units/Mechanized Infantry (Human)
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Lunar
-  rotate: false
-  xy: 684, 533
+  rotate: 684, 533
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/The Star Spangled Banner
   rotate: false
-  xy: 784, 533
+  xy: 724, 533
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
