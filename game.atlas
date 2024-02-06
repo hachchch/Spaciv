@@ -408,6 +408,13 @@ TileSets/FantasyHex/Tiles/Xenohive
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Olympus Mons
+  rotate: false
+  xy: 404, 767
+  size: 32, 78
+  orig: 32, 78
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/City center-Xeno
   rotate: false
   xy: 404, 917
@@ -672,6 +679,13 @@ TileSets/FantasyHex/Tiles/Lunar
   xy: 684, 533
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/The Star Spangled Banner
+  rotate: false
+  xy: 784, 523
+  size: 32, 38
+  orig: 32, 38
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Earth
