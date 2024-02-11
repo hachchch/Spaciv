@@ -923,7 +923,7 @@
 		"isNationalWonder": true,
 		"gold": 8,
 		"requiredTech": "Heliophysics",
-		"uniques": ["[+35]% [Gold]","Requires a [Launch site] in all cities", "Cost increases by [30] per owned city","[+1] Movement <for [All] units> <in [Lagrange Zone] tiles>"],
+		"uniques": ["[+35]% [Gold]","Requires a [Spaceship Factory] in all cities <for [Human]>","Requires a [UFO Facility] in all cities <for [Alien]>","Requires a [Warp hole Generator] in all cities <for [Xeno]>", "Cost increases by [30] per owned city","[+1] Movement <for [All] units> <in [Lagrange Zone] tiles>"],
 	},
 	// Victory
 	{
