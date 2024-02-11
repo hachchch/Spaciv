@@ -384,18 +384,18 @@
 	},
 	{
 		"name": "Anti-Air Particle Cannon",
-		"unitType": "Laser",
+		"unitType": "Anti-Air",
 		"movement": 2,
-		"strength": 8,
-		// "rangedStrength": 15,
-		// "range": 3,
+		"strength": 10,
+		"rangedStrength": 20,
+		"range": 3,
 		"interceptRange": 4,
 		"attackSound": "cannon",
 		"cost": 68,
 		"requiredTech": "Plasma control",
 		"uniques": [
 			"Only available <for [Alien]>",
-			"[50]% chance to intercept air attacks",
+			"[90]% chance to intercept air attacks",
 			"[+250]% Strength <vs [Bomber] units>"],
 	},
 	{
@@ -880,7 +880,7 @@
 		"requiredTech": "Metaphysics",
 		"promotions": ["Gauss Cannon"], //nope, I was stupid. I'll do something also stupid, but different now, in UnitPromotions
 		"uniques": ["[200]% chance to intercept air attacks", // I'm testing how 200% possibility works...
-			"[1000]% Damage when intercepting","Can Intercept Missile","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]"] 
+			"[1000]% Damage when intercepting","Can Intercept Missile","Consumes [1] [Neodymium]"] 
 	},
 	{
 		"name": "Superstrings Cannon",
