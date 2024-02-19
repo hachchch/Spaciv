@@ -10,38 +10,36 @@
                 "name": "Earth",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Earth]","Rare feature","[+2 Food] <for [Human]>","[+1 Production] <for [non-[Human]]>"],
+                "uniques": ["Terrestrial","Neighboring tiles will convert to [Earth]","Rare feature","[+2 Food] <for [Human]>","[+1 Production] <for [non-[Human]]>"],
 		"RGB": [0, 163, 0],
         },
 	{
 		"name": "Snow",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Snow]","Rare feature"],
+                "uniques": ["Ice","Neighboring tiles will convert to [Snow]","Rare feature"],
 		"RGB": [255, 255, 255],
 	},
         {
-                "name": "Stromat",
+                "name": "Stromat", // my Fictional asteroid belt. it bigger than Kaiper belt, and habitable for anoxic lifeform
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Stromat]","Rare feature","[+1 Production] <for [Human]>","[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food, +1 Gold] <for [Empire]>"],
+                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+1 Production] <for [Human]>","[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food, +1 Gold] <for [Empire]>"],
 		"RGB": [136, 125, 112]
         },
-//I gotta keep this so the maps and saves won't be broken AAAAAAAAA
-	// i see lol
         {
-                "name": "Regold",
+                "name": "Regold", // A big asteroid made of liquid aluminum and aluminum oxide and gold. The diameter is small and the density is very high. The Regold, which attracts all intelligent life forms, can be used as a base for space tourism and rare metal mining, making it extremely profitable.
                 "type": "Land",
                 "gold": 2,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Regold]","Rare feature"],
+                "uniques": ["Asteroid","Rare feature"],
 		"RGB": [238, 239, 175]
         },
         {
                 "name": "Mars",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Mars]","Rare feature","[+1 Production] <for [Human]>","[+2 Food] <for [non-[Human]]>"],
+                "uniques": ["Terrestrial","Neighboring tiles will convert to [Mars]","Rare feature","[+1 Production] <for [Human]>","[+2 Food] <for [non-[Human]]>"],
 		"RGB": [171, 79, 76]
         },
         {
@@ -50,23 +48,30 @@
                 "production": 1,
                 "gold": 1,
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Lunar]","Rare feature"],
+                "uniques": ["Moon","Neighboring tiles will convert to [Lunar]","Rare feature"],
 		"RGB": [180, 200, 200]
         },
         {
                 "name": "Gas",
                 "type": "Water",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
+                "uniques": ["Gas","Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
 		"RGB": [128, 125, 71]
         },
         {
                 "name": "Solar Star",
                 "type": "Water",
 		"movementCost": 1,
-                "uniques": ["Neighboring tiles will convert to [Solar Star]","Rare feature"],
+                "uniques": ["Star","Neighboring tiles will convert to [Solar Star]","Rare feature"],
 		"RGB": [255, 255, 70]
         },
+	{
+		"name": "Red Dwarf",
+		"type": "Water",
+		"movementCost": 1,
+                "uniques": ["Solar Star","Star","Neighboring tiles will convert to [Solar Star]","Rare feature"],
+		"RGB": [255, 255, 70]
+	},
         {
                 "name": "Nebula",
 		"type": "TerrainFeature",
@@ -82,7 +87,15 @@
 		"movementCost": 2,
 		"production": 2,
 		"occursOn": ["Ocean","Nebula","Lagrange Zone"],
-                "uniques": ["Rare feature"],
+                "uniques": ["Asteroid","Rare feature"],
+		"RGB": [60, 87, 151]
+	},
+	{
+		"name": "Orbital Zone",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"occursOn": ["Ocean","Nebula","Lagrange Zone"],
+                "uniques": [/*"Rare feature",*/"Vegetation"],
 		"RGB": [60, 87, 151]
 	},
 	{
@@ -149,12 +162,47 @@
 		"name": "The Star Spangled Banner",
 		"type": "NaturalWonder",
 		"science": 1,
-		"culture": 3,
 		"occursOn": ["Lunar"],
 		"turnsInto": "Lunar",
 		"impassable": true,
 		"unbuildable": true,
-		"uniques": ["[+2 Faith] <for [Human]>"],
+		"uniques": ["[+3 Culture] <for [Human]>","[+3 Faith] <for [non-[Human]]>"],
 		"weight": 10
 	},
+	{
+		"name": "Sun",
+		"happiness": 5,
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"turnsInto": "Solar Star",
+		"impassable": false,
+		"unbuildable": true,
+                "uniques": ["Solar Star","Star"],
+		"RGB": [255, 255, 70],
+		"weight": 10
+	},
+	{
+		"name": "TRAPPIST-1",
+		"happiness": 5,
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"turnsInto": "Red Dwarf",
+		"impassable": false,
+		"unbuildable": true,
+                "uniques": ["Solar Star","Star"],
+		"RGB": [255, 255, 70],
+		"weight": 10
+	},
+	{
+		"name": "Proxima Centauri",
+		"happiness": 5,
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"turnsInto": "Red Dwarf",
+		"impassable": false,
+		"unbuildable": true,
+                "uniques": ["Solar Star","Star"],
+		"RGB": [255, 255, 70],
+		"weight": 10
+	}
 ]
