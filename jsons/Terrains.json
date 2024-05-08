@@ -61,7 +61,7 @@
 		"type": "Land",
 		"movementCost": 1,
                 "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+1 Production] <for [Human]>","[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food, +1 Gold] <for [Empire]>"],
-		"civilopediaText": [{"my Fictional asteroid belt. it often bigger than moon, and habitable for anaerobic lifeform"}],
+		"civilopediaText": [{"text":"my Fictional asteroid belt. it often bigger than moon, and habitable for anaerobic lifeform"}],
 		"RGB": [136, 125, 112]
         },
         {
@@ -70,7 +70,7 @@
                 "gold": 2,
 		"movementCost": 1,
                 "uniques": ["Asteroid","Rare feature"],
-		"civilopediaText": [{"A big asteroid made of bismuth and gold. The diameter is small and the density is very high. The Regold, which attracts all intelligent life forms, can be used as a base for space tourism and rare metal mining, making it extremely profitable."}],
+		"civilopediaText": [{"text":"A big asteroid made of bismuth and gold. The diameter is small and the density is very high. The Regold, which attracts all intelligent life forms, can be used as a base for space tourism and rare metal mining, making it extremely profitable."}],
 		"RGB": [238, 239, 175]
         },
 	{
@@ -185,7 +185,8 @@
 		"occursOn": ["Earth","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
-			"[25]% Chance to be destroyed by nukes"]
+			"[25]% Chance to be destroyed by nukes"
+		]
 	},
 	/*Natural Wonders*/
 	{
