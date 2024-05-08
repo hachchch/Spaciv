@@ -4,67 +4,17 @@
 		"type": "Water",
 		"uniques": ["Space"],
 		"movementCost": 1,
-		"RGB": [43, 87, 151]
+		"RGB": [43, 87, 151],
+		"uniques": ["Becomes [Earth] when adjacent to [Earth]","Becomes [] when adjacent to [terrainFilter]"]
         },
-        {
-                "name": "Earth",
-		"type": "Land",
-		"movementCost": 1,
-                "uniques": ["Terrestrial","Neighboring tiles will convert to [Earth]","Rare feature","[+2 Food] <for [Human]>","[+1 Production] <for [non-[Human]]>"],
-		"RGB": [0, 163, 0],
-        },
+	// Stars
 	{
-		"name": "Snow",
-		"type": "Land",
-		"movementCost": 1,
-                "uniques": ["Ice","Neighboring tiles will convert to [Snow]","Rare feature"],
-		"RGB": [255, 255, 255],
-	},
-        {
-                "name": "Stromat", // my Fictional asteroid belt. it bigger than Kaiper belt, and habitable for anoxic lifeform
-		"type": "Land",
-		"movementCost": 1,
-                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+1 Production] <for [Human]>","[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food, +1 Gold] <for [Empire]>"],
-		"RGB": [136, 125, 112]
-        },
-        {
-                "name": "Regold", // A big asteroid made of liquid aluminum and aluminum oxide and gold. The diameter is small and the density is very high. The Regold, which attracts all intelligent life forms, can be used as a base for space tourism and rare metal mining, making it extremely profitable.
-                "type": "Land",
-                "gold": 2,
-		"movementCost": 1,
-                "uniques": ["Asteroid","Rare feature"],
-		"RGB": [238, 239, 175]
-        },
-        {
-                "name": "Mars",
-		"type": "Land",
-		"movementCost": 1,
-                "uniques": ["Terrestrial","Neighboring tiles will convert to [Mars]","Rare feature","[+1 Production] <for [Human]>","[+2 Food] <for [non-[Human]]>"],
-		"RGB": [171, 79, 76]
-        },
-        {
-                "name": "Lunar",
-                "type": "Land",
-                "production": 1,
-                "gold": 1,
-		"movementCost": 1,
-                "uniques": ["Moon","Neighboring tiles will convert to [Lunar]","Rare feature"],
-		"RGB": [180, 200, 200]
-        },
-        {
-                "name": "Gas",
-                "type": "Water",
-		"movementCost": 1,
-                "uniques": ["Gas","Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
-		"RGB": [128, 125, 71]
-        },
-        {
-                "name": "Solar Star",
+		"name": "Solar Star",
                 "type": "Water",
 		"movementCost": 1,
                 "uniques": ["Star","Neighboring tiles will convert to [Solar Star]","Rare feature"],
 		"RGB": [255, 255, 70]
-        },
+	},
 	{
 		"name": "Red Dwarf",
 		"type": "Water",
@@ -72,6 +22,97 @@
                 "uniques": ["Solar Star","Star","Neighboring tiles will convert to [Solar Star]","Rare feature"],
 		"RGB": [255, 255, 70]
 	},
+	// Solar System
+	/*Planets*/
+        {
+                "name": "Earth",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","Vegetation","Rare feature","[+2 Food] <for [Human]>","[+1 Production] <for [non-[Human]]>"],
+		"RGB": [0, 163, 0],
+        },
+	{
+		"name": "Lunar",
+                "type": "Land",
+                "production": 1,
+                "gold": 1,
+		"movementCost": 1,
+                "uniques": ["Moon","Neighboring tiles will convert to [Lunar]","Rare feature"],
+		"RGB": [180, 200, 200]
+	},
+	{
+		"name": "Mars",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","Rare feature","[+1 Production] <for [Human]>","[+2 Food] <for [non-[Human]]>"],
+		"RGB": [171, 79, 76]
+	},
+	// Exoplanets
+	/*Planets*/
+	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Ice","Rare feature"],
+		"RGB": [255, 255, 255],
+	},
+        {
+                "name": "Stromat",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+1 Production] <for [Human]>","[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food, +1 Gold] <for [Empire]>"],
+		"civilopediaText": [{my Fictional asteroid belt. it often bigger than moon, and habitable for anaerobic lifeform}],
+		"RGB": [136, 125, 112]
+        },
+        {
+                "name": "Regold",
+                "type": "Land",
+                "gold": 2,
+		"movementCost": 1,
+                "uniques": ["Asteroid","Rare feature"],
+		"civilopediaText": [{A big asteroid made of bismuth and gold. The diameter is small and the density is very high. The Regold, which attracts all intelligent life forms, can be used as a base for space tourism and rare metal mining, making it extremely profitable.}],
+		"RGB": [238, 239, 175]
+        },
+	{
+		"name": "Wraith",
+		"type": "Land",
+                "production": 2,
+		"movementCost": 1,
+                "uniques": ["Asteroid","Rare feature"],
+		"RGB": [238, 239, 175]
+	},
+	{
+		"name": "Hermia",
+		"type": "Land",
+                "food": 2,
+		"movementCost": 1,
+                "uniques": ["[+2 Food] <for [Alien]>","Asteroid","Rare feature"],
+		"RGB": [238, 239, 175]
+	},
+	{
+		"name": "Ault",
+		"type": "Land",
+                "food": 2,
+		"movementCost": 1,
+                "uniques": ["[+1 Food] <for [Alien]>","[+2 Food] <for [Human]>","Asteroid","Rare feature"],
+		"RGB": [238, 239, 175]
+	},
+	{
+		"name": "Dead Necros",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["[+2 Food] <for [Xeno]>","[+1 Food] <for [Human]>","Asteroid","Rare feature"],
+		"RGB": [238, 239, 175]
+	},
+        {
+                "name": "Gas",
+                "type": "Water",
+		"movementCost": 1,
+                "uniques": ["Gas","Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
+		"RGB": [128, 125, 71]
+        },
+	// Features
+	/*Space Objects*/
         {
                 "name": "Nebula",
 		"type": "TerrainFeature",
@@ -103,7 +144,7 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"occursOn": ["Ocean","Nebula","Lagrange Zone"],
-                "uniques": [/*"Rare feature",*/"Vegetation"],
+                "uniques": ["Vegetation"],
 		"RGB": [60, 87, 151]
 	},
 	{
@@ -117,6 +158,7 @@
 		"occursOn": ["Earth","Mars","Lunar","Stromat","Snow"],
 		"uniques": ["Rough terrain","[+5] Strength for cities built on this terrain"]
 	},
+	/*Vegetations*/
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
@@ -145,7 +187,7 @@
 			"Rough terrain", "Vegetation",
 			"[25]% Chance to be destroyed by nukes"]
 	},
-	// NW
+	/*Natural Wonders*/
 	{
 		"name": "Olympus Mons",
 		"type": "NaturalWonder",
