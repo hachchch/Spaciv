@@ -5,7 +5,7 @@
 		"uniques": ["Space"],
 		"movementCost": 1,
 		"RGB": [43, 87, 151],
-		"uniques": ["Becomes [Earth] when adjacent to [Earth]","Becomes [] when adjacent to [terrainFilter]"]
+		"uniques": ["Becomes [Earth] when adjacent to [Earth]","Becomes [Mars] when adjacent to [Mars]"]
         },
 	// Stars
 	{
