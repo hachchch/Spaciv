@@ -214,8 +214,6 @@
                 "name": "Quasar",
 		    "prerequisites": ["Event Horizon"],
                 "row": 4,
-            }
-            ]
             },
     {
         "columnNumber": 6,
