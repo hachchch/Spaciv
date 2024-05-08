@@ -11,7 +11,7 @@
 				"row": 2,
 				"quote": "",
 				"uniques": ["Only available <before discovering [Xeno Life]>","Only available <before discovering [Unified theory]>","Enables conversion of city production to [Gold]"],
-			}
+			},
                         {
                                 "name": "Unified theory",
 				"row": 5,
@@ -86,7 +86,7 @@
 				"row": 9,
 				"prerequisites": ["Xeno Life"],
 				"quote": "",
-			},
+			}
 		]
 	},
 	{
@@ -116,7 +116,7 @@
 				"prerequisites": ["Blood disassembly","Acid processing","The Eon"],
 				"quote": "",
 				"uniques": ["Discover [Beyond]"],
-			},
+			}
                 ]
         },
     {
@@ -165,8 +165,6 @@
 		    "prerequisites": ["Beyond"],
                 "row": 9,
                 },
-            ]
-            },
     {
         "columnNumber": 5,
 		"era": "Research era",
@@ -242,8 +240,6 @@
 		    "prerequisites": ["Terraforming","Urban Satellite"],
                 "row": 6,
                 },
-            ]
-        },
 	{
 		"columnNumber": 7,
 		"era": "Techno era",
