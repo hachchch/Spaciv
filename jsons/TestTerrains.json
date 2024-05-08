@@ -12,14 +12,14 @@
 		"name": "Solar Star",
                 "type": "Water",
 		"movementCost": 1,
-                "uniques": ["Star","Neighboring tiles will convert to [Solar Star]","Rare feature"],
+                "uniques": ["Star","Rare feature"],
 		"RGB": [255, 255, 70]
 	},
 	{
 		"name": "Red Dwarf",
 		"type": "Water",
 		"movementCost": 1,
-                "uniques": ["Solar Star","Star","Neighboring tiles will convert to [Solar Star]","Rare feature"],
+                "uniques": ["Solar Star","Star","Rare feature"],
 		"RGB": [255, 255, 70]
 	},
 	// Solar System
