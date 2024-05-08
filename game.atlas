@@ -744,37 +744,3 @@ TileSets/FantasyHex/Tiles/Gas
   orig: 32, 28
   offset: 0, 0
   index: -1
-
-game5.png
-size: 2048, 2048
-format: RGBA8888
-filter: MipMapLinearLinear, MipMapLinearLinear
-repeat: none
-TileSets/FantasyHex/Units/Lunatic Weapon
-  rotate: false
-  xy: 1308, 187
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Xenotic Fire
-  rotate: false
-  xy: 1308, 187
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Units/Star Craft
-  rotate: false
-  xy: 1308, 187
-  size: 32, 29
-  orig: 32, 29
-  offset: 0, 0
-  index: -1
-TileSets/FantasyHex/Tiles/Ocean
-  rotate: false
-  xy: 0, 0
-  size: 0, 0
-  orig: 0, 0
-  offset: 0, 0
-  index: -1
