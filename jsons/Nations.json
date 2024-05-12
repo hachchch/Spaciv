@@ -173,7 +173,7 @@
 		"outerColor": [18,4,98],
                 "innerColor": [50,12,223],
 		"uniqueName": "Non-Infersian Revolution",
-		"style": "Xeno",
+		"style": "Xeno-HighTechnology",
 		"cities": ["Minerva","Esoterica","Indoles","Keine","Fortitudo","Caeruleumia","Hornia","Xcentia"],
 		"uniques": ["Xeno","Starts with [Xeno Life]",
 			"[+1 Science] per [2] population [in capital]",
