@@ -194,7 +194,7 @@
 		"turnsToBuild": 13,
 		"techRequired": "Light Sail",
 		"uniques": [
-			"Units that stay on this tile for one turn gain +5 Movement. (also You can use many StarTram to make transport chain in space. How amazing!)",
+			"Comment [Units that stay on this tile for one turn gain +5 Movement. (also You can use many StarTram to make transport chain in space. How amazing!)]",
 			"Costs [100] [Encid] <for [Xeno]>",
 			"Can be built outside your borders",
 			"Costs [100] [Power] <for [Human]>",
