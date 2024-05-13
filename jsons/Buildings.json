@@ -793,7 +793,10 @@
 	{
 		"name": "Residentization Program",
 		"requiredTech": "Terraforming",
-		"uniques": ["Comment [This activity improves the this city's Terraform Score by one level.]"]
+		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]","Remove [Residentization Program] [in this city] <hidden from users>",
+			"Gain a free [Survivable] [in this city] <in cities with a [Undesired]> <hidden from users>",
+		"Gain a free [Possible to immigrate] [in this city] <in cities with a [Survivable]> <hidden from users>",
+		"Gain a free [Civilized] [in this city] <in cities with a [Possible to immigrate]> <hidden from users>"]
 	},
 	{
 		"name": "AI Terraforming Program",
@@ -801,19 +804,8 @@
 		"culture": 1,
 		"science": 1,
 		"requiredTech": "Automatic Terraforming System",
-		"uniques": ["Gain a free [Climate Manage AI] [in all cities]","Consumes [5] [Prismaxium]","Consumes [5] [Dominium]","Consumes [5] [Neptunium]","Consumes [5] [Amino Metal]",
+		"uniques": ["Comment [All non-Possible to immigrate cities Terraform Score increase to Possible to immigrate.]","Gain a free [Possible to immigrate] [in all cities] <in cities without a [Civilized]>","Consumes [5] [Prismaxium]","Consumes [5] [Dominium]","Consumes [5] [Neptunium]","Consumes [5] [Amino Metal]",
             "Only available <before adopting [Eco-Justice]>"]
-	},
-	{
-		"name": "Climate Manage AI",
-		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","",
-            "Only available <before adopting [Eco-Justice]>"],
-		"requiredTech": "Automatic Terraforming System",
-	},
-	/*Terraforming For AI*/
-	{
-		
 	},
 	// Resource Making
 	{
