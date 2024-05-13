@@ -9,6 +9,7 @@
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city",
+			"Gain a free [Administrative District] [in all cities]",
 			"Provides [1] [Superunit limit]",
 			"Provides [20] [Relation Score (United Nations)] <for [United Nations]>",
 			"Provides [20] [Relation Score (Roscosmos)] <for [Roscosmos]>",
@@ -23,6 +24,42 @@
 			"Gain a free [Russia Government] [in capital] <for [Roscosmos]> <when not at war>",
 			"Gain a free [China Government] [in capital] <for [CNSA]> <when not at war>"
 		]
+	},
+	{
+		"name": "Administrative District",
+		"cost": 1,
+		"uniques": [
+			"Unsellable","Unbuildable",
+		/*Humans Habitation*/
+		"Gain a free [Civilized] [in this city] <in [Earth] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Stromat] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Human]>",
+		/*Xenos Habitation*/
+		"Gain a free [Civilized] [in this city] <in [Stromat] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Xeno]>",
+		/*Aliens Habitation*/
+		"Gain a free [Civilized] [in this city] <in [Mars] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Alien]>"]
 	},
 	{
 		"name": "Government",
