@@ -745,22 +745,50 @@
 	{
 		"name": "Terraform Score:Civilized",
 		"cost": 1,
-		"uniques": ["Comment [The planet is thriving, with a unique culture developed by the people who settled there. It is now part of human history.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Civilized]> <hidden from users>","Comment [The planet is thriving, with a unique culture developed by the people who settled there. It is now part of our history.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
 	},
 	{
 		"name": "Terraform Score:Possible to immigrate",
 		"cost": 1,
-		"uniques": ["Comment [This planet is no longer a threat to us. People don't need their spacesuits now, and make city to this new world.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Possible to immigrate]> <hidden from users>","Comment [This planet is no longer a threat to us. People don't need their spacesuits now, and make city to this new world.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
 	},
 	{
 		"name": "Terraform Score:Survivable",
 		"cost": 1,
-		"uniques": ["Comment [Although the planet's nature is still a threat to us, people have been able to live self-sufficiently without the support of their home planet. The upkeep cost of this city has been reduced by 10 gold.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Survivable]> <hidden from users>","Comment [Although the planet's nature is still a threat to us, people have been able to live self-sufficiently without the support of their home planet. The upkeep cost of this city has been reduced by 10 gold.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
 	},
 	{
 		"name": "Terraform Score:Undesired",
 		"cost": 1,
-		"uniques": ["Comment [This planet is very hostile to us. The food of this world is not compatible with our physiology. The food must be imported, there is an extra upkeep cost of 10 gold to transport food.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Undesired]> <hidden from users>","Comment [This planet is very hostile to us. The food of this world is not compatible with our physiology. The food must be imported, there is an extra upkeep cost of 10 gold to transport food.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+	},
+	{
+		"name": "Undesired",
+		"cost": 1,
+		"maintenance": 10,
+		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]","Remove [Undesired] [in this city] <in cities with a [Survivable]>",
+		"Remove [Undesired] [in this city] <in cities with a [Possible to immigrate]>"]
+	},
+	{
+		"name": "Survivable",
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]","Remove [Survivable] [in this city] <in cities with a [Possible to immigrate]>"]
+	},
+	{
+		"name": "Possible to immigrate",
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]","Remove [Possible to immigrate] [in this city] <in cities with a [Civilized]>",
+		"[+1 Food] from [Wraith] tiles [in this city] <for [Human]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Human]>","[+1 Food] from [Mars] tiles [in this city] <for [Human]>","[+1 Food] from [Snow] tiles [in this city] <for [Human]>","[+1 Food] from [Ault] tiles [in this city] <for [Human]>","[+1 Food] from [Hermia] tiles [in this city] <for [Human]>","[+1 Food] from [Stromat] tiles [in this city] <for [Human]>","[+1 Food] from [Lunar] tiles [in this city] <for [Human]>",
+		"[+1 Food] from [Wraith] tiles [in this city] <for [Xeno]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Xeno]>","[+1 Food] from [Mars] tiles [in this city] <for [Xeno]>","[+1 Food] from [Snow] tiles [in this city] <for [Xeno]>","[+1 Food] from [Ault] tiles [in this city] <for [Xeno]>","[+1 Food] from [Hermia] tiles [in this city] <for [Xeno]>","[+1 Food] from [Earth] tiles [in this city] <for [Xeno]>","[+1 Food] from [Lunar] tiles [in this city] <for [Xeno]>",
+		"[+1 Food] from [Wraith] tiles [in this city] <for [Alien]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Alien]>","[+1 Food] from [Earth] tiles [in this city] <for [Alien]>","[+1 Food] from [Snow] tiles [in this city] <for [Alien]>","[+1 Food] from [Ault] tiles [in this city] <for [Alien]>","[+1 Food] from [Hermia] tiles [in this city] <for [Alien]>","[+1 Food] from [Stromat] tiles [in this city] <for [Alien]>","[+1 Food] from [Lunar] tiles [in this city] <for [Alien]>"]
+	},
+	{
+		"name": "Civilized",
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable",
+		"[+1 Food] from [Wraith] tiles [in this city] <for [Human]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Human]>","[+1 Food] from [Mars] tiles [in this city] <for [Human]>","[+1 Food] from [Snow] tiles [in this city] <for [Human]>","[+1 Food] from [Ault] tiles [in this city] <for [Human]>","[+1 Food] from [Hermia] tiles [in this city] <for [Human]>","[+1 Food] from [Stromat] tiles [in this city] <for [Human]>","[+1 Food] from [Lunar] tiles [in this city] <for [Human]>",
+		"[+1 Food] from [Wraith] tiles [in this city] <for [Xeno]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Xeno]>","[+1 Food] from [Mars] tiles [in this city] <for [Xeno]>","[+1 Food] from [Snow] tiles [in this city] <for [Xeno]>","[+1 Food] from [Ault] tiles [in this city] <for [Xeno]>","[+1 Food] from [Hermia] tiles [in this city] <for [Xeno]>","[+1 Food] from [Earth] tiles [in this city] <for [Xeno]>","[+1 Food] from [Lunar] tiles [in this city] <for [Xeno]>",
+		"[+1 Food] from [Wraith] tiles [in this city] <for [Alien]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Alien]>","[+1 Food] from [Earth] tiles [in this city] <for [Alien]>","[+1 Food] from [Snow] tiles [in this city] <for [Alien]>","[+1 Food] from [Ault] tiles [in this city] <for [Alien]>","[+1 Food] from [Hermia] tiles [in this city] <for [Alien]>","[+1 Food] from [Stromat] tiles [in this city] <for [Alien]>","[+1 Food] from [Lunar] tiles [in this city] <for [Alien]>"]
 	},
 	{
 		"name": "Residentization Program",
@@ -779,8 +807,7 @@
 	{
 		"name": "Climate Manage AI",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","Gain a free [Cooling Facility] [in this city] <in [Earth] tiles> <for [non-[Human]]>","Gain a free [Virus Extermination] [in this city] <in [Earth] tiles> <for [non-[Human]]>",
-			"Gain a free [Cyanobacteria Plantation] [in this city] <in [non-[Earth]] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [non-[Earth]] tiles> <for [Human]>",
+		"uniques": ["Unsellable","Unbuildable","",
             "Only available <before adopting [Eco-Justice]>"],
 		"requiredTech": "Automatic Terraforming System",
 	},
@@ -795,7 +822,6 @@
 		"requiredTech": "Beyond",
 		"uniques": ["Provides [2] [Neptunium]","Provides [2] [Neptunium] <after discovering [Solar Industry]>"]
 	},
-	// About Heliophysics
 	{
 		"name": "Dyson Relay",
 		"production": 3,
