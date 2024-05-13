@@ -305,6 +305,12 @@
 		},
 		{
 			"name": "Botulinum",
+			"resourceType": "Strategic",
 			"uniques": ["Not shown on world screen","Excluded from map editor"],
+		},
+		{
+			"name": "ABCDEFG",
+			"resourceType": "Strategic",
+			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
 		},
 ]
