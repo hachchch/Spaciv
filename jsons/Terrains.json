@@ -28,21 +28,21 @@
                 "name": "Earth",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Terrestrial","Vegetation","Rare feature","[+2 Food] <for [Human]>","[+1 Production] <for [non-[Human]]>"],
+                "uniques": ["Terrestrial","Vegetation","Rare feature","[+2 Food] <for [Human]>"],
 		"RGB": [0, 163, 0],
         },
 	{
 		"name": "Lunar",
                 "type": "Land",
 		"movementCost": 1,
-                "uniques": ["Moon","Neighboring tiles will convert to [Lunar]","Rare feature"],
+                "uniques": ["Moon","Neighboring tiles will convert to [Lunar]","Rare feature","[+1 Food] <for [Xeno]>"],
 		"RGB": [180, 200, 200]
 	},
 	{
 		"name": "Mars",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Terrestrial","Rare feature","[+1 Production] <for [Human]>","[+2 Food] <for [non-[Human]]>"],
+                "uniques": ["Terrestrial","Rare feature","[+2 Food] <for [Alien]>"],
 		"RGB": [171, 79, 76]
 	},
 	// Exoplanets
@@ -58,13 +58,14 @@
                 "name": "Stromat",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+1 Production] <for [Human]>","[+1 Production, +1 Food] <for [non-[Human]]>","[+1 Food, +1 Gold] <for [Empire]>"],
+                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+2 Food] <for [Xeno]>"],
 		"civilopediaText": [{"text":"my Fictional asteroid belt. it often bigger than moon, and habitable for anaerobic lifeform"}],
 		"RGB": [136, 125, 112]
         },
         {
                 "name": "Regold",
                 "type": "Land",
+		"gold": 10,
 		"movementCost": 1,
                 "uniques": ["Asteroid","Rare feature"],
 		"civilopediaText": [{"text":"A big asteroid made of bismuth and gold. The diameter is small and the density is very high. The Regold, which attracts all intelligent life forms, can be used as a base for space tourism and rare metal mining, making it extremely profitable."}],
@@ -74,28 +75,28 @@
 		"name": "Wraith",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Asteroid","Rare feature"],
+                "uniques": ["Asteroid","Rare feature","[+1 Food] <for [Human]>"],
 		"RGB": [238, 239, 175]
 	},
 	{
 		"name": "Hermia",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["[+2 Food] <for [Alien]>","Asteroid","Rare feature"],
+                "uniques": ["[+1 Food] <for [Human]>","[+1 Food] <for [Alien]>","Asteroid","Rare feature"],
 		"RGB": [238, 239, 175]
 	},
 	{
 		"name": "Ault",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["[+1 Food] <for [Alien]>","[+2 Food] <for [Human]>","Asteroid","Rare feature"],
+                "uniques": ["[+1 Food] <for [Human]>","[+1 Food] <for [Xeno]>","Asteroid","Rare feature"],
 		"RGB": [238, 239, 175]
 	},
 	{
 		"name": "Dead Necros",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["[+2 Food] <for [Xeno]>","[+1 Food] <for [Human]>","Asteroid","Rare feature"],
+                "uniques": ["[+1 Food] <for [Xeno]>","[+1 Food] <for [Alien]>","Asteroid","Rare feature"],
 		"RGB": [238, 239, 175]
 	},
         {
@@ -180,7 +181,8 @@
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"overrideStats": true,
-		"occursOn": ["Earth"]
+		"occursOn": ["Earth"],
+		"uniques": ["[+1 Food] <for [Alien]>"]
 	},
 	{
 		"name": "Dryland",
@@ -210,22 +212,20 @@
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
-		"production": 1,
-		"food": 1,
-		"movementCost": 2,
+		"Cost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
 		"occursOn": ["Earth","Hill"],
 		"uniques": ["Rough terrain", "Vegetation",
 			"[25]% Chance to be destroyed by nukes",
-					"Provides a one-time Production bonus to the closest city when cut down"],
+					"Provides a one-time Production bonus to the closest city when cut down",
+		"[+1 Food, +1 Production] <for [Human]>"],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
 	{
 		"name": "Jungle",
 		"type": "TerrainFeature",
-		"food": 2,
 		"movementCost": 2,
 		"overrideStats": true,
 		"unbuildable": true,
@@ -233,7 +233,8 @@
 		"occursOn": ["Earth","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
-			"[25]% Chance to be destroyed by nukes"
+			"[25]% Chance to be destroyed by nukes",
+			"[+2 Food] <for [Human]>"
 		]
 	},
 	{
@@ -246,7 +247,8 @@
 		"occursOn": ["Wraith","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
-			"[50]% Chance to be destroyed by nukes"
+			"[50]% Chance to be destroyed by nukes",
+			"[+2 Food] <for [Human]>"
 		]
 	},
 	{
@@ -272,7 +274,9 @@
 		"occursOn": ["Dead Necros","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
-			"[15]% Chance to be destroyed by nukes"
+			"[15]% Chance to be destroyed by nukes",
+			"[+2 Food] <for [Xeno]>",
+			"[+2 Production] <for [Alien]>"
 		]
 	},
 	{
@@ -284,7 +288,9 @@
 		"defenceBonus": 0.15,
 		"occursOn": ["Hermia","Hill"],
 		"uniques": [
-			"Rough terrain", "Vegetation"
+			"Rough terrain", "Vegetation",
+			"[+2 Food] <for [Human]>",
+			"[+2 Food] <for [Xeno]>"
 		]
 	},
 	{
@@ -298,7 +304,7 @@
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"[+2 Production] <for [Human]>",
-			"[+2 Culture] <for [Xeno]>"
+			"[+2 Food] <for [Xeno]>"
 		]
 	},
 	{
