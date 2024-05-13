@@ -48,7 +48,7 @@
 	// Exoplanets
 	/*Planets*/
 	{
-		"name": "Snow",
+		"name": "Cryogenia",
 		"type": "Land",
 		"movementCost": 1,
                 "uniques": ["Ice","Rare feature"],
@@ -151,14 +151,62 @@
 		"occursOn": ["Earth","Mars","Lunar","Stromat","Snow","Hermia","Wraith","Ault","Dead Necros"],
 		"uniques": ["Rough terrain","[+5] Strength for cities built on this terrain"]
 	},
-	/*Vegetations*/
+	/*Terrain*/
+	{
+		"name": "Snow",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"occursOn": ["Earth"]
+	},
+	{
+		"name": "Plains",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"uniques": ["[+1 Food, +1 Production] <for [Human]>"],
+		"occursOn": ["Earth"]
+	},
+	{
+		"name": "Tundra",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"uniques": ["[+1 Food] <for [Human]>"],
+		"occursOn": ["Earth"]
+	},
 	{
 		"name": "Desert",
 		"type": "TerrainFeature",
-		"movementCost": 2,
+		"movementCost": 1,
 		"overrideStats": true,
-		"occursOn": ["Earth","Hill"]
+		"occursOn": ["Earth"]
 	},
+	{
+		"name": "Dryland",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"occursOn": ["Ault"]
+	},
+	{
+		"name": "Rocky Plains",
+		"production": 1,
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"occursOn": ["Ault"]
+	},
+	{
+		"name": "Coast",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [70, 138, 216],
+		"uniques": ["[+2] to Fertility for Map Generation",
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
+		"[+2 Food] <for [Human]>"]
+	},
+	/*Features*/
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
