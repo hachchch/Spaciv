@@ -374,7 +374,7 @@
 		"requiredTech": "Beyond"
 	},
 	{
-		"name": "Miller-Urey Factory",
+		"name": "Biotech Factory",
 		"cost": 100,
 		"science": 1,
 		"replaces": "Pressure Refrigerator",
@@ -743,36 +743,19 @@
 	},
 	// About Terraform
 	{
-		"name": "Cyanobacteria Plantation",
-		"happiness": 2,
-		// "food": 2,
-		"uniques": ["[+1 Food] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]",
-            "Only available <before adopting [Eco-Justice]>"]
-		"requiredTech": "Terraforming",
+		"name": "Terraform Score:Paradise",
+		"cost": 1,
+		"uniques": ["Comment [The planet is thriving, with a unique culture developed by the people who settled there. It is now part of human history.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
 	},
 	{
-		"name": "Groundwater Dam",
-		"happiness": 2,
-		// "food": 2,
-		"uniques": ["[+1 Production] from [{Land} {non-[Earth]}] tiles [in this city]","Only available <for [Human]>","Must be on [non-[Earth]]",
-            "Only available <before adopting [Eco-Justice]>"]
-		"requiredTech": "Terraforming",
+		"name": "Terraform Score:Possible to immigrate",
+		"cost": 1,
+		"uniques": ["Comment [This planet is no longer a threat to us. People don't need their spacesuits now, and make city to this new world.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
 	},
 	{
-		"name": "Virus Extermination",
-		"happiness": 2,
-		// "food": 2,
-		"uniques": ["[+1 Food] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]",
-            "Only available <before adopting [Eco-Justice]>"]
-		"requiredTech": "Terraforming",
-	},
-	{
-		"name": "Cooling Facility",
-		"happiness": 2,
-		// "food": 2,
-		"uniques": ["[+1 Production] from [Earth] tiles [in this city]","Only available <for [non-[Human]]>","Must be on [Earth]",
-            "Only available <before adopting [Eco-Justice]>"]
-		"requiredTech": "Terraforming",
+		"name": "Terraform Score:Survivable",
+		"cost": 1,
+		"uniques": ["Comment [Although the planet's nature is still a threat to us, people have been able to live self-sufficiently without the support of their home planet. The upkeep cost of this city has been reduced by 10 gold.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
 	},
 	{
 		"name": "AI Terraforming Program",
@@ -790,6 +773,10 @@
 			"Gain a free [Cyanobacteria Plantation] [in this city] <in [non-[Earth]] tiles> <for [Human]>","Gain a free [Groundwater Dam] [in this city] <in [non-[Earth]] tiles> <for [Human]>",
             "Only available <before adopting [Eco-Justice]>"],
 		"requiredTech": "Automatic Terraforming System",
+	},
+	/*Terraforming For AI*/
+	{
+		
 	},
 	// Resource Making
 	{
