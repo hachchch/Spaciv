@@ -743,7 +743,7 @@
 	},
 	// About Terraform
 	{
-		"name": "Terraform Score:Paradise",
+		"name": "Terraform Score:Civilized",
 		"cost": 1,
 		"uniques": ["Comment [The planet is thriving, with a unique culture developed by the people who settled there. It is now part of human history.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
 	},
@@ -756,6 +756,16 @@
 		"name": "Terraform Score:Survivable",
 		"cost": 1,
 		"uniques": ["Comment [Although the planet's nature is still a threat to us, people have been able to live self-sufficiently without the support of their home planet. The upkeep cost of this city has been reduced by 10 gold.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+	},
+	{
+		"name": "Terraform Score:Undesired",
+		"cost": 1,
+		"uniques": ["Comment [This planet is very hostile to us. The food of this world is not compatible with our physiology. The food must be imported, there is an extra upkeep cost of 10 gold to transport food.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+	},
+	{
+		"name": "Residentization Program",
+		"requiredTech": "Terraforming",
+		"uniques": ["Comment [This activity improves the this city's Terraform Score by one level.]"]
 	},
 	{
 		"name": "AI Terraforming Program",
