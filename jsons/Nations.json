@@ -142,7 +142,7 @@
         	"name": "Empire",
        		"leaderName": "Emperor Bracton",
 		"adjective": ["Alien"],
-		"startBias": ["Avoid [Earth]"],
+		"startBias": ["Lunar"],
 		"preferredVictoryType": "Domination",
                 "startIntroPart1": "The Empire had ruled for centuries over our home system, when it discovered the system Sol, wealthy in resources and with one livable planet. As it was on the cusp of building a working interstellar-capable colony ship, as soon as one was built, it was sent at Sol. 14 years have passed since, and disaster befell the ancient Empire. A black hole moving at a tremendous velocity towards our home system, launched either by some accursed aliens or fate itself, devoured it all. 462 billion Citizen vanished, and yet the singularity continues on its rampage, far away from the colony. Only 150 thousand people survived, and of those who weren't outside the system, were on the colony ship. We have established on a large asteroid, and begun to build a new Empire. However, it appears Sol already has life on it: from the armoured lifeforms on the red planet, to stranger things lurking among the asteroid fields.",
 		"startIntroPart2": "Ostensibly however, that ideal world full of life, the one we were meant to build a new capital on, is already populated by beings alike us. And worst of all, they have large armies and are on the cusp of space travel. Emperor, we live in bleak times, and have barely avoided tragedy. As the successors of the nigh-interstellar Empire, we must unify this system, under our own rule. Let us build a new empire off the ashes of Sol! The Empire is not yet lost! May Operation Pluto succeed!",
