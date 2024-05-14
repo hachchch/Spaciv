@@ -295,42 +295,6 @@
 		"attackSound": "gdrAttack",
 		"uniques": ["Support","Consumes [4] [Relation Score (Martian)]","Unbuildable","[+25]% Strength <vs [Gunpowder] units>"],
 	},
-	//nuke units
-/*
-	{
-		"name": "Xenotic Fire",
-		"unitType": "Death",
-		"range": 3,
-		"strength": 10,
-		"rangedStrength": 1,
-		"movement": 2,
-		"uniqueTo": "Xenomorph",
-		"replaces": "Great General",
-		"uniques": ["Great Person - [War]", "Unbuildable","Nuclear weapon of Strength [1]","Blast radius [1]","May travel on Water tiles without embarking","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
-	},
-	{
-		"name": "Star Craft",
-		"unitType": "Death",
-		"range": 3,
-		"strength": 10,
-		"rangedStrength": 1,
-		"movement": 2,
-		"uniqueTo": "Martian",
-		"replaces": "Great General",
-		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [1]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
-	},
-	{
-		"name": "Lunatic Weapon",
-		"unitType": "Death",
-		"range": 3,
-		"strength": 10,
-		"rangedStrength": 1,
-		"movement": 2,
-		"uniqueTo": "United Nations",
-		"replaces": "Great General",
-		"uniques": ["Great Person - [War]", "Unbuildable","May travel on Water tiles without embarking","Nuclear weapon of Strength [1]","Blast radius [1]","May attack when embarked","Eliminates combat penalty for attacking across a coast","Must set up to ranged attack"]
-	},
-*/
 	//Special Spacecraft&Stuff for Aliens
 	{
 		"name": "Probe UFO",
@@ -1093,5 +1057,5 @@
 			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
-	},
+	}
 ]
