@@ -96,7 +96,7 @@
 	{
 		"name": "Species cleansing",
 		"cost": 100,
-		"uniques": ["Can only be built [in annexed cities]","Destroyed when the city is captured","Remove extra unhappiness from annexed cities"],
+		"uniques": ["Can only be built <in [in annexed cities] cities>","Destroyed when the city is captured","Remove extra unhappiness from annexed cities"],
 	},
 	{
 		"name": "Generator",
@@ -865,7 +865,7 @@
 		"isWonder": true,
 		"cost": 2000,
 		"uniques": [
-			"Requires a [Dyson Relay] in at least [6] cities",
+			"Only available <if [Dyson Relay] is constructed in at least [6] of [All] cities>",
 			"Double quantity of [Power] produced <for [Human]>",
 			"Double quantity of [Super Energy] produced <for [Alien]>",
 			"Double quantity of [Encid] produced <for [Xeno]>",
@@ -975,7 +975,7 @@
 		"isNationalWonder": true,
 		"gold": 8,
 		"requiredTech": "Heliophysics",
-		"uniques": ["[+35]% [Gold]","Requires a [Spaceship Factory] in all cities <for [Human]>","Requires a [UFO Facility] in all cities <for [Alien]>","Requires a [Warp hole Generator] in all cities <for [Xeno]>", "Cost increases by [30] per owned city","[+1] Movement <for [All] units> <in [Lagrange Zone] tiles>"],
+		"uniques": ["[+35]% [Gold]","Only available <if [Spaceship Factory] is constructed in all [non-[Puppeted]] cities> <for [Human]>","Only available <if [UFO Facility] is constructed in all [non-[Puppeted]] cities> <for [Alien]>","Only available <if [Warp hole Generator] is constructed in all [non-[Puppeted]] cities> <for [Xeno]>", "Cost increases by [30] per owned city","[+1] Movement <for [All] units> <in [Lagrange Zone] tiles>"]
 	},
 	// Victory
 	{
@@ -990,7 +990,7 @@
 		"name": "Global Earth Treaty",
 		"culture": 5,
 		"cost": 600,
-		"uniques": ["Hidden when [Special] Victory is disabled","Treaty","Unbuildable","Can only be built [in capital]","Only available <for [United Nations]>","Requires at least [20] population"],
+		"uniques": ["Hidden when [Special] Victory is disabled","Treaty","Unbuildable","Can only be built <in [in capital] cities>","Only available <for [United Nations]>","Requires at least [20] population"],
 	},
 	{
 		"name": "Lagrange Silk Road",
@@ -1001,9 +1001,9 @@
 		"uniques": ["Hidden when [Special] Victory is disabled",
 			"[+100]% Gold from Great Merchant trade missions",
 			"Empire enters golden age",
-			"Requires a [Stock Exchange] in at least [8] cities",
+			"Only available <if [Stock Exchange] is constructed in at least [8] of [All] cities>",
 			"[+25]% [Gold] [in all cities connected to capital]",
-			"Can only be built [in capital]","Only available <for [CNSA]>"]
+			"Can only be built <in [in capital] cities>","Only available <for [CNSA]>"]
 	},
 	{
 		"name": "Artificial Planet",
@@ -1018,7 +1018,7 @@
 		"culture": 10,
 		"cost": 2000,
 		"isNationalWonder": true,
-		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Empire]>","Requires a [Species cleansing] in at least [6] cities"],
+		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Empire]>","Only available <if [Species cleansing] is constructed in at least [6] of [All] cities>"],
 		"requiredTech": "Beyond",
 	},
 	{
@@ -1026,7 +1026,7 @@
 		"science": 32,
 		"cost": 1300,
 		"isNationalWonder": true,
-		"uniques": ["[+100]% [Science] [in this city]","Hidden when [Special] Victory is disabled","Only available <for [Aether Republic]>","Requires a [Brain Center] in at least [4] cities"],
+		"uniques": ["[+100]% [Science] [in this city]","Hidden when [Special] Victory is disabled","Only available <for [Aether Republic]>","Only available <if [Brain Center] is constructed in at least [4] of [All] cities>"],
 		"requiredTech": "Metaphysics",
 	},
 	{
