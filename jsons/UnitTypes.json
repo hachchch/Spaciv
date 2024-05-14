@@ -6,13 +6,6 @@
 	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>",
 	"This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
     },
-/*
-	{
-        "name": "Death",
-        "movementType": "Land",
-	"uniques": ["This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>"]
-    },
-*/
 	//Land Forces
     {
         "name": "Scout",
