@@ -28,7 +28,8 @@
                 "name": "Earth",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Terrestrial","Vegetation","Rare feature","[+2 Food] <for [Human]>"],
+                "uniques": ["Terrestrial","Vegetation","Rare feature","[+2 Food] <for [Human]>",
+		"Considered [Desirable] when determining start locations <for [Human]>"],
 		"RGB": [0, 163, 0],
         },
 	{
@@ -42,7 +43,8 @@
 		"name": "Mars",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Terrestrial","Rare feature","[+2 Food] <for [Alien]>"],
+                "uniques": ["Terrestrial","Rare feature","[+2 Food] <for [Alien]>",
+		"Considered [Desirable] when determining start locations <for [Alien]>"],
 		"RGB": [171, 79, 76]
 	},
 	// Exoplanets
@@ -58,7 +60,8 @@
                 "name": "Stromat",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+2 Food] <for [Xeno]>"],
+                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+2 Food] <for [Xeno]>",
+		"Considered [Desirable] when determining start locations <for [Xeno]>"],
 		"civilopediaText": [{"text":"my Fictional asteroid belt. it often bigger than moon, and habitable for anaerobic lifeform"}],
 		"RGB": [136, 125, 112]
         },
