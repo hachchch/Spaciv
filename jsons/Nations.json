@@ -124,7 +124,7 @@
         	"name": "Neptunian",
 		"leaderName": "King Halimede",
 		"adjective": ["Gley Alien"],
-		"startBias": ["Snow"],
+		"startBias": ["Cryogenia"],
 		"preferredVictoryType": "Scientific",
                 "startIntroPart1": "",
 		"startIntroPart2": "",
@@ -186,7 +186,7 @@
 		"name": "Xenomorph",
 		"leaderName": "ꁛꍜꉚ",
 		"adjective": ["Xenon"],
-		"startBias": ["Avoid [Earth]","Avoid [Mars]"],
+		"startBias": ["Stromat"],
 		"preferredVictoryType": "Cultural",
                 "startIntroPart1": "Xenomorphs are a member of the Xenidae family and are the most socially evolved space creatures! Our civilization was born 200,000 years ago when Xeno Communication began, and rapidly expanded with the discovery of biological acid replication culkus catalysts 205 years ago. Legend has it that Xeno Communication first took place among Xenotis and appears to have diversified across species. And may glory be to our leader ꁛꍜꉚ, whose ancestor is Xenotis!",
 		"startIntroPart2": "All of the Xenidae that make up our Xenotopia are now on the brink of collapse. These include workers stress and riots due to severe food depletion in the late Uradonian anoxic crisis and the division of people by biological barriers. Our leader, the people in xenotopia need your leadership. In this space age, is it possible to create space colonies and provide food? We pray that our fight shall be successful.",
@@ -199,7 +199,6 @@
 		"Special Victory Condition: Build the 'Galaxic Mind Control Center' and empire has 20 Happiness.",
 		"Triggers victory <if [Galaxic Mind Control Center] is constructed> <when above [19] [Happiness]> <hidden from users>"],
 	},
-/*
 	//Barbarian
 	{
 		"name": "Barbarians",
@@ -207,7 +206,6 @@
 		"innerColor": [185,12,12],
 		"uniques": ["Can only heal by pillaging"]
 	},
-*/
 	// City states
 	{
 		"name": "SpaceX",
