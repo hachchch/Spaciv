@@ -3,7 +3,7 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255],
-//      	"innerColor": [0,0,0]
+		"innerColor": [0,0,0]
 	},
 	{
 	// Nations
@@ -310,5 +310,5 @@
 		"style": "Alien",
 		"uniques": ["Alien"],
 		"cities": ["Shenzhou"]
-	},
+	}
 ]
