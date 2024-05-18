@@ -21,7 +21,28 @@
 		"food": 1,
 		"uniques": ["Stockpiled","Excluded from map editor"]
         },
-	// mined resources
+	// Food Resources
+	{
+		"name": "Sheep",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Earth"],
+		"food": 1,
+		"improvedBy": ["Farm", "Xenohive","Breeding Facility"],
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Earth] tiles> <in tiles without [Snow]> <in tiles without [Tundra]>",
+					"Generated on every [10] tiles <in [Earth] tiles> <in tiles without [Snow]> <in tiles without [Tundra]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
+	},
+	{
+		"name": "Wraith Fish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Wraith"],
+		"food": 1,
+		"improvedBy": ["Dome", "Xenohive","Breeding Facility"],
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Wraith] tiles> <in tiles without [Coelaphyton]>",
+					"Generated on every [10] tiles <in [Wraith] tiles> <in [Coelaphyton] tiles>"]
+	},
+	// mineral resources
 	{
 		"name": "Neptunium",
 		"resourceType": "Strategic",
@@ -312,5 +333,5 @@
 			"name": "ABCDEFG",
 			"resourceType": "Strategic",
 			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
-		},
+		}
 ]
