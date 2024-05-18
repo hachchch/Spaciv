@@ -31,7 +31,8 @@
                 "text": "Breaking news: A new planet, Earth, has been discovered! A space exploration team discovers an unknown planet. According to scout reports, the star was rich in water, had a thick atmosphere composed primarily of nitrogen and oxygen, and was likely covered by photosynthetic organisms. Furthermore, the existence of advanced civilizations has also been witnessed.",
                 "choices":[
                         {
-                                "text": "Great."
+                                "text": "Great.",
+				"triggeredUniques": ["Base Terraforming Score","Human 3","Alien 0","Xeno 0"]
 			}
                 ]
         }
