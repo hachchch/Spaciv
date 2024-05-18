@@ -149,3 +149,31 @@ TileSets/FantasyHex/Tiles/Coelaphyton
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Cryogenia
+  rotate: false
+  xy: 352, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Lagrange Zone
+  rotate: false
+  xy: 384, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Orbital Zone
+  rotate: false
+  xy: 384, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Red Dwarf
+  rotate: false
+  xy: 416, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
