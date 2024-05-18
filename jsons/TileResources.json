@@ -53,8 +53,8 @@
 		"uniques": ["Excluded from map editor",
             "Guaranteed with Strategic Balance resource option",
             "Deposits in [Asteroid Belt] tiles always provide [1] resources",
-            "Generated with weight [40] <in [Snow] tiles>",
-            "Generated with weight [40] <in [Asteroid Belt] tiles>"],
+            "Generated with weight [20] <in [Snow] tiles>",
+            "Generated with weight [20] <in [Asteroid Belt] tiles>"],
 		"improvementStats": {"production": 1},
 		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
@@ -70,12 +70,12 @@
         	"uniques": [
 			"Guaranteed with Strategic Balance resource option",
 			"Deposits in [Asteroid Belt] tiles always provide [1] resources",
-			"Generated with weight [70] <in [{Earth} {Hill}] tiles>",
-            		"Generated with weight [40] <in [{Hermia} {Hill}] tiles>",
-			"Generated with weight [40] <in [Wraith] tiles>",
-			"Generated with weight [20] <in [Ault] tiles>",
-            		"Minor deposits generated with weight [20] <in [Mars] tiles>",
-			"Minor deposits generated with weight [10] <in [Lunar] tiles>"
+			"Generated with weight [10] <in [{Earth} {Hill}] tiles>",
+            		"Generated with weight [20] <in [{Hermia} {Hill}] tiles>",
+			"Generated with weight [20] <in [Wraith] tiles>",
+			"Generated with weight [40] <in [Ault] tiles>",
+            		"Minor deposits generated with weight [40] <in [Mars] tiles>",
+			"Minor deposits generated with weight [30] <in [Lunar] tiles>"
 		],
 		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
@@ -91,9 +91,9 @@
         	"uniques": [
             "Guaranteed with Strategic Balance resource option",
             "Deposits in [Asteroid Belt] tiles always provide [1] resources",
-            "Generated with weight [70] <in [Asteroid Belt] tiles>",
-            "Generated with weight [40] <in [Stromat] tiles>",
-		"Minor deposits generated with weight [15] <in [Lunar] tiles>"
+            "Generated with weight [10] <in [Asteroid Belt] tiles>",
+            "Generated with weight [20] <in [Stromat] tiles>",
+		"Minor deposits generated with weight [50] <in [Lunar] tiles>"
 		],
 		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
@@ -109,14 +109,14 @@
         	"uniques": [
             "Guaranteed with Strategic Balance resource option",
             "Deposits in [Asteroid Belt] tiles always provide [1] resources",
-	    "Generated with weight [70] <in [{Wraith} {Coelaphyton}] tiles>",
-            "Generated with weight [70] <in [{Stromat} {Hill}] tiles>",
-            "Generated with weight [40] <in [Asteroid Belt] tiles>",
-            "Generated with weight [40] <in [{Lunar} {Hill}] tiles>",
-		"Minor deposits generated with weight [40] <in [Stromat] tiles> <in tiles without [Hill]>",
-		"Minor deposits generated with weight [15] <in [Lunar] tiles> <in tiles without [Hill]>",
-		"Minor deposits generated with weight [15] <in [{Dead Necros} {Dead Town}] tiles> <in tiles without [Hill]>",
-		"Minor deposits generated with weight [15] <in [Cryogenia] tiles> <in tiles without [Hill]>"
+	    "Generated with weight [10] <in [{Wraith} {Coelaphyton}] tiles>",
+            "Generated with weight [10] <in [{Stromat} {Hill}] tiles>",
+            "Generated with weight [20] <in [Asteroid Belt] tiles>",
+            "Generated with weight [20] <in [{Lunar} {Hill}] tiles>",
+		"Minor deposits generated with weight [20] <in [Stromat] tiles> <in tiles without [Hill]>",
+		"Minor deposits generated with weight [40] <in [Lunar] tiles> <in tiles without [Hill]>",
+		"Minor deposits generated with weight [40] <in [{Dead Necros} {Dead Town}] tiles> <in tiles without [Hill]>",
+		"Minor deposits generated with weight [40] <in [Cryogenia] tiles> <in tiles without [Hill]>"
 		],
 		"majorDepositAmount": {"sparse": 3, "default": 5, "abundant": 7},
 		"minorDepositAmount": {"sparse": 2, "default": 3, "abundant": 4}
@@ -134,11 +134,11 @@
             "Generated on every [5] tiles <in [{Mars} {Hill}] tiles>",
 		"Guaranteed with Strategic Balance resource option",
             "Deposits in [Asteroid Belt] tiles always provide [1] resources",
-            "Generated with weight [100] <in [{Mars} {Hill}] tiles>",
-		"Generated with weight [40] <in [Asteroid Belt] tiles>",
-            "Generated with weight [40] <in [{Earth} {Hill}] tiles>",
-            "Generated with weight [10] <in [Lunar] tiles>",
-	    "Generated with weight [20] <in [Cryogenia] tiles>",
+            "Generated with weight [5] <in [{Mars} {Hill}] tiles>",
+		"Generated with weight [20] <in [Asteroid Belt] tiles>",
+            "Generated with weight [20] <in [{Earth} {Hill}] tiles>",
+            "Generated with weight [30] <in [Lunar] tiles>",
+	    "Generated with weight [50] <in [Cryogenia] tiles>",
 		"Minor deposits generated with weight [20] <in [Mars] tiles> <in tiles without [Hill]>",
 		"Minor deposits generated with weight [15] <in [Earth] tiles> <in tiles without [Hill]>",
 		"Minor deposits generated with weight [15] <in [Stromat] tiles> <in tiles without [Hill]>",
@@ -211,7 +211,7 @@
             "Generated with weight [40] <in [Hill] tiles>",
             "Generated with weight [25] <in [{Featureless} {Stromat}] tiles>",
             "Generated with weight [20] <in [{Featureless} {Earth}] tiles>",
-            "Generated with weight [5] <in [Asteroid Belt] tiles>"
+            "Generated with weight [30] <in [Asteroid Belt] tiles>"
 		],
 	},
 	{
@@ -222,7 +222,7 @@
 		"improvedBy": ["Mine", "Compounds","Xenomine"],
 		"improvementStats": {"production":1 ,"gold": 1},
         "uniques": [
-            "Generated with weight [40] <in [Lunar] tiles>",
+            "Generated with weight [10] <in [Lunar] tiles>",
 		],
 	},
 	{
@@ -233,8 +233,8 @@
 		"food": 1,
 		"improvementStats": {"food": 1 ,"gold": 1},
         "uniques": [
-            "Generated with weight [60] <in [Snow] tiles>",
-            "Generated with weight [40] <in [{Mars} {Hill}] tiles>",
+            "Generated with weight [15] <in [Snow] tiles>",
+            "Generated with weight [15] <in [{Mars} {Hill}] tiles>",
             "Generated with weight [25] <in [{Featureless} {Mars}] tiles>"
 		],
 	},
@@ -246,8 +246,8 @@
 		"improvedBy": ["Farm", "Breeding Facility","Xenohive"],
 		"improvementStats": {"food": 1},
         "uniques": [
-            "Generated with weight [50] <in [{Featureless} {Stromat}] tiles>",
-            "Generated with weight [20] <in [{Stromat} {Hill}] tiles>",
+            "Generated with weight [20] <in [{Featureless} {Stromat}] tiles>",
+            "Generated with weight [50] <in [{Stromat} {Hill}] tiles>",
 		],
 	},
 	{
@@ -258,9 +258,9 @@
 		"gold": 1,
 		"improvementStats": {"gold": 1},
         "uniques": [
-            "Generated with weight [40] <in [Hill] tiles>",
+            "Generated with weight [10] <in [Hill] tiles>",
             "Generated with weight [25] <in [{Featureless} {Stromat}] tiles>",
-            "Generated with weight [5] <in [Asteroid Belt] tiles>"
+            "Generated with weight [50] <in [Asteroid Belt] tiles>"
 		],
 	},
 	{
@@ -268,8 +268,7 @@
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Stromat"],
 		"improvedBy": ["Industry", "Compounds","Xenomine"],
-		"uniques": ["Generated with weight [5] <in [{Featureless} {Stromat}] tiles>",
-			"Generated with weight [10] <in [{Stromat} {Hill}] tiles>"]
+		"uniques": ["Generated with weight [85] <in [{Featureless} {Space}] tiles>"]
 		"gold": 18,
 		"improvementStats": {"happiness": 3 ,"gold": 3},
 	},
