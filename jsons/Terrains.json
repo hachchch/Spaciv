@@ -4,7 +4,7 @@
 		"type": "Water",
 		"uniques": ["Space"],
 		"movementCost": 1,
-		"RGB": [43, 87, 151],
+		"RGB": [1, 0, 2],
 		"uniques": ["Becomes [Earth] when adjacent to [Earth]","Becomes [Mars] when adjacent to [Mars]"]
         },
 	// Stars
@@ -20,7 +20,7 @@
 		"type": "Water",
 		"movementCost": 1,
                 "uniques": ["Solar Star","Star","Rare feature"],
-		"RGB": [255, 255, 70]
+		"RGB": [139, 25, 16]
 	},
 	// Solar System
 	/*Planets*/
@@ -79,28 +79,28 @@
 		"type": "Land",
 		"movementCost": 1,
                 "uniques": ["Asteroid","Rare feature","[+1 Food] <for [Human]>"],
-		"RGB": [238, 239, 175]
+		"RGB": [0, 0, 97]
 	},
 	{
 		"name": "Hermia",
 		"type": "Land",
 		"movementCost": 1,
                 "uniques": ["[+1 Food] <for [Human]>","[+1 Food] <for [Alien]>","Asteroid","Rare feature"],
-		"RGB": [238, 239, 175]
+		"RGB": [116, 165, 159]
 	},
 	{
 		"name": "Ault",
 		"type": "Land",
 		"movementCost": 1,
                 "uniques": ["[+1 Food] <for [Human]>","[+1 Food] <for [Xeno]>","Asteroid","Rare feature"],
-		"RGB": [238, 239, 175]
+		"RGB": [238, 29, 175]
 	},
 	{
 		"name": "Dead Necros",
 		"type": "Land",
 		"movementCost": 1,
                 "uniques": ["[+1 Food] <for [Xeno]>","[+1 Food] <for [Alien]>","Asteroid","Rare feature"],
-		"RGB": [238, 239, 175]
+		"RGB": [145, 100, 110]
 	},
         {
                 "name": "Gas",
