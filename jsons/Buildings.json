@@ -66,7 +66,7 @@
 		"cost": 1,
 		"uniques": ["Unbuildable","Unsellable",
 			"Gain a free [Earth] [in this city] <in [Earth] tiles>",
-		"Gain a free [Ocean] [in this city] <in [{River} {Earth}] tiles>"]
+		"Gain a free [Ocean] [in this city] <in [Earth] tiles> <in tiles adjacent to [Coast]>"]
 	},
 	{
 		"name": "America Government",
@@ -137,13 +137,23 @@
 		"requiredTech": "Space Engineering",
 		"cost": 60,
 		"production": 2,
+		"maintenance": 2,
 		"uniques": ["All newly-trained [Space] units [in this city] receive the [Human Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Space]"],
+	},
+	{
+		"name": "Mass Driver",
+		"requiredTech": "Space Engineering",
+		"cost": 60,
+		"food": 3,
+		"maintenance": 2,
+		"uniques": ["Can only be built <on foreign continents>"],
 	},
 	{
 		"name": "UFO Facility",
 		"requiredTech": "Hovering",
 		"cost": 60,
 		"production": 2,
+		"maintenance": 2,
 		"uniques": ["All newly-trained [Space] units [in this city] receive the [Alien Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Space]"],
 	},
 	{
@@ -151,6 +161,7 @@
 		"requiredTech": "Warp hole",
 		"cost": 60,
 		"production": 2,
+		"maintenance": 2,
 		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Space]"],
 	},
 	{
@@ -159,6 +170,7 @@
 		// "requiredBuilding": "Shipbuilding Capability",
 		"cost": 100,
 		"production": 2,
+		"maintenance": 3,
 		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
 			"[+33]% Production when constructing [Space] units [in this city]"],
 	},
