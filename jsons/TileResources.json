@@ -30,7 +30,7 @@
 		"improvedBy": ["Farm", "Xenohive","Breeding Facility"],
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [13] tiles <in [Earth] tiles> <in tiles without [Snow]> <in tiles without [Tundra]>",
-					"Generated on every [10] tiles <in [Earth] tiles> <in tiles without [Snow]> <in tiles without [Tundra]> <in tiles without [Fresh Water]> <in [Hill] Regions>"]
+					"Generated on every [10] tiles <in [Earth] tiles> <in tiles without [Snow]> <in tiles without [Tundra]> <in tiles without [Fresh Water]> <in [Hill] tiles>"]
 	},
 	{
 		"name": "Wraith Fish",
