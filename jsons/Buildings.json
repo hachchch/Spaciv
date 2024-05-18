@@ -466,7 +466,7 @@
 		"science": -3,
 		"maintenance": 1,
 		"uniques": ["Consumes [2] [Amino Metal]","Enable to make Biochemicalweapon in this city","Limited to [1] per Civilization",
-		"Provides [2] [Sarin]", "Provides [2] [Botulinum]"]
+		"Provides [2] [Virus]", "Provides [2] [Bacteria]"]
 		"requiredTech": "Beyond"
 	},
 	{
@@ -474,7 +474,7 @@
 		"requiredBuilding": "Biochemicalweapon Research Facility",
 		"cost": 300,
 		"maintenance": 5,
-		"uniques": ["Provides [1] [Sarin] <every [10] turns>", "Provides [1] [Botulinum] <every [10] turns>"]
+		"uniques": ["Provides [1] [Virus] <every [10] turns>", "Provides [1] [Bacteria] <every [10] turns>"]
 	},
 	// Helium three Industries
 	{
