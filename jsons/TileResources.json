@@ -325,12 +325,12 @@
 		"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
 	},
 		{
-			"name": "Sarin",
+			"name": "Virus",
 			"resourceType": "Strategic",
 			"uniques": ["Not shown on world screen","Excluded from map editor"],
 		},
 		{
-			"name": "Botulinum",
+			"name": "Bacteria",
 			"resourceType": "Strategic",
 			"uniques": ["Not shown on world screen","Excluded from map editor"],
 		},
