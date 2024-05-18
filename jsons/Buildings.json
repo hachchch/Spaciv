@@ -138,7 +138,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Human Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Space]"],
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Human Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"],
 	},
 	{
 		"name": "Mass Driver",
@@ -154,7 +154,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Alien Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Space]"],
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Alien Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"],
 	},
 	{
 		"name": "Warp hole Generator",
@@ -162,7 +162,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Space]"],
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"],
 	},
 	{
 		"name": "Vacuum Shipyard",
@@ -171,7 +171,7 @@
 		"cost": 100,
 		"production": 2,
 		"maintenance": 3,
-		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Space]","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
+		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Ocean]","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
 			"[+33]% Production when constructing [Space] units [in this city]"],
 	},
 	// Other
