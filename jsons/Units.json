@@ -924,7 +924,7 @@
 	},
 	// Biochemicalweapon
 	{
-		"name": "Sarin Sprayer",
+		"name": "Miasma Sprayer",
 		"unitType": "Chemicalweapon",
 		"movement": 1,
 		"strength": 10,
@@ -932,22 +932,9 @@
 		"range": 6,
 		"cost": 250,
 		"requiredTech": "Beyond",
-		"uniques": ["Only available <in cities with a [Biochemicalweapon Research Facility]>","Consumes [1] [Sarin] <when attacking>","Cannot attack <when below [1] [Sarin]>","[+50]% Strength <when attacking> <vs [non-[Human]] units>",
-			"Limited to [1] per Civilization","Nuclear weapon of Strength [1]",
+		"uniques": ["Only available <in cities with a [Biochemicalweapon Research Facility]>","Consumes [1] [Bacteria] <when attacking>","Cannot attack <when below [1] [Bacteria]>","[+50]% Strength <when attacking> <vs [non-[Human]] units>",
+			"Limited to [1] per Civilization","Nuclear weapon of Strength [1]","[-100]% Strength <vs [Space] units>",
 			"Blast radius [3]"],
-		"attackSound": "fire"
-	},
-	{
-		"name": "Virus Attacker",
-		"unitType": "Bioweapon",
-		"movement": 1,
-		"strength": 10,
-		"rangedStrength": 30,
-		"range": 1,
-		"cost": 250,
-		"requiredTech": "Beyond",
-		"uniques": ["Only available <in cities with a [Biochemicalweapon Research Facility]>","Consumes [1] [Botulinum] <when attacking>","Cannot attack <when below [1] [Botulinum]>","[+50]% Strength <when attacking> <vs [Human] units>",
-			"Limited to [2] per Civilization"],
 		"attackSound": "fire"
 	},
 	{
