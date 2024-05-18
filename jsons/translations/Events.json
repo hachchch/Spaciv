@@ -1,0 +1,38 @@
+[
+        {
+                "name": "Human Intro",
+                "text": "Your national race is human! Humans (i.e. Homo sapiens) prefer humid, warm planets that are aerobic and suitable for growing grain. After 10 thousand years of humanity dreaming space, the time has finally come to enter space! You are at the forefront of history and are in a position to lead a nation of dreamers who dream of space travel. However, conflicts on Earth are becoming more intense as the space race progresses... It's up to you to decide whether to first unify Earth's disparate ideologies, or jump straight into space to fight against the unknown races.",
+                "choices":[
+                        {
+                                "text": "Understood."
+			}
+                ]
+        },
+        {
+                "name": "Alien Intro",
+                "text": "Your national race is Alien! Aliens prefer anaerobic and desolate environments. We have discovered many resources in this system. There are already industrial success on Mars, and there are rumors of a gold rush on the home planet! However, in order to turn this entire star system into a commercial facility, we need a little more detailed information. If there are indigenous people, they must be dealt with.",
+                "choices":[
+                        {
+                                "text": "Understood."
+			}
+                ]
+        },
+        {
+                "name": "Xeno Intro",
+                "text": "Your national race is Xeno!",
+                "choices":[
+                        {
+                                "text": "Understood."
+			}
+                ]
+        },
+        {
+                "name": "Earth First Time",
+                "text": "Breaking news: A new planet, Earth, has been discovered! A space exploration team discovers an unknown planet. According to scout reports, the star was rich in water, had a thick atmosphere composed primarily of nitrogen and oxygen, and was likely covered by photosynthetic organisms. Furthermore, the existence of advanced civilizations has also been witnessed.",
+                "choices":[
+                        {
+                                "text": "Great."
+			}
+                ]
+        }
+]
