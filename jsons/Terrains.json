@@ -208,7 +208,7 @@
 		"movementCost": 1,
 		"RGB": [70, 138, 216],
 		"uniques": ["[+2] to Fertility for Map Generation",
-            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Earth",
 		"[+2 Food] <for [Human]>"]
 	},
 	/*Features*/
