@@ -1044,5 +1044,14 @@
 			"[+1] Sight", "Hidden when religion is disabled", "Unbuildable", "Religious Unit"
 		],
 		"movement": 3
+	},
+	{
+		"name": "Meteor",
+		"cost": 1,
+		"uniqueTo": "Barbarian",
+		"strength": 24,
+		"movement": 2,
+		"unitType": "Space Object",
+		"uniques": ["Self-destructs when attacking"]
 	}
 ]
