@@ -340,7 +340,7 @@
 		"name": "Cosmo-X Society",
 		"faith": 1,
 		"uniques": ["Only available <for [Alien]>"],
-		"requiredTech": "Xeno Life",
+		"requiredTech": "Unified theory",
 	},
 	{
 		"name": "Orbital Church",
