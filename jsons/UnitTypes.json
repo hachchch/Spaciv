@@ -44,7 +44,7 @@
 	{
 	"name": "Space Object",
         // "movementType": "Land",
-	"uniques": ["Spaceship","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack","This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
+	"uniques": ["Spaceship","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Space","Unable to capture cities","May travel on Water tiles without embarking","All tiles cost 1 movement","Cannot attack <for [non-[Meteor]] units>","This Unit takes [10] damage <upon ending a turn in a [Gas] tile>"]
 	},
     {
 	"name": "Corvette",
