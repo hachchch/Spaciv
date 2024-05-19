@@ -231,7 +231,7 @@
 			},
             {
                 "name": "Metaelectronics",
-		    "prerequisites": ["Magnetar Fusion","Urban Satellite"],
+		    "prerequisites": ["Magnetar Fission","Urban Satellite"],
                 "row": 4,
                 },
             {
