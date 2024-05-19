@@ -189,7 +189,7 @@
 	},
 	{
 		"name": "Coaxium", // Resource for Big Boats (and maybe a speed boost promotion)
-		"revealedBy": "White Hole",
+		"revealedBy": "Astrodynamics",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen","Excluded from map editor"]
 	},
