@@ -1038,7 +1038,7 @@
 		"cost": 800,
 		"isNationalWonder": true,
 		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Alien]> <when above [2499] [Super Energy]>","Costs [2500] [Super Energy]","Consumes [8] [Dominium]","Consumes [8] [Prismaxium]","Consumes [5] [Amino Metal]","Consumes [10] [Neptunium]"],
-		"requiredTech": "Superphysics",
+		"requiredTech": "Metaelectronics",
 	},
 	{
 		"name": "Parliament of Milky Way",
