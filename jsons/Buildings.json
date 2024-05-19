@@ -305,14 +305,14 @@
 		"name": "Orbital Solenoid",
 		"production": 2,
 		"cost": 100,
-		"requiredTech": "Event Horizon",
+		"requiredTech": "Space Construction",
 		"uniques": ["Must be next to [Ocean]","Only available <for [Human]>"]
 	},
 	{
 		"name": "Research Sattelite",
 		"science": 3,
 		"cost": 100,
-		"requiredTech": "Event Horizon",
+		"requiredTech": "Space Construction",
 		"uniques": ["Must be next to [Ocean]","Only available <for [Human]>"]
 	},
 	// Faiths
@@ -366,22 +366,32 @@
 	// Cultures
 	{
 		"name": "Dance Palace",
+		"maintenance": 2,
 		"culture": 3,
 		"uniques": ["Only available <for [Alien]>"]
 		"requiredTech": "Beyond",
 	},
 	{
 		"name": "Acid Pool",
+		"maintenance": 2,
 		"culture": 3,
 		"happiness": 1,
 		"uniques": ["Costs [20] [Encid]","Only available <when above [19] [Encid]> <for [Xeno]>"]
-		"requiredTech": "Beyond",
+		"requiredTech": "Beyond"
 	},
 	{
 		"name": "Metaverse",
+		"maintenance": 2,
 		"culture": 3,
 		"uniques": ["Only available <for [Human]>"]
-		"requiredTech": "Beyond",
+		"requiredTech": "Beyond"
+	},
+	{
+		"name": "Bureau of Planet",
+		"maintenance": 2,
+		"percentStatBonus": {"culture": 10},
+		"uniques": ["Only available <for [Alien]>"],
+		"requiredTech": "Space Construction"
 	},
 	//Placeholder for Refinery Buildings
 	{
@@ -418,7 +428,7 @@
 			"Consumes [1] [Encid] <for [Xeno]>",
 			"Consumes [1] [Power] <for [Human]>",
 			"Consumes [1] [Super Energy] <for [Alien]>","Consumes [3] [Neptunium]"],
-		"requiredTech": "Event Horizon"
+		"requiredTech": "Space Construction"
 	},
 	{
 		"name": "Neptunium Centrifuge",
@@ -446,7 +456,7 @@
 		"Limited to [5] per Civilization <after adopting [Planned Economy]>"],
 		"maintenance": 1,
 		"hurryCostModifier": 15,
-		"requiredTech": "Event Horizon"
+		"requiredTech": "Space Construction"
 	},
 	{
 		"name": "Mass Electron-Positron Collider",
@@ -456,7 +466,7 @@
 		"hurryCostModifier": 15,
 		"uniques": ["Only available <for [Alien]> <when above [199] [Super Energy]>",
 		"Costs [200] [Super Energy]","Provides [3] [Neptunium]","Provides [2] [Dominium]","Provides [1] [Prismaxium]","Consumes [2] [Super Energy]","Consumes [2] [Iron]"]
-		"requiredTech": "Event Horizon"
+		"requiredTech": "Space Construction"
 	},
 	{
 		"name": "Entropy Synthesis Factory",
@@ -466,7 +476,7 @@
 		"hurryCostModifier": 15,
 		"uniques": ["Only available <for [Human]> <when above [199] [Power]>",
 		"Costs [200] [Power]","Provides [3] [Neptunium]","Provides [1] [Dominium]","Provides [2] [Prismaxium]","Consumes [2] [Power]","Consumes [2] [Iron]"]
-		"requiredTech": "Event Horizon"
+		"requiredTech": "Space Construction"
 	},
 	{
 		"name": "Gauss Accelerator",
@@ -482,7 +492,7 @@
 		"happiness": 1,
 		"maintenance": 3,
 		"uniques": ["[+33]% [Science] [in this city]","Consumes [1] [Dominium]"]
-		"requiredTech": "Event Horizon"
+		"requiredTech": "Space Construction"
 	},
 	// Amino Industries
 	{
@@ -507,7 +517,7 @@
 		"gold": 4,
 		"maintenance": 2,
 		"uniques": ["[+30]% [Gold] [in this city]","Consumes [1] [Amino Metal]"]
-		"requiredTech": "Event Horizon"
+		"requiredTech": "Space Construction"
 	},
 	{
 		"name": "Stetter Reactor",
@@ -518,7 +528,7 @@
 		"requiredTech": "Terraforming"
 	},
 	{
-		"name": "Theater of Abiogenesis",
+		"name": "Theater of Genesis",
 		"requiredBuilding": "Pressure Refrigerator",
 		"faith": 2,
 		"science": 2,
@@ -553,6 +563,7 @@
 	},
 	{
 		"name": "Automatic Cultivater",
+		"requiredTech": "Beyond",
 		"requiredBuilding": "Biochemicalweapon Research Facility",
 		"cost": 300,
 		"maintenance": 5,
@@ -568,9 +579,9 @@
 			"Provides [2] [Super Energy] <for [Alien]>",
 			"Provides [2] [Encid] <for [Xeno]>",
 			"Consumes [2] [Dominium]","Consumes [2] [Regolith]"]
-		"requiredTech": "Superfluidity"
+		"requiredTech": "Superphysics"
 	},
-	// Metaphysics Building (for non-Xeno) // Progress
+	// Metaphysics Building (for non-Xeno)
 	/*
 	{
 		"name": "",
@@ -581,7 +592,7 @@
 	// Xeno industrial system tier III
 	{
 		"name": "Hive Port",
-		"requiredTech": "Event Horizon",
+		"requiredTech": "Space Construction",
 		"requiredBuilding": "Space Hive Worker District",
 		"uniques": ["Heavy Industry","Only available <for [Xeno]>","Consumes [1] [Dominium]","[+20]% Production when constructing [Space] units [in this city]"]
 	},
@@ -1027,7 +1038,7 @@
 		"cost": 800,
 		"isNationalWonder": true,
 		"uniques": ["Hidden when [Special] Victory is disabled","Only available <for [Alien]> <when above [2499] [Super Energy]>","Costs [2500] [Super Energy]","Consumes [8] [Dominium]","Consumes [8] [Prismaxium]","Consumes [5] [Amino Metal]","Consumes [10] [Neptunium]"],
-		"requiredTech": "Superfluidity",
+		"requiredTech": "Superphysics",
 	},
 	{
 		"name": "Parliament of Milky Way",
@@ -1063,41 +1074,41 @@
 	{
 		"name": "Military Support (United Nations)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+		"uniques": ["Only available <with [Relation Score (United Nations)]>","Cannot be purchased","Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Martian)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Martian]>","Consumes [10] [Relation Score (Martian)]","Provides [10] [Relation Score (Martian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
+		"uniques": ["Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Martian]>","Consumes [10] [Relation Score (Martian)]","Provides [10] [Relation Score (Martian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
 	},
 	{
 		"name": "Military Support (Xenomorph)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xeno)] units appear","[1] free [Xenowarrior (Xeno)] units appear"],
+		"uniques": ["Only available <with [Relation Score (Xenomorph)]>","Cannot be purchased","Unbuildable <for [Xenomorph]>","Consumes [10] [Relation Score (Xenomorph)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xeno)] units appear","[1] free [Xenowarrior (Xeno)] units appear"],
 	},
 	{
 		"name": "Military Support (Aether Republic)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Aether Republic]>","Consumes [10] [Relation Score (Aether Republic)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xeno)] units appear","[1] free [Xenowarrior (Xeno)] units appear"],
+		"uniques": ["Only available <with [Relation Score (Aether Republic)]>","Cannot be purchased","Unbuildable <for [Aether Republic]>","Consumes [10] [Relation Score (Aether Republic)]","Provides [10] [Relation Score (Xenomorph)]","[3] free [Xenomob (Xeno)] units appear","[1] free [Xenowarrior (Xeno)] units appear"],
 	},
 	{
 		"name": "Military Support (CNSA)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [CNSA]>","Consumes [10] [Relation Score (CNSA)]","Provides [10] [Relation Score (CNSA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+		"uniques": ["Only available <with [Relation Score (CNSA)]>","Cannot be purchased","Unbuildable <for [CNSA]>","Consumes [10] [Relation Score (CNSA)]","Provides [10] [Relation Score (CNSA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Roscosmos)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Roscosmos]>","Consumes [10] [Relation Score (Roscosmos)]","Provides [10] [Relation Score (Roscosmos)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+		"uniques": ["Only available <with [Relation Score (Roscosmos)]>","Cannot be purchased","Unbuildable <for [Roscosmos]>","Consumes [10] [Relation Score (Roscosmos)]","Provides [10] [Relation Score (Roscosmos)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Empire)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Empire]>","Consumes [10] [Relation Score (Empire)]","Provides [10] [Relation Score (Empire)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+		"uniques": ["Only available <with [Relation Score (Empire)]>","Cannot be purchased","Unbuildable <for [Empire]>","Consumes [10] [Relation Score (Empire)]","Provides [10] [Relation Score (Empire)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Neptunian)",
 		"cost": 100,
-		"uniques": ["Cannot be purchased","Unbuildable <for [Neptunian]>","Consumes [10] [Relation Score (Neptunian)]","Provides [10] [Relation Score (Neptunian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
-	},
+		"uniques": ["Only available <with [Relation Score (Neptunian)]>","Cannot be purchased","Unbuildable <for [Neptunian]>","Consumes [10] [Relation Score (Neptunian)]","Provides [10] [Relation Score (Neptunian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
+	}
 ]
