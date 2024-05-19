@@ -3,7 +3,11 @@
 	{
 		"name": "Residentization Program",
 		"requiredTech": "Terraforming",
-		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]","Remove [Residentization Program] [in this city] <hidden from users>",
+		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]",
+			"Remove [Residentization Program] [in this city] <hidden from users>",
+			"Remove [Undesired] [in this city] <in cities with a [Undesired]> <hidden from users>",
+		"Remove [Survivable] [in this city] <in cities with a [Survivable]> <hidden from users>",
+		"Remove [Possible to immigrate] [in this city] <in cities with a [Possible to immigrate]> <hidden from users>",
 		"Gain a free [Civilized] [in this city] <in cities with a [Possible to immigrate]> <hidden from users>",
 		"Gain a free [Possible to immigrate] [in this city] <in cities with a [Survivable]> <hidden from users>",
 		"Gain a free [Survivable] [in this city] <in cities with a [Undesired]> <hidden from users>"]
@@ -11,39 +15,38 @@
 	{
 		"name": "Terraform Score:Civilized",
 		"cost": 1,
-		"uniques": ["Only available <in cities with a [Civilized]> <hidden from users>","Comment [The planet is thriving, with a unique culture developed by the people who settled there. It is now part of our history.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Civilized]> <hidden from users>","Comment [The planet is thriving, with a unique culture developed by the people who settled there. It is now part of our history.]","Unsellable <hidden from users>","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased <hidden from users>"]
 	},
 	{
 		"name": "Terraform Score:Possible to immigrate",
 		"cost": 1,
-		"uniques": ["Only available <in cities with a [Possible to immigrate]> <hidden from users>","Comment [This planet is no longer a threat to us. People don't need their spacesuits now, and make city to this new world.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Possible to immigrate]> <hidden from users>","Comment [This planet is no longer a threat to us. People don't need their spacesuits now, and make city to this new world.]","Unsellable <hidden from users>","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased <hidden from users>"]
 	},
 	{
 		"name": "Terraform Score:Survivable",
 		"cost": 1,
-		"uniques": ["Only available <in cities with a [Survivable]> <hidden from users>","Comment [Although the planet's nature is still a threat to us, people have been able to live self-sufficiently without the support of their home planet. The upkeep cost of this city has been reduced by 10 gold.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Survivable]> <hidden from users>","Comment [Although the planet's nature is still a threat to us, people have been able to live self-sufficiently without the support of their home planet. The upkeep cost of this city has been reduced by 10 gold.]","Unsellable <hidden from users>","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased <hidden from users>"]
 	},
 	{
 		"name": "Terraform Score:Undesired",
 		"cost": 1,
-		"uniques": ["Only available <in cities with a [Undesired]> <hidden from users>","Comment [This planet is very hostile to us. The food of this world is not compatible with our physiology. The food must be imported, there is an extra upkeep cost of 10 gold to transport food.]","Unsellable","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased"]
+		"uniques": ["Only available <in cities with a [Undesired]> <hidden from users>","Comment [This planet is very hostile to us. The food of this world is not compatible with our physiology. The food must be imported, there is an extra upkeep cost of 10 gold to transport food.]","Unsellable <hidden from users>","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased <hidden from users>"]
 	},
 	{
 		"name": "Undesired",
 		"cost": 1,
 		"maintenance": 10,
-		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]","Remove [Undesired] [in this city] <in cities with a [Survivable]>",
-		"Remove [Undesired] [in this city] <in cities with a [Possible to immigrate]> <upon turn end>"]
+		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]"]
 	},
 	{
 		"name": "Survivable",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]","Remove [Survivable] [in this city] <in cities with a [Possible to immigrate]> <upon turn end>"]
+		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]"]
 	},
 	{
 		"name": "Possible to immigrate",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]","Remove [Possible to immigrate] [in this city] <in cities with a [Civilized]> <upon turn end>",
+		"uniques": ["Unsellable","Unbuildable","[-50]% Production when constructing [All] units [in this city]",
 		"[+1 Food] from [Wraith] tiles [in this city] <for [Human]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Human]>","[+1 Food] from [Mars] tiles [in this city] <for [Human]>","[+1 Food] from [Snow] tiles [in this city] <for [Human]>","[+1 Food] from [Ault] tiles [in this city] <for [Human]>","[+1 Food] from [Hermia] tiles [in this city] <for [Human]>","[+1 Food] from [Stromat] tiles [in this city] <for [Human]>","[+1 Food] from [Lunar] tiles [in this city] <for [Human]>",
 		"[+1 Food] from [Wraith] tiles [in this city] <for [Xeno]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Xeno]>","[+1 Food] from [Mars] tiles [in this city] <for [Xeno]>","[+1 Food] from [Snow] tiles [in this city] <for [Xeno]>","[+1 Food] from [Ault] tiles [in this city] <for [Xeno]>","[+1 Food] from [Hermia] tiles [in this city] <for [Xeno]>","[+1 Food] from [Earth] tiles [in this city] <for [Xeno]>","[+1 Food] from [Lunar] tiles [in this city] <for [Xeno]>",
 		"[+1 Food] from [Wraith] tiles [in this city] <for [Alien]>","[+1 Food] from [Dead Necros] tiles [in this city] <for [Alien]>","[+1 Food] from [Earth] tiles [in this city] <for [Alien]>","[+1 Food] from [Snow] tiles [in this city] <for [Alien]>","[+1 Food] from [Ault] tiles [in this city] <for [Alien]>","[+1 Food] from [Hermia] tiles [in this city] <for [Alien]>","[+1 Food] from [Stromat] tiles [in this city] <for [Alien]>","[+1 Food] from [Lunar] tiles [in this city] <for [Alien]>"]
