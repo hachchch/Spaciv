@@ -450,7 +450,7 @@ TileSets/FantasyHex/Tiles/Asteroid Mine
   orig: 32, 39
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
@@ -464,21 +464,21 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Techno era
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Chinese
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Chinese-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
@@ -492,21 +492,21 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Chinese-Techno era
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Chinese
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Chinese-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Chinese
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Chinese-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Russian
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Russian-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
@@ -520,14 +520,14 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Russian-Techno era
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Russian
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Russian-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Russian
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Russian-Research era
   rotate: false
   xy: 434, 823
   size: 32, 28
