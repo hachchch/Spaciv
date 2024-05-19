@@ -436,7 +436,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"uniques": ["Consumes [1] [Neptunium]","Provides [2] [Power] <for [Human]>","Provides [2] [Super Energy] <for [Alien]>","Provides [2] [Encid] <for [Xeno]>"],
-		"requiredTech": "Space Construction"
+		"requiredTech": "Magnetar Fission"
 	},
 	{
 		"name": "RAPID-L",
