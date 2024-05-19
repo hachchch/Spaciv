@@ -428,7 +428,7 @@
 			"Consumes [1] [Encid] <for [Xeno]>",
 			"Consumes [1] [Power] <for [Human]>",
 			"Consumes [1] [Super Energy] <for [Alien]>","Consumes [3] [Neptunium]"],
-		"requiredTech": "Space Construction"
+		"requiredTech": "Astrodynamics"
 	},
 	{
 		"name": "Neptunium Centrifuge",
@@ -436,7 +436,7 @@
 		"maintenance": 1,
 		"hurryCostModifier": 15,
 		"uniques": ["Consumes [1] [Neptunium]","Provides [2] [Power] <for [Human]>","Provides [2] [Super Energy] <for [Alien]>","Provides [2] [Encid] <for [Xeno]>"],
-		"requiredTech": "White Hole"
+		"requiredTech": "Space Construction"
 	},
 	{
 		"name": "RAPID-L",
