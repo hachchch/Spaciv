@@ -211,7 +211,7 @@
                 "row": 3,
 			},
 			{
-                "name": "Quasar",
+                "name": "Magnetar Fission",
 		    "prerequisites": ["Space Construction"],
                 "row": 4,
 			}
@@ -226,12 +226,12 @@
 		"techs": [
 			{
 				"name": "Magnetogravitical Engineering",
-		    		"prerequisites": ["Astrodynamics","Commercial Space Flight","Gravitational Optics"],
+		    		"prerequisites": ["Magnetar Fission","Astrodynamics","Commercial Space Flight","Gravitational Optics"],
                 		"row": 1,
 			},
             {
-                "name": "Gamma-Ray Burst Weapon",
-		    "prerequisites": ["Quasar","Urban Satellite"],
+                "name": "Metaelectronics",
+		    "prerequisites": ["Magnetar Fusion","Urban Satellite"],
                 "row": 4,
                 },
             {
@@ -256,7 +256,7 @@
 			{
 				"name": "Metaphysics",
 				"row": 4,
-				"prerequisites": ["Magnetogravitical Engineering","Gamma-Ray Burst Weapon"],
+				"prerequisites": ["Magnetogravitical Engineering","Metaelectronics"],
 			},
 			{
 				"name": "Superstrings",
