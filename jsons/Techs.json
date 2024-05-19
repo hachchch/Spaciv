@@ -155,7 +155,7 @@
 		"quote": "",
 			},
 			{
-                "name": "Event Horizon",
+                "name": "Space Construction",
 		    "prerequisites": ["Beyond"],
                 "row": 3,
                 "quote": "",
@@ -201,18 +201,18 @@
                 		"row": 1,
 			},
 			{
-                "name": "White Hole",
-		    "prerequisites": ["Event Horizon"],
+                "name": "Astrodynamics",
+		    "prerequisites": ["Space Construction"],
                 "row": 2,
 			},
 			{
 		    "name": "Gravitational Optics",
-		    "prerequisites": ["Event Horizon"],
+		    "prerequisites": ["Space Construction"],
                 "row": 3,
 			},
 			{
                 "name": "Quasar",
-		    "prerequisites": ["Event Horizon"],
+		    "prerequisites": ["Space Construction"],
                 "row": 4,
 			}
 		]
@@ -226,7 +226,7 @@
 		"techs": [
 			{
 				"name": "Magnetogravitical Engineering",
-		    		"prerequisites": ["Commercial Space Flight","Gravitational Optics"],
+		    		"prerequisites": ["Astrodynamics","Commercial Space Flight","Gravitational Optics"],
                 		"row": 1,
 			},
             {
