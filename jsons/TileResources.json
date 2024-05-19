@@ -183,7 +183,7 @@
 	// Advanced Resources
 	{
 		"name": "Neodymium",
-		"revealedBy": "Gravitational Optics",
+		"revealedBy": "Magnetar Fission",
 		"resourceType": "Strategic",
 		"uniques": ["Excluded from map editor"]
 	},
