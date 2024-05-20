@@ -352,7 +352,7 @@
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": ["Land","Ocean"],
 		"turnsToBuild": 4,
-		"uniques": ["Only available <after discovering [Beyond]> <for [non-[Human]]>","Necessary","Can be built outside your borders", "Costs [2] [Gold] per turn"],
+		"uniques": ["Only available <after discovering [Beyond]>","Necessary","Can be built outside your borders", "Costs [2] [Gold] per turn"],
 		"shortcutKey": "R",
         "civilopediaText": [
             {"text":"Reduces movement cost to ⅒ if the other tile also has a Railroad"},
