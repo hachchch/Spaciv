@@ -14,12 +14,12 @@
 		"terrainsCanBeBuiltOn": ["Earth"],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Can also be built on tiles adjacent to fresh water","Food Source"],
+		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Can also be built on tiles adjacent to fresh water","Food Source","Cannot be built on [Coast] tiles <hidden from users>"],
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Dome",
-		"terrainsCanBeBuiltOn": ["Cryogenia","Lunar","Mars","Stromat"],
+		"terrainsCanBeBuiltOn": ["Cryogenia","Hermia","Dead Necros","Ault","Wraith","Lunar","Mars","Stromat"],
 		"food": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
@@ -27,19 +27,19 @@
 	},
 	{
 		"name": "Xenohive",
-		"terrainsCanBeBuiltOn": ["Earth","Mars","Lunar","Cryogenia","Stromat"/*,"Forest","Jungle"*/],
+		"terrainsCanBeBuiltOn": ["Earth","Dead Necros","Ault","Wraith","Hermia","Mars","Lunar","Cryogenia","Stromat"/*,"Forest","Jungle"*/],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Food] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
+		"uniques": ["[+1 Food] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source","Cannot be built on [Coast] tiles <hidden from users>"],
 		"shortcutKey": "H"
 	},
 	{
 
 		"name": "Breeding Facility",
-		"terrainsCanBeBuiltOn": ["Earth","Mars","Lunar","Cryogenia","Stromat"],
+		"terrainsCanBeBuiltOn": ["Earth","Mars","Ault","Wraith","Hermia","Dead Necros","Lunar","Cryogenia","Stromat"],
 		"food": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Food] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
+		"uniques": ["[+1 Food] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source","Cannot be built on [Coast] tiles <hidden from users>"],
 		"shortcutKey": "B"
 	},
 	{
