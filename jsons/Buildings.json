@@ -393,6 +393,46 @@
 		"uniques": ["Only available <for [Alien]>"],
 		"requiredTech": "Space Construction"
 	},
+	// Empire uniques
+	{
+		"name": "Metaenergy Extractor",
+		"uniqueTo": "Empire",
+		"replaces": "Synchrotron",
+		"requiredTech": "Unified theory",
+		"cost": 40,
+		"production": 6,
+		"percentStatBonus": {"production": 10},
+		"specialistSlots": {"Engineer": 2},
+		"maintenance": 3,
+		"hurryCostModifier": 0,
+		"uniques": ["Provides [1] [Super Energy]","Provides [2] [Power]"],
+	},
+	{
+		"name": "Memorial",
+		"uniqueTo": "Empire",
+		"replaces": "Cosmo-X Society",
+		"faith": 1,
+		"requiredTech": "Unified theory",
+	},
+	{
+		"name": "Imperial Parliament",
+		"uniqueTo": "Empire",
+		"replaces": "Dance Palace",
+		"maintenance": 2,
+		"culture": 3,
+		"requiredTech": "Beyond",
+	},
+	{
+		"name": "Imperial Bank",
+		"uniqueTo": "Empire",
+		"replaces": "Bismuth Catalyst Alchemy",
+		"gold": 3,
+		"percentStatBonus": {"gold": 25},
+		"specialistSlots": {"Merchant": 2},
+		"hurryCostModifier": 15,
+		"requiredTech": "Plasma control",
+		"uniques": ["[Gold] cost of purchasing items in cities [-5]%"]
+	},
 	//Placeholder for Refinery Buildings
 	{
 		"name": "Advanced Foundry",
