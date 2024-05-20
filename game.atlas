@@ -611,6 +611,27 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Xeno
   orig: 32, 28
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Xeno-HighTechnology
+  rotate: false
+  xy: 604, 560
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Xeno-HighTechnology
+  rotate: false
+  xy: 604, 560
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Xeno-HighTechnology
+  rotate: false
+  xy: 604, 560
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/EmbarkedUnit-Military-Gley
   rotate: false
   xy: 604, 680
