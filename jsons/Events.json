@@ -10,7 +10,7 @@
         },
         {
                 "name": "Alien Intro",
-                "text": "Your national race is Alien! Aliens prefer anaerobic and desolate environments. We have discovered many resources in this system. There are already industrial success on Mars, and there are rumors of a gold rush on the home planet! However, in order to turn this entire star system into a commercial facility, we need a little more detailed information. If there are indigenous people, they must be dealt with.",
+                "text": "Your national race is Alien! Aliens prefer anaerobic and desolate environments.",
                 "choices":[
                         {
                                 "text": "Understood."
