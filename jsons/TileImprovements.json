@@ -383,17 +383,31 @@
 	},
 	/*
 	{
-		"name": "Remove Fallout",
+		"name": "Remove Graveyard",
 		"turnsToBuild": 2,
 		"uniques": ["Necessary","Can be built outside your borders", "Excluded from map editor"],
 		"shortcutKey": "X"
 	},
 	{
-		"name": "Remove Marsh",
-		"turnsToBuild": 6,
-		"techRequired": "Masonry",
+		"name": "Remove Ault Griby",
+		"turnsToBuild": 2,
 		"uniques": ["Necessary","Can be built outside your borders", "Excluded from map editor"],
-		"shortcutKey": "X"
+		"shortcutKey": "X",
+		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Aetorum",
+		"turnsToBuild": 2,
+		"uniques": ["Necessary","Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
+	},
+	{
+		"name": "Remove Coelaphyton",
+		"turnsToBuild": 2,
+		"uniques": ["Necessary","Can be built outside your borders", "Excluded from map editor"],
+		"shortcutKey": "X",
+		"civilopediaText": [{"text":"Provides a one-time Production bonus depending on distance to the closest city once finished"}]
 	},
 	*/
 	{
