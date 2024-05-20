@@ -121,19 +121,22 @@
 	},
 	// Dead Town
 	{
-		"name": "Necros City","terrainsCanBeBuiltOn": ["Land"],
+		"name": "Necros City",
+		"terrainsCanBeBuiltOn": ["Dead Town"],
 		"turnsToBuild": 14,
 		"gold": 3,
 		"shortcutKey": "T"
 	},
 	{
 		"name": "Preservation Area",
+		"terrainsCanBeBuiltOn": ["Dead Town"],
 		"turnsToBuild": 7,
 		"culture": 3,
 		"shortcutKey": "T"
 	},
 	{
 		"name": "Rocky Hive",
+		"terrainsCanBeBuiltOn": ["Dead Town"],
 		"turnsToBuild": 14,
 		"food": 3,
 		"shortcutKey": "T"
