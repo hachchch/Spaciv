@@ -204,7 +204,7 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging","[All] units gain the [Become Meteor] promotion <upon turn end>"]
+		"uniques": ["Can only heal by pillaging"/*,"[All] units gain the [Become Meteor] promotion <upon turn end>"*/]
 	},
 	// City states
 	{
