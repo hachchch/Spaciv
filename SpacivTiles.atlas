@@ -205,14 +205,14 @@ TileSets/FantasyHex/Tiles/Orbital Zone
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Necros 
+TileSets/FantasyHex/Tiles/Anecros Phytas
   rotate: false
   xy: 640, 0
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Necros 
+TileSets/FantasyHex/Tiles/Anecros Equites
   rotate: false
   xy: 672, 0
   size: 32, 28
