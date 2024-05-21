@@ -816,6 +816,19 @@
 		"[+100]% Strength when performing Air Sweep"],
 		"attackSound": "jetgun",
 	},
+	{
+		"name": "Laser Infantry",
+		"unitType": "Laser",
+		"movement": 2,
+		"strength": 8,
+		"cost": 100,
+		"requiredTech": "Wave Zapper",
+		"uniques" : ["Only available <for [Empire]>","May upgrade to [Mechanized Infantry] through ruins-like effects"],
+		"attackSound": "shot",
+                "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
 	// Late Game units
 	{
 		"name": "Solar Armored",
