@@ -90,7 +90,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		// "production": 1,
 		"turnsToBuild": 10,
-		"uniques": ["[+1 Gold] <for [Alien]>","[+1 Gold] <for [Alien]> <after discovering [Metaelectronics]>","Provides [1] [Super Energy] <for [Alien]>","Provides [1] [Super Energy] <for [Alien] <after discovering [Metaelectronics]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
+		"uniques": ["[+1 Gold] <for [Alien]>","[+1 Gold] <for [Alien]> <after discovering [Metaelectronics]>","Provides [1] [Super Energy] <for [Alien]>","Provides [1] [Super Energy] <for [Alien]> <after discovering [Metaelectronics]>","Pillaging this improvement yields approximately [+18 Gold]","Power Plant"],
 		"shortcutKey": "H"
 	},
 	{
