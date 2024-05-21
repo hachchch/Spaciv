@@ -49,7 +49,7 @@
 		"movement": 4,
 		"cost": 150,
 		"requiredTech": "Commercial Space Flight",
-		"uniques": ["May create improvements on water resources","Can instantly construct a [Artificial Habitat] improvement <by consuming this unit>","Can build [Artificial Habitat] improvements on tiles","Can build [Orbital Shipyard] improvements on tiles","Can build [Orbital Industry] improvements on tiles","Can build [Asteroid Mine] improvements on tiles","Can build [Nebula Harvester] improvements on tiles","Can build [Solar Array] improvements on tiles","Can build [Transportation] improvements on tiles","Uncapturable", "Automation is a primary action"]
+		"uniques": ["May create improvements on water resources","Can instantly construct a [Artificial Habitat] improvement <by consuming this unit>","Can build [Artificial Habitat] improvements on tiles","Can build [Orbital Shipyard] improvements on tiles","Can build [Orbital Industry] improvements on tiles","Can build [Asteroid Mine] improvements on tiles","Can build [Nebula Harvester] improvements on tiles","Can build [Solar Array] improvements on tiles","Can build [Transportation] improvements on tiles", "Can build [Necessary] improvements on tiles", "Uncapturable", "Automation is a primary action"]
 	},
 	//Settlers
 	{
