@@ -56,7 +56,7 @@
 	{
 		"name": "Terraforming",
 		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable"]
+		"uniques": ["Unsellable","Unbuildable","Comment [This city's Terraforming Score ignores the Base Environment.]"]
 	},
 	{
 		"name": "Undesired",
