@@ -817,17 +817,14 @@
 		"attackSound": "jetgun",
 	},
 	{
-		"name": "Laser Infantry",
+		"name": "Elite Laser Infantry",
 		"unitType": "Laser",
 		"movement": 2,
-		"strength": 8,
+		"strength": 12,
 		"cost": 100,
 		"requiredTech": "Wave Zapper",
-		"uniques" : ["Only available <for [Empire]>","May upgrade to [Mechanized Infantry] through ruins-like effects"],
-		"attackSound": "shot",
-                "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
+		"uniques" : ["Instantly consumes [3] [Super Energy]","Instantly consumes [6] [Power]","Only available <for [Empire]>","May upgrade to [Mechanized Infantry] through ruins-like effects","Unavailable <when below [3] [Super Energy]> <when below [6] [Power]>"],
+		"attackSound": "shot"
 	},
 	// Late Game units
 	{
