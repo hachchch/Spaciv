@@ -8,6 +8,7 @@
 		"Remove [Base Environment] [in this city] <hidden from users>",
 		"Remove [Undesired] [in this city] <hidden from users>",
 		"Remove [Residentization Program1] [in this city] <hidden from users>",
+		"Gain a free [Terraforming] [in this city] <hidden from users>",
 		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Undesired]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
 	},
 	{
@@ -18,6 +19,7 @@
 		"Remove [Survivable] [in this city] <hidden from users>",
 		"Remove [Base Environment] [in this city] <hidden from users>",
 		"Remove [Residentization Program2] [in this city] <hidden from users>",
+		"Gain a free [Terraforming] [in this city] <hidden from users>",
 		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Survivable]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
 	},
 	{
@@ -28,6 +30,7 @@
 		"Remove [Base Environment] [in this city] <hidden from users>",
 		"Remove [Possible to immigrate] [in this city] <hidden from users>",
 		"Remove [Residentization Program3] [in this city] <hidden from users>",
+		"Gain a free [Terraforming] [in this city] <hidden from users>",
 		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Possible to immigrate]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
 	},
 	{
@@ -49,6 +52,11 @@
 		"name": "Terraform Score:Undesired",
 		"cost": 1,
 		"uniques": ["Only available <in cities with a [Undesired]> <hidden from users>","Comment [This planet is very hostile to us. The food of this world is not compatible with our physiology. The food must be imported, there is an extra upkeep cost of 10 gold to transport food.]","Unsellable <hidden from users>","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased <hidden from users>"]
+	},
+	{
+		"name": "Terraforming",
+		"cost": 1,
+		"uniques": ["Unsellable","Unbuildable"]
 	},
 	{
 		"name": "Undesired",
