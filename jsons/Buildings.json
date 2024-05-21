@@ -4,7 +4,7 @@
 		"name": "Residentization Program1",
 		"requiredTech": "Terraforming",
 		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]",
-		"Gain a free [Survivable] [in this city] <in cities with a [Undesired]> <hidden from users>",
+		"Gain a free [Survivable] [in this city] <hidden from users>",
 		"Remove [Undesired] [in this city] <hidden from users>",
 		"Remove [Residentization Program1] [in this city] <hidden from users>",
 		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Undesired]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
@@ -13,7 +13,7 @@
 		"name": "Residentization Program2",
 		"requiredTech": "Terraforming",
 		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]",
-		"Gain a free [Possible to immigrate] [in this city] <in cities with a [Survivable]> <hidden from users>",
+		"Gain a free [Possible to immigrate] [in this city] <hidden from users>",
 		"Remove [Survivable] [in this city] <hidden from users>",
 		"Remove [Residentization Program2] [in this city] <hidden from users>",
 		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Survivable]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
@@ -22,7 +22,7 @@
 		"name": "Residentization Program3",
 		"requiredTech": "Terraforming",
 		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]",
-		"Gain a free [Civilized] [in this city] <in cities with a [Possible to immigrate]> <hidden from users>",
+		"Gain a free [Civilized] [in this city] <hidden from users>",
 		"Remove [Possible to immigrate] [in this city] <hidden from users>",
 		"Remove [Residentization Program3] [in this city] <hidden from users>",
 		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Possible to immigrate]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
