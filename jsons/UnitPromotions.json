@@ -251,6 +251,9 @@
 		"uniques": ["Ranged attacks may be performed over obstacles",
 			"Instantly consumes [50] [Super Energy] <when attacking>","Cannot attack <when below [50] [Super Energy]>"]
 	},
-	
-	
+	/*Barbarian*/
+	{
+		"name": "Become Meteor",
+		"uniques": ["This Unit takes [100] damage","Free [Meteor] appears"]
+	}
 ]
