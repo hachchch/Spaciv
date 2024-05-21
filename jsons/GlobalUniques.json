@@ -7,7 +7,7 @@
         "Triggers a [Xeno Intro] event <for [Xeno]> <upon discovering [Xeno Life] technology>",
 	"Triggers a [Earth First Time] event <upon discovering a [Earth] tile> <for [non-[Human]]>",
 	/*Others*/
-	"Gain a free [Base Environment] [in all cities]",
+	"Gain a free [Base Environment] [in all cities] <in cities without a [Terraforming]> <upon founding a city>",
 	"Provides [1] [Superunit limit]",
 			"Provides [20] [Relation Score (United Nations)] <for [United Nations]>",
 			"Provides [20] [Relation Score (Roscosmos)] <for [Roscosmos]>",
