@@ -242,7 +242,6 @@
 	},
 	{
 		"name": "Anecros Phytas",
-		"name": "Anecros Equites",
 		"type": "TerrainFeature",
 		"Cost": 1,
 		"overrideStats": true,
