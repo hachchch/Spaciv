@@ -163,14 +163,14 @@ TileSets/FantasyHex/Tiles/Lagrange Zone
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Necros City
+TileSets/FantasyHex/Tiles/Rocky Hive
   rotate: false
   xy: 448, 0
   size: 32, 32
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Rocky Hive
+TileSets/FantasyHex/Tiles/Necros City
   rotate: false
   xy: 480, 0
   size: 32, 32
