@@ -163,16 +163,58 @@ TileSets/FantasyHex/Tiles/Lagrange Zone
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Orbital Zone
+TileSets/FantasyHex/Tiles/Necros City
   rotate: false
-  xy: 384, 0
+  xy: 448, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rocky Hive
+  rotate: false
+  xy: 480, 0
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Dryland
+  rotate: false
+  xy: 512, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rocky Plains
+  rotate: false
+  xy: 544, 0
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Red Dwarf
   rotate: false
-  xy: 416, 0
+  xy: 576, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Orbital Zone
+  rotate: false
+  xy: 608, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Necros 
+  rotate: false
+  xy: 640, 0
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Necros 
+  rotate: false
+  xy: 672, 0
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
