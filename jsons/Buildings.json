@@ -115,6 +115,7 @@
 		"cost": 1,
 		"uniques": [
 			"Unsellable","Unbuildable",
+			"Remove [Administrative District] [in this city] <hidden from users>",
 		/*Humans Habitation*/
 		"Gain a free [Civilized] [in this city] <in [Earth] tiles> <for [Human]>",
 		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Human]>",
