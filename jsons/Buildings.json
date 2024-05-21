@@ -9,7 +9,7 @@
 		"Remove [Undesired] [in this city] <hidden from users>",
 		"Remove [Residentization Program1] [in this city] <hidden from users>",
 		"Gain a free [Terraforming] [in this city] <hidden from users>",
-		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Undesired]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
+		"Instantly consumes [100] [Power] <for [Human]>","Instantly consumes [100] [Super Energy] <for [Alien]>","Instantly consumes [100] [Encid] <for [Xeno]>","Only available <in cities with a [Undesired]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
 	},
 	{
 		"name": "Residentization Program2",
@@ -20,7 +20,7 @@
 		"Remove [Base Environment] [in this city] <hidden from users>",
 		"Remove [Residentization Program2] [in this city] <hidden from users>",
 		"Gain a free [Terraforming] [in this city] <hidden from users>",
-		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Survivable]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
+		"Instantly consumes [100] [Power] <for [Human]>","Instantly consumes [100] [Super Energy] <for [Alien]>","Instantly consumes [100] [Encid] <for [Xeno]>","Only available <in cities with a [Survivable]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
 	},
 	{
 		"name": "Residentization Program3",
@@ -31,7 +31,7 @@
 		"Remove [Possible to immigrate] [in this city] <hidden from users>",
 		"Remove [Residentization Program3] [in this city] <hidden from users>",
 		"Gain a free [Terraforming] [in this city] <hidden from users>",
-		"Costs [100] [Power] <for [Human]>","Costs [100] [Super Energy] <for [Alien]>","Costs [100] [Encid] <for [Xeno]>","Only available <in cities with a [Possible to immigrate]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
+		"Instantly consumes [100] [Power] <for [Human]>","Instantly consumes [100] [Super Energy] <for [Alien]>","Instantly consumes [100] [Encid] <for [Xeno]>","Only available <in cities with a [Possible to immigrate]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
 	},
 	{
 		"name": "Terraform Score:Civilized",
