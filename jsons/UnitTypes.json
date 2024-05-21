@@ -77,13 +77,13 @@
         "name": "Fighter",
         "movementType": "Air",
 		"uniques": ["[+30]% Strength when stacked with [Give 30% Strength Bonus for Carrying Air units]","[+20]% Strength when stacked with [Give 20% Strength Bonus for Carrying Air units]",
-		"This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","[+150]% Strength <vs [Bomber] units>","Cannot intercept [Missile] units","Cannot intercept [Missile Defense] units",],
+		"This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","[+150]% Strength <vs [Bomber] units>","Cannot intercept [Missile] units","Cannot intercept [Missile Defense] units","[+4] Sight","Can see over obstacles", "Can perform Air Sweep"],
     },
     {
         "name": "Bomber",
         "movementType": "Air",
 		"uniques": ["[+30]% Strength when stacked with [Give 30% Strength Bonus for Carrying Air units]","[+20]% Strength when stacked with [Give 20% Strength Bonus for Carrying Air units]",
-		"[+50]% Strength <vs [City] units> <when attacking>","[+50]% Strength <vs [Spaceship] units> <when attacking>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Cannot intercept [Missile] units","Cannot intercept [Missile Defense] units",],
+		"[+50]% Strength <vs [City] units> <when attacking>","[+50]% Strength <vs [Spaceship] units> <when attacking>","This Unit takes [100] damage <upon ending a turn in a [Solar Star] tile> <before discovering [Solar Shield]>","Cannot intercept [Missile] units","Cannot intercept [Missile Defense] units"],
     },
 	{
 		"name": "Missile",
