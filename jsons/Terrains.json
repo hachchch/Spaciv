@@ -78,29 +78,36 @@
 		"name": "Wraith",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["Asteroid","Rare feature","[+1 Food] <for [Human]>"],
+                "uniques": ["Terrestrial","Rare feature","[+1 Food] <for [Human]>"],
 		"RGB": [0, 0, 97]
 	},
 	{
 		"name": "Hermia",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["[+1 Food] <for [Human]>","[+1 Food] <for [Alien]>","Asteroid","Rare feature"],
+                "uniques": ["Terrestrial","[+1 Food] <for [Human]>","[+1 Food] <for [Alien]>","Rare feature"],
 		"RGB": [116, 165, 159]
 	},
 	{
 		"name": "Ault",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["[+1 Food] <for [Human]>","[+1 Food] <for [Xeno]>","Asteroid","Rare feature"],
+                "uniques": ["Terrestrial","[+1 Food] <for [Human]>","[+1 Food] <for [Xeno]>","Rare feature"],
 		"RGB": [238, 29, 175]
 	},
 	{
 		"name": "Dead Necros",
 		"type": "Land",
 		"movementCost": 1,
-                "uniques": ["[+1 Food] <for [Xeno]>","[+1 Food] <for [Alien]>","Asteroid","Rare feature"],
+                "uniques": ["Terrestrial","[+1 Food] <for [Xeno]>","[+1 Food] <for [Alien]>","Rare feature"],
 		"RGB": [145, 100, 110]
+	},
+	{
+		"name": "Mossy Necros",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","[+1 Food] <for [Xeno]>","[+1 Food] <for [Alien]>","Rare feature"],
+		"RGB": [115, 246, 110]
 	},
         {
                 "name": "Gas",
@@ -245,7 +252,7 @@
 		"type": "TerrainFeature",
 		"Cost": 1,
 		"overrideStats": true,
-		"occursOn": ["Dead Necros"],
+		"occursOn": ["Mossy Necros"],
 		"uniques": ["Rough terrain", "Vegetation",
 			"[80]% Chance to be destroyed by nukes",
 		"[+2 Food] <for [Human]>"],
@@ -257,7 +264,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.25,
-		"occursOn": ["Dead Necros"],
+		"occursOn": ["Mossy Necros"],
 		"uniques": ["Rough terrain", "Vegetation",
 			"[70]% Chance to be destroyed by nukes",
 					"Provides a one-time Production bonus to the closest city when cut down",
@@ -299,7 +306,7 @@
 		"overrideStats": true,
 		"unbuildable": true,
 		"defenceBonus": 0.50,
-		"occursOn": ["Dead Necros","Hill"],
+		"occursOn": ["Mossy Necros","Dead Necros","Hill"],
 		"uniques": [
 			"Rough terrain", "Vegetation",
 			"[15]% Chance to be destroyed by nukes",
