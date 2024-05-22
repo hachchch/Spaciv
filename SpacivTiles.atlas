@@ -250,21 +250,21 @@ TileSets/FantasyHex/Tiles/Necros Fungus
 TileSets/FantasyHex/Tiles/Mossy Necros
   rotate: false
   xy: 864, 0
-  size: 32, 32
-  orig: 32, 32
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Anecros Phytas
   rotate: false
   xy: 896, 0
-  size: 32, 32
-  orig: 32, 32
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Anecros Phytas2
   rotate: false
   xy: 928, 0
-  size: 32, 32
-  orig: 32, 32
+  size: 32, 28
+  orig: 32, 28
   offset: 0, 0
   index: -1
