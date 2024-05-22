@@ -228,10 +228,10 @@ TileSets/FantasyHex/Tiles/Necros Stones
   index: -1
 TileSets/FantasyHex/Tiles/Lichened Necros
   rotate: false
-  xy: 800, 4
+  xy: 800, 0
   size: 32, 28
   orig: 32, 28
-  offset: 0, 2
+  offset: 0, 4
   index: -1
 TileSets/FantasyHex/Tiles/Necros Fungus
   rotate: false
