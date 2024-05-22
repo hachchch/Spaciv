@@ -219,7 +219,7 @@ TileSets/FantasyHex/Tiles/Anecros Gigantes
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Necros Limestone
+TileSets/FantasyHex/Tiles/Necros Stones
   rotate: false
   xy: 768, 0
   size: 32, 32
