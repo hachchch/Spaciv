@@ -163,6 +163,13 @@ TileSets/FantasyHex/Tiles/Coelaphyton
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Necros Jellyfish
+  rotate: false
+  xy: 96, 28
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/Cryogenia
   rotate: false
   xy: 352, 0
