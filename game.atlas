@@ -387,13 +387,6 @@ TileSets/FantasyHex/Tiles/Compounds
   orig: 32, 28
   offset: 0, 0
   index: -1
-# TileSets/FantasyHex/Tiles/City center-Gley
-#  rotate: false
-#  xy: 444, 896
-#  size: 32, 28
-#  orig: 32, 28
-#  offset: 0, 0
-#  index: -1
 TileSets/FantasyHex/Tiles/Mars
   rotate: false
   xy: 404, 841
