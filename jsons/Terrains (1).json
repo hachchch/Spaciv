@@ -1,0 +1,472 @@
+[
+        {
+                "name": "Ocean",
+		"type": "Water",
+		"uniques": ["Space"],
+		"movementCost": 1,
+		"RGB": [1, 0, 2],
+		"uniques": ["Becomes [Earth] when adjacent to [Earth]","Becomes [Mars] when adjacent to [Mars]"]
+        },
+	// Stars
+	{
+		"name": "Solar Star",
+                "type": "Water",
+		"movementCost": 1,
+                "uniques": ["Star","Rare feature"],
+		"RGB": [255, 255, 70]
+	},
+	{
+		"name": "Red Dwarf",
+		"type": "Water",
+		"movementCost": 1,
+                "uniques": ["Solar Star","Star","Rare feature"],
+		"RGB": [139, 25, 16]
+	},
+	// Solar System
+	/*Planets*/
+        {
+                "name": "Earth",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","Vegetation","Rare feature","[+2 Food] <for [Human]>",
+		"Considered [Desirable] when determining start locations <for [Human]>"],
+		"RGB": [0, 163, 0],
+        },
+	{
+		"name": "Lunar",
+                "type": "Land",
+		"movementCost": 1,
+                "uniques": ["Moon","Neighboring tiles will convert to [Lunar]","Rare feature","[+1 Food] <for [Xeno]>"],
+		"RGB": [180, 200, 200]
+	},
+	{
+		"name": "Mars",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","Rare feature","[+2 Food] <for [Alien]>",
+		"Considered [Desirable] when determining start locations <for [Alien]>"],
+		"RGB": [171, 79, 76]
+	},
+	// Exoplanets
+	/*Planets*/
+	{
+		"name": "Cryogenia",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Ice","Rare feature"],
+		"RGB": [255, 255, 255],
+	},
+        {
+                "name": "Stromat",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Asteroid","Neighboring tiles will convert to [Stromat]","Rare feature","[+2 Food] <for [Xeno]>",
+		"Considered [Desirable] when determining start locations <for [Xeno]>"],
+		"civilopediaText": [{"text":"my Fictional asteroid belt. it often bigger than moon, and habitable for anaerobic lifeform"}],
+		"RGB": [136, 125, 112]
+        },
+        {
+                "name": "Regold",
+                "type": "Land",
+		"gold": 10,
+		"movementCost": 1,
+                "uniques": ["Asteroid","Rare feature"],
+		"civilopediaText": [{"text":"A big asteroid made of bismuth and gold. The diameter is small and the density is very high. The Regold, which attracts all intelligent life forms, can be used as a base for space tourism and rare metal mining, making it extremely profitable."}],
+		"RGB": [238, 239, 175]
+        },
+	{
+		"name": "Wraith",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","Rare feature","[+1 Food] <for [Human]>"],
+		"RGB": [0, 0, 97]
+	},
+	{
+		"name": "Hermia",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","[+1 Food] <for [Human]>","[+1 Food] <for [Alien]>","Rare feature"],
+		"RGB": [116, 165, 159]
+	},
+	{
+		"name": "Ault",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","[+1 Food] <for [Human]>","[+1 Food] <for [Xeno]>","Rare feature"],
+		"RGB": [238, 29, 175]
+	},
+	{
+		"name": "Dead Necros",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","[+1 Food] <for [Xeno]>","[+1 Food] <for [Alien]>","Rare feature"],
+		"RGB": [145, 100, 110]
+	},
+	{
+		"name": "Mossy Necros",
+		"type": "Land",
+		"movementCost": 1,
+                "uniques": ["Terrestrial","[+1 Food] <for [Xeno]>","[+1 Food] <for [Human]>","Rare feature"],
+		"RGB": [115, 246, 110]
+	},
+        {
+                "name": "Gas",
+                "type": "Water",
+		"movementCost": 1,
+                "uniques": ["Gas","Neighboring tiles will convert to [Gas]","Units ending their turn on this terrain take [10] damage","Rare feature"],
+		"RGB": [128, 125, 71]
+        },
+	// Features
+	/*Space Objects*/
+        {
+                "name": "Nebula",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"occursOn": ["Ocean","Asteroid Belt","Lagrange Zone"],
+                "uniques": ["Rare feature"],
+		"RGB": [60, 87, 151]
+        },
+	{
+		"name": "Asteroid Belt",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"production": 2,
+		"occursOn": ["Ocean"],
+                "uniques": ["Asteroid","Rare feature"],
+		"RGB": [60, 87, 151]
+	},
+	{
+		"name": "Orbital Zone",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"occursOn": ["Ocean","Nebula"],
+                "uniques": [/*"Rare feature",*/"Vegetation"],
+		"RGB": [60, 87, 151]
+	},
+	{
+		"name": "Lagrange Zone",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"occursOn": ["Ocean","Nebula"],
+                "uniques": ["Vegetation"],
+		"RGB": [60, 87, 151]
+	},
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Earth","Mars","Lunar","Stromat","Snow","Hermia","Wraith","Ault","Dead Necros"],
+		"uniques": ["Rough terrain","[+5] Strength for cities built on this terrain"]
+	},
+	/*Terrain*/
+	{
+		"name": "Snow",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"occursOn": ["Earth"]
+	},
+	{
+		"name": "Plains",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"uniques": ["[+1 Food, +1 Production] <for [Human]>"],
+		"occursOn": ["Earth"]
+	},
+	{
+		"name": "Tundra",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"uniques": ["[+1 Food] <for [Human]>"],
+		"occursOn": ["Earth"]
+	},
+	{
+		"name": "Desert",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"occursOn": ["Earth"],
+		"uniques": ["[+1 Food] <for [Alien]>"]
+	},
+	{
+		"name": "Dryland",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"occursOn": ["Ault"]
+	},
+	{
+		"name": "Rocky Plains",
+		"production": 1,
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"overrideStats": true,
+		"occursOn": ["Ault"]
+	},
+	{
+		"name": "Coast",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [70, 138, 216],
+		"uniques": ["[+2] to Fertility for Map Generation",
+            "Every [60] tiles with this terrain will receive a major deposit of a strategic resource.","Earth",
+		"[+2 Food] <for [Human]>"]
+	},
+	/*Features*/
+	{
+		"name": "Forest",
+		"type": "TerrainFeature",
+		"Cost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Earth","Hill"],
+		"uniques": ["Rough terrain", "Vegetation",
+			"[25]% Chance to be destroyed by nukes",
+					"Provides a one-time Production bonus to the closest city when cut down",
+		"[+1 Food, +1 Production] <for [Human]>"],
+		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
+	},
+	{
+		"name": "Jungle",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Earth","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"[25]% Chance to be destroyed by nukes",
+			"[+2 Food] <for [Human]>"
+		]
+	},
+	{
+		"name": "Anecros Phytas",
+		"type": "TerrainFeature",
+		"Cost": 1,
+		"overrideStats": true,
+		"occursOn": ["Mossy Necros"],
+		"uniques": ["Rough terrain", "Vegetation",
+			"[80]% Chance to be destroyed by nukes",
+		"[+2 Food] <for [Human]>"],
+	},
+	{
+		"name": "Anecros Gigantes",
+		"type": "TerrainFeature",
+		"Cost": 2,
+		"overrideStats": true,
+		"occursOn": ["Mossy Necros"],
+		"uniques": ["Rough terrain", "Vegetation",
+			"[80]% Chance to be destroyed by nukes",
+		"[+2 Food] <for [Human]>"],
+	},
+	{
+		"name": "Anecros Equites",
+		"type": "TerrainFeature",
+		"Cost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Mossy Necros"],
+		"uniques": ["Rough terrain", "Vegetation",
+			"[70]% Chance to be destroyed by nukes",
+					"Provides a one-time Production bonus to the closest city when cut down",
+		"[+1 Food, +1 Production] <for [Human]>"],
+	},
+	{
+		"name": "Lichened Necros",
+		"type": "TerrainFeature",
+		"Cost": 1,
+		"overrideStats": true,
+		"occursOn": ["Mossy Necros"],
+		"uniques": ["Vegetation",
+		"[+1 Food] <for [Xeno]>"],
+	},
+	{
+		"name": "Necros Stones",
+		"type": "TerrainFeature",
+		"Cost": 2,
+		"overrideStats": true,
+		"occursOn": ["Mossy Necros","Lichened Necros"],
+		"uniques": ["Vegetation",
+		"[+2 Production] <for [Xeno]>","[+1 Production] <for [Human]>"],
+	},
+	{
+		"name": "Necros Fungus",
+		"type": "TerrainFeature",
+		"Cost": 1,
+		"overrideStats": true,
+		"occursOn": ["Mossy Necros","Lichened Necros"],
+		"uniques": ["Vegetation",
+		"[+1 Food, +1 Production] <for [Xeno]>"],
+	},
+	{
+		"name": "Coelaphyton",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Wraith","Hill"],
+		"uniques": [
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"Rough terrain", "Vegetation",
+			"[50]% Chance to be destroyed by nukes",
+			"[+2 Food] <for [Human]>"
+		]
+	},
+	{
+		"name": "Aetorum",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Hermia","Hill"],
+		"uniques": [
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"Rough terrain", "Vegetation",
+			"[100]% Chance to be destroyed by nukes"
+		]
+	},
+	{
+		"name": "Dead Town",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.50,
+		"occursOn": ["Mossy Necros","Dead Necros","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"[15]% Chance to be destroyed by nukes",
+			"[+2 Food] <for [Xeno]>",
+			"[+2 Production] <for [Alien]>"
+		]
+	},
+	{
+		"name": "Izumi",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.15,
+		"occursOn": ["Hermia","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"[+2 Food] <for [Human]>",
+			"[+2 Food] <for [Xeno]>"
+		]
+	},
+	{
+		"name": "Stolb",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.50,
+		"occursOn": ["Ault","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"[+2 Production] <for [Human]>",
+			"[+2 Food] <for [Xeno]>"
+		]
+	},
+	{
+		"name": "Ault Griby",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Ault","Hill"],
+		"uniques": [
+			"Provides a one-time Production bonus to the closest city when cut down",
+			"Rough terrain", "Vegetation",
+			"[75]% Chance to be destroyed by nukes",
+			"[+2 Food] <for [Xeno]>",
+			"[+1 Food, +1 Production] <for [Human]>"
+		]
+	},
+	{
+		"name": "Graveyard",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": -0.05,
+		"occursOn": ["Dead Necros","Hill"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"[1]% Chance to be destroyed by nukes",
+			"[+1 Production, +1 Food] <for [Xeno]>"
+		]
+	},
+	/*Natural Wonders*/
+	{
+		"name": "Olympus Mons",
+		"type": "NaturalWonder",
+		"culture": 2,
+		"faith": 4,
+		"occursOn": ["Mars"],
+		"turnsInto": "Mars",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["[+2 Food, -2 Faith] <for [non-[Human]]>"],
+		"weight": 10
+	},
+	{
+		"name": "The Star Spangled Banner",
+		"type": "NaturalWonder",
+		"science": 1,
+		"occursOn": ["Lunar"],
+		"turnsInto": "Lunar",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["[+3 Culture] <for [Human]>","[+3 Faith] <for [non-[Human]]>"],
+		"weight": 10
+	},
+	{
+		"name": "Sun",
+		"happiness": 5,
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"turnsInto": "Solar Star",
+		"impassable": false,
+		"unbuildable": true,
+                "uniques": ["Solar Star","Star"],
+		"RGB": [255, 255, 70],
+		"weight": 10
+	},
+	{
+		"name": "TRAPPIST-1",
+		"happiness": 5,
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"turnsInto": "Red Dwarf",
+		"impassable": false,
+		"unbuildable": true,
+                "uniques": ["Solar Star","Star"],
+		"RGB": [255, 255, 70],
+		"weight": 10
+	},
+	{
+		"name": "Proxima Centauri",
+		"happiness": 5,
+		"type": "NaturalWonder",
+		"occursOn": ["Ocean"],
+		"turnsInto": "Red Dwarf",
+		"impassable": false,
+		"unbuildable": true,
+                "uniques": ["Solar Star","Star"],
+		"RGB": [255, 255, 70],
+		"weight": 10
+	}
+]
