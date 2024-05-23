@@ -9,7 +9,7 @@
 	// Nations
     // Human Faction
 		"name": "United Nations",
-		"leaderName": "UNSA",
+		"leaderName": "America",
 		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Diplomatic",
