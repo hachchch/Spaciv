@@ -345,9 +345,23 @@ TileSets/FantasyHex/Tiles/City center-Human-Russian
   orig: 32, 34
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Industry
+TileSets/FantasyHex/Tiles/Industry-Human
+  rotate: false
+  xy: 1549, 912
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Industry-Human-Chinese
   rotate: false
   xy: 1485, 912
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Industry-Human-Russian
+  rotate: false
+  xy: 1517, 912
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
