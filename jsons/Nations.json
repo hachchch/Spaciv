@@ -25,7 +25,7 @@
                 "outerColor": [ 28,51,119],
                 "innerColor": [255,255,255],
 		"style": "Human",
-		"uniqueName": "Endangered Earth",
+		"uniqueName": "Let's fill universe 'Democracy'",
 		"uniques": ["Human","Starts with [Information era]",
 			"units cost no maintenance per Allied City State,up to 10",
 			"[1] units cost no maintenance <when above [0] [Allied City State]> <hidden from users>",
@@ -42,8 +42,38 @@
 		"Special Victory Condition: 'Stop the climate changes' and 'beat all earth nation' or 'correct 20 relation score from all earth nation and ally with 1 city state'.",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <when above [19] [Relation Score (Roscosmos)]> <when above [19] [Relation Score (CNSA)]> <when above [0] [Allied City State]>"],
-		"cities": ["New York","London","Paris","Singapore","Amsterdam","Seoul","Dubai","Melbourne","Copenhagen","Sydney","Vienna","Madrid","Stockholm","Zurich","Los Angeles","Barcelona","Brussels","Chicago","Geneva","San Francisco","Dublin","Boston","Istanbul","Helsinki","Vancouver","Milan","Taipei","Washington","Bangkok","Sao Paulo","Tel Aviv","Kuala Lumpur","Mexico City","Buenos Aires","Jakarta","Johannesburg","Cairo","Mumbai"],
+		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
+			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
+			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
+			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
+			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
+			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
+	},
+	{
+		"name": "ESA",
+		"leaderName": "European Union",
+		"adjective": ["Homo Sapiens"],
+		"startBias": ["Earth"],
+		"preferredVictoryType": "Diplomatic",
+                "startIntroPart1": ".",
+		"startIntroPart2": ".",
+                "declaringWar": ".",
+		"attacked": ".",
+		"defeated": ".",
+		"introduction": ".",
+		"neutralHello": ".",
+		"hateHello": ".",
+		"tradeRequest": "Is the following trade of interest to you?",
+                "outerColor": [242,223,25],
+                "innerColor": [39,38,123],
+		"style": "Human-European",
+		"uniqueName": "Aurora Programme",
+		"uniques": ["Human","Starts with [Information era]",
+			"[+3 Culture, +3 Gold] in cities on [Mars] tiles",
+		"Special Victory Condition: Waiting for Update"],
+		"cities": ["Paris","Berlin","Rome","London","Brussels","Madrid","Bern","Amsterdam","Stockholm","Vienna","Oslo","Helsinki","Dublin","Lisbon","Athens","Luxembourg"],
+                "spyNames": ["name"]
 	},
     {
         "name": "CNSA",
@@ -238,7 +268,7 @@
 		"cities": ["Ottawa"]
 	},
 	{
-		"name": "Japan",
+		"name": "JAXA",
 		"startBias": ["Earth"],
 		"adjective": ["Japanese"],
 		"cityStateType": "Cultured",
@@ -253,9 +283,9 @@
 		"cities": ["Tokyo"]
 	},
 	{
-		"name": "Germany",
+		"name": "ISRO",
 		"startBias": ["Earth"],
-		"adjective": ["German"],
+		"adjective": ["Indian"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "Operation Space Lion was announced,The German Navy shall visit your planet.",
@@ -265,7 +295,7 @@
 		"innerColor": [100, 100, 100],
 		"style": "Human",
 		"uniques": ["Human"],
-		"cities": ["Berlin"]
+		"cities": ["New Delhi"]
 	},
 	{
 		"name": "Nijino Hoshi",
