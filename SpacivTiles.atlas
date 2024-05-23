@@ -45,6 +45,20 @@ TileSets/FantasyHex/Tiles/City center-Gley
   orig: 32, 32
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Destroyer
+  rotate: false
+  xy: 0, 144
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Destroyer-Empire
+  rotate: false
+  xy: 0, 172
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
 
 SpacivTiles2.png
 size: 2048, 2048
