@@ -298,7 +298,7 @@ ResourceIcons/Relation Score (United Nations)
   offset: 0, 0
   index: -1
 
-game5233.png
+game.png
 size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
@@ -747,6 +747,27 @@ TileSets/FantasyHex/Tiles/Earth
 TileSets/FantasyHex/Tiles/Power Farm
   rotate: false
   xy: 484, 1044
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Power Farm-Human
+  rotate: false
+  xy: 484, 1044
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Power Farm-Human-Russian
+  rotate: false
+  xy: 444, 1044
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Power Farm-Human-Chinese
+  rotate: false
+  xy: 404, 1044
   size: 32, 33
   orig: 32, 33
   offset: 0, 0
