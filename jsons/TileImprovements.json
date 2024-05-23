@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Earth","Desert","Plains","Snow","Tundra"],
+		"terrainsCanBeBuiltOn": ["Earth","Desert","Plains","Snow","Tundra","Mossy Necros","Hermia","Lichened Necros"],
 		"food": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Can also be built on tiles adjacent to fresh water","Food Source","Cannot be built on [Coast] tiles <hidden from users>"],
@@ -19,7 +19,7 @@
 	},
 	{
 		"name": "Dome",
-		"terrainsCanBeBuiltOn": ["Cryogenia","Hermia","Dead Necros","Ault","Wraith","Lunar","Mars","Stromat"],
+		"terrainsCanBeBuiltOn": ["Cryogenia","Dead Necros","Ault","Wraith","Lunar","Mars","Stromat"],
 		"food": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source"],
@@ -27,7 +27,7 @@
 	},
 	{
 		"name": "Xenohive",
-		"terrainsCanBeBuiltOn": ["Earth","Desert","Plains","Tundra","Snow","Dead Necros","Ault","Wraith","Hermia","Mars","Lunar","Cryogenia","Stromat"/*,"Forest","Jungle"*/],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Food] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source","Cannot be built on [Coast] tiles <hidden from users>"],
@@ -36,7 +36,7 @@
 	{
 
 		"name": "Breeding Facility",
-		"terrainsCanBeBuiltOn": ["Earth","Desert","Plains","Tundra","Snow","Mars","Ault","Wraith","Hermia","Dead Necros","Lunar","Cryogenia","Stromat"],
+		"terrainsCanBeBuiltOn": ["Land"],
 		"food": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Food] <for [Alien]>","[+1 Food] <for [Empire]>","Pillaging this improvement yields approximately [+18 Gold]","Food Source","Cannot be built on [Coast] tiles <hidden from users>"],
@@ -47,12 +47,12 @@
 		"terrainsCanBeBuiltOn": ["Hill"],
 		"production": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility"],
+		"uniques": ["Cannot be built on [non-[Earth]] tiles <hidden from users>","[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility"],
 		"shortcutKey": "F"
 	},
 	{
 		"name": "Mine",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill","Necros Stones"],
 		"production": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+18 Gold]","Production Facility"],
@@ -60,7 +60,7 @@
 	},
 	{
 		"name": "Xenomine",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill","Necros Stones"],
 		"production": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Production] <for [Xeno]>","Pillaging this improvement yields approximately [+18 Gold]","Production Facility"],
@@ -68,7 +68,7 @@
 	},
 	{
 		"name": "Compounds",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"terrainsCanBeBuiltOn": ["Hill","Necros Stones"],
 		"production": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Production] <for [Alien]>","Pillaging this improvement yields approximately [+18 Gold]","Production Facility"],
