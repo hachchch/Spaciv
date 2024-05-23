@@ -11,7 +11,7 @@
 	},
 	{
 		"name": "Farm",
-		"terrainsCanBeBuiltOn": ["Earth","Desert","Plains","Snow","Tundra","Mossy Necros","Hermia","Lichened Necros"],
+		"terrainsCanBeBuiltOn": ["Earth","Desert","Plains","Snow","Tundra","Mossy Necros","Hermia"],
 		"food": 1,
 		"turnsToBuild": 14,
 		"uniques": ["[+1 Food] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Can also be built on tiles adjacent to fresh water","Food Source","Cannot be built on [Coast] tiles <hidden from users>"],
