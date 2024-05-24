@@ -1126,9 +1126,14 @@
 	},
 	// About Relation
 	{
-		"name": "Military Support (United Nations)",
+		"name": "Military Support (NASA)",
 		"cost": 100,
-		"uniques": ["Only available <with [Relation Score (United Nations)]>","Cannot be purchased","Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+		"uniques": ["Only available <with [Relation Score (NASA)]>","Cannot be purchased","Unbuildable <for [NASA]>","Consumes [10] [Relation Score (NASA)]","Provides [10] [Relation Score (NASA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+	},
+	{
+		"name": "Military Support (ESA)",
+		"cost": 100,
+		"uniques": ["Only available <with [Relation Score (ESA)]>","Cannot be purchased","Unbuildable <for [ESA]>","Consumes [10] [Relation Score (ESA)]","Provides [10] [Relation Score (ESA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Martian)",
