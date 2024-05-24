@@ -39,6 +39,7 @@
 			"[1] units cost no maintenance <when above [8] [Allied City State]> <hidden from users>",
 			"[1] units cost no maintenance <when above [9] [Allied City State]> <hidden from users>",
 			"City-State territory always counts as friendly territory",
+			"United Nations <hidden from users>",
 		"Special Victory Condition: 'Stop the climate changes' and 'beat all earth nation' or 'correct 20 relation score from all earth nation and ally with 1 city state'.",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <when above [19] [Relation Score (Roscosmos)]> <when above [19] [Relation Score (CNSA)]> <when above [0] [Allied City State]>"],
