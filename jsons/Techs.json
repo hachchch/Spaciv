@@ -235,7 +235,7 @@
                 "row": 4,
                 },
             {
-                "name": "Superfluidity",
+                "name": "Advanced Astrophysics",
 		    "prerequisites": ["Solar Industry","Solar Shield"],
                 "row": 8,
                 },
@@ -254,14 +254,14 @@
 		"wonderCost": 800,
 		"techs": [
 			{
-				"name": "Metaphysics",
+				"name": "Superstrings",
 				"row": 4,
 				"prerequisites": ["Magnetogravitical Engineering","Metaelectronics"],
 			},
 			{
-				"name": "Superstrings",
+				"name": "Metaphysics",
 				"row": 6,
-				"prerequisites": ["Superfluidity","Automatic Terraforming System"]
+				"prerequisites": ["Advanced Astrophysics","Automatic Terraforming System"]
 			}
 		]
 	},
@@ -273,9 +273,10 @@
 		"wonderCost": 1200,
 		"techs": [
 			{
-				"name": "Meaning of Universe",
+				"name": "Explore Meaning of Universe",
 				"row": 5,
-				"prerequisites": ["Superstrings","Metaphysics"]
+				"prerequisites": ["Superstrings","Metaphysics"],
+				"uniques": ["Can be continually researched"]
 			}
 		]
 	}
