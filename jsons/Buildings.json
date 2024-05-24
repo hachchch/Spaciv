@@ -158,6 +158,11 @@
 		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
 	},
 	{
+		"name": "Europe Government",
+		"cost": 1,
+		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
+	},
+	{
 		"name": "China Government",
 		"cost": 1,
 		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
