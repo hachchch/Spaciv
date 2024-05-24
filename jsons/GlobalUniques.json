@@ -9,7 +9,8 @@
 	/*Others*/
 	"Gain a free [Base Environment] [in all cities] <upon founding a city>",
 	"Provides [1] [Superunit limit]",
-			"Provides [20] [Relation Score (United Nations)] <for [United Nations]>",
+			"Provides [20] [Relation Score (NASA)] <for [NASA]>",
+	    		"Provides [20] [Relation Score (ESA)] <for [ESA]>",
 			"Provides [20] [Relation Score (Roscosmos)] <for [Roscosmos]>",
 			"Provides [20] [Relation Score (CNSA)] <for [CNSA]>",
 			"Provides [20] [Relation Score (Martian)] <for [Martian]>",
