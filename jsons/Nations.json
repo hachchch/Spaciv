@@ -8,9 +8,9 @@
 	{
 	// Nations
     // Human Faction
-		"name": "United Nations",
+		"name": "NASA",
 		"leaderName": "America",
-		"adjective": ["Homo Sapiens"],
+		"adjective": ["American"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Diplomatic",
                 "startIntroPart1": "Earth is in danger. The climate is changing at a dangerous rate, and nature itself seems to bring its vengeance on humans. Mankind must respond to this threat, united, as one whole. Cooperation and integration shall allow Humanity to overcome threats and opportunities, on our planet and beyond.",
@@ -53,7 +53,7 @@
 	{
 		"name": "ESA",
 		"leaderName": "European Union",
-		"adjective": ["Homo Sapiens"],
+		"adjective": ["European"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Diplomatic",
                 "startIntroPart1": ".",
@@ -78,7 +78,7 @@
     {
         "name": "CNSA",
 		"leaderName": "China",
-		"adjective": ["Homo Sapiens"],
+		"adjective": ["Chinese"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Domination",
                 "startIntroPart1": "China is the longest-lasting continuous civilisation that Mankind has ever built. Many Eons have come and gone, and the Chinese people have both endured and prospered, as one Chinese civilisation, that has almost always been the most powerful, most advanced and most populated. Again this civilisation finds itself amidst a Golden Age, as the People's Republic of China. The previous president successfully implemented the One Belt, One Road policy and built a huge Eurasian economy. The combined toil, ambitions and wills of billions of people that drive China are unmatched in history. But as technology opens up new horizons, so should Humanity expand to chase them. As Mankind's most achieved civilisation, China has a tradition to uphold, to once again become the most powerful, the most advanced and the most expansive of all.",
