@@ -494,7 +494,7 @@
 	},
 	{
 		"name": "RAPID-L",
-		"uniqueTo": "United Nations",
+		"uniqueTo": "NASAs",
 		"replaces": "Neptunium Centrifuge",
 		"production": 1,
 		"maintenance": 1,
