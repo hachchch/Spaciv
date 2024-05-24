@@ -147,7 +147,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Support","Consumes [2] [Relation Score (United Nations)]","Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects"],
+		"uniques" : ["Support","Consumes [2] [Relation Score (NASA)]","Unbuildable","May upgrade to [Mechanized Infantry (Human)] through ruins-like effects"],
 		"attackSound": "shot",
 	},
         {
@@ -250,7 +250,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
-		"uniques": ["Support","Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (NASA)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
 	},
 	//Xenos
 	{
