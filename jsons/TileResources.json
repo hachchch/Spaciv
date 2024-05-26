@@ -275,12 +275,7 @@
 	},
 	//Reinforcement Resources
 	{
-		"name": "Relation Score (NASA)",
-		"resourceType": "Strategic",
-		"uniques": ["Not shown on world screen","Excluded from map editor"],
-	},
-	{
-		"name": "Relation Score (ESA)",
+		"name": "Relation Score (United Nations)",
 		"resourceType": "Strategic",
 		"uniques": ["Not shown on world screen","Excluded from map editor"],
 	},
