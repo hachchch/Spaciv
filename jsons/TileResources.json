@@ -1,11 +1,11 @@
 [
-        {
+	{
                 "name": "Power",
 		"resourceType": "Strategic",
 		"revealedBy": "Liquid Propellant",
 		"uniques": ["Stockpiled","Excluded from map editor"],
 		"gold": 1
-        },
+	},
         {
                 "name": "Super Energy",
 		"resourceType": "Strategic",
