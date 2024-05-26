@@ -286,6 +286,21 @@
 	},
 	//Special Spacecraft&Stuff for Aliens
 	{
+		"name": "Mind Controller",
+		"unitType": "Laser",
+		"movement": 3,
+		"strength": 5,
+		"attackSound": "torpedo",
+		"cost": 100,
+		"uniques": ["Limited to [3] per Civilization <for [AI player]> <hidden from users>",
+			"Comment [Alien Unit]","Comment [Don't worry, these waves will penetrate through aluminum foil hats.]","Only available <for [Alien]> <hidden from users>",
+		"May capture killed [{All} {non-[Alien]}] units","Self-destructs when attacking","[+200]% Strength <when attacking> <vs [Land] units>","Unable to pillage tiles","Uncapturable"],
+		"requiredTech": "Beyond",
+		"civilopediaText": [
+			{ "text": "The Third Expedition find themselves lulled into a collective hallucination by the Martians and then killed by them." }
+		]
+	},
+	{
 		"name": "Probe UFO",
 		"unitType": "Space Object",
 		"movement": 7,
@@ -293,8 +308,11 @@
 		"attackSound": "torpedo",
 		"cost": 100,
 		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>",
-			"Unbuildable <for [non-[Alien]]>"],
-		"requiredTech": "Light Sail"
+			"Comment [Alien Unit]","Unbuildable <for [non-[Alien]]> <hidden from users>"],
+		"requiredTech": "Light Sail",
+		"civilopediaText": [
+			{ "text": "These UFOs are very lightweight, can be work anywhere, and are specialized for exploration. Don't forget to take away the living samples." }
+		]
 	},
 	{
 		"name": "Child-Class UFO",
