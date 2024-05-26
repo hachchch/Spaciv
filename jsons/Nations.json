@@ -233,7 +233,7 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": ["Can only heal by pillaging","Starts with [Beyond]"]
 	},
 	// City states
 	{
@@ -248,7 +248,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [150, 150, 150],
 		"style": "Human",
-		"uniques": ["Human"],
+		"uniques": ["Human","Starts with [Information era]"],
 		"cities": ["SpaceX"]
 	},
 	{
@@ -263,7 +263,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [203, 253, 232],
 		"style": "Human",
-		"uniques": ["Human"],
+		"uniques": ["Human","Starts with [Information era]"],
 		"cities": ["Ottawa"]
 	},
 	{
@@ -278,7 +278,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [255, 255, 255],
 		"style": "Human",
-		"uniques": ["Human"],
+		"uniques": ["Human","Starts with [Information era]"],
 		"cities": ["Tokyo"]
 	},
 	{
@@ -293,7 +293,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
 		"style": "Human",
-		"uniques": ["Human"],
+		"uniques": ["Human","Starts with [Information era]"],
 		"cities": ["New Delhi"]
 	},
 	{
@@ -308,7 +308,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
 		"style": "Xeno",
-		"uniques": ["Xeno"],
+		"uniques": ["Xeno","Starts with [Xeno Life]"],
 		"cities": ["Nijino Hoshi"]
 	},
 	{
@@ -323,7 +323,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
 		"style": "Xeno",
-		"uniques": ["Xeno"],
+		"uniques": ["Xeno","Starts with [Xeno Life]"],
 		"cities": ["Ultima"]
 	},
 	{
@@ -337,7 +337,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
 		"style": "Alien",
-		"uniques": ["Alien"],
+		"uniques": ["Alien","Starts with [Unified theory]"],
 		"cities": ["Shenzhou"]
 	},
 	{
@@ -351,7 +351,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
 		"style": "Xeno",
-		"uniques": ["Xeno"],
+		"uniques": ["Xeno","Starts with [Xeno Life]"],
 		"cities": ["Picoia"]
 	},
 	{
@@ -365,7 +365,7 @@
 		"outerColor": [0, 0, 0],
 		"innerColor": [100, 100, 100],
 		"style": "Alien",
-		"uniques": ["Alien"],
+		"uniques": ["Alien","Starts with [Unified theory]"],
 		"cities": ["Picoia"]
 	}
 ]
