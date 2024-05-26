@@ -227,7 +227,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Human Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"],
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Human Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"]
 	},
 	{
 		"name": "Mass Driver",
@@ -235,7 +235,7 @@
 		"cost": 60,
 		"food": 3,
 		"maintenance": 2,
-		"uniques": ["Can only be built <on foreign continents>"],
+		"uniques": ["Can only be built <on foreign continents>"]
 	},
 	{
 		"name": "UFO Facility",
@@ -243,7 +243,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Alien Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"],
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Alien Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"]
 	},
 	{
 		"name": "Warp hole Generator",
@@ -251,17 +251,16 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"],
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"]
 	},
 	{
 		"name": "Vacuum Shipyard",
 		"requiredTech": "Commercial Space Flight",
-		// "requiredBuilding": "Shipbuilding Capability",
 		"cost": 100,
 		"production": 2,
 		"maintenance": 3,
 		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Ocean]","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
-			"[+33]% Production when constructing [Space] units [in this city]"],
+			"[+33]% Production when constructing [Space] units [in this city]"]
 	},
 	// Other
 	{
@@ -298,8 +297,8 @@
 		"production": 1,
 		"specialistSlots": {"Engineer": 1},
 		"maintenance": 3,
-		"uniques": ["Only available <for [Xeno]>"]
-		"requiredTech": "Xeno Life",
+		"uniques": ["Only available <for [Xeno]>"],
+		"requiredTech": "Xeno Life"
 	},
 	{
 		"name": "Even Bigger Hive Worker District", // tier II
@@ -307,8 +306,8 @@
 		"production": 1,
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 6,
-		"uniques": ["Heavy Industry","Only available <for [Xeno]>"]
-		"requiredTech": "Beyond",
+		"uniques": ["Heavy Industry","Only available <for [Xeno]>"],
+		"requiredTech": "Beyond"
 	},
 	{
 		"name": "Space Hive Worker District", // tier III
@@ -316,8 +315,8 @@
 		"production": 1,
 		"specialistSlots": {"Engineer": 3},
 		"maintenance": 12,
-		"uniques": ["Heavy Industry","Only available <for [Xeno]>"]
-		"requiredTech": "Urban Satellite",
+		"uniques": ["Heavy Industry","Only available <for [Xeno]>"],
+		"requiredTech": "Urban Satellite"
 	},
 	// Other
 	{
@@ -339,13 +338,13 @@
 		"name": "Shrine",
 		"faith": 1,
 		"uniques": ["Only available <for [Human]>"],
-		"requiredTech": "Information era",
+		"requiredTech": "Information era"
 	},
 	{
 		"name": "Statue of Xenidae",
 		"faith": 1,
 		"uniques": ["Only available <for [Xeno]>"],
-		"requiredTech": "Xeno Life",
+		"requiredTech": "Xeno Life"
 	},
 	{
 		"name": "Xenogenesis Research Facility",
@@ -353,25 +352,25 @@
 		"replaces": "Statue of Xenidae",
 		"faith": 1,
 		"science": 1,
-		"requiredTech": "Xeno Life",
+		"requiredTech": "Xeno Life"
 	},
 	{
 		"name": "Cosmo-X Society",
 		"faith": 1,
 		"uniques": ["Only available <for [Alien]>"],
-		"requiredTech": "Unified theory",
+		"requiredTech": "Unified theory"
 	},
 	{
 		"name": "Orbital Church",
 		"uniques": ["Unbuildable <for [Human]> <in cities without a [Shrine]>","Unbuildable <for [Xeno]> <in cities without a [Statue of Xenidae]>","Unbuildable <for [Alien]> <in cities without a [Cosmo-X Society]>"],
 		"faith": 2,
-		"requiredTech": "Beyond",
+		"requiredTech": "Beyond"
 	},
 	{
 		"name": "Solar Church",
 		"requiredBuilding": "Orbital Church",
 		"faith": 3,
-		"requiredTech": "Solar Shield",
+		"requiredTech": "Solar Shield"
 	},
 	{
 		"name": "Sacrifice Church",
@@ -380,29 +379,29 @@
 		"requiredBuilding": "Orbital Church",
 		"faith": 4,
 		"happiness": 1,
-		"requiredTech": "Solar Shield",
+		"requiredTech": "Solar Shield"
 	},
 	// Cultures
 	{
 		"name": "Dance Palace",
 		"maintenance": 2,
 		"culture": 3,
-		"uniques": ["Only available <for [Alien]>"]
-		"requiredTech": "Beyond",
+		"uniques": ["Only available <for [Alien]>"],
+		"requiredTech": "Beyond"
 	},
 	{
 		"name": "Acid Pool",
 		"maintenance": 2,
 		"culture": 3,
 		"happiness": 1,
-		"uniques": ["Costs [20] [Encid]","Only available <when above [19] [Encid]> <for [Xeno]>"]
+		"uniques": ["Costs [20] [Encid]","Only available <when above [19] [Encid]> <for [Xeno]>"],
 		"requiredTech": "Beyond"
 	},
 	{
 		"name": "Metaverse",
 		"maintenance": 2,
 		"culture": 3,
-		"uniques": ["Only available <for [Human]>"]
+		"uniques": ["Only available <for [Human]>"],
 		"requiredTech": "Beyond"
 	},
 	{
@@ -424,14 +423,14 @@
 		"specialistSlots": {"Engineer": 2},
 		"maintenance": 3,
 		"hurryCostModifier": 0,
-		"uniques": ["Provides [1] [Super Energy]","Provides [2] [Power]"],
+		"uniques": ["Provides [1] [Super Energy]","Provides [2] [Power]"]
 	},
 	{
 		"name": "Memorial",
 		"uniqueTo": "Empire",
 		"replaces": "Cosmo-X Society",
 		"faith": 1,
-		"requiredTech": "Unified theory",
+		"requiredTech": "Unified theory"
 	},
 	{
 		"name": "Imperial Parliament",
@@ -439,7 +438,7 @@
 		"replaces": "Dance Palace",
 		"maintenance": 2,
 		"culture": 3,
-		"requiredTech": "Beyond",
+		"requiredTech": "Beyond"
 	},
 	{
 		"name": "Imperial Bank",
