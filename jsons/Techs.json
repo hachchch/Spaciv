@@ -276,7 +276,7 @@
 				"name": "Meaning of Universe",
 				"row": 5,
 				"prerequisites": ["Superstrings","Metaphysics"],
-				// "uniques": ["Can be continually researched"]
+				"uniques": ["Can be continually researched"],
 				"quote": "Answer is 42"
 			}
 		]
