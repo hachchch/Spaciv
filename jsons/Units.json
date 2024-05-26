@@ -61,7 +61,7 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
 	},
-/*
+	/*
 	{
 		"name": "Pioneer",
 		"replaces": "Settler",
@@ -92,8 +92,6 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
-*/
-/*
 	{
 		"name": "Colony Ship",
 		"unitType": "Space Object",
@@ -104,8 +102,8 @@
 			"Founds a new city <by consuming this unit> <in [Lagrange Zone] tiles>"]
 		"requiredTech": "Commercial Space Flight",
 	},
+	*/
 //aye, chief, it's disabled now
-*/
 	//Scouts
         {
                 "name": "Rover",
