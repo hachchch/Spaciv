@@ -146,38 +146,6 @@
 		"majorDepositAmount": {"sparse": 6, "default": 8, "abundant": 10},
 		"minorDepositAmount": {"sparse": 4, "default": 5, "abundant": 6}
 	},
-//beware, all ye who enter, for I have tried to tame a beast and miserably failed. Iron instinctually hates Mars Hills for WHATEVER reason
-//ISTG I'm making an AdMech faction submod after this one's polished juust right
-	/*
-    DONE: Mars is always Iron-rich (Rust planet, duh)
-    DONE: Amino Metal prefers Stromat, but may also occur on Regolith and nowhere else
-    N/A, CANCELLED: Neptunium tends to occur only near Gas tiles
-    Iron(x), Gold and Gems have a preference for Hill tiles
-    DONE: Prismaxium enjoys Asteroids and Regolith, dislikes Earth(because space dust???)
-    DONE: Iron dislikes Lunar
-    DONE: We'll have to remove Regold eventually, and make Ungold just REALLY hard to spawn, on Stromat
-    DONE: Asteroids will spawn with less resources than land tiles, between 1 and 2
-	SAMPLE FORMAT:
-        "uniques": [
-            "Guaranteed with Strategic Balance resource option",
-            "Deposits in [Asteroid Belt] tiles always provide [1] resources",
-            "Guaranteed with Strategic Balance resource option",
-            "Generated with weight [75] <in [Hill] [Mars] tiles>",
-            "Generated with weight [25] <in [Asteroid Belt] tiles>",
-		"Minor deposits generated with weight [10] <in [Mars] tiles> <in tiles without [Hill]>",
-		"Minor deposits generated with weight [10] <in [Earth] tiles> <in tiles without [Hill]>",
-		"Minor deposits generated with weight [10] <in [Stromat] tiles> <in tiles without [Hill]>",
-            "Generated with weight [70] <in [Featureless] [Desert] tiles>",
-            "Generated with weight [25] <in [Forest] tiles> <in tiles without [Hill]>",
-            "Generated with weight [100] <in [Featureless] [Coast] tiles>",
-            "Minor deposits generated with weight [20] <in [Marsh] tiles> <in tiles without [Hill]>",
-            "Minor deposits generated with weight [10] <in [Jungle] tiles> <in tiles without [Hill]>",
-            "Minor deposits generated with weight [10] <in [Featureless] [Desert] tiles>",
-            "Minor deposits generated with weight [20] <in [Featureless] [Tundra] tiles>",
-            "Minor deposits generated with weight [20] <in [Featureless] [Snow] tiles>"
-        ]
-	We'll modify the spawning unique as time goes on, I can't do that now
-*/
 	// Advanced Resources
 	{
 		"name": "Neodymium",
