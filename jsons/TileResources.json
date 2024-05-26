@@ -41,6 +41,16 @@
 		"uniques": ["Generated on every [13] tiles <in [Wraith] tiles> <in tiles without [Coelaphyton]>",
 			    "Generated on every [10] tiles <in [Wraith] tiles> <in [Coelaphyton] tiles>"]
 	},
+	{
+		"name": "Necros Jellyfish",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Mossy Necros"],
+		"food": 1,
+		"improvedBy": ["Dome", "Xenohive","Breeding Facility"],
+		"improvementStats": {"food": 1},
+		"uniques": ["Generated on every [13] tiles <in [Mossy Necros] tiles> <in tiles without [Anecros Phytas]>",
+			    "Generated on every [10] tiles <in [Mossy Necros] tiles> <in [Anecros Phytas] tiles>"]
+	},
 	// mineral resources
 	{
 		"name": "Neptunium",
