@@ -92,8 +92,6 @@
 			"Requires at least [2] population"],
 		"hurryCostModifier": 20
         },
-*/
-/*
 	{
 		"name": "Colony Ship",
 		"unitType": "Space Object",
