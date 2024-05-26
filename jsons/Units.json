@@ -156,9 +156,6 @@
 		"cost": 40,
 		"uniques" : ["Only available <for [Xeno]>","May upgrade to [Xenowarrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
-                // "civilopediaText": [
-		//	{"text": "This is your basic, club-swinging fighter."}
-		// ]
 	},
 	{
 		"name": "Xenomob (Xeno)",
