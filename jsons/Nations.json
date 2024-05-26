@@ -6,9 +6,11 @@
 		"innerColor": [0,0,0]
 	},
 	{
-		"name": "NASA",
-		"leaderName": "America",
-		"adjective": ["American"],
+	// Nations
+    // Human Faction
+		"name": "United Nations",
+		"leaderName": "UNSA",
+		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Diplomatic",
                 "startIntroPart1": "Earth is in danger. The climate is changing at a dangerous rate, and nature itself seems to bring its vengeance on humans. Mankind must respond to this threat, united, as one whole. Cooperation and integration shall allow Humanity to overcome threats and opportunities, on our planet and beyond.",
@@ -23,7 +25,7 @@
                 "outerColor": [ 28,51,119],
                 "innerColor": [255,255,255],
 		"style": "Human",
-		"uniqueName": "Let's fill universe 'Democracy'",
+		"uniqueName": "Endangered Earth",
 		"uniques": ["Human","Starts with [Information era]",
 			"units cost no maintenance per Allied City State,up to 10",
 			"[1] units cost no maintenance <when above [0] [Allied City State]> <hidden from users>",
@@ -37,47 +39,16 @@
 			"[1] units cost no maintenance <when above [8] [Allied City State]> <hidden from users>",
 			"[1] units cost no maintenance <when above [9] [Allied City State]> <hidden from users>",
 			"City-State territory always counts as friendly territory",
-			"United Nations <hidden from users>",
 		"Special Victory Condition: 'Stop the climate changes' and 'beat all earth nation' or 'correct 20 relation score from all earth nation and ally with 1 city state'.",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <if [America Government] is constructed> <if [China Government] is constructed> <if [Russia Government] is constructed>",
 		"Triggers victory <hidden from users> <if [Global Earth Treaty] is constructed> <when above [19] [Relation Score (Roscosmos)]> <when above [19] [Relation Score (CNSA)]> <when above [0] [Allied City State]>"],
-		"cities": ["Washington","New York","Boston","Philadelphia","Atlanta","Chicago","Seattle","San Francisco","Los Angeles","Houston",
-			"Portland","St. Louis","Miami","Buffalo","Detroit","New Orleans","Baltimore","Denver","Cincinnati","Dallas","Memphis",
-			"Cleveland","Kansas City","San Diego","Richmond","Las Vegas","Phoenix","Albuquerque","Minneapolis","Pittsburgh",
-			"Oakland","Tampa Bay","Orlando","Tacoma","Santa Fe","Olympia","Hunt Valley","Springfield","Palo Alto","Centralia",
-			"Spokane","Jacksonville","Svannah","Charleston","San Antonio","Birmingham","Anchorage","Sacramento","Reno",
-			"Salt Lake City","Boise","Milwaukee","Santa Cruz","Little Rock"],
+		"cities": ["New York","London","Paris","Singapore","Amsterdam","Seoul","Dubai","Melbourne","Copenhagen","Sydney","Vienna","Madrid","Stockholm","Zurich","Los Angeles","Barcelona","Brussels","Chicago","Geneva","San Francisco","Dublin","Boston","Istanbul","Helsinki","Vancouver","Milan","Taipei","Washington","Bangkok","Sao Paulo","Tel Aviv","Kuala Lumpur","Mexico City","Buenos Aires","Jakarta","Johannesburg","Cairo","Mumbai"],
                 "spyNames": ["Cousin", "Felix", "Dennis", "Edward", "Prof. Rex", "Eliza", "Mary", "Virginia", "Scarlett", "Barbara"]
-	},
-	{
-		"name": "ESA",
-		"leaderName": "European Union",
-		"adjective": ["European"],
-		"startBias": ["Earth"],
-		"preferredVictoryType": "Diplomatic",
-                "startIntroPart1": ".",
-		"startIntroPart2": ".",
-                "declaringWar": ".",
-		"attacked": ".",
-		"defeated": ".",
-		"introduction": ".",
-		"neutralHello": ".",
-		"hateHello": ".",
-		"tradeRequest": "Is the following trade of interest to you?",
-                "innerColor": [242,223,25],
-                "outerColor": [39,38,123],
-		"style": "Human-European",
-		"uniqueName": "Aurora Programme",
-		"uniques": ["Human","Starts with [Information era]",
-			"[+3 Culture, +3 Gold] in cities on [Mars] tiles",
-		"Special Victory Condition: Waiting for Update"],
-		"cities": ["Paris","Berlin","Rome","London","Brussels","Madrid","Bern","Amsterdam","Stockholm","Vienna","Oslo","Helsinki","Dublin","Lisbon","Athens","Luxembourg"],
-                "spyNames": ["name"]
 	},
     {
         "name": "CNSA",
 		"leaderName": "China",
-		"adjective": ["Chinese"],
+		"adjective": ["Homo Sapiens"],
 		"startBias": ["Earth"],
 		"preferredVictoryType": "Domination",
                 "startIntroPart1": "China is the longest-lasting continuous civilisation that Mankind has ever built. Many Eons have come and gone, and the Chinese people have both endured and prospered, as one Chinese civilisation, that has almost always been the most powerful, most advanced and most populated. Again this civilisation finds itself amidst a Golden Age, as the People's Republic of China. The previous president successfully implemented the One Belt, One Road policy and built a huge Eurasian economy. The combined toil, ambitions and wills of billions of people that drive China are unmatched in history. But as technology opens up new horizons, so should Humanity expand to chase them. As Mankind's most achieved civilisation, China has a tradition to uphold, to once again become the most powerful, the most advanced and the most expansive of all.",
@@ -145,7 +116,6 @@
 		"uniques": ["Alien","Starts with [Unified theory]",
 			"Provides [1] [Superunit limit]",
 		"Double quantity of [Super Energy] produced",
-		"[+1 Production] from all [Culture] buildings",
 		"Special Victory Condition: Build the 'Artificial Planet'.",
 		"Triggers victory <hidden from users> <if [Artificial Planet] is constructed>"],
 		"cities": ["Zeta Reticular","Hoplite","Grimoire-XI","Iome","Glimoneus","Roswelus","Voltex-A1","Voltex-A3","Opabinia","Hallucigenia","Radionia"],
@@ -206,8 +176,9 @@
 		"style": "Xeno-HighTechnology",
 		"cities": ["Minerva","Esoterica","Indoles","Keine","Fortitudo","Caeruleumia","Hornia","Xcentia"],
 		"uniques": ["Xeno","Starts with [Xeno Life]",
+			"[+1 Science] per [2] population [in capital]",
+			"[100]% of excess happiness converted to [Science]",
 			"[+1 Science] from every specialist [in all cities]",
-			"[+1 Science] per [2] population [in capital] <after discovering [Beyond]>",
 		"Special Victory Condition: Build the 'University of Universe'.",
 		"Triggers victory <hidden from users> <if [University of Universe] is constructed>"],
 	},
@@ -233,7 +204,7 @@
 		"name": "Barbarians",
 		"outerColor": [0,0,0],
 		"innerColor": [185,12,12],
-		"uniques": ["Can only heal by pillaging"]
+		"uniques": ["Can only heal by pillaging","Cannot build [non-[Meteor]] units"]
 	},
 	// City states
 	{
@@ -267,7 +238,7 @@
 		"cities": ["Ottawa"]
 	},
 	{
-		"name": "JAXA",
+		"name": "Japan",
 		"startBias": ["Earth"],
 		"adjective": ["Japanese"],
 		"cityStateType": "Cultured",
@@ -282,9 +253,9 @@
 		"cities": ["Tokyo"]
 	},
 	{
-		"name": "ISRO",
+		"name": "Germany",
 		"startBias": ["Earth"],
-		"adjective": ["Indian"],
+		"adjective": ["German"],
 		"cityStateType": "Militaristic",
 
 		"declaringWar": "Operation Space Lion was announced,The German Navy shall visit your planet.",
@@ -294,7 +265,7 @@
 		"innerColor": [100, 100, 100],
 		"style": "Human",
 		"uniques": ["Human"],
-		"cities": ["New Delhi"]
+		"cities": ["Berlin"]
 	},
 	{
 		"name": "Nijino Hoshi",
