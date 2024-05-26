@@ -2,6 +2,8 @@
 	"useColorAsBaseTerrain": "false",
 	"ruleVariants": {
 		"Earth+Forest": ["Earth","GrasslandForest"],
+		"Earth+Plains+Forest": ["Plains","PlainsForest"],
+		"Earth+Tundra+Forest": ["Tundra","TundraForest"],
 		"Mossy Necros+Dead Town": ["Mossy Necros","Mossy Dead City"]
 	}
 }
