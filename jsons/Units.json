@@ -402,7 +402,6 @@
 		"cost": 120,
 		"uniques": ["Limited to [4] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
 			"Founds a new city <by consuming this unit> <in [resource] tiles>",
-			// "Founds a new city <by consuming this unit> <in [Lunar] tiles>",
 			"Unbuildable <for [non-[Xeno]]>"]
 		"requiredTech": "Light Sail",
 	},
