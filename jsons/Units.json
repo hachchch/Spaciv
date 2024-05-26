@@ -4,7 +4,6 @@
 		"name": "Human Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		// "requiredTech": "Information era",
 		"uniques": ["Only available <for [Human]>","Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
 			"Automation is a primary action",
 		"Can build [Industry] improvements on tiles <in [Earth] tiles>","Can build [Mine] improvements on tiles <in [resource] tiles>","Uncapturable",
@@ -17,7 +16,6 @@
 		"replaces": "Human Worker",
 		"unitType": "Civilian",
 		"movement": 2,
-		// "requiredTech": "Information era",
 		"uniques": ["Can build [Farm] improvements on tiles",
 			"[-50]% construction time for [Production Facility] improvements",
 			"Can build [Breeding Facility] improvements on tiles",
@@ -99,8 +97,8 @@
 		"strength": 5,
 		"cost": 180,
 		"uniques": ["Cannot attack",
-			"Founds a new city <by consuming this unit> <in [Lagrange Zone] tiles>"]
-		"requiredTech": "Commercial Space Flight",
+			"Founds a new city <by consuming this unit> <in [Lagrange Zone] tiles>"],
+		"requiredTech": "Commercial Space Flight"
 	},
 	*/
 //aye, chief, it's disabled now
@@ -110,21 +108,21 @@
 		"unitType": "Scout",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Only available <for [Human]>","Uncapturable"],
+		"uniques": ["Only available <for [Human]>","Uncapturable"]
         },
         {
                 "name": "Scout",
 		"unitType": "Scout",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Only available <for [Xeno]>","Uncapturable"],
+		"uniques": ["Only available <for [Xeno]>","Uncapturable"]
         },
         {
                 "name": "Probe",
 		"unitType": "Scout",
 		"movement": 2,
 		"cost": 25,
-		"uniques": ["Only available <for [Alien]>","Uncapturable"],
+		"uniques": ["Only available <for [Alien]>","Uncapturable"]
         },
 	//Human
         {
@@ -146,7 +144,7 @@
 		"movement": 2,
 		"strength": 8,
 		"uniques" : ["Support","Consumes [2] [Relation Score (NASA)]","Unbuildable","May upgrade to [Mechanized Infantry (Human)] through ruins-like effects"],
-		"attackSound": "shot",
+		"attackSound": "shot"
 	},
         {
                 "name": "Xenomob",
@@ -155,10 +153,7 @@
 		"strength": 8,
 		"cost": 40,
 		"uniques" : ["Only available <for [Xeno]>","May upgrade to [Xenowarrior] through ruins-like effects"],
-		"attackSound": "nonmetalhit",
-                // "civilopediaText": [
-		//	{"text": "This is your basic, club-swinging fighter."}
-		// ]
+		"attackSound": "nonmetalhit"
 	},
 	{
 		"name": "Xenomob (Xeno)",
@@ -167,7 +162,7 @@
 		"movement": 2,
 		"strength": 8,
 		"uniques" : ["Support","Consumes [2] [Relation Score (Xenomorph)]","Unbuildable","May upgrade to [Xenowarrior (Xenomorph)] through ruins-like effects"],
-		"attackSound": "nonmetalhit",
+		"attackSound": "nonmetalhit"
 	},
         {
                 "name": "Phaser",
@@ -188,7 +183,7 @@
 		"movement": 2,
 		"strength": 8,
 		"uniques" : ["Support","Consumes [2] [Relation Score (Martian)]","Unbuildable","May upgrade to [Laser Blaster (Martian)] through ruins-like effects"],
-		"attackSound": "bombing",
+		"attackSound": "bombing"
 	},
 	{
 		"name": "Mechanized Artillery",
@@ -201,7 +196,7 @@
 		"attackSound": "missile",
 		"cost": 60,
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","Consumes [1] [Superunit limit]","Costs [20] [Power]"],
+		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","Consumes [1] [Superunit limit]","Costs [20] [Power]"]
 	},
 	{
 		"name": "Xenohornet",
@@ -214,7 +209,7 @@
 		"attackSound": "crossbow",
 		"cost": 60,
 		"requiredTech": "Blood disassembly",
-		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","Consumes [1] [Superunit limit]","Costs [20] [Encid]"],
+		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","Consumes [1] [Superunit limit]","Costs [20] [Encid]"]
 	},
 	{
 		"name": "Tripod",
@@ -227,7 +222,7 @@
 		"cost": 60,
 		"maintenance": 3,
 		"requiredTech": "Wave Zapper",
-		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","Consumes [1] [Superunit limit]","Costs [20] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","Consumes [1] [Superunit limit]","Costs [20] [Super Energy]"]
 	//TERRA
 	},
 	{
@@ -237,9 +232,8 @@
 		"strength": 12,
 		"attackSound": "tankshot",
 		"cost": 60,
-		// "requiredResource": "Power",
 		"requiredTech": "Artificial intelligence",
-		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","[+25]% Strength <vs [Xeno Entity] units>","Costs [20] [Power]"],
+		"uniques": ["Only available <for [Human]> <when above [19] [Power]>","[+25]% Strength <vs [Xeno Entity] units>","Costs [20] [Power]"]
 	},
 	{
 		"name": "Mechanized Infantry (Human)",
@@ -248,20 +242,18 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
-		"uniques": ["Support","Consumes [4] [Relation Score (NASA)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (NASA)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"]
 	},
 	//Xenos
 	{
 		"name": "Xenowarrior",
 		"unitType": "Xeno Entity",
-		// "promotions": ["Xeno Technology"], maybe it not need...isn't it?
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
 		"cost": 60,
-		// "requiredResource": "Encid",
 		"requiredTech": "Blood disassembly",
-		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","[+25]% Strength <vs [Laser] units>","Costs [20] [Encid]"],
+		"uniques": ["Only available <for [Xeno]> <when above [19] [Encid]>","[+25]% Strength <vs [Laser] units>","Costs [20] [Encid]"]
 	},
 	{
 		"name": "Xenowarrior (Xeno)",
@@ -270,7 +262,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "metalhit",
-		"uniques": ["Support","Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+25]% Strength <vs [Laser] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (Xenomorph)]","Unbuildable","[+25]% Strength <vs [Laser] units>"]
 	},
 	// Mars
 	{
@@ -280,9 +272,8 @@
 		"strength": 12,
 		"attackSound": "gdrAttack",
 		"cost": 60,
-		// "requiredResource": "Super Energy",
 		"requiredTech": "Wave Zapper",
-		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","[+25]% Strength <vs [Gunpowder] units>","Costs [20] [Super Energy]"],
+		"uniques": ["Only available <for [Alien]> <when above [19] [Super Energy]>","[+25]% Strength <vs [Gunpowder] units>","Costs [20] [Super Energy]"]
 	},
 	{
 		"name": "Laser Blaster (Alien)",
@@ -291,7 +282,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "gdrAttack",
-		"uniques": ["Support","Consumes [4] [Relation Score (Martian)]","Unbuildable","[+25]% Strength <vs [Gunpowder] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (Martian)]","Unbuildable","[+25]% Strength <vs [Gunpowder] units>"]
 	},
 	//Special Spacecraft&Stuff for Aliens
 	{
@@ -301,9 +292,9 @@
 		"strength": 1,
 		"attackSound": "torpedo",
 		"cost": 100,
-		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
+		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>",
 			"Unbuildable <for [non-[Alien]]>"],
-		"requiredTech": "Light Sail",
+		"requiredTech": "Light Sail"
 	},
 	{
 		"name": "Child-Class UFO",
@@ -316,7 +307,7 @@
 		"uniques": ["[+50]% Strength <vs [Land] units> <when attacking>",
 			"[-50]% Strength <vs [Air] units>",
 			"[-250]% Strength <vs [Missile] units>",
-			"Unbuildable <in cities without a [UFO Facility]>"],
+			"Unbuildable <in cities without a [UFO Facility]>"]
 	},
 	{
 		"name": "Particle Cannon",
@@ -402,9 +393,8 @@
 		"cost": 120,
 		"uniques": ["Limited to [4] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
 			"Founds a new city <by consuming this unit> <in [resource] tiles>",
-			// "Founds a new city <by consuming this unit> <in [Lunar] tiles>",
-			"Unbuildable <for [non-[Xeno]]>"]
-		"requiredTech": "Light Sail",
+			"Unbuildable <for [non-[Xeno]]>"],
+		"requiredTech": "Light Sail"
 	},
 	{
 		"name": "Blicker",
@@ -416,7 +406,7 @@
 		"requiredTech": "Beyond",
 		"uniques": ["[+10]% Strength <vs [non-Xeno] units> <when attacking>",
 			"[+30]% Strength <vs [Space] units>",
-			"Unbuildable <in cities without a [Warp hole Generator]>"],
+			"Unbuildable <in cities without a [Warp hole Generator]>"]
 	},
 	{
 		"name": "Encidship",
@@ -430,7 +420,7 @@
 		"requiredTech": "Light Sail",
 		"uniques": ["Costs [24] [Encid]","[+60]% Strength <vs [Corvette] units> <when attacking>",
 			"[-20]% Strength <vs [non-[Corvette]] units> <when attacking>",
-			"Only available <in cities with a [Warp hole Generator]> <when above [23] [Encid]>"],
+			"Only available <in cities with a [Warp hole Generator]> <when above [23] [Encid]>"]
 	},
 	{
 		"name": "Aminoship",
@@ -444,7 +434,7 @@
 		"requiredTech": "Magnetogravitical Engineering",
 		"promotions": ["Bio-Torps"],
 		"uniques": ["May heal outside of friendly territory","Must set up to ranged attack","[+60]% Strength <vs [Space] units> <when attacking>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [1] [Amino Metal]",
-			"Unbuildable <in cities without a [Warp hole Generator]>"],
+			"Unbuildable <in cities without a [Warp hole Generator]>"]
 	},
 	{
 		"name": "Xenoairfighter-C10",
@@ -460,7 +450,7 @@
 		"uniques": [
 			"Space",
 			"[100]% chance to intercept air attacks",
-			"Unbuildable <in cities without a [Warp hole Generator]>"],
+			"Unbuildable <in cities without a [Warp hole Generator]>"]
 	},
 	{
 		"name": "Xenogmatic Gryphon",
@@ -474,7 +464,7 @@
 		"requiredTech": "Acid processing",
 		"uniques": ["Space","[+20]% Strength <vs [Spaceship] units> <when attacking>",
 			"[-20]% Strength <vs [City] units> <when attacking>",
-			"Only available <in cities with a [Piesans]>"],
+			"Only available <in cities with a [Piesans]>"]
 	},
 	{
 		"name": "Xenoeagle",
@@ -492,7 +482,7 @@
 			"Only available <for [Xeno]>",
 			"[50]% chance to intercept air attacks",
 			"[+25]% Strength <when fighting in [Land] tiles>",
-			"Can only attack [Land] tiles"],
+			"Can only attack [Land] tiles"]
 	},
 	//Spacecraft&Stuff for Humans
 	{
@@ -503,8 +493,8 @@
 		"attackSound": "nonmetalhit",
 		"cost": 40,
 		"uniques": ["Limited to [2] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
-			"Invisible to non-adjacent units","Unbuildable <for [non-[Human]]>"]
-		"requiredTech": "Light Sail",
+			"Invisible to non-adjacent units","Unbuildable <for [non-[Human]]>"],
+		"requiredTech": "Light Sail"
 	},
 	{
 		"name": "Corvette",
@@ -516,7 +506,7 @@
 		"requiredTech": "Beyond",
 		"uniques": ["[+50]% Strength <vs [Battleship] units>",
 			"[+25]% Strength <vs [Air] units>",
-			"Unbuildable <in cities without a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"]
 	},
 	{
 		"name": "Destroyer",
@@ -530,7 +520,7 @@
 		"requiredTech": "Light Sail",
 		"uniques": [
 			"[+25]% Strength <vs [Corvette] units> <when attacking>",
-			"Unbuildable <in cities without a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"]
 	},
 	{
 		"name": "Cruiser",
@@ -543,7 +533,7 @@
 		"cost": 160,
 		"requiredTech": "Commercial Space Flight",
 		"uniques": ["[+25]% Strength <vs [Destroyer] units> <when attacking>","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]",
-			"Unbuildable <in cities without a [Launch site]>"],
+			"Unbuildable <in cities without a [Launch site]>"]
 	},
 	{
 		"name": "Battleship",
@@ -557,7 +547,7 @@
 		"requiredTech": "Magnetogravitical Engineering",
 		"uniques": ["[+20]% Strength <vs [Cruiser] units> <when attacking>","Consumes [2] [Neodymium]","Consumes [2] [Coaxium]",
 			"Must set up to ranged attack",
-			"Unbuildable <in cities without a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [Spaceship Factory]>"]
 	},
 	{
 		"name": "Carrier",
@@ -570,7 +560,7 @@
 		"uniques": ["[+50]% Strength <vs [Fighter] units> <when defending>","Consumes [2] [Coaxium]",
 			"[+100]% Strength <when defending>",
 			"Can carry [3] [Space] units",
-			"Unbuildable <in cities without a [Launch site]>"],
+			"Unbuildable <in cities without a [Launch site]>"]
 	},
 	{
 		"name": "Interceptor",
@@ -586,7 +576,7 @@
 		"uniques": [
 			"Space",
 			"[100]% chance to intercept air attacks",
-			"Unbuildable <in cities without a [Space Station]>"],
+			"Unbuildable <in cities without a [Space Station]>"]
 	},
 	{
 		"name": "Bomber",
@@ -601,10 +591,6 @@
 		"uniques": ["Space",
 			"Only available <in cities with a [Space Station]>"],
 	},
-	// War on Earth
-	// These modern weapons are a combination of the knowledge of earth primates which loves war, but they are all designed to have maximum effectiveness against humans(or earth animal),
-	// and the radioactivity of nuclear weapons is not threat for aliens which evolving with harmful sunlight. So these weapons are used as Earth's last defense, or in some fool arms race.
-	// but It will be useful for earth domination or unification.
 	{
 		"name": "Nuclear Missile",
 		"unitType": "Missile",
