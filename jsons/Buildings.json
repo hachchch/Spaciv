@@ -1,37 +1,16 @@
 [
 	// About Terraform
 	{
-		"name": "Residentization Program1",
+		"name": "Residentization Program",
 		"requiredTech": "Terraforming",
 		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]",
-		"Gain a free [Survivable] [in this city] <hidden from users>",
-		"Remove [Base Environment] [in this city] <hidden from users>",
-		"Remove [Undesired] [in this city] <hidden from users>",
-		"Remove [Residentization Program1] [in this city] <hidden from users>",
-		"Gain a free [Terraforming] [in this city] <hidden from users>",
-		"Instantly consumes [100] [Power] <for [Human]>","Instantly consumes [100] [Super Energy] <for [Alien]>","Instantly consumes [100] [Encid] <for [Xeno]>","Only available <in cities with a [Undesired]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
-	},
-	{
-		"name": "Residentization Program2",
-		"requiredTech": "Terraforming",
-		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]",
-		"Gain a free [Possible to immigrate] [in this city] <hidden from users>",
-		"Remove [Survivable] [in this city] <hidden from users>",
-		"Remove [Base Environment] [in this city] <hidden from users>",
-		"Remove [Residentization Program2] [in this city] <hidden from users>",
-		"Gain a free [Terraforming] [in this city] <hidden from users>",
-		"Instantly consumes [100] [Power] <for [Human]>","Instantly consumes [100] [Super Energy] <for [Alien]>","Instantly consumes [100] [Encid] <for [Xeno]>","Only available <in cities with a [Survivable]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
-	},
-	{
-		"name": "Residentization Program3",
-		"requiredTech": "Terraforming",
-		"uniques": ["Unavailable <in cities with a [Civilized]>","Comment [This activity improves the this city's Terraform Score by one level.]",
-		"Gain a free [Civilized] [in this city] <hidden from users>",
-		"Remove [Base Environment] [in this city] <hidden from users>",
-		"Remove [Possible to immigrate] [in this city] <hidden from users>",
-		"Remove [Residentization Program3] [in this city] <hidden from users>",
-		"Gain a free [Terraforming] [in this city] <hidden from users>",
-		"Instantly consumes [100] [Power] <for [Human]>","Instantly consumes [100] [Super Energy] <for [Alien]>","Instantly consumes [100] [Encid] <for [Xeno]>","Only available <in cities with a [Possible to immigrate]> <hidden from users>","Unavailable <when below [100] [Power]> <for [Human]> <hidden from users>","Unavailable <when below [100] [Super Energy]> <for [Alien]> <hidden from users>","Unavailable <when below [100] [Encid]> <for [Xeno]> <hidden from users>"]
+			"Remove [Residentization Program] [in this city] <hidden from users>",
+			"Remove [Undesired] [in this city] <in cities with a [Undesired]> <hidden from users>",
+		"Remove [Survivable] [in this city] <in cities with a [Survivable]> <hidden from users>",
+		"Remove [Possible to immigrate] [in this city] <in cities with a [Possible to immigrate]> <hidden from users>",
+		"Gain a free [Civilized] [in this city] <in cities with a [Possible to immigrate]> <hidden from users>",
+		"Gain a free [Possible to immigrate] [in this city] <in cities with a [Survivable]> <hidden from users>",
+		"Gain a free [Survivable] [in this city] <in cities with a [Undesired]> <hidden from users>"]
 	},
 	{
 		"name": "Terraform Score:Civilized",
@@ -52,11 +31,6 @@
 		"name": "Terraform Score:Undesired",
 		"cost": 1,
 		"uniques": ["Only available <in cities with a [Undesired]> <hidden from users>","Comment [This planet is very hostile to us. The food of this world is not compatible with our physiology. The food must be imported, there is an extra upkeep cost of 10 gold to transport food.]","Unsellable <hidden from users>","Consumes [1] [ABCDEFG] <hidden from users>","Cannot be purchased <hidden from users>"]
-	},
-	{
-		"name": "Terraforming",
-		"cost": 1,
-		"uniques": ["Unsellable","Unbuildable","Comment [This city's Terraforming Score ignores the Base Environment.]"]
 	},
 	{
 		"name": "Undesired",
@@ -104,46 +78,58 @@
 		"culture": 1,
 		"cityStrength": 2,
 		"cost": 1,
-		"uniques": ["Indicates the capital city"]
+		"uniques": ["Indicates the capital city",
+			"Gain a free [Administrative District] [in all cities]",
+			"Provides [1] [Superunit limit]",
+			"Provides [20] [Relation Score (United Nations)] <for [United Nations]>",
+			"Provides [20] [Relation Score (Roscosmos)] <for [Roscosmos]>",
+			"Provides [20] [Relation Score (CNSA)] <for [CNSA]>",
+			"Provides [20] [Relation Score (Martian)] <for [Martian]>",
+			"Provides [20] [Relation Score (Xenomorph)] <for [Xenomorph]>",
+			"Provides [20] [Relation Score (Aether Republic)] <for [Aether Republic]>",
+			"Provides [20] [Relation Score (Empire)] <for [Empire]>",
+			"Provides [20] [Relation Score (Neptunian)] <for [Neptunian]>",
+			"Gain a free [Government] [in all cities] <for [Human]>",
+			"Gain a free [America Government] [in capital] <for [United Nations]> <when not at war>",
+			"Gain a free [Russia Government] [in capital] <for [Roscosmos]> <when not at war>",
+			"Gain a free [China Government] [in capital] <for [CNSA]> <when not at war>"
+		]
 	},
 	{
-		"name": "Base Environment",
+		"name": "Administrative District",
 		"cost": 1,
 		"uniques": [
 			"Unsellable","Unbuildable",
 		/*Humans Habitation*/
-		"Gain a free [Civilized] [in this city] <in [Earth] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Mossy Necros] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Stromat] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Human]> <in cities without a [Terraforming]>",
+		"Gain a free [Civilized] [in this city] <in [Earth] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Human]>",
+		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Stromat] tiles> <for [Human]>",
+		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Human]>",
 		/*Xenos Habitation*/
-		"Gain a free [Civilized] [in this city] <in [Stromat] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Mossy Necros] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
+		"Gain a free [Civilized] [in this city] <in [Stromat] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Xeno]>",
+		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Xeno]>",
+		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Xeno]>",
 		/*Aliens Habitation*/
-		"Gain a free [Civilized] [in this city] <in [Mars] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Mossy Necros] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Alien]> <in cities without a [Terraforming]>"]
+		"Gain a free [Civilized] [in this city] <in [Mars] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Alien]>",
+		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Alien]>",
+		"Gain a free [Undesired] [in this city] <in [Regold] tiles> <for [Alien]>"]
 	},
 	{
 		"name": "Government",
@@ -154,11 +140,6 @@
 	},
 	{
 		"name": "America Government",
-		"cost": 1,
-		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
-	},
-	{
-		"name": "Europe Government",
 		"cost": 1,
 		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
 	},
@@ -499,7 +480,7 @@
 	},
 	{
 		"name": "RAPID-L",
-		"uniqueTo": "NASAs",
+		"uniqueTo": "United Nations",
 		"replaces": "Neptunium Centrifuge",
 		"production": 1,
 		"maintenance": 1,
@@ -1131,14 +1112,9 @@
 	},
 	// About Relation
 	{
-		"name": "Military Support (NASA)",
+		"name": "Military Support (United Nations)",
 		"cost": 100,
-		"uniques": ["Only available <with [Relation Score (NASA)]>","Cannot be purchased","Unbuildable <for [NASA]>","Consumes [10] [Relation Score (NASA)]","Provides [10] [Relation Score (NASA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
-	},
-	{
-		"name": "Military Support (ESA)",
-		"cost": 100,
-		"uniques": ["Only available <with [Relation Score (ESA)]>","Cannot be purchased","Unbuildable <for [ESA]>","Consumes [10] [Relation Score (ESA)]","Provides [10] [Relation Score (ESA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+		"uniques": ["Only available <with [Relation Score (United Nations)]>","Cannot be purchased","Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Martian)",
