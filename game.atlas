@@ -290,14 +290,21 @@ ResourceIcons/Superunit limit
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/United Nations
+NationIcons/NASA
   rotate: false
   xy: 3300, 0
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-ResourceIcons/Relation Score (United Nations)
+NationIcons/ESA
+  rotate: false
+  xy: 3300, 0
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+ResourceIcons/Relation Score (NASA)
   rotate: false
   xy: 3400, 0
   size: 100, 100
