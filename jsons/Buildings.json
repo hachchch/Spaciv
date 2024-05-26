@@ -116,7 +116,6 @@
 		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Human]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Human]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Human]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Mossy Necros] tiles> <for [Human]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Human]> <in cities without a [Terraforming]>",
 		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Human]> <in cities without a [Terraforming]>",
 		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Human]> <in cities without a [Terraforming]>",
@@ -127,7 +126,6 @@
 		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Mossy Necros] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
 		"Gain a free [Undesired] [in this city] <in [Mars] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
 		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Xeno]> <in cities without a [Terraforming]>",
@@ -138,7 +136,6 @@
 		"Gain a free [Survivable] [in this city] <in [Hermia] tiles> <for [Alien]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Ault] tiles> <for [Alien]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Dead Necros] tiles> <for [Alien]> <in cities without a [Terraforming]>",
-		"Gain a free [Survivable] [in this city] <in [Mossy Necros] tiles> <for [Alien]> <in cities without a [Terraforming]>",
 		"Gain a free [Survivable] [in this city] <in [Wraith] tiles> <for [Alien]> <in cities without a [Terraforming]>",
 		"Gain a free [Undesired] [in this city] <in [Earth] tiles> <for [Alien]> <in cities without a [Terraforming]>",
 		"Gain a free [Undesired] [in this city] <in [Lunar] tiles> <for [Alien]> <in cities without a [Terraforming]>",
@@ -154,11 +151,6 @@
 	},
 	{
 		"name": "America Government",
-		"cost": 1,
-		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
-	},
-	{
-		"name": "Europe Government",
 		"cost": 1,
 		"uniques": ["Unbuildable","Unsellable","Never destroyed when the city is captured"]
 	},
@@ -499,7 +491,7 @@
 	},
 	{
 		"name": "RAPID-L",
-		"uniqueTo": "NASAs",
+		"uniqueTo": "United Nations",
 		"replaces": "Neptunium Centrifuge",
 		"production": 1,
 		"maintenance": 1,
@@ -1131,14 +1123,9 @@
 	},
 	// About Relation
 	{
-		"name": "Military Support (NASA)",
+		"name": "Military Support (United Nations)",
 		"cost": 100,
-		"uniques": ["Only available <with [Relation Score (NASA)]>","Cannot be purchased","Unbuildable <for [NASA]>","Consumes [10] [Relation Score (NASA)]","Provides [10] [Relation Score (NASA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
-	},
-	{
-		"name": "Military Support (ESA)",
-		"cost": 100,
-		"uniques": ["Only available <with [Relation Score (ESA)]>","Cannot be purchased","Unbuildable <for [ESA]>","Consumes [10] [Relation Score (ESA)]","Provides [10] [Relation Score (ESA)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
+		"uniques": ["Only available <with [Relation Score (United Nations)]>","Cannot be purchased","Unbuildable <for [United Nations]>","Consumes [10] [Relation Score (United Nations)]","Provides [10] [Relation Score (United Nations)]","[3] free [Infantry (Human)] units appear","[1] free [Mechanized Infantry (Human)] units appear"],
 	},
 	{
 		"name": "Military Support (Martian)",
