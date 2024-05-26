@@ -49,7 +49,7 @@
 		"movement": 4,
 		"cost": 150,
 		"requiredTech": "Commercial Space Flight",
-		"uniques": ["May create improvements on water resources","Can instantly construct a [Artificial Habitat] improvement <by consuming this unit>","Can build [Artificial Habitat] improvements on tiles","Can build [Orbital Shipyard] improvements on tiles","Can build [Orbital Industry] improvements on tiles","Can build [Asteroid Mine] improvements on tiles","Can build [Nebula Harvester] improvements on tiles","Can build [Solar Array] improvements on tiles","Can build [Transportation] improvements on tiles", "Can build [Necessary] improvements on tiles", "Uncapturable", "Automation is a primary action"]
+		"uniques": ["May create improvements on water resources","Can instantly construct a [Artificial Habitat] improvement <by consuming this unit>","Can build [Artificial Habitat] improvements on tiles","Can build [Orbital Shipyard] improvements on tiles","Can build [Orbital Industry] improvements on tiles","Can build [Asteroid Mine] improvements on tiles","Can build [Nebula Harvester] improvements on tiles","Can build [Solar Array] improvements on tiles","Can build [Transportation] improvements on tiles","Uncapturable", "Automation is a primary action"]
 	},
 	//Settlers
 	{
@@ -147,7 +147,7 @@
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 8,
-		"uniques" : ["Support","Consumes [2] [Relation Score (NASA)]","Unbuildable","May upgrade to [Mechanized Infantry (Human)] through ruins-like effects"],
+		"uniques" : ["Support","Consumes [2] [Relation Score (United Nations)]","Unbuildable","May upgrade to [Mechanized Infantry (United Nations)] through ruins-like effects"],
 		"attackSound": "shot",
 	},
         {
@@ -250,7 +250,7 @@
 		"movement": 2,
 		"strength": 12,
 		"attackSound": "tankshot",
-		"uniques": ["Support","Consumes [4] [Relation Score (NASA)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
+		"uniques": ["Support","Consumes [4] [Relation Score (United Nations)]","Unbuildable","[+25]% Strength <vs [Xeno Entity] units>"],
 	},
 	//Xenos
 	{
@@ -764,65 +764,6 @@
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
 		// "promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
-	},
-	// Empire's Unique
-	{
-		"name": "BVR Star Fighter",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 25,
-		"rangedStrength": 25,
-		"range": 5,
-		"cost": 150,
-		"requiredTech": "Sublight speed",
-		"uniques": ["Space","Only available <for [Empire]>",
-			"[+25]% Strength <when fighting in [Space] tiles>",
-			"[+50]% Strength <vs [Destroyer] units>",
-		"Damage taken from interception reduced by [80]%"],
-		"attackSound": "jetgun",
-	},
-	{
-		"name": "Horizon E-3 Raider",
-		"unitType": "Bomber",
-		"movement": 1,
-		"strength": 8,
-		"rangedStrength": 10,
-		"range": 4,
-		"cost": 100,
-		"requiredTech": "Beyond",
-		"uniques": ["Space",
-			"[+33]% Strength <vs [Land] units>",
-			"Only available <for [Empire]>",
-			"[+50]% Strength <vs cities>"],
-		"attackSound": "torpedo",
-	},
-	{
-		"name": "Horizon E-7 Fields",
-		"unitType": "Fighter",
-		"movement": 1,
-		"strength": 8,
-		"rangedStrength": 10,
-		"range": 4,
-		"cost": 100,
-		"requiredTech": "Beyond",
-		"uniques": ["Atmo",
-			"[+50]% Strength <vs [Space] units>",
-			"Only available <for [Empire]>",
-			"[100]% chance to intercept air attacks",
-			"[+150]% Strength <vs [Atmo] units>",
-			"Can only attack [Land] tiles",
-		"[+100]% Strength when performing Air Sweep"],
-		"attackSound": "jetgun",
-	},
-	{
-		"name": "Elite Laser Infantry",
-		"unitType": "Laser",
-		"movement": 2,
-		"strength": 12,
-		"cost": 100,
-		"requiredTech": "Wave Zapper",
-		"uniques" : ["Instantly consumes [3] [Super Energy]","Instantly consumes [6] [Power]","Only available <for [Empire]>","May upgrade to [Mechanized Infantry] through ruins-like effects","Unavailable <when below [3] [Super Energy]> <when below [6] [Power]>"],
-		"attackSound": "shot"
 	},
 	// Late Game units
 	{
