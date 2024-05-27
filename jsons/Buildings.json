@@ -803,6 +803,16 @@
 		"requiredTech": "Xeno Life"
 	},
 	{
+		"name": "Breau of Intelligent",
+		"replaces": "Brain Center",
+		"uniqueTo": "Aether Republic",
+		"science": 4,
+		"specialistSlots": {"Scientist": 1},
+		"maintenance": 3,
+		"uniques": ["Gain an extra spy"],
+		"requiredTech": "Xeno Life"
+	},
+	{
 		"name": "Cosmic Simulation Room",
 		"science": 4,
 		"specialistSlots": {"Scientist": 1},
