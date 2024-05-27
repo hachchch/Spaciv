@@ -515,6 +515,24 @@
 		"requiredTech": "Light Sail"
 	},
 	{
+		"name": "",
+		"unitType": "Space Object",
+		"movement": 4,
+		"strength": 15,
+		"cost": 60,
+		"requiredTech": "Beyond",
+		"uniques": ["Unbuildable <in cities without a [Spaceship Factory]>"]
+	},
+	{
+		"name": "Replenishment Tanker",
+		"unitType": "Space Object",
+		"movement": 4,
+		"strength": 15,
+		"cost": 60,
+		"requiredTech": "Beyond",
+		"uniques": ["Comment [Heals adjacent Space units by 10 upon turn end.]","Cannot attack","Unbuildable <in cities without a [Spaceship Factory]>"]
+	},
+	{
 		"name": "Corvette",
 		"unitType": "Corvette",
 		"movement": 4,
