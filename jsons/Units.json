@@ -325,7 +325,32 @@
 		"uniques": ["[+50]% Strength <vs [Land] units> <when attacking>",
 			"[-50]% Strength <vs [Air] units>",
 			"[-250]% Strength <vs [Missile] units>",
-			"Unbuildable <in cities without a [UFO Facility]>"]
+			"Unbuildable <in cities without a [UFO Facility]>"],
+		"civilopediaText": [
+			{ "text": "A small UFO equipped with a rail gun." }
+		]
+	},
+	{
+		"name": "Battle Synchrotron",
+		"unitType": "Frigate",
+		"movement": 4,
+		"range": 2,
+		"rangedStrength": 20,
+		"strength": 20,
+		"attackSound": "machinegun",
+		"cost": 100,
+		"interceptRange": 3,
+		"requiredTech": "Light Sail",
+		"uniques": [
+			"[+1] Sight",
+			"Must set up to ranged attack",
+			"[+50]% Strength <vs [Embarked] units>",
+			"[+100]% Strength <vs [Air] units>",
+			"[100]% chance to intercept air attacks",
+			"Unbuildable <in cities without a [Spaceship Factory]>"],
+		"civilopediaText": [
+			{ "text": "A medium-sized UFO equipped with a military circular accelerator that can destroy aircraft and landing ships at the same time. Charge is required when attacking." }
+		]
 	},
 	{
 		"name": "Particle Cannon",
@@ -338,6 +363,25 @@
 		"cost": 160,
 		"requiredTech": "Light Sail",
 		"uniques": ["Siege","[+200]% Strength <vs cities> <when attacking>","Unbuildable <in cities without a [UFO Facility]>"],
+		"civilopediaText": [
+			{ "text": "This medium-sized UFO fires charged particles accelerated to sub-light speeds. Enemy ships will disappear in an instant." }
+		]
+	},
+	{
+		"name": "Cortex-Class UFO",
+		"unitType": "Cruiser",
+		"movement": 3,
+		"range": 3,
+		"rangedStrength": 40,
+		"strength": 40,
+		"attackSound": "shipguns",
+		"cost": 160,
+		"requiredTech": "Commercial Space Flight",
+		"uniques": ["Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [1] [Amino Metal]","Must set up to ranged attack","[+25]% Strength <vs [Corvette] units> <when attacking>","[+25]% Strength <vs [Frigate] units> <when attacking>",
+			"Unbuildable <in cities without a [UFO Facility]>"],
+		"civilopediaText": [
+			{ "text": "This large UFO is intelligent and can spontaneously transmit information about space weather, enemy locations, and optimal strategies." }
+		]
 	},
 	{
 		"name": "Oberon-Class UFO",
@@ -350,8 +394,11 @@
 		"cost": 350,
 		"requiredTech": "Magnetogravitical Engineering",
 		"promotions": ["Plasma Lance"],
-		"uniques": ["Must set up to ranged attack","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [1] [Prismaxium]","[+60]% Strength <vs [Water] units> <when attacking>",
+		"uniques": ["Must set up to ranged attack","Consumes [1] [Neodymium]","Consumes [1] [Coaxium]","Consumes [2] [Dominium]","[+60]% Strength <vs [Spaceship] units> <when attacking>",
 			"Unbuildable <in cities without a [UFO Facility]>"],
+		"civilopediaText": [
+			{ "text": "It is a super large UFO equipped with 200 turrets. The ship's 10cm Dominium armor plate can protect supernova explosions." }
+		]
 	},
 	{
 		"name": "Anti-Air Particle Cannon",
@@ -368,6 +415,9 @@
 			"Only available <for [Alien]>",
 			"[90]% chance to intercept air attacks",
 			"[+250]% Strength <vs [Bomber] units>"],
+		"civilopediaText": [
+			{ "text": "Destroy the target with sublight speed particles. in a moment." }
+		]
 	},
 	{
 		"name": "Gran Striker",
@@ -381,6 +431,9 @@
 		"requiredTech": "Sublight speed",
 		"uniques": ["Space","Costs [24] [Super Energy]",
 			"Only available <in cities with a [UFO Facility]> <when above [23] [Super Energy]>"],
+		"civilopediaText": [
+			{ "text": "If Gran Striker's bomb hits you, a new crater will be appeared there." }
+		]
 	},
 	{
 		"name": "Qeg-Beam Shooter",
@@ -400,6 +453,9 @@
 			"[+50]% Strength <vs [Bomber] units>",
 			"[+25]% Strength <when fighting in [Land] tiles>",
 			"Can only attack [Land] tiles"],
+		"civilopediaText": [
+			{ "text": "Split the sky in two with a beam." }
+		]
 	},
 	//Spacecraft&Stuff for Xenos
 	{
@@ -412,7 +468,10 @@
 		"uniques": ["Limited to [4] per Civilization <for [AI player]> <hidden from users>", // Hidden AI Behave Improvement
 			"Founds a new city <by consuming this unit> <in [resource] tiles>",
 			"Unbuildable <for [non-[Xeno]]>"],
-		"requiredTech": "Light Sail"
+		"requiredTech": "Light Sail",
+		"civilopediaText": [
+			{ "text": "This spaceship creates a base based on local resources. Colonize planets before anyone else." }
+		]
 	},
 	{
 		"name": "Blicker",
@@ -515,15 +574,6 @@
 		"requiredTech": "Light Sail"
 	},
 	{
-		"name": "",
-		"unitType": "Space Object",
-		"movement": 4,
-		"strength": 15,
-		"cost": 60,
-		"requiredTech": "Beyond",
-		"uniques": ["Unbuildable <in cities without a [Spaceship Factory]>"]
-	},
-	{
 		"name": "Replenishment Tanker",
 		"unitType": "Space Object",
 		"movement": 4,
@@ -542,6 +592,24 @@
 		"requiredTech": "Beyond",
 		"uniques": ["[+50]% Strength <vs [Battleship] units>",
 			"[+25]% Strength <vs [Air] units>",
+			"Unbuildable <in cities without a [Spaceship Factory]>"]
+	},
+	{
+		"name": "Frigate",
+		"unitType": "Frigate",
+		"movement": 4,
+		"range": 1,
+		"rangedStrength": 20,
+		"strength": 20,
+		"attackSound": "machinegun",
+		"cost": 100,
+		"interceptRange": 3,
+		"requiredTech": "Light Sail",
+		"uniques": [
+			"[+3] Sight",
+			"[+50]% Strength <vs [Embarked] units>",
+			"[+50]% Strength <vs [Air] units>",
+			"[75]% chance to intercept air attacks",
 			"Unbuildable <in cities without a [Spaceship Factory]>"]
 	},
 	{
@@ -782,7 +850,6 @@
 		"requiredTech": "Information era",
 		"uniques": ["Only available <in cities with a [Ocean]>","[+100]% Strength <vs [Human] units>","[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
 			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
-		// "promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
 	// Empire's Unique
@@ -824,6 +891,7 @@
 		"rangedStrength": 10,
 		"range": 4,
 		"cost": 100,
+		"interceptRange": 4,
 		"requiredTech": "Beyond",
 		"uniques": ["Atmo",
 			"[+50]% Strength <vs [Space] units>",
