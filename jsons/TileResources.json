@@ -343,21 +343,22 @@
 		{
 			"name": "ABCDEFG",
 			"resourceType": "Strategic",
-			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
+			"uniques": ["Not shown on world screen","Excluded from map editor"],
 		},
+		// Particles
 		{
 			"name": "Quark",
 			"resourceType": "Strategic",
-			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
+			"uniques": ["Stockpiled","Not shown on world screen","Excluded from map editor"],
 		},
 		{
 			"name": "Boson",
 			"resourceType": "Strategic",
-			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
+			"uniques": ["Stockpiled","Not shown on world screen","Excluded from map editor"],
 		},
 		{
 			"name": "Lepton",
 			"resourceType": "Strategic",
-			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
+			"uniques": ["Stockpiled","Not shown on world screen","Excluded from map editor"],
 		}
 ]
