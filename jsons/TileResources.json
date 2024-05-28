@@ -344,5 +344,20 @@
 			"name": "ABCDEFG",
 			"resourceType": "Strategic",
 			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
+		},
+		{
+			"name": "Quark",
+			"resourceType": "Strategic",
+			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
+		},
+		{
+			"name": "Boson",
+			"resourceType": "Strategic",
+			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
+		},
+		{
+			"name": "Lepton",
+			"resourceType": "Strategic",
+			"uniques": ["Not shown on world screen","Cannot be traded","Excluded from map editor"],
 		}
 ]
