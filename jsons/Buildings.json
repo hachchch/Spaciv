@@ -933,6 +933,65 @@
 	},
 	// after Beyond
 	{
+		"name": "Deep Space Observatory",
+		"requiredTech": "Space Meteorology",
+		"science": 5,
+		"percentStatBonus": {"science": 33}
+	},
+	{
+		"name": "Space Travel Ticket",
+		"requiredBuilding": "Spaceport",
+		"requiredTech": "Commercial Space Flight",
+		"gold": 10,
+		"uniques": ["Only available <in cities with a [Launch site]>"]
+	},
+	{
+		"name": "Filming Location",
+		"requiredTech": "Commercial Space Flight",
+		"gold": 5,
+		"culture": 3,
+		"percentStatBonus": {"gold": 5},
+		"uniques": ["Only available <on foreign continents>"],
+		"civilopediaText": [{"text": "Exoplanets are perfect for filming movies. Isn't it?"}],
+	},
+	{
+		"name": "Spaceport",
+		"requiredTech": "Commercial Space Flight",
+		"gold": 4,
+		"percentStatBonus": {"gold": 25},
+		"uniques": ["[+15]% Production when constructing [Spaceship] units [in this city]",
+			"Only available <in cities with a [Launch site]>","[+5]% [Gold] [in capital]"]
+	},
+	{
+		"name": "Prismaxium Reactor",
+		"requiredTech": "Magnetar Fission",
+		"maintenance": 3,
+		"requiredResources": "Prismaxium",
+		"uniques": ["Unavailable <for [Xeno]>",
+		"Provides [33] [Power] <for [Human]>",
+		"Provides [33] [Super Energy] <for [Alien]>"]
+	},
+	{
+		"name": "Quantum Art Museum",
+		"requiredTech": "Gravitational Optics",
+		"culture": 4,
+		"percentStatBonus": {"culture": 40},
+		"uniques": ["Costs [3] [Boson]",
+		"Costs [25] [Power] <for [Human]>",
+		"Costs [25] [Super Energy] <for [Alien]>",
+		"Costs [25] [Encid] <for [Xeno]>"]
+	},
+	{
+		"name": "Quantum Art Museum",
+		"requiredTech": "Gravitational Optics",
+		"culture": 4,
+		"percentStatBonus": {"culture": 40},
+		"uniques": ["Costs [3] [Boson]",
+		"Costs [25] [Power] <for [Human]>",
+		"Costs [25] [Super Energy] <for [Alien]>",
+		"Costs [25] [Encid] <for [Xeno]>"]
+	},
+	{
 		"name": "Sugar Mill",
 		"happiness": 3,
 		"gold": 1,
@@ -1140,8 +1199,29 @@
 	},
 	// About Particles
 	{
+		"name": "Laboratory Particle Detector",
+		"requiredTech": "Gravitational Optics",
+		"science": 3,
+		"maintenance": 3,
+		"uniques": ["Instantly provides [1] [Lepton] <upon turn end> <with [10]% chance>",
+		"Instantly provides [1] [Quark] <upon turn end> <with [10]% chance>",
+		"Instantly provides [1] [Boson] <upon turn end> <with [10]% chance>"]
+	},
+	{
+		"name": "Planetary Particle Detector",
+		"requiredBuilding": "Laboratory Particle Detector",
+		"requiredTech": "Magnetogravitical Engineering",
+		"science": 3,
+		"maintenance": 3,
+		"uniques": ["Instantly provides [1] [Lepton] <upon turn end> <with [30]% chance>",
+		"Instantly provides [1] [Quark] <upon turn end> <with [30]% chance>",
+		"Instantly provides [1] [Boson] <upon turn end> <with [30]% chance>"]
+	},
+	{
 		"name": "Orbital Particle Detector",
+		"requiredBuilding": "Planetary Particle Detector",
 		"requiredTech": "Superstrings",
+		"science": 3,
 		"maintenance": 3,
 		"uniques": ["Instantly provides [1] [Lepton] <upon turn end> <with [50]% chance>",
 		"Instantly provides [1] [Quark] <upon turn end> <with [50]% chance>",
@@ -1162,7 +1242,7 @@
 		"name": "Weak Generator",
 		"production": 1,
 		"percentStatBonus": {"production": 5},
-		"requiredBuilding": "Orbital Particle Detector",
+		"requiredBuilding": "Planetary Particle Detector",
 		"requiredTech": "Superstrings",
 		"maintenance": 1,
 		"uniques": ["Consumes [100] [Power] <for [Human]>",
@@ -1209,13 +1289,15 @@
 		"Consumes [2] [Lepton]",
 		"Consumes [2] [Quark]",
 		"Consumes [2] [Boson]",
-		"Provides [1] [Dominium] <upon end turn>",
-		"Provides [1] [Prismaxium] <upon end turn>",
-		"Provides [1] [Amino Metal] <upon end turn>"]
+		"Provides [1] [Dominium] <upon turn end>",
+		"Provides [1] [Prismaxium] <upon turn end>",
+		"Provides [1] [Amino Metal] <upon turn end>"]
 	},
 	{
 		"name": "Particle Generator",
-		"requiredBuilding": "Strong Generator",
+		"maintenance": 3,
+		"production": 3,
+		"requiredBuilding": "Orbital Particle Detector",
 		"requiredTech": "Superstrings",
 		"uniques": ["Provides [2] [Lepton]",
 		"Provides [2] [Quark]",
