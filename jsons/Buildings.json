@@ -1138,6 +1138,103 @@
 		"cost": 9999,
 		"uniques": ["Hidden when [Special] Victory is disabled","Unbuildable","Unsellable"],
 	},
+	// About Particles
+	{
+		"name": "Orbital Particle Detector",
+		"requiredTech": "Superstrings",
+		"maintenance": 3,
+		"uniques": ["Instantly provides [1] [Lepton] <upon turn end> <with [50]% chance>",
+		"Instantly provides [1] [Quark] <upon turn end> <with [50]% chance>",
+		"Instantly provides [1] [Boson] <upon turn end> <with [50]% chance>"]
+	},
+	{
+		"name": "Strong Generator",
+		"production": 2,
+		"percentStatBonus": {"production": 5},
+		"requiredBuilding": "Weak Generator",
+		"requiredTech": "Superstrings",
+		"maintenance": 1,
+		"uniques": ["Consumes [100] [Power] <for [Human]>",
+		"Consumes [100] [Super Energy] <for [Alien]>",
+		"Consumes [100] [Encid] <for [Xeno]>"]
+	},
+	{
+		"name": "Weak Generator",
+		"production": 1,
+		"percentStatBonus": {"production": 5},
+		"requiredBuilding": "Orbital Particle Detector",
+		"requiredTech": "Superstrings",
+		"maintenance": 1,
+		"uniques": ["Consumes [100] [Power] <for [Human]>",
+		"Consumes [100] [Super Energy] <for [Alien]>",
+		"Consumes [100] [Encid] <for [Xeno]>",
+		"Only available <in cities with a [Generator]> <for [Human]>",
+		"Only available <in cities with a [Encid Work]> <for [Xeno]>",
+		"Only available <in cities with a [Synchrotron]> <for [Alien]>"]
+	},
+	{
+		"name": "Gravity Generator",
+		"production": 3,
+		"percentStatBonus": {"production": 5},
+		"requiredBuilding": "Gravity Generator",
+		"requiredTech": "Superstrings",
+		"maintenance": 1,
+		"uniques": ["Consumes [100] [Power] <for [Human]>",
+		"Consumes [100] [Super Energy] <for [Alien]>",
+		"Consumes [100] [Encid] <for [Xeno]>"]
+	},
+	{
+		"name": "Industrial Collider",
+		"requiredBuilding": "Weak Generator",
+		"production": 2,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Superstrings",
+		"requiredResources": "Neodymium"
+	},
+	{
+		"name": "Gold Generator",
+		"gold": 5,
+		"maintenance": 1,
+		"requiredBuilding": "Industrial Collider",
+		"isNationalWonder": true,
+		"requiredTech": "Superstrings",
+		"uniques": ["Consumes [1] [Iron]","Provides [1] [Gold Ore]","Instantly provides [106] [Lepton]","Unsellable <hidden from users>"]
+	},
+	{
+		"name": "Generator of Everything",
+		"requiredBuilding": "Gravity Generator",
+		"isNationalWonder": true,
+		"requiredTech": "Superstrings",
+		"uniques": ["Comment [Provides all strategic resources per turn if you have some particles.]",
+		"Consumes [2] [Lepton]",
+		"Consumes [2] [Quark]",
+		"Consumes [2] [Boson]",
+		"Provides [1] [Dominium] <upon end turn>",
+		"Provides [1] [Prismaxium] <upon end turn>",
+		"Provides [1] [Amino Metal] <upon end turn>"]
+	},
+	{
+		"name": "Particle Generator",
+		"requiredBuilding": "Strong Generator",
+		"requiredTech": "Superstrings",
+		"uniques": ["Provides [2] [Lepton]",
+		"Provides [2] [Quark]",
+		"Provides [2] [Boson]"]
+	},
+	// end tech building
+	{
+		"name": "Building.json Rebirth",
+		"isWonder": true,
+		"requiredTech": "Meaning of Universe",
+		"uniques": ["Comment [Finally scientists have found a way to interfere with the spaciv's script. What benefits it brings?]",
+		"[+100]% [Production] from every [Production] <for [9999] turns> <hidden from users>",
+		"[+100]% [Culture] from every [Culture] <for [9999] turns> <hidden from users>",
+		"[+100]% [Science] from every [Science] <for [9999] turns> <hidden from users>",
+		"[+100]% [Gold] from every [Gold] <for [9999] turns> <hidden from users>",
+		"[+100]% [Faith] from every [Faith] <for [9999] turns> <hidden from users>",
+		"[+100]% [Food] from every [Food] <for [9999] turns> <hidden from users>",
+		"Sell [All] buildings [in all cities] <hidden from users>"]
+	},
 	// About Relation
 	{
 		"name": "Military Support (NASA)",
