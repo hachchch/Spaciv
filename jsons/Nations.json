@@ -54,7 +54,7 @@
 		"leaderName": "European Union",
 		"adjective": ["European"],
 		"startBias": ["Earth"],
-		"preferredVictoryType": "Diplomatic",
+		"preferredVictoryType": "Cultural",
                 "startIntroPart1": ".",
 		"startIntroPart2": ".",
                 "declaringWar": ".",
