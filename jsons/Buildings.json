@@ -1518,6 +1518,27 @@
 		"Provides [2] [Quark]",
 		"Provides [2] [Boson]"]
 	},
+	// near end tech builiding
+	{
+		"name": "Fractal Brain Cell",
+		"isWonder": true,
+		"uniques": ["Comment [The volume of this brain cell is infinite, it will discover science beyond our understanding. increases 1% science every turn.]",
+		"[+1]% [Science] <for [9999] turns> <upon turn end> <hidden from users>"],
+		"requiredResources": "Amino Metal",
+		"requiredTech": "Metaphysics"
+	},
+	{
+		"name": "Big Bang System",
+		"uniques": ["Comment [Create something from nothing.]",
+		"[+1 Gold, +1 Production] from every [Big Bang System] <for [9999] turns> <upon turn end> <hidden from users>"]
+		"requiredTech": "Metaphysics"
+	},
+	{
+		"name": "Happiness Generator",
+		"uniques": ["Comment [Transport happiness from the unobservable world.]",
+		"[+1 Happiness] from every [Happiness Generator] <for [9999] turns> <upon turn end> <hidden from users>"]
+		"requiredTech": "Metaphysics"
+	},
 	// end tech building
 	{
 		"name": "Building.json Rebirth",
