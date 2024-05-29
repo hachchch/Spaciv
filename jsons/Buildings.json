@@ -1318,6 +1318,7 @@
 		"Sell [All] buildings [in all cities] <hidden from users>"]
 	},
 	// About Relation
+	/*Military Supports*/
 	{
 		"name": "Military Support (NASA)",
 		"cost": 100,
@@ -1362,5 +1363,54 @@
 		"name": "Military Support (Neptunian)",
 		"cost": 100,
 		"uniques": ["Only available <with [Relation Score (Neptunian)]>","Cannot be purchased","Unbuildable <for [Neptunian]>","Consumes [10] [Relation Score (Neptunian)]","Provides [10] [Relation Score (Neptunian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
+	},
+	/*Mutual prosperity*/
+	{
+		"name": "Diplomatic Mission (NASA)",
+		"cost": 100,
+		"culture": 5,
+		"gold": 5,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (NASA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (NASA)]","Provides [3] [Relation Score (NASA)]","Remove [Diplomatic Mission (NASA)] [in this city] <with [50]% chance>"]
+	},
+	{
+		"name": "Diplomatic Mission (Roscosmos)",
+		"cost": 100,
+		"culture": 5,
+		"gold": 5,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (Roscosmos)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (Roscosmos)]","Provides [3] [Relation Score (Roscosmos)]","Remove [Diplomatic Mission (Roscosmos)] [in this city] <with [50]% chance>"]
+	},
+	{
+		"name": "Diplomatic Mission (CNSA)",
+		"cost": 100,
+		"culture": 5,
+		"gold": 5,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (CNSA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (CNSA)]","Provides [3] [Relation Score (CNSA)]","Remove [Diplomatic Mission (CNSA)] [in this city] <with [50]% chance>"]
+	},
+	{
+		"name": "Diplomatic Mission (Martian)",
+		"cost": 100,
+		"culture": 5,
+		"gold": 5,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Martian)]","Provides [3] [Relation Score (Martian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance>"]
+	},
+	{
+		"name": "Diplomatic Mission (Martian)",
+		"cost": 100,
+		"culture": 5,
+		"gold": 5,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Martian)]","Provides [3] [Relation Score (Martian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance>"]
+	},
+	{
+		"name": "Diplomatic Mission (Martian)",
+		"cost": 100,
+		"culture": 5,
+		"gold": 5,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Martian)]","Provides [3] [Relation Score (Martian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance>"]
 	}
 ]
