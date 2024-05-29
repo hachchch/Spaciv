@@ -1365,29 +1365,37 @@
 		"uniques": ["Only available <with [Relation Score (Neptunian)]>","Cannot be purchased","Unbuildable <for [Neptunian]>","Consumes [10] [Relation Score (Neptunian)]","Provides [10] [Relation Score (Neptunian)]","[3] free [Phaser (Alien)] units appear","[1] free [Laser Blaster (Alien)] units appear"],
 	},
 	/*Mutual prosperity*/
+	// The success rate varies by about 5% depending on the nation's prefered victory type
 	{
 		"name": "Diplomatic Mission (NASA)",
 		"cost": 100,
 		"culture": 5,
 		"gold": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
-		"Unsellable","Only available <with [Relation Score (NASA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (NASA)]","Provides [3] [Relation Score (NASA)]","Remove [Diplomatic Mission (NASA)] [in this city] <with [50]% chance>"]
+		"Unsellable","Only available <with [Relation Score (NASA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (NASA)]","Provides [6] [Relation Score (NASA)]","Remove [Diplomatic Mission (NASA)] [in this city] <with [60]% chance> <when not at war>","Remove [Diplomatic Mission (NASA)] [in this city] <with [5]% chance> <when at war>"]
 	},
 	{
 		"name": "Diplomatic Mission (Roscosmos)",
 		"cost": 100,
 		"culture": 5,
-		"gold": 5,
+		"science": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
-		"Unsellable","Only available <with [Relation Score (Roscosmos)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (Roscosmos)]","Provides [3] [Relation Score (Roscosmos)]","Remove [Diplomatic Mission (Roscosmos)] [in this city] <with [50]% chance>"]
+		"Unsellable","Only available <with [Relation Score (Roscosmos)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (Roscosmos)]","Provides [6] [Relation Score (Roscosmos)]","Remove [Diplomatic Mission (Roscosmos)] [in this city] <with [50]% chance> <when not at war>","Remove [Diplomatic Mission (Roscosmos)] [in this city] <with [15]% chance> <when at war>"]
 	},
 	{
 		"name": "Diplomatic Mission (CNSA)",
 		"cost": 100,
 		"culture": 5,
-		"gold": 5,
+		"production": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
-		"Unsellable","Only available <with [Relation Score (CNSA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (CNSA)]","Provides [3] [Relation Score (CNSA)]","Remove [Diplomatic Mission (CNSA)] [in this city] <with [50]% chance>"]
+		"Unsellable","Only available <with [Relation Score (CNSA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (CNSA)]","Provides [6] [Relation Score (CNSA)]","Remove [Diplomatic Mission (CNSA)] [in this city] <with [45]% chance> <when not at war>","Remove [Diplomatic Mission (CNSA)] [in this city] <with [20]% chance> <when at war>"]
+	},
+	{
+		"name": "Diplomatic Mission (ESA)",
+		"cost": 100,
+		"culture": 10,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (ESA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (ESA)]","Provides [6] [Relation Score (CNSA)]","Remove [Diplomatic Mission (ESA)] [in this city] <with [55]% chance> <when not at war>","Remove [Diplomatic Mission (ESA)] [in this city] <with [10]% chance> <when at war>"]
 	},
 	{
 		"name": "Diplomatic Mission (Martian)",
@@ -1395,22 +1403,37 @@
 		"culture": 5,
 		"gold": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
-		"Unsellable","Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Martian)]","Provides [3] [Relation Score (Martian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance>"]
+		"Unsellable","Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Martian)]","Provides [6] [Relation Score (Martian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance> <when not at war>","Remove [Diplomatic Mission (Martian)] [in this city] <with [15]% chance> <when at war>"]
 	},
 	{
-		"name": "Diplomatic Mission (Martian)",
+		"name": "Diplomatic Mission (Neptunian)",
 		"cost": 100,
 		"culture": 5,
-		"gold": 5,
+		"science": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
-		"Unsellable","Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Martian)]","Provides [3] [Relation Score (Martian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance>"]
+		"Unsellable","Only available <with [Relation Score (Neptunian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Neptunian)]","Provides [6] [Relation Score (Neptunian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance> <when not at war>","Remove [Diplomatic Mission (Martian)] [in this city] <with [15]% chance> <when at war>"]
 	},
 	{
-		"name": "Diplomatic Mission (Martian)",
+		"name": "Diplomatic Mission (Xenomorph)",
+		"cost": 100,
+		"culture": 10,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (Xenomorph)]>","Cannot be purchased","Unbuildable <for [Xeno]>","Consumes [3] [Relation Score (Xenomorph)]","Provides [6] [Relation Score (Xenomorph)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [55]% chance> <when not at war>","Remove [Diplomatic Mission (Martian)] [in this city] <with [10]% chance> <when at war>"]
+	},
+	{
+		"name": "Diplomatic Mission (Aether Republic)",
 		"cost": 100,
 		"culture": 5,
-		"gold": 5,
+		"science": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
-		"Unsellable","Only available <with [Relation Score (Martian)]>","Cannot be purchased","Unbuildable <for [Alien]>","Consumes [3] [Relation Score (Martian)]","Provides [3] [Relation Score (Martian)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [50]% chance>"]
+		"Unsellable","Only available <with [Relation Score (Aether Republic)]>","Cannot be purchased","Unbuildable <for [Xeno]>","Consumes [3] [Relation Score (Aether Republic)]","Provides [6] [Relation Score (Aether Republic)]","Remove [Diplomatic Mission (Aether Republic)] [in this city] <with [50]% chance> <when not at war>","Remove [Diplomatic Mission (Aether Republic)] [in this city] <with [15]% chance> <when at war>"]
+	},
+	{
+		"name": "Diplomatic Mission (Empire)",
+		"cost": 100,
+		"culture": 5,
+		"production": 5,
+		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
+		"Unsellable","Only available <with [Relation Score (Empire)]>","Cannot be purchased","Unbuildable <for [Empire]>","Consumes [3] [Relation Score (Empire)]","Provides [6] [Relation Score (Empire)]","Remove [Diplomatic Mission (Empire)] [in this city] <with [45]% chance> <when not at war>","Remove [Diplomatic Mission (Empire)] [in this city] <with [20]% chance> <when at war>"]
 	}
 ]
