@@ -227,7 +227,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Human Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"]
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Human Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean] <before discovering [Commercial Space Flight]>"]
 	},
 	{
 		"name": "Mass Driver",
@@ -243,7 +243,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Alien Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"]
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Alien Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean] <before discovering [Commercial Space Flight]>"]
 	},
 	{
 		"name": "Warp hole Generator",
@@ -251,7 +251,7 @@
 		"cost": 60,
 		"production": 2,
 		"maintenance": 2,
-		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean]"]
+		"uniques": ["All newly-trained [Space] units [in this city] receive the [Xeno Technology] promotion <hidden from users>","Destroyed when the city is captured","Launch site","Connects trade routes over water","Must be next to [Ocean] <before discovering [Commercial Space Flight]>"]
 	},
 	{
 		"name": "Vacuum Shipyard",
@@ -259,7 +259,7 @@
 		"cost": 100,
 		"production": 2,
 		"maintenance": 3,
-		"uniques": ["Only available <in cities with a [Launch site]>","Must be next to [Ocean]","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
+		"uniques": ["Only available <in cities with a [Launch site]>","Destroyed when the city is captured","Must have an owned [Orbital Shipyard] within [3] tiles",
 			"[+33]% Production when constructing [Space] units [in this city]"]
 	},
 	// Other
@@ -963,6 +963,37 @@
 			"Only available <in cities with a [Launch site]>","[+5]% [Gold] [in capital]"]
 	},
 	{
+		"name": "International Spaceport",
+		"isNationalWonder": true,
+		"requiredTech": "Commercial Space Flight",
+		"gold": 2,
+		"uniques": ["Only available <if [Spaceport] is constructed in all [in all non-occupied cities] cities>",
+			"Comment [Gold in this city increases by 1% by the number of Relation Scores of any nation.]",
+		"[+1]% [Gold] [in this city] <when above [0] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [1] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [2] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [3] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [4] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [5] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [6] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [7] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [8] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [9] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [10] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [11] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [12] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [13] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [14] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [15] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [16] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [17] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [18] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [19] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [20] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [21] [Relation Score (NASA)]> <hidden from users>",
+		"[+1]% [Gold] [in this city] <when above [22] [Relation Score (NASA)]> <hidden from users>"]
+	},
+	{
 		"name": "Prismaxium Reactor",
 		"requiredTech": "Magnetar Fission",
 		"maintenance": 3,
@@ -1393,7 +1424,8 @@
 	{
 		"name": "Diplomatic Mission (ESA)",
 		"cost": 100,
-		"culture": 10,
+		"culture": 5,
+		"happiness": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
 		"Unsellable","Only available <with [Relation Score (ESA)]>","Cannot be purchased","Unbuildable <for [Human]>","Consumes [3] [Relation Score (ESA)]","Provides [6] [Relation Score (CNSA)]","Remove [Diplomatic Mission (ESA)] [in this city] <with [55]% chance> <when not at war>","Remove [Diplomatic Mission (ESA)] [in this city] <with [10]% chance> <when at war>"]
 	},
@@ -1416,7 +1448,8 @@
 	{
 		"name": "Diplomatic Mission (Xenomorph)",
 		"cost": 100,
-		"culture": 10,
+		"culture": 5,
+		"happiness": 5,
 		"uniques": ["Comment [Many of them will think we are dangerous aliens. In order to get people interested in our culture, let's send a delegation and get to know our food and music first.]",
 		"Unsellable","Only available <with [Relation Score (Xenomorph)]>","Cannot be purchased","Unbuildable <for [Xeno]>","Consumes [3] [Relation Score (Xenomorph)]","Provides [6] [Relation Score (Xenomorph)]","Remove [Diplomatic Mission (Martian)] [in this city] <with [55]% chance> <when not at war>","Remove [Diplomatic Mission (Martian)] [in this city] <with [10]% chance> <when at war>"]
 	},
