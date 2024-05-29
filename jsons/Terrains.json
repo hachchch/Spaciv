@@ -29,7 +29,7 @@
 		"type": "Land",
 		"movementCost": 1,
                 "uniques": ["Terrestrial","Vegetation","Rare feature","[+2 Food] <for [Human]>",
-		"Considered [Desirable] when determining start locations <for [Human]>"],
+		"Considered [Desirable] when determining start locations <for [Human]>","[+15] Strength for cities built on this terrain <for [Human]>"],
 		"RGB": [0, 163, 0],
         },
 	{
