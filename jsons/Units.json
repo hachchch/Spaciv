@@ -6,7 +6,7 @@
 		"movement": 2,
 		"uniques": ["Only available <for [Human]>","Can build [Farm] improvements on tiles","Can build [Dome] improvements on tiles",
 			"Automation is a primary action",
-		"Can build [Industry] improvements on tiles <in [Earth] tiles>","Can build [Mine] improvements on tiles <in [resource] tiles>","Uncapturable",
+		"Can build [Industry] improvements on tiles","Can build [Mine] improvements on tiles","Uncapturable",
 		"Can build [Power Farm] improvements on tiles","Can build [Necessary] improvements on tiles"],
 		"cost": 70
 	},
