@@ -290,20 +290,6 @@ ResourceIcons/Superunit limit
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationIcons/United Nations
-  rotate: false
-  xy: 3300, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-ResourceIcons/Relation Score (United Nations)
-  rotate: false
-  xy: 3400, 0
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 
 game.png
 size: 2048, 2048
@@ -331,7 +317,14 @@ TileSets/FantasyHex/Tiles/Dome
   orig: 32, 41
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/City center-Human
+TileSets/FantasyHex/Tiles/City center-Human-American
+  rotate: false
+  xy: 145, 4
+  size: 32, 34
+  orig: 32, 34
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/City center-Human-European
   rotate: false
   xy: 145, 4
   size: 32, 34
@@ -359,7 +352,14 @@ TileSets/FantasyHex/Tiles/Industry
   orig: 32, 33
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Industry-Human
+TileSets/FantasyHex/Tiles/Industry-Human-American
+  rotate: false
+  xy: 1549, 912
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Industry-Human-European
   rotate: false
   xy: 1549, 912
   size: 32, 33
@@ -478,35 +478,63 @@ TileSets/FantasyHex/Tiles/Asteroid Mine
   orig: 32, 39
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-American-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Techno era
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-American-Techno era
   rotate: false
   xy: 429, 783
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-American-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-American-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Chinese-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-European-Exploration era
+  rotate: false
+  xy: 434, 823
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-European-Techno era
+  rotate: false
+  xy: 429, 783
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-European-Exploration era
+  rotate: false
+  xy: 434, 823
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-European-Exploration era
+  rotate: false
+  xy: 434, 823
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Chinese-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
@@ -520,21 +548,21 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Chinese-Techno era
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Chinese-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Chinese-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Chinese-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Chinese-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Russian-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Russian-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
@@ -548,14 +576,14 @@ TileSets/FantasyHex/Units/EmbarkedUnit-Military-Human-Russian-Techno era
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Russian-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Civilian-Human-Russian-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Russian-Research era
+TileSets/FantasyHex/Units/EmbarkedUnit-Settler-Human-Russian-Exploration era
   rotate: false
   xy: 434, 823
   size: 32, 28
@@ -730,7 +758,7 @@ TileSets/FantasyHex/Tiles/Lunar
   orig: 32, 28
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/The Star Spangled Banner
+TileSets/FantasyHex/Tiles/Mare Tranquillitatis
   rotate: false
   xy: 724, 533
   size: 32, 28
@@ -751,7 +779,14 @@ TileSets/FantasyHex/Tiles/Power Farm
   orig: 32, 33
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Power Farm-Human
+TileSets/FantasyHex/Tiles/Power Farm-Human-American
+  rotate: false
+  xy: 484, 1044
+  size: 32, 33
+  orig: 32, 33
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Power Farm-Human-European
   rotate: false
   xy: 484, 1044
   size: 32, 33
@@ -779,7 +814,14 @@ TileSets/FantasyHex/Tiles/Farm
   orig: 32, 32
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Tiles/Farm-Human
+TileSets/FantasyHex/Tiles/Farm-Human-American
+  rotate: false
+  xy: 444, 1005
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Farm-Human-European
   rotate: false
   xy: 444, 1005
   size: 32, 32
