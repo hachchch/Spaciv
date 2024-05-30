@@ -44,10 +44,10 @@
 	},
 	{
 		"name": "Industry",
-		"terrainsCanBeBuiltOn": ["Hill","Lichened Necros"],
+		"terrainsCanBeBuiltOn": ["Earth","Lichened Necros"],
 		"production": 1,
 		"turnsToBuild": 14,
-		"uniques": ["Cannot be built on [non-[Earth]] tiles <hidden from users>","[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility"],
+		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility"],
 		"shortcutKey": "F"
 	},
 	{
