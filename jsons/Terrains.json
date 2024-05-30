@@ -434,6 +434,16 @@
 		"weight": 10
 	},
 	{
+		"name": "The Star Spangled Banner",
+		"type": "NaturalWonder",
+		"science": 1,
+		"occursOn": ["Lunar"],
+		"turnsInto": "Lunar",
+		"impassable": true,
+		"unbuildable": true,
+		"uniques": ["Excluded from map editor","Doesn't generate naturally","[+3 Culture] <for [Human]>","[+3 Faith] <for [non-[Human]]>"]
+	},
+	{
 		"name": "Sun",
 		"happiness": 5,
 		"type": "NaturalWonder",
