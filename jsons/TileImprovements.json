@@ -47,7 +47,7 @@
 		"terrainsCanBeBuiltOn": ["Earth","Lichened Necros"],
 		"production": 1,
 		"turnsToBuild": 14,
-		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility"],
+		"uniques": ["[+1 Production] <for [Human]>","Pillaging this improvement yields approximately [+70 Gold]","Production Facility","Cannot be built on [Coast] tiles <hidden from users>"],
 		"shortcutKey": "F"
 	},
 	{
