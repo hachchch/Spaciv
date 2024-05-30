@@ -423,7 +423,7 @@
 		"weight": 10
 	},
 	{
-		"name": "The Star Spangled Banner",
+		"name": "Mare Tranquillitatis",
 		"type": "NaturalWonder",
 		"science": 1,
 		"occursOn": ["Lunar"],
