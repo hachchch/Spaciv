@@ -22,7 +22,7 @@
 		"tradeRequest": "Is the following trade of interest to you?",
                 "outerColor": [ 28,51,119],
                 "innerColor": [255,255,255],
-		"style": "Human",
+		"style": "Human-American",
 		"uniqueName": "Let's fill universe 'Democracy'",
 		"uniques": ["Human","Starts with [Information era]",
 			"units cost no maintenance per Allied City State,up to 10",
