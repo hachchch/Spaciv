@@ -348,7 +348,7 @@
 			"[+50]% Strength <vs [Embarked] units>",
 			"[+100]% Strength <vs [Air] units>",
 			"[100]% chance to intercept air attacks",
-			"Unbuildable <in cities without a [Spaceship Factory]>"],
+			"Unbuildable <in cities without a [UFO Facility]>"],
 		"civilopediaText": [
 			{ "text": "A medium-sized UFO equipped with a military circular accelerator that can destroy aircraft and landing ships at the same time. Charge is required when attacking." }
 		]
