@@ -1544,14 +1544,31 @@
 		"name": "Building.json Rebirth",
 		"isWonder": true,
 		"requiredTech": "Meaning of Universe",
-		"uniques": ["Comment [Finally scientists have found a way to interfere with the spaciv's script. What benefits it brings?]",
+		"uniques": ["Comment [Finally scientists have found a way to interfere with the spaciv's script. If we edit it, What it brings to us?]",
 		"[+100]% [Production] from every [Production] <for [9999] turns> <hidden from users>",
 		"[+100]% [Culture] from every [Culture] <for [9999] turns> <hidden from users>",
 		"[+100]% [Science] from every [Science] <for [9999] turns> <hidden from users>",
 		"[+100]% [Gold] from every [Gold] <for [9999] turns> <hidden from users>",
 		"[+100]% [Faith] from every [Faith] <for [9999] turns> <hidden from users>",
 		"[+100]% [Food] from every [Food] <for [9999] turns> <hidden from users>",
-		"Sell [All] buildings [in all cities] <hidden from users>"]
+		"Sell [All] buildings [in all cities] <hidden from users>",
+		"Provides [1] [Rebirth]"]
+	},
+	{
+		"name": "Invation Mods",
+		"isNationalWonder": true,
+		"requiredTech": "Meaning of Universe",
+		"uniques": ["Comment [There is a multiverse called 'RuleSets mod' under Unciv. Cause compatibility violation, we can interfere with other mods.]",
+		"[120] population [in all cities]",
+		"Consumes [1] [Rebirth]"]
+	},
+	{
+		"name": "Github Detector",
+		"isWonder": true,
+		"gold": 9999,
+		"requiredTech": "Meaning of Universe",
+		"uniques": ["Comment [Scientists can observe Unciv developer and take action to prepare for the next update.]",
+		"Consumes [2] [Rebirth]"]
 	},
 	// About Relation
 	/*Military Supports*/
