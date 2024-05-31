@@ -345,6 +345,11 @@
 			"resourceType": "Strategic",
 			"uniques": ["Not shown on world screen","Excluded from map editor"],
 		},
+		{
+			"name": "Rebirth",
+			"resourceType": "Strategic",
+			"uniques": ["Not shown on world screen","Excluded from map editor"],
+		},
 		// Particles
 		{
 			"name": "Quark",
