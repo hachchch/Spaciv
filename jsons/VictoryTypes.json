@@ -1,5 +1,13 @@
 [
     {
+        "name": "Scientific",
+        "milestones": ["Build [Unbuildable]"]
+    },
+    {
+        "name": "Diplomatic",
+        "milestones": ["Build [Unbuildable]"]
+    },
+    {
         "name": "Domination",
         "victoryScreenHeader": "Destroy all enemies\nto win!",
         "milestones": ["Destroy all players"],
@@ -23,6 +31,6 @@
     {
         "name": "Special",
         "hiddenInVictoryScreen": true,
-        "milestones": ["Build [Unbuildable]"],
+        "milestones": ["Build [Unbuildable]"]
     }
 ]
